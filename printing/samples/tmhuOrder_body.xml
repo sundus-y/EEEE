@@ -1,0 +1,148 @@
+<body>
+	<parts>
+		<part callout='1902 01' description='DISTRIBUTOR ASSY' remark='4P' quantity='1' partNumber='19100-76001-71' price='$288.50' subTotal='$288.50' />
+		<part callout='1902 01' description='DISTRIBUTOR ASSY' remark='4P' quantity='1' partNumber='19100-76011-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 10' description='ADVANCER ASSY, VACUUM' remark='4P' quantity='1' partNumber='19220-76001-71' price='$85.80' subTotal='$85.80' />
+		<part callout='1902 10' description='ADVANCER ASSY, VACUUM' remark='4P' quantity='1' partNumber='19220-76011-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 20' description='ROTOR SUB-ASSY, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19102-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 21' description='SHAFT AND GOVERNOR SUB-ASSY' remark='4P' quantity='1' partNumber='19105-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 30' description='CAP SUB-ASSY, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19101-76002-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 31' description='BREAKER SUB-ASSY,DISTRIBUTOR' remark='4P' quantity='1' partNumber='19103-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 32' description='CAM SUB-ASSY, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19106-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 32' description='CAM SUB-ASSY, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19106-76008-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 40' description='CONDENSER, DISTRIBUTOR' remark='4P' quantity='1' partNumber='80099-76036-71' price='$7.60' subTotal='$7.60' />
+		<part callout='1902 41' description='CAP, ADJUSTER' remark='4P' quantity='1' partNumber='19221-76002-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 42' description='POINT, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19145-76003-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 42' description='POINT, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19145-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 43' description='COVER, DUST PROOF' remark='4P' quantity='1' partNumber='19121-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 44' description='GEAR, SPIRAL' remark='4P' quantity='1' partNumber='19195-76007-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 44' description='GEAR, SPIRAL' remark='4P' quantity='1' partNumber='19195-76002-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 45' description='WEIGHT, GOVERNOR' remark='4P' quantity='2' partNumber='19152-76006-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 45' description='WEIGHT, GOVERNOR' remark='4P' quantity='2' partNumber='19152-76009-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 46' description='TERMINAL, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19231-76003-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 46' description='TERMINAL, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19231-76004-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 47' description='PLATE, BREAKER' remark='4P' quantity='1' partNumber='19123-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 48' description='PLATE, STATIONARY' remark='4P' quantity='1' partNumber='19122-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 49' description='RING, DISTRIBUTOR HOUSING O' remark='4P' quantity='1' partNumber='80099-76371-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AA' description='SPRING, GOVERNOR, A' remark='4P' quantity='1' partNumber='19153-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AB' description='SPRING, GOVERNOR, B' remark='4P' quantity='1' partNumber='19154-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AC' description='SHAFT &amp; PLATE, GOVERNOR' remark='4P' quantity='1' partNumber='19151-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AD' description='BOLT, TERMINAL' remark='4P' quantity='1' partNumber='19232-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AE' description='SPRING SUB-ASSY, HOUSING CAP, B' remark='4P' quantity='1' partNumber='19118-76001-71' price='$3.20' subTotal='$3.20' />
+		<part callout='1902 AF' description='PIECE, CAP CENTER' remark='4P' quantity='1' partNumber='19115-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AG' description='SPRING, BREAKER PLATE SET' remark='4P' quantity='1' partNumber='19125-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AH' description='BALL' remark='4P' quantity='4' partNumber='80099-76357-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AI' description='RING, SNAP' remark='4P' quantity='1' partNumber='80099-76290-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AJ' description='RING, SNAP' remark='4P' quantity='1' partNumber='80099-76279-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AK' description='SPRING SUB-ASSY, HOUSING CAP, A' remark='4P' quantity='1' partNumber='19117-76001-71' price='$3.20' subTotal='$3.20' />
+		<part callout='1902 AL' description='CLAMP, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19955-76001-71' price='$3.40' subTotal='$3.40' />
+		<part callout='' description='91611-60816' remark='null' quantity='1' partNumber='91611-60816' price='$2.00' subTotal='$2.00' />
+		<part callout='' description='90093-32302' remark='null' quantity='1' partNumber='90093-32302' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='94531-00600' remark='null' quantity='1' partNumber='94531-00600' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='90093-31202' remark='null' quantity='1' partNumber='90093-31202' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='90099-01100' remark='null' quantity='1' partNumber='90099-01100' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='90099-02093' remark='null' quantity='1' partNumber='90099-02093' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='90099-01238' remark='null' quantity='1' partNumber='90099-01238' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='90093-32301' remark='null' quantity='1' partNumber='90093-32301' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='90099-19084' remark='null' quantity='1' partNumber='90099-19084' price='$1.30' subTotal='$1.30' />
+		<part callout='' description='90099-02019' remark='null' quantity='1' partNumber='90099-02019' price='$1.30' subTotal='$1.30' />
+		<part callout='' description='90093-00413' remark='null' quantity='1' partNumber='90093-00413' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='90910-07010' remark='null' quantity='1' partNumber='90910-07010' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='94511-00400' remark='null' quantity='1' partNumber='94511-00400' price='$1.30' subTotal='$1.30' />
+		<part callout='' description='90099-08036' remark='null' quantity='1' partNumber='90099-08036' price='$1.30' subTotal='$1.30' />
+		<part callout='' description='90713-06009' remark='null' quantity='1' partNumber='90713-06009' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 01' description='DISTRIBUTOR ASSY' remark='4P' quantity='1' partNumber='19100-76001-71' price='$288.50' subTotal='$288.50' />
+		<part callout='1902 01' description='DISTRIBUTOR ASSY' remark='4P' quantity='1' partNumber='19100-76011-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 10' description='ADVANCER ASSY, VACUUM' remark='4P' quantity='1' partNumber='19220-76001-71' price='$85.80' subTotal='$85.80' />
+		<part callout='1902 10' description='ADVANCER ASSY, VACUUM' remark='4P' quantity='1' partNumber='19220-76011-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 20' description='ROTOR SUB-ASSY, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19102-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 21' description='SHAFT AND GOVERNOR SUB-ASSY' remark='4P' quantity='1' partNumber='19105-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 30' description='CAP SUB-ASSY, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19101-76002-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 31' description='BREAKER SUB-ASSY,DISTRIBUTOR' remark='4P' quantity='1' partNumber='19103-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 32' description='CAM SUB-ASSY, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19106-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 32' description='CAM SUB-ASSY, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19106-76008-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 40' description='CONDENSER, DISTRIBUTOR' remark='4P' quantity='1' partNumber='80099-76036-71' price='$7.60' subTotal='$7.60' />
+		<part callout='1902 41' description='CAP, ADJUSTER' remark='4P' quantity='1' partNumber='19221-76002-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 42' description='POINT, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19145-76003-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 42' description='POINT, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19145-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 43' description='COVER, DUST PROOF' remark='4P' quantity='1' partNumber='19121-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 44' description='GEAR, SPIRAL' remark='4P' quantity='1' partNumber='19195-76007-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 44' description='GEAR, SPIRAL' remark='4P' quantity='1' partNumber='19195-76002-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 45' description='WEIGHT, GOVERNOR' remark='4P' quantity='2' partNumber='19152-76006-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 45' description='WEIGHT, GOVERNOR' remark='4P' quantity='2' partNumber='19152-76009-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 46' description='TERMINAL, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19231-76003-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 46' description='TERMINAL, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19231-76004-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 47' description='PLATE, BREAKER' remark='4P' quantity='1' partNumber='19123-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 48' description='PLATE, STATIONARY' remark='4P' quantity='1' partNumber='19122-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 49' description='RING, DISTRIBUTOR HOUSING O' remark='4P' quantity='1' partNumber='80099-76371-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AA' description='SPRING, GOVERNOR, A' remark='4P' quantity='1' partNumber='19153-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AB' description='SPRING, GOVERNOR, B' remark='4P' quantity='1' partNumber='19154-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AC' description='SHAFT &amp; PLATE, GOVERNOR' remark='4P' quantity='1' partNumber='19151-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AD' description='BOLT, TERMINAL' remark='4P' quantity='1' partNumber='19232-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AE' description='SPRING SUB-ASSY, HOUSING CAP, B' remark='4P' quantity='1' partNumber='19118-76001-71' price='$3.20' subTotal='$3.20' />
+		<part callout='1902 AF' description='PIECE, CAP CENTER' remark='4P' quantity='1' partNumber='19115-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AG' description='SPRING, BREAKER PLATE SET' remark='4P' quantity='1' partNumber='19125-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AH' description='BALL' remark='4P' quantity='4' partNumber='80099-76357-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AI' description='RING, SNAP' remark='4P' quantity='1' partNumber='80099-76290-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AJ' description='RING, SNAP' remark='4P' quantity='1' partNumber='80099-76279-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 AK' description='SPRING SUB-ASSY, HOUSING CAP, A' remark='4P' quantity='1' partNumber='19117-76001-71' price='$3.20' subTotal='$3.20' />
+		<part callout='1902 AL' description='CLAMP, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19955-76001-71' price='$3.40' subTotal='$3.40' />
+		<part callout='' description='91611-60816' remark='null' quantity='1' partNumber='91611-60816' price='$2.00' subTotal='$2.00' />
+		<part callout='' description='90093-32302' remark='null' quantity='1' partNumber='90093-32302' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='94531-00600' remark='null' quantity='1' partNumber='94531-00600' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='90093-31202' remark='null' quantity='1' partNumber='90093-31202' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='90099-01100' remark='null' quantity='1' partNumber='90099-01100' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='90099-02093' remark='null' quantity='1' partNumber='90099-02093' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='90099-01238' remark='null' quantity='1' partNumber='90099-01238' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='90093-32301' remark='null' quantity='1' partNumber='90093-32301' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='90099-19084' remark='null' quantity='1' partNumber='90099-19084' price='$1.30' subTotal='$1.30' />
+		<part callout='' description='90099-02019' remark='null' quantity='1' partNumber='90099-02019' price='$1.30' subTotal='$1.30' />
+		<part callout='' description='90093-00413' remark='null' quantity='1' partNumber='90093-00413' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='90910-07010' remark='null' quantity='1' partNumber='90910-07010' price='$0.00' subTotal='$0.00' />
+		<part callout='' description='94511-00400' remark='null' quantity='1' partNumber='94511-00400' price='$1.30' subTotal='$1.30' />
+		<part callout='' description='90099-08036' remark='null' quantity='1' partNumber='90099-08036' price='$1.30' subTotal='$1.30' />
+		<part callout='' description='90713-06009' remark='null' quantity='1' partNumber='90713-06009' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 01' description='DISTRIBUTOR ASSY' remark='4P' quantity='1' partNumber='19100-76001-71' price='$288.50' subTotal='$288.50' />
+		<part callout='1902 01' description='DISTRIBUTOR ASSY' remark='4P' quantity='1' partNumber='19100-76011-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 10' description='ADVANCER ASSY, VACUUM' remark='4P' quantity='1' partNumber='19220-76001-71' price='$85.80' subTotal='$85.80' />
+		<part callout='1902 10' description='ADVANCER ASSY, VACUUM' remark='4P' quantity='1' partNumber='19220-76011-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 20' description='ROTOR SUB-ASSY, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19102-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 21' description='SHAFT AND GOVERNOR SUB-ASSY' remark='4P' quantity='1' partNumber='19105-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 30' description='CAP SUB-ASSY, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19101-76002-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 31' description='BREAKER SUB-ASSY,DISTRIBUTOR' remark='4P' quantity='1' partNumber='19103-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 32' description='CAM SUB-ASSY, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19106-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 32' description='CAM SUB-ASSY, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19106-76008-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 40' description='CONDENSER, DISTRIBUTOR' remark='4P' quantity='1' partNumber='80099-76036-71' price='$7.60' subTotal='$7.60' />
+		<part callout='1902 41' description='CAP, ADJUSTER' remark='4P' quantity='1' partNumber='19221-76002-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 42' description='POINT, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19145-76003-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 42' description='POINT, DISTRIBUTOR' remark='4P' quantity='1' partNumber='19145-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 43' description='COVER, DUST PROOF' remark='4P' quantity='1' partNumber='19121-76001-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 44' description='GEAR, SPIRAL' remark='4P' quantity='1' partNumber='19195-76007-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 44' description='GEAR, SPIRAL' remark='4P' quantity='1' partNumber='19195-76002-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 45' description='WEIGHT, GOVERNOR' remark='4P' quantity='2' partNumber='19152-76006-71' price='$0.00' subTotal='$0.00' />
+		<part callout='1902 45' description='WEIGHT, GOVERNOR' remark='4P' quantity='2' partNumber='19152-76009-71' price='$0.00' subTotal='$0.00' />
+	</parts>
+	<totals>
+		<total label="Total" value="$401.40" />
+	</totals>
+	<translations>
+		<translation item="PartNumber">Part Number</translation>
+		<translation item="PartQuantity">Qty.</translation>
+		<translation item="PartDescription">Part Name</translation>
+		<translation item="PartRemarks">Description</translation>
+		<translation item="PartPrice">Price</translation>
+		<translation item="PartCallout">PNC</translation>
+		<translation item="PartSubtotal">Subtotal</translation>
+		<translation item="DealerDetailsLabel">Dealer Details</translation>
+		<translation item="NameLabel">Name:</translation>
+		<translation item="CodeLabel">Code:</translation>
+		<translation item="OrderListLabel">Order List</translation>
+		<translation item="CreatedLabel">This order was created by &lt;a href=&quot;http://intdev.microcatlive.com&quot;&gt;Microcat LIVE&lt;/a&gt;, provided by &lt;a href=&quot;http://www.infomedia.com.au&quot;&gt;Infomedia Ltd.&lt;/a&gt;</translation>
+		<translation item="copyright">&amp;copy; 2004 - 2010 Infomedia Ltd and its licensors.</translation>
+		<translation item="pageno">Page [x] of [y]</translation>		
+	</translations>
+	<dealerDetails>
+		<name>42009</name>
+		<code>42009</code>
+	</dealerDetails>
+</body>

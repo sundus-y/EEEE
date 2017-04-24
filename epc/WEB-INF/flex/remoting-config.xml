@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service id="remoting-service"
+    class="flex.messaging.services.RemotingService">
+
+    <adapters>
+        <adapter-definition id="java-object" class="au.com.infomedia.epc.service.AmfJavaAdapter" default="true"/>
+    </adapters>
+
+    <default-channels>
+        <channel ref="my-amf"/>
+    </default-channels>
+
+	<destination id="customertag" >
+		<properties>
+			<source>au.com.infomedia.epc.router.CustomerTagsServiceRouter</source>
+		</properties>
+	</destination>
+    
+    <destination id="order" >
+		<properties>
+			<source>au.com.infomedia.epc.router.OrderServiceRouter</source>
+		</properties>
+	</destination>
+
+	<destination id="user" >
+		<properties>
+			<source>au.com.infomedia.epc.router.UserService</source>
+		</properties>
+	</destination>
+
+	<destination id="catalog" >
+		<properties>
+			<source>au.com.infomedia.epc.router.CatalogServiceRouter</source>
+		</properties>
+	</destination>
+
+	<destination id="admin" >
+		<properties>
+			<source>au.com.infomedia.epc.router.EPCAdminService</source>
+		</properties>
+	</destination>
+	<destination id="feedback" >
+		<properties>
+			<source>au.com.infomedia.epc.router.FeedbackServiceRouter</source>
+		</properties>
+	</destination>
+	<destination id="search" >
+		<properties>
+			<source>au.com.infomedia.epc.router.SearchService</source>
+		</properties>
+	</destination>
+
+</service>

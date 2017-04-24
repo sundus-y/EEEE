@@ -1,0 +1,182 @@
+<html>
+<head>
+<title>Email Sender</title>
+</head>
+<body>
+<h1>Email Sender</h1>
+<form action="../services/email/send.xml" method="post">
+<table>
+	<tr>
+	<td>Franchise</td>
+	<td>
+		<select name="franchise">
+			<option>CHR</option>
+			<option>TMC</option>
+			<option>FNA</option>
+			<option>LRE</option>
+			<option>HYW</option>
+			<option>KIA</option>
+		</select>
+	</td>
+	</tr>
+    <tr>
+        <td>Product</td>
+        <td>
+            <select name="product">
+                <option>LIVE</option>
+                <option>MARKET</option>
+                <option>APB</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Target Email</td>
+        <td>
+            <input name="targetEmail" size="50" value="julio.laura@coderoad.com"/>
+        </td>
+    </tr>
+    <tr>
+        <td>From Email</td>
+        <td>
+            <input name="fromEmail" size="50"/>
+        </td>
+    </tr>
+    <tr>
+        <td>From Name (first and last)</td>
+        <td>
+            <input name="fromName" size="50"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Reply-to Email</td>
+        <td>
+            <input name="replyToEmail" size="50"/>
+        </td>
+    </tr>
+    <tr>
+        <td>BCC Email</td>
+        <td>
+            <input name="bccEmail" size="50"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Date Time</td>
+        <td>
+            <input name="dateTime" size="50"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Subject</td>
+        <td>
+            <input name="subject" size="50" value="subject test"/>
+        </td>
+    </tr>
+	<tr>
+        <td>Mail Body</td>
+        <td>
+            <textarea name="mailBody" rows="5" cols="50">body test</textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>Attachment</td>
+        <td>
+            <textarea name="attachment" rows="5" cols="50"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>Filename</td>
+        <td>
+            <input name="fileName" size="50" value="myPdf.pdf"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Use HTML</td>
+        <td>
+            <select name="useHTML">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Template</td>
+        <td>
+            <select name="template">
+                <option value=""></option>
+                <option value="sectionData">sectionData</option>
+                <option value="order">order</option>
+                <option value="vehicleInformation">vehicleInformation</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Title</td>
+        <td>
+            <input name="title" size="50"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Header</td>
+        <td>
+            <textarea name="header" rows="5" cols="50"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>Footer</td>
+        <td>
+            <textarea name="footer" rows="5" cols="50"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>Body Text</td>
+        <td>
+            <textarea name="bodyText" rows="5" cols="50"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>Hostname (optional)</td>
+        <td>
+            <input name="hostname" size="50"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Port (optional)</td>
+        <td>
+            <input name="port" size="5"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Username (optional)</td>
+        <td>
+            <input name="username" size="50"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Password (optional)</td>
+        <td>
+            <input name="password" size="50"/>
+        </td>
+    </tr>
+    <tr>
+        <td>TLS</td>
+        <td>
+            <select name="tls">
+                <option value="0">false</option>
+                <option value="1">true</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>SMTP Auth</td>
+        <td>
+            <select name="smtpAuth">
+                <option value="0">false</option>
+                <option value="1">true</option>
+            </select>
+        </td>
+    </tr>
+</table>
+<input type="submit" value="Send Email"/>
+</form>
+</body>
+</html>

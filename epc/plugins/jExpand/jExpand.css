@@ -1,0 +1,7 @@
+img.arrow {
+	background: transparent url(arrows.png) no-repeat scroll 0px -16px; 
+	border: 0px;
+	width: 16px;
+	height: 16px;
+	float: right;
+}

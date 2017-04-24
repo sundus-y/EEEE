@@ -1,0 +1,1202 @@
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://infomedia.idmwebservice.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://infomedia.idmwebservice.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://infomedia.idmwebservice.com/">
+      <s:element name="resetContactCache">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="emailAddress" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="resetContactCacheResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getAccountById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="accountId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAccountByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAccountByIdResult" type="tns:Account" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Account">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="AccountId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Phone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Fax" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillingStreet" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillingCity" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillingState" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillingCountry" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillingCountryCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillingZip" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ShippingStreet" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ShippingCity" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ShippingState" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ShippingCountry" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ShippingCountryCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ShippingZip" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeliveryAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Franchises" type="tns:ArrayOfAccountFranchise" />
+          <s:element minOccurs="0" maxOccurs="1" name="Partners" type="tns:ArrayOfAccount" />
+          <s:element minOccurs="0" maxOccurs="1" name="Subscriptions" type="tns:ArrayOfSubscription" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfAccountFranchise">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AccountFranchise" nillable="true" type="tns:AccountFranchise" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AccountFranchise">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="FranchisedBrand" type="tns:Brand" />
+          <s:element minOccurs="0" maxOccurs="1" name="dealerCode" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Brand">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfAccount">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Account" nillable="true" type="tns:Account" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfSubscription">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Subscription" nillable="true" type="tns:Subscription" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Subscription">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SubscriptionId" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CreatedDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="StartDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="EndDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FranchiseCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Brands" type="tns:ArrayOfBrand" />
+          <s:element minOccurs="0" maxOccurs="1" name="Regions" type="tns:ArrayOfRegion" />
+          <s:element minOccurs="0" maxOccurs="1" name="SolutionEdition" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SolutionEditionId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Markets" type="tns:ArrayOfCountry" />
+          <s:element minOccurs="0" maxOccurs="1" name="SubscriptionFeatures" type="tns:ArrayOfSubscriptionFeature" />
+          <s:element minOccurs="0" maxOccurs="1" name="Accounts" type="tns:ArrayOfAccount" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfBrand">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Brand" nillable="true" type="tns:Brand" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfRegion">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Region" nillable="true" type="tns:Region" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Region">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RegionIsCatalogIdentifier" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Countries" type="tns:ArrayOfCountry" />
+          <s:element minOccurs="0" maxOccurs="1" name="Markets" type="tns:ArrayOfCountry" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCountry">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Country" nillable="true" type="tns:Country" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Country">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfSubscriptionFeature">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SubscriptionFeature" nillable="true" type="tns:SubscriptionFeature" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="SubscriptionFeature">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SubscriptionFeatureId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LexiconId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Namespace" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Value" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Default" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Markets" type="tns:ArrayOfCountry" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getContact">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="emailAddress" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getContactResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getContactResult" type="tns:Contact" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Contact">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ContactId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Salutation" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Phone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CellPhone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Fax" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LanguageCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Timezone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DateFormat" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MailingStreet" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MailingCity" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MailingState" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MailingCountry" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MailingCountryCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MailingZip" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Permission" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Account" type="tns:Account" />
+          <s:element minOccurs="0" maxOccurs="1" name="AssignedSubscriptions" type="tns:ArrayOfAssignedSubscription" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfAssignedSubscription">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AssignedSubscription" nillable="true" type="tns:AssignedSubscription" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AssignedSubscription">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ContactSubscriptionAssignmentId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ContactSubscriptionAssignmentName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AdministrativeContact" type="tns:Contact" />
+          <s:element minOccurs="0" maxOccurs="1" name="Subscription" type="tns:ContactSubscriptionAssignment" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ContactSubscriptionAssignment">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SubscriptionId" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CreatedDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="StartDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="EndDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AssigningAccount" type="tns:Account" />
+          <s:element minOccurs="0" maxOccurs="1" name="FranchiseCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Brands" type="tns:ArrayOfBrand" />
+          <s:element minOccurs="0" maxOccurs="1" name="Regions" type="tns:ArrayOfRegion" />
+          <s:element minOccurs="0" maxOccurs="1" name="SolutionEdition" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SolutionEditionId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataLanguages" type="tns:ArrayOfLanguage" />
+          <s:element minOccurs="0" maxOccurs="1" name="SubscriptionFeatures" type="tns:ArrayOfSubscriptionFeature" />
+          <s:element minOccurs="0" maxOccurs="1" name="Markets" type="tns:ArrayOfCountry" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfLanguage">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Language" nillable="true" type="tns:Language" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Language">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getContactById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="contactId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getContactByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getContactByIdResult" type="tns:Contact" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAllSubscriptionsForContact">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="emailAddress" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAllSubscriptionsForContactResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAllSubscriptionsForContactResult" type="tns:Contact" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAllSubscriptionsForContactById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="contactId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAllSubscriptionsForContactByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAllSubscriptionsForContactByIdResult" type="tns:Contact" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubscriptionForContact">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="emailAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="csaId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubscriptionForContactResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubscriptionForContactResult" type="tns:Contact" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubscriptionForContactById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="contactId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="csaId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubscriptionForContactByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubscriptionForContactByIdResult" type="tns:Contact" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAllOfferingIds">
+        <s:complexType />
+      </s:element>
+      <s:element name="getAllOfferingIdsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAllOfferingIdsResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getAllOfferingIdsByFranchise">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="franchise" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAllOfferingIdsByFranchiseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAllOfferingIdsByFranchiseResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getOffering">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="offeringId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getOfferingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getOfferingResult" type="tns:Offering" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Offering">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FranchiseCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SolutionEdition" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SolutionEditionId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Features" type="tns:ArrayOfSubscriptionFeature" />
+          <s:element minOccurs="0" maxOccurs="1" name="Application" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Brands" type="tns:ArrayOfBrand" />
+          <s:element minOccurs="0" maxOccurs="1" name="Markets" type="tns:ArrayOfCountry" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataLicenceAgreement" type="tns:DataLicenceAgreement" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DataLicenceAgreement">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataLanguages" type="tns:ArrayOfLanguage" />
+          <s:element minOccurs="0" maxOccurs="1" name="Regions" type="tns:ArrayOfRegion" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getAccountSubscriptionsByContact">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="emailAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="filterAccountsBy" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAccountSubscriptionsByContactResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAccountSubscriptionsByContactResult" type="tns:Contact" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Account" nillable="true" type="tns:Account" />
+      <s:element name="Contact" nillable="true" type="tns:Contact" />
+      <s:element name="ArrayOfString" nillable="true" type="tns:ArrayOfString" />
+      <s:element name="Offering" nillable="true" type="tns:Offering" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="resetContactCacheSoapIn">
+    <wsdl:part name="parameters" element="tns:resetContactCache" />
+  </wsdl:message>
+  <wsdl:message name="resetContactCacheSoapOut">
+    <wsdl:part name="parameters" element="tns:resetContactCacheResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAccountByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:getAccountById" />
+  </wsdl:message>
+  <wsdl:message name="getAccountByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:getAccountByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="getContactSoapIn">
+    <wsdl:part name="parameters" element="tns:getContact" />
+  </wsdl:message>
+  <wsdl:message name="getContactSoapOut">
+    <wsdl:part name="parameters" element="tns:getContactResponse" />
+  </wsdl:message>
+  <wsdl:message name="getContactByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:getContactById" />
+  </wsdl:message>
+  <wsdl:message name="getContactByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:getContactByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllSubscriptionsForContactSoapIn">
+    <wsdl:part name="parameters" element="tns:getAllSubscriptionsForContact" />
+  </wsdl:message>
+  <wsdl:message name="getAllSubscriptionsForContactSoapOut">
+    <wsdl:part name="parameters" element="tns:getAllSubscriptionsForContactResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllSubscriptionsForContactByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:getAllSubscriptionsForContactById" />
+  </wsdl:message>
+  <wsdl:message name="getAllSubscriptionsForContactByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:getAllSubscriptionsForContactByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSubscriptionForContactSoapIn">
+    <wsdl:part name="parameters" element="tns:getSubscriptionForContact" />
+  </wsdl:message>
+  <wsdl:message name="getSubscriptionForContactSoapOut">
+    <wsdl:part name="parameters" element="tns:getSubscriptionForContactResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSubscriptionForContactByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:getSubscriptionForContactById" />
+  </wsdl:message>
+  <wsdl:message name="getSubscriptionForContactByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:getSubscriptionForContactByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllOfferingIdsSoapIn">
+    <wsdl:part name="parameters" element="tns:getAllOfferingIds" />
+  </wsdl:message>
+  <wsdl:message name="getAllOfferingIdsSoapOut">
+    <wsdl:part name="parameters" element="tns:getAllOfferingIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllOfferingIdsByFranchiseSoapIn">
+    <wsdl:part name="parameters" element="tns:getAllOfferingIdsByFranchise" />
+  </wsdl:message>
+  <wsdl:message name="getAllOfferingIdsByFranchiseSoapOut">
+    <wsdl:part name="parameters" element="tns:getAllOfferingIdsByFranchiseResponse" />
+  </wsdl:message>
+  <wsdl:message name="getOfferingSoapIn">
+    <wsdl:part name="parameters" element="tns:getOffering" />
+  </wsdl:message>
+  <wsdl:message name="getOfferingSoapOut">
+    <wsdl:part name="parameters" element="tns:getOfferingResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAccountSubscriptionsByContactSoapIn">
+    <wsdl:part name="parameters" element="tns:getAccountSubscriptionsByContact" />
+  </wsdl:message>
+  <wsdl:message name="getAccountSubscriptionsByContactSoapOut">
+    <wsdl:part name="parameters" element="tns:getAccountSubscriptionsByContactResponse" />
+  </wsdl:message>
+  <wsdl:message name="resetContactCacheHttpGetIn">
+    <wsdl:part name="emailAddress" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="resetContactCacheHttpGetOut" />
+  <wsdl:message name="getAccountByIdHttpGetIn">
+    <wsdl:part name="accountId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getAccountByIdHttpGetOut">
+    <wsdl:part name="Body" element="tns:Account" />
+  </wsdl:message>
+  <wsdl:message name="getContactHttpGetIn">
+    <wsdl:part name="emailAddress" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getContactHttpGetOut">
+    <wsdl:part name="Body" element="tns:Contact" />
+  </wsdl:message>
+  <wsdl:message name="getContactByIdHttpGetIn">
+    <wsdl:part name="contactId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getContactByIdHttpGetOut">
+    <wsdl:part name="Body" element="tns:Contact" />
+  </wsdl:message>
+  <wsdl:message name="getAllSubscriptionsForContactHttpGetIn">
+    <wsdl:part name="emailAddress" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getAllSubscriptionsForContactHttpGetOut">
+    <wsdl:part name="Body" element="tns:Contact" />
+  </wsdl:message>
+  <wsdl:message name="getAllSubscriptionsForContactByIdHttpGetIn">
+    <wsdl:part name="contactId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getAllSubscriptionsForContactByIdHttpGetOut">
+    <wsdl:part name="Body" element="tns:Contact" />
+  </wsdl:message>
+  <wsdl:message name="getSubscriptionForContactHttpGetIn">
+    <wsdl:part name="emailAddress" type="s:string" />
+    <wsdl:part name="csaId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubscriptionForContactHttpGetOut">
+    <wsdl:part name="Body" element="tns:Contact" />
+  </wsdl:message>
+  <wsdl:message name="getSubscriptionForContactByIdHttpGetIn">
+    <wsdl:part name="contactId" type="s:string" />
+    <wsdl:part name="csaId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubscriptionForContactByIdHttpGetOut">
+    <wsdl:part name="Body" element="tns:Contact" />
+  </wsdl:message>
+  <wsdl:message name="getAllOfferingIdsHttpGetIn" />
+  <wsdl:message name="getAllOfferingIdsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="getAllOfferingIdsByFranchiseHttpGetIn">
+    <wsdl:part name="franchise" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getAllOfferingIdsByFranchiseHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="getOfferingHttpGetIn">
+    <wsdl:part name="offeringId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getOfferingHttpGetOut">
+    <wsdl:part name="Body" element="tns:Offering" />
+  </wsdl:message>
+  <wsdl:message name="getAccountSubscriptionsByContactHttpGetIn">
+    <wsdl:part name="emailAddress" type="s:string" />
+    <wsdl:part name="filterAccountsBy" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getAccountSubscriptionsByContactHttpGetOut">
+    <wsdl:part name="Body" element="tns:Contact" />
+  </wsdl:message>
+  <wsdl:message name="resetContactCacheHttpPostIn">
+    <wsdl:part name="emailAddress" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="resetContactCacheHttpPostOut" />
+  <wsdl:message name="getAccountByIdHttpPostIn">
+    <wsdl:part name="accountId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getAccountByIdHttpPostOut">
+    <wsdl:part name="Body" element="tns:Account" />
+  </wsdl:message>
+  <wsdl:message name="getContactHttpPostIn">
+    <wsdl:part name="emailAddress" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getContactHttpPostOut">
+    <wsdl:part name="Body" element="tns:Contact" />
+  </wsdl:message>
+  <wsdl:message name="getContactByIdHttpPostIn">
+    <wsdl:part name="contactId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getContactByIdHttpPostOut">
+    <wsdl:part name="Body" element="tns:Contact" />
+  </wsdl:message>
+  <wsdl:message name="getAllSubscriptionsForContactHttpPostIn">
+    <wsdl:part name="emailAddress" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getAllSubscriptionsForContactHttpPostOut">
+    <wsdl:part name="Body" element="tns:Contact" />
+  </wsdl:message>
+  <wsdl:message name="getAllSubscriptionsForContactByIdHttpPostIn">
+    <wsdl:part name="contactId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getAllSubscriptionsForContactByIdHttpPostOut">
+    <wsdl:part name="Body" element="tns:Contact" />
+  </wsdl:message>
+  <wsdl:message name="getSubscriptionForContactHttpPostIn">
+    <wsdl:part name="emailAddress" type="s:string" />
+    <wsdl:part name="csaId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubscriptionForContactHttpPostOut">
+    <wsdl:part name="Body" element="tns:Contact" />
+  </wsdl:message>
+  <wsdl:message name="getSubscriptionForContactByIdHttpPostIn">
+    <wsdl:part name="contactId" type="s:string" />
+    <wsdl:part name="csaId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubscriptionForContactByIdHttpPostOut">
+    <wsdl:part name="Body" element="tns:Contact" />
+  </wsdl:message>
+  <wsdl:message name="getAllOfferingIdsHttpPostIn" />
+  <wsdl:message name="getAllOfferingIdsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="getAllOfferingIdsByFranchiseHttpPostIn">
+    <wsdl:part name="franchise" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getAllOfferingIdsByFranchiseHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="getOfferingHttpPostIn">
+    <wsdl:part name="offeringId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getOfferingHttpPostOut">
+    <wsdl:part name="Body" element="tns:Offering" />
+  </wsdl:message>
+  <wsdl:message name="getAccountSubscriptionsByContactHttpPostIn">
+    <wsdl:part name="emailAddress" type="s:string" />
+    <wsdl:part name="filterAccountsBy" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getAccountSubscriptionsByContactHttpPostOut">
+    <wsdl:part name="Body" element="tns:Contact" />
+  </wsdl:message>
+  <wsdl:portType name="IdmWebServiceSoap">
+    <wsdl:operation name="resetContactCache">
+      <wsdl:input message="tns:resetContactCacheSoapIn" />
+      <wsdl:output message="tns:resetContactCacheSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAccountById">
+      <wsdl:input message="tns:getAccountByIdSoapIn" />
+      <wsdl:output message="tns:getAccountByIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getContact">
+      <wsdl:input message="tns:getContactSoapIn" />
+      <wsdl:output message="tns:getContactSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getContactById">
+      <wsdl:input message="tns:getContactByIdSoapIn" />
+      <wsdl:output message="tns:getContactByIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllSubscriptionsForContact">
+      <wsdl:input message="tns:getAllSubscriptionsForContactSoapIn" />
+      <wsdl:output message="tns:getAllSubscriptionsForContactSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllSubscriptionsForContactById">
+      <wsdl:input message="tns:getAllSubscriptionsForContactByIdSoapIn" />
+      <wsdl:output message="tns:getAllSubscriptionsForContactByIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriptionForContact">
+      <wsdl:input message="tns:getSubscriptionForContactSoapIn" />
+      <wsdl:output message="tns:getSubscriptionForContactSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriptionForContactById">
+      <wsdl:input message="tns:getSubscriptionForContactByIdSoapIn" />
+      <wsdl:output message="tns:getSubscriptionForContactByIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllOfferingIds">
+      <wsdl:input message="tns:getAllOfferingIdsSoapIn" />
+      <wsdl:output message="tns:getAllOfferingIdsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllOfferingIdsByFranchise">
+      <wsdl:input message="tns:getAllOfferingIdsByFranchiseSoapIn" />
+      <wsdl:output message="tns:getAllOfferingIdsByFranchiseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getOffering">
+      <wsdl:input message="tns:getOfferingSoapIn" />
+      <wsdl:output message="tns:getOfferingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAccountSubscriptionsByContact">
+      <wsdl:input message="tns:getAccountSubscriptionsByContactSoapIn" />
+      <wsdl:output message="tns:getAccountSubscriptionsByContactSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IdmWebServiceHttpGet">
+    <wsdl:operation name="resetContactCache">
+      <wsdl:input message="tns:resetContactCacheHttpGetIn" />
+      <wsdl:output message="tns:resetContactCacheHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAccountById">
+      <wsdl:input message="tns:getAccountByIdHttpGetIn" />
+      <wsdl:output message="tns:getAccountByIdHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getContact">
+      <wsdl:input message="tns:getContactHttpGetIn" />
+      <wsdl:output message="tns:getContactHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getContactById">
+      <wsdl:input message="tns:getContactByIdHttpGetIn" />
+      <wsdl:output message="tns:getContactByIdHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllSubscriptionsForContact">
+      <wsdl:input message="tns:getAllSubscriptionsForContactHttpGetIn" />
+      <wsdl:output message="tns:getAllSubscriptionsForContactHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllSubscriptionsForContactById">
+      <wsdl:input message="tns:getAllSubscriptionsForContactByIdHttpGetIn" />
+      <wsdl:output message="tns:getAllSubscriptionsForContactByIdHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriptionForContact">
+      <wsdl:input message="tns:getSubscriptionForContactHttpGetIn" />
+      <wsdl:output message="tns:getSubscriptionForContactHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriptionForContactById">
+      <wsdl:input message="tns:getSubscriptionForContactByIdHttpGetIn" />
+      <wsdl:output message="tns:getSubscriptionForContactByIdHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllOfferingIds">
+      <wsdl:input message="tns:getAllOfferingIdsHttpGetIn" />
+      <wsdl:output message="tns:getAllOfferingIdsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllOfferingIdsByFranchise">
+      <wsdl:input message="tns:getAllOfferingIdsByFranchiseHttpGetIn" />
+      <wsdl:output message="tns:getAllOfferingIdsByFranchiseHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getOffering">
+      <wsdl:input message="tns:getOfferingHttpGetIn" />
+      <wsdl:output message="tns:getOfferingHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAccountSubscriptionsByContact">
+      <wsdl:input message="tns:getAccountSubscriptionsByContactHttpGetIn" />
+      <wsdl:output message="tns:getAccountSubscriptionsByContactHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IdmWebServiceHttpPost">
+    <wsdl:operation name="resetContactCache">
+      <wsdl:input message="tns:resetContactCacheHttpPostIn" />
+      <wsdl:output message="tns:resetContactCacheHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAccountById">
+      <wsdl:input message="tns:getAccountByIdHttpPostIn" />
+      <wsdl:output message="tns:getAccountByIdHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getContact">
+      <wsdl:input message="tns:getContactHttpPostIn" />
+      <wsdl:output message="tns:getContactHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getContactById">
+      <wsdl:input message="tns:getContactByIdHttpPostIn" />
+      <wsdl:output message="tns:getContactByIdHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllSubscriptionsForContact">
+      <wsdl:input message="tns:getAllSubscriptionsForContactHttpPostIn" />
+      <wsdl:output message="tns:getAllSubscriptionsForContactHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllSubscriptionsForContactById">
+      <wsdl:input message="tns:getAllSubscriptionsForContactByIdHttpPostIn" />
+      <wsdl:output message="tns:getAllSubscriptionsForContactByIdHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriptionForContact">
+      <wsdl:input message="tns:getSubscriptionForContactHttpPostIn" />
+      <wsdl:output message="tns:getSubscriptionForContactHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriptionForContactById">
+      <wsdl:input message="tns:getSubscriptionForContactByIdHttpPostIn" />
+      <wsdl:output message="tns:getSubscriptionForContactByIdHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllOfferingIds">
+      <wsdl:input message="tns:getAllOfferingIdsHttpPostIn" />
+      <wsdl:output message="tns:getAllOfferingIdsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllOfferingIdsByFranchise">
+      <wsdl:input message="tns:getAllOfferingIdsByFranchiseHttpPostIn" />
+      <wsdl:output message="tns:getAllOfferingIdsByFranchiseHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getOffering">
+      <wsdl:input message="tns:getOfferingHttpPostIn" />
+      <wsdl:output message="tns:getOfferingHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAccountSubscriptionsByContact">
+      <wsdl:input message="tns:getAccountSubscriptionsByContactHttpPostIn" />
+      <wsdl:output message="tns:getAccountSubscriptionsByContactHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="IdmWebServiceSoap" type="tns:IdmWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="resetContactCache">
+      <soap:operation soapAction="http://infomedia.idmwebservice.com/resetContactCache" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAccountById">
+      <soap:operation soapAction="http://infomedia.idmwebservice.com/getAccountById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContact">
+      <soap:operation soapAction="http://infomedia.idmwebservice.com/getContact" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContactById">
+      <soap:operation soapAction="http://infomedia.idmwebservice.com/getContactById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllSubscriptionsForContact">
+      <soap:operation soapAction="http://infomedia.idmwebservice.com/getAllSubscriptionsForContact" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllSubscriptionsForContactById">
+      <soap:operation soapAction="http://infomedia.idmwebservice.com/getAllSubscriptionsForContactById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriptionForContact">
+      <soap:operation soapAction="http://infomedia.idmwebservice.com/getSubscriptionForContact" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriptionForContactById">
+      <soap:operation soapAction="http://infomedia.idmwebservice.com/getSubscriptionForContactById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllOfferingIds">
+      <soap:operation soapAction="http://infomedia.idmwebservice.com/getAllOfferingIds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllOfferingIdsByFranchise">
+      <soap:operation soapAction="http://infomedia.idmwebservice.com/getAllOfferingIdsByFranchise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getOffering">
+      <soap:operation soapAction="http://infomedia.idmwebservice.com/getOffering" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAccountSubscriptionsByContact">
+      <soap:operation soapAction="http://infomedia.idmwebservice.com/getAccountSubscriptionsByContact" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="IdmWebServiceSoap12" type="tns:IdmWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="resetContactCache">
+      <soap12:operation soapAction="http://infomedia.idmwebservice.com/resetContactCache" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAccountById">
+      <soap12:operation soapAction="http://infomedia.idmwebservice.com/getAccountById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContact">
+      <soap12:operation soapAction="http://infomedia.idmwebservice.com/getContact" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContactById">
+      <soap12:operation soapAction="http://infomedia.idmwebservice.com/getContactById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllSubscriptionsForContact">
+      <soap12:operation soapAction="http://infomedia.idmwebservice.com/getAllSubscriptionsForContact" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllSubscriptionsForContactById">
+      <soap12:operation soapAction="http://infomedia.idmwebservice.com/getAllSubscriptionsForContactById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriptionForContact">
+      <soap12:operation soapAction="http://infomedia.idmwebservice.com/getSubscriptionForContact" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriptionForContactById">
+      <soap12:operation soapAction="http://infomedia.idmwebservice.com/getSubscriptionForContactById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllOfferingIds">
+      <soap12:operation soapAction="http://infomedia.idmwebservice.com/getAllOfferingIds" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllOfferingIdsByFranchise">
+      <soap12:operation soapAction="http://infomedia.idmwebservice.com/getAllOfferingIdsByFranchise" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getOffering">
+      <soap12:operation soapAction="http://infomedia.idmwebservice.com/getOffering" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAccountSubscriptionsByContact">
+      <soap12:operation soapAction="http://infomedia.idmwebservice.com/getAccountSubscriptionsByContact" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="IdmWebServiceHttpGet" type="tns:IdmWebServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="resetContactCache">
+      <http:operation location="/resetContactCache" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="getAccountById">
+      <http:operation location="/getAccountById" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContact">
+      <http:operation location="/getContact" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContactById">
+      <http:operation location="/getContactById" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllSubscriptionsForContact">
+      <http:operation location="/getAllSubscriptionsForContact" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllSubscriptionsForContactById">
+      <http:operation location="/getAllSubscriptionsForContactById" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriptionForContact">
+      <http:operation location="/getSubscriptionForContact" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriptionForContactById">
+      <http:operation location="/getSubscriptionForContactById" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllOfferingIds">
+      <http:operation location="/getAllOfferingIds" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllOfferingIdsByFranchise">
+      <http:operation location="/getAllOfferingIdsByFranchise" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getOffering">
+      <http:operation location="/getOffering" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAccountSubscriptionsByContact">
+      <http:operation location="/getAccountSubscriptionsByContact" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="IdmWebServiceHttpPost" type="tns:IdmWebServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="resetContactCache">
+      <http:operation location="/resetContactCache" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="getAccountById">
+      <http:operation location="/getAccountById" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContact">
+      <http:operation location="/getContact" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContactById">
+      <http:operation location="/getContactById" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllSubscriptionsForContact">
+      <http:operation location="/getAllSubscriptionsForContact" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllSubscriptionsForContactById">
+      <http:operation location="/getAllSubscriptionsForContactById" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriptionForContact">
+      <http:operation location="/getSubscriptionForContact" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriptionForContactById">
+      <http:operation location="/getSubscriptionForContactById" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllOfferingIds">
+      <http:operation location="/getAllOfferingIds" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllOfferingIdsByFranchise">
+      <http:operation location="/getAllOfferingIdsByFranchise" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getOffering">
+      <http:operation location="/getOffering" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAccountSubscriptionsByContact">
+      <http:operation location="/getAccountSubscriptionsByContact" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IdmWebService">
+    <wsdl:port name="IdmWebServiceSoap" binding="tns:IdmWebServiceSoap">
+      <soap:address location="https://intdev.login.ifmsystems.com/IDM_WS_1.3/IdmWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="IdmWebServiceSoap12" binding="tns:IdmWebServiceSoap12">
+      <soap12:address location="https://intdev.login.ifmsystems.com/IDM_WS_1.3/IdmWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="IdmWebServiceHttpGet" binding="tns:IdmWebServiceHttpGet">
+      <http:address location="https://intdev.login.ifmsystems.com/IDM_WS_1.3/IdmWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="IdmWebServiceHttpPost" binding="tns:IdmWebServiceHttpPost">
+      <http:address location="https://intdev.login.ifmsystems.com/IDM_WS_1.3/IdmWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

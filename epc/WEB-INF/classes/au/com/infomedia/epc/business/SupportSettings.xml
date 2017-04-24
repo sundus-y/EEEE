@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<support>
+	<market value="default">
+		<setting name="phonenumber" value="+1-888-929-5599" />
+		<setting name="faxnumber" value="+1-888-434-5544" />
+		<setting name="supportemail" value="help@microcat.net" />
+		<setting name="supporttimes" value="help@microcat.net" />
+	</market>
+
+    <market value="CA">
+		<setting name="phonenumber" value="1-905-454-6228" />
+		<setting name="faxnumber" value="1-905-454-6006" />
+		<setting name="supportemail" value="dwriggle@ford.com" />
+		<setting name="supporttimes" value="David Wrigglesworth (Microcat Data, training issues or general Microcat questions)" />
+	</market>
+
+	<market value="MX">
+		<setting name="phonenumber" value="+001 800 215 7591" />
+		<setting name="faxnumber" value="+01 888 294 7667" />
+		<setting name="supportemail" value="ihelp@microcat.net" />
+		<setting name="supporttimes" value="Lunes a Viernes de (0800 - 1730) H.C. Mexico" />
+	</market>
+
+	<market value="US">
+		<setting name="phonenumber" value="+1-888-929-5599" />
+		<setting name="faxnumber" value="+1-888-434-5544 or +1-248-205-3362" />
+		<setting name="supportemail" value="help@microcat.net" />
+		<setting name="supporttimes" value="help@microcat.net" />
+	</market>
+
+</support> 
+

@@ -1,0 +1,1691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+<!-- Land Rover Customer Services -->
+
+	<entry>
+	<string>LRE</string>
+	<au.com.infomedia.security.data.CustomerService>
+		<phone>+44 2073657053</phone>
+		<fax>+44 2073657055</fax>
+		<email>Land_Rover_Customer_Support_UK@cat.com</email>
+		<supportTimes></supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_US</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone>+1-888-929-5599</phone>
+		<fax>+1-888-434-5544</fax>
+		<email>help@microcat.net</email>
+		<supportTimes>Mon-Fri 0800-2000 EST, Sat 0900-1700 EST</supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_AT</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone>0179567445</phone>
+		<fax>0179567447</fax>
+		<email>Land_Rover_Customer_Support_OS@cat.com</email>
+		<supportTimes></supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_AU</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone>1800 810 103</phone>
+		<fax>03 9556 6399</fax>
+		<email>service@infomedia.com.au</email>
+		<supportTimes> Mon-Fri 7.30am-6.00pm AEST, Sat 9.00am-1.00pm AEST</supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_BE</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone>027133633</phone>
+		<fax>027133628</fax>
+		<email>Land_Rover_Customer_Support_BE@cat.com</email>
+		<supportTimes></supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_CA</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone>(+)01-248-265-0617</phone>
+		<fax>(+)01-248-265-2079</fax>
+		<email>help@microcat.net</email>
+		<supportTimes></supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_DE</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone>06950070505</phone>
+		<fax>06950070507</fax>
+		<email>Land_Rover_Customer_Support_DE@cat.com</email>
+		<supportTimes></supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_ES</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone>(0)914534079</phone>
+		<fax>(0)914534081</fax>
+		<email>Land_Rover_Customer_Support_ES@cat.com</email>
+		<supportTimes></supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_FR</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone>0141919546</phone>
+		<fax>0141919548</fax>
+		<email>Land_Rover_Customer_Support_FR@cat.com</email>
+		<supportTimes></supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_GB</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone>Please use Fax/Email</phone>
+		<fax>+44 1926 649300</fax>
+		<email>LRPAHelp@clifford-thames.com</email>
+		<supportTimes></supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_IE</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone>+44 2073657053</phone>
+		<fax>+44 2073657055</fax>
+		<email>Land_Rover_Customer_Support_UK@cat.com</email>
+		<supportTimes></supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_IT</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone>0269682460</phone>
+		<fax>0269682462</fax>
+		<email>Land_Rover_Customer_Support_IT@cat.com</email>
+		<supportTimes></supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_MX</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone>01 800 681 1520</phone>
+		<fax>1 888 294 7667</fax>
+		<email>ihelp@microcat.net</email>
+		<supportTimes></supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_NL</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone>0202013759</phone>
+		<fax>0202013761</fax>
+		<email>Land_Rover_Customer_Support_NL@cat.com</email>
+		<supportTimes></supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_PT</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone>214154343</phone>
+		<fax>214154345</fax>
+		<email>Land_Rover_Customer_Support_PT@cat.com</email>
+		<supportTimes></supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_JP</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone>(82) 504-8211</phone>
+		<fax>(82) 240-1333</fax>
+		<email>microcat-info@daitecjp.com</email>
+		<supportTimes>0900-1800</supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+	<entry>
+		<string>LRE_UK</string>
+		<au.com.infomedia.security.data.CustomerService>
+		<phone></phone>
+		<fax></fax>
+		<email>LRPAHelp@clifford-thames.com</email>
+		<supportTimes></supportTimes>
+		<emailCc></emailCc>
+		<emailBcc></emailBcc>
+		</au.com.infomedia.security.data.CustomerService>
+	</entry>
+
+    <!-- Ford North America Customer Services -->
+
+    <entry>
+        <string>FNA</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+1-888-929-5599</phone>
+            <fax>+1-888-434-5544</fax>
+            <email>help@microcat.net</email>
+            <supportTimes>1792|Monday - Friday%%7.30am - 6pm AEST,%%3583|Saturday%%9am - 1pm AEST</supportTimes>
+            <emailCc>chuxley@infomedia.com.au;us-custserv@infomedia.com.au</emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FNA_CA</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1-905-454-6228</phone>
+            <fax>1-905-454-6006</fax>
+            <email>dwriggle@ford.com</email>
+            <supportTimes>7719|Microcat Data, training issues or general Microcat questions</supportTimes>
+            <emailCc>chuxley@infomedia.com.au;tmagnus@infomedia.com.au;us-custserv@infomedia.com.au</emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FNA_MX</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>01-800-681-1520</phone>
+            <fax>01-888-294-7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Lunes a Viernes de (0800 - 1730) H.C. Mexico</supportTimes>
+            <emailCc>chuxley@infomedia.com.au;efigueroa@microcat.net;us-custserv@infomedia.com.au</emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FNA_US</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+1-888-929-5599</phone>
+            <fax>+1-888-434-5544</fax>
+            <email>help@microcat.net</email>
+            <supportTimes>1792|Monday to Friday%%0800-2100 EST,%%3583|Saturday%%0900-1700 EST</supportTimes>
+            <emailCc>chuxley@infomedia.com.au</emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <!-- Ford Asia Pacific Customer Services  -->
+
+    <entry>
+        <string>FAP</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1800 810 103</phone>
+            <fax>03 9552 6399</fax>
+            <email>service@infomedia.com.au</email>
+            <supportTimes>1792|Monday - Friday%%7.30am - 6.00pm AEST,%%3583|Saturday%%9.00am - 1.00pm AEST
+            </supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FAP_CN</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>86-23-67458273</phone>
+            <fax>86-23-67458682</fax>
+            <email>htang1@ford.com</email>
+            <supportTimes>1792|星期一 至 星期五%%8.30am - 5.15pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FAP_ID</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>(21) 651 0050 Ext. 5101</phone>
+            <fax>(21) 651 1390</fax>
+            <email>s-budhi@prima.net.id</email>
+            <supportTimes>1792|Senin sampai Jumat%%8.30am - 5.30pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FAP_IN</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>(91) 4114 259927</phone>
+            <fax>(91) 4114 252599</fax>
+            <email>ipdchelp@ford.com</email>
+            <supportTimes>7518|Monday To Saturday%%8.00am - 5.30pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FAP_JP</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>(82) 504-8211</phone>
+            <fax>(82) 240-1333</fax>
+            <email>microcat-info@daitecjp.com</email>
+            <supportTimes>9:00am - 6:00pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FAP_MY</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+61 3 9552 6300</phone>
+            <fax>+61 3 9552 6399</fax>
+            <email>service@infomedia.com.au</email>
+            <supportTimes></supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FAP_PH</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>(049) 541 5003</phone>
+            <fax>(049) 541 5070</fax>
+            <email>lempensa@ford.com</email>
+            <supportTimes>7517|Monday To Thursday%%7.30am - 5.30pm%%3582|Friday%%7.30am - 3:45pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FAP_TH</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>(02) 686 4144</phone>
+            <fax>(02) 264 0843</fax>
+            <email>mchantha@ford.com</email>
+            <supportTimes>1792|วันจันทร ถึง วันศุกร์%%8.00am - 5.30pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FAP_TW</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>886 (0)3 4530515</phone>
+            <fax>886 (0)3 4635634</fax>
+            <email>lyao1@ford.com</email>
+            <supportTimes>7517|星期一 至 星期四%%8.30am - 5.30pm%%3582|星期五%%8.30am - 5.00pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FAP_VN</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0320 892892</phone>
+            <fax>0320 893103</fax>
+            <email>phongt@ford.netnam.vn</email>
+            <supportTimes>1792|Từ thứ Hai cho đến thứ Sáu%%8.30am - 3.30pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FAP_ZA</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>(27)12 842 2655</phone>
+            <fax>(27)12 842 3099</fax>
+            <email>dlohrent@ford.com</email>
+            <supportTimes>1792|Monday To Friday%%8.00am - 4.30pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <!-- Ford Europe Customer Services -->
+
+    <entry>
+        <string>FEU</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+ 44 20 8620 0294</phone>
+            <fax>+ 44 20 8620 0295</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <entry>
+        <string>FEU_AT</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 293 338</phone>
+            <fax>0800 293 339</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_BE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 7 8843</phone>
+            <fax>0800 7 8856</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_DK</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>8088 4790</phone>
+            <fax>8088 4791</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_FI</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 116 516</phone>
+            <fax>0800 116 513</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_FR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 905 480</phone>
+            <fax>0800 90 6306</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_DE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 181 7095</phone>
+            <fax>0800 181 6086</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_GR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>00800 6112 6202</phone>
+            <fax>00800 6112 2530</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_HU</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>06 800 17240</phone>
+            <fax>06 800 17239</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_IE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1800 556 115</phone>
+            <fax>1800 556 141</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_IT</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>800 780 615</phone>
+            <fax>800 784 182</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_NL</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 023 2309</phone>
+            <fax>0800 023 2307</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_NO</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>800 13903</phone>
+            <fax>800 14426</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_PL</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>00800 611 12 10</phone>
+            <fax>00800 611 12 11</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_PT</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>800 861 119</phone>
+            <fax>800 861 120</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_ES</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>900 996 181</phone>
+            <fax>900 996 183</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_SE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>020 795 870</phone>
+            <fax>020 795 591</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_CH</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 561 230</phone>
+            <fax>0800 561 231</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_TR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>00800 6190 2915</phone>
+            <fax>00800 6190 3249</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_GB</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 028 3076</phone>
+            <fax>0800 028 8016</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>1792|Monday - Friday%%07:00 - 17:00 GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>FEU_WDMO</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+61 3 9552 6300</phone>
+            <fax>+61 3 9552 6399</fax>
+            <email>service@infomedia.com.au</email>
+            <supportTimes></supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <!-- Ford Australia / New Zealand Customer Services  -->
+
+    <entry>
+        <string>FAP_AU</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1800 810 103</phone>
+            <fax>03 9552 6399</fax>
+            <email>service@infomedia.com.au</email>
+            <supportTimes>1792|Monday - Friday%%7.30am - 6.00pm AEST,%%3583|Saturday%%9.00am - 1.00pm AEST
+            </supportTimes>
+            <emailCc>chuxley@infomedia.com.au;us-custserv@infomedia.com.au</emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <entry>
+        <string>FAP_NZ</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 443 901</phone>
+            <fax>+61 3 9552 6399</fax>
+            <email>service@infomedia.com.au</email>
+            <supportTimes>1792|Monday - Friday%%7.30am - 6.00pm AEST,%%3583|Saturday%%9.00am - 1.00pm AEST
+            </supportTimes>
+            <emailCc>chuxley@infomedia.com.au;us-custserv@infomedia.com.au</emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <!-- Hyundai Customer Services  -->
+    <entry>
+        <string>HYW_APC</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+61 3 9552 6300</phone>
+            <fax>+61 3 9552 6399</fax>
+            <email>service@infomedia.com.au</email>
+            <supportTimes>Monday - Friday 8:30am - 5:30pm AEST</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <!-- This is HYW MES(Middle East) -->
+    <entry>
+        <string>HYW_GCC</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+ 44 20 8620 0294</phone>
+            <fax>+ 44 20 8620 0295</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <entry>
+        <string>HYW_AFR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+ 44 20 8620 0294</phone>
+            <fax>+ 44 20 8620 0295</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <entry>
+        <string>HYW_EUR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+ 44 20 8620 0294</phone>
+            <fax>+ 44 20 8620 0295</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <entry>
+        <string>HYW_GEN</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone></phone>
+            <fax></fax>
+            <email></email>
+            <supportTimes></supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <entry>
+        <string>HYW_SAM</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+1 313 586 3608</phone>
+            <fax>+1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Caracas: 9am-7pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <entry>
+        <string>HYW_NAM</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1 888 929 5599</phone>
+            <fax>1 888 434 5544</fax>
+            <email>help@microcat.net</email>
+            <supportTimes>0800-2000 EST Mon-Fri 0900-1700 EST Sat</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <entry>
+        <string>HYW_GB</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 028 3076</phone>
+            <fax>0800 028 8016</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_DK</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>8088 4790</phone>
+            <fax>8088 4791</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_US</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1 888 929 5599</phone>
+            <fax>1 888 434 5544</fax>
+            <email>help@microcat.net</email>
+            <supportTimes>0800-2000 EST Mon-Fri 0900-1700 EST Sat</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_PR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1 800 798 8320</phone>
+            <fax>1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>San Juan: 9am-7pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_PT</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>800 861 119</phone>
+            <fax>800 861 120</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_EC</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+1-800-010-567</phone>
+            <fax>1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Caracas: 9am-7pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_AU</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1800 810 103</phone>
+            <fax>03 9552 6399</fax>
+            <email>service@infomedia.com.au</email>
+            <supportTimes>Mon-Fri 7.30am-6.00pm AEST. Sat 9.00am-1.00pm AEST</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_BE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 7 8843</phone>
+            <fax>0800 7 8856</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_ES</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>900 996 181</phone>
+            <fax>900 996 183</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_JP</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>(82) 504-8211</phone>
+            <fax>(82) 240-1333</fax>
+            <email>microcat-info@daitecjp.com</email>
+            <supportTimes>0900-1800</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_FR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 905 480</phone>
+            <fax>0800 90 6306</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_IT</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>800 780 615</phone>
+            <fax>800 784 182</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_FI</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 116 516</phone>
+            <fax>0800 116 513</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_IN</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>044-67101000 Extn : 1773</phone>
+            <fax>044-67101701</fax>
+            <email>tgk@gmobis.com</email>
+            <supportTimes></supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_NZ</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 443 901</phone>
+            <fax>+61 3 9552 6399</fax>
+            <email>service@infomedia.com.au</email>
+            <supportTimes>07:30-18:00, Mon-Fri AEST 09.00-13.00 Sat AEST</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_NO</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>800 13903</phone>
+            <fax>800 14426</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_PL</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>00800 611 12 10</phone>
+            <fax>00800 611 12 11</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_AT</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 293 338</phone>
+            <fax>0800 293 339</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_CA</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1 800 461 1294</phone>
+            <fax>1 905 477 0189</fax>
+            <email>partstec@hyundaicanada.com</email>
+            <supportTimes></supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_GR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>00800 6112 6202</phone>
+            <fax>00800 6112 2530</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_SE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>020 795 870</phone>
+            <fax>020 795 591</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_CL</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1230 020 2630</phone>
+            <fax>1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Central, South, Eastern: 7am-5pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_IE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1800 556 115</phone>
+            <fax>1800 556 141</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_TR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>00800 6190 2915</phone>
+            <fax>00800 6190 3249</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_DE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 181 7095</phone>
+            <fax>0800 181 6086</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_HU</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>06 800 17240</phone>
+            <fax>06 800 17239</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_CO</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>01 800 9156 020</phone>
+            <fax>1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Bogota: 8am-6pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_BR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>11 3301 5328</phone>
+            <fax>1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Central, South, Eastern: 7am-5pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_CH</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 561 230</phone>
+            <fax>0800 561 231</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_PE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 52511</phone>
+            <fax>1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Central, South, Eastern: 7am-5pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_AR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+54-11-4119-2084</phone>
+            <fax>1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Central, South, Eastern: 7am-5pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_VE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>800-100-9044</phone>
+            <fax>+1.888.294.7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Caracas: 9am - 7pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>HYW_NL</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 023 2309</phone>
+            <fax>0800 023 2307</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <!-- KIA Customer Services  -->
+    <entry>
+        <string>KIA_APC</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+61 3 9552 6300</phone>
+            <fax>+61 3 9552 6399</fax>
+            <email>service@infomedia.com.au</email>
+            <supportTimes>Monday - Friday 8:30am - 5:30pm AEST</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <!-- This is KIA MES -->
+    <entry>
+        <string>KIA_GCC</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+ 44 20 8620 0294</phone>
+            <fax>+ 44 20 8620 0295</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <entry>
+        <string>KIA_AFR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+ 44 20 8620 0294</phone>
+            <fax>+ 44 20 8620 0295</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <entry>
+        <string>KIA_EUR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+ 44 20 8620 0294</phone>
+            <fax>+ 44 20 8620 0295</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <entry>
+        <string>KIA_GEN</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone></phone>
+            <fax></fax>
+            <email></email>
+            <supportTimes></supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <entry>
+        <string>KIA_SAM</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+1 313 586 3608</phone>
+            <fax>+1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Caracas: 9am-7pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <entry>
+        <string>KIA_NAM</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1 888 929 5599</phone>
+            <fax>1 888 434 5544</fax>
+            <email>help@microcat.net</email>
+            <supportTimes>0800-2000 EST Mon-Fri 0900-1700 EST Sat</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_PT</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>800 861 119</phone>
+            <fax>800 861 120</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_AR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+54-11-4119-2084</phone>
+            <fax>1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Central, South, Eastern: 7am-5pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_FI</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 116 516</phone>
+            <fax>0800 116 513</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_BE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 7 8843</phone>
+            <fax>0800 7 8856</fax>
+            <email>kiaparts@kia.be</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_AU</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1800 810 103</phone>
+            <fax>03 9552 6399</fax>
+            <email>service@infomedia.com.au</email>
+            <supportTimes>Mon-Fri 7.30am-6.00pm AEST. Sat 9.00am-1.00pm AEST</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_AT</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 293 338</phone>
+            <fax>0800 293 339</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_HU</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>06 800 17240</phone>
+            <fax>06 800 17239</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_IE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1800 556 115</phone>
+            <fax>1800 556 141</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_PR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1 800 798 8320</phone>
+            <fax>1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>San Juan: 9am-7pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_IT</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>800 780 615</phone>
+            <fax>800 784 182</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_GB</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 028 3076</phone>
+            <fax>0800 028 8016</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_VE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>800-100-9044</phone>
+            <fax>+1.888.294.7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Caracas: 9am - 7pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_CO</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>01 800 9156 020</phone>
+            <fax>1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Bogota: 8am-6pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_GR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>00800 6112 6202</phone>
+            <fax>00800 6112 2530</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_ES</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>900 996 181</phone>
+            <fax>900 996 183</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_BR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>11 3301 5328</phone>
+            <fax>1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Central, South, Eastern: 7am-5pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_CA</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1 888 807 1370</phone>
+            <fax>+1 248 381 8820</fax>
+            <email>help@microcat.net</email>
+            <supportTimes>0800-2000 EST Mon-Fri 0900-1700 EST Sat</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_DK</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>8088 4790</phone>
+            <fax>8088 4791</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_EC</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+1-800-010-567</phone>
+            <fax>1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Caracas: 9am-7pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_CL</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1230 020 2630</phone>
+            <fax>1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Central, South, Eastern: 7am-5pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_CH</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 561 230</phone>
+            <fax>0800 561 231</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_NO</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>800 13903</phone>
+            <fax>800 14426</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_PE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 52511</phone>
+            <fax>1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Central, South, Eastern: 7am-5pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_TR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>00800 6190 2915</phone>
+            <fax>00800 6190 3249</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_NL</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 023 2309</phone>
+            <fax>0800 023 2307</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_MX</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>01 800 681 1520</phone>
+            <fax>1 888 294 7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>Central, South, Eastern: 7am-5pm</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_NZ</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 443 901</phone>
+            <fax>+61 3 9552 6399</fax>
+            <email>service@infomedia.com.au</email>
+            <supportTimes>07:30-18:00, Mon-Fri AEST 09.00-13.00 Sat AEST</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_SE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>020 795 870</phone>
+            <fax>020 795 591</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_PL</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>00800 611 12 10</phone>
+            <fax>00800 611 12 11</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_FR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 905 480</phone>
+            <fax>0800 90 6306</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+
+    <entry>
+        <string>KIA_DE</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0800 181 7095</phone>
+            <fax>0800 181 6086</fax>
+            <email>service@ifmeurope.com</email>
+            <supportTimes>07:00-17:00, Mon-Fri GMT</supportTimes>
+            <emailCc></emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <!-- Toyota Customer Services  -->
+
+    <entry>
+        <string>TMC</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>+1-888-929-5599</phone>
+            <fax>+1-888-434-5544</fax>
+            <email>help@microcat.net</email>
+            <supportTimes>help@microcat.net</supportTimes>
+            <emailCc>jcourouzos@infomedia.com.au</emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>TMC_MX</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>0 1800 681 1520</phone>
+            <fax>1-888-294-7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>ihelp@microcat.net</supportTimes>
+            <emailCc>jcourouzos@infomedia.com.au</emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>TMC_PR</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1-800-798-8320</phone>
+            <fax>1-888-294-7667</fax>
+            <email>ihelp@microcat.net</email>
+            <supportTimes>ihelp@microcat.net</supportTimes>
+            <emailCc>jcourouzos@infomedia.com.au</emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+    <entry>
+        <string>TMC_US</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1-888-929-5599</phone>
+            <fax>1-888-434-5544</fax>
+            <email>help@microcat.net</email>
+            <supportTimes>help@microcat.net</supportTimes>
+            <emailCc>jcourouzos@infomedia.com.au</emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+    <!-- Honda Canada Customer Services  -->
+    <!-- Just copied from toyota. NEED TO BE UOPDATED!!!! -->
+    <entry>
+        <string>HCI_CA</string>
+        <au.com.infomedia.security.data.CustomerService>
+            <phone>1-888-929-5599</phone>
+            <fax>1-888-434-5544</fax>
+            <email>help@microcat.net</email>
+            <supportTimes>help@microcat.net</supportTimes>
+            <emailCc>jcourouzos@infomedia.com.au</emailCc>
+            <emailBcc></emailBcc>
+        </au.com.infomedia.security.data.CustomerService>
+    </entry>
+
+</map>

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: root
+Build-Jdk: 1.6.0_23
+Build-Id: 2012-08-20_16-45-47
+Hudson-Build-Number: 145
+Hudson-Project: Business Services - EPC 3.10 - Release Build
+Hudson-Version: 1.423
+Jenkins-Build-Number: 145
+Jenkins-Project: Business Services - EPC 3.10 - Release Build
+Jenkins-Version: 1.423
+SVN-Revision: 53384
+Specification-Title: Infomedia Web Services
+Specification-Vendor: Infomedia Ltd.
+Specification-Version: 3.10.0
+

@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Infomedia Ltd. - Admin Home</title>
+<link rel="stylesheet" type="text/css" href="css/dashboard.css"
+	media="screen" />
+<link rel="stylesheet" type="text/css"
+	href="../plugins/realistic-hover-effect/css/screen.css" media="all" />
+<script type="text/javascript" language="javascript"
+	src="../js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" language="javascript"
+	src="../js/jquery-ui-1.8.5.custom.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/config.js"></script>
+<script type="text/javascript" language="javascript" src="js/common.js"></script>
+<script type="text/javascript" language="javascript"
+	src="js/SystemSnapshot.js"></script>
+<script type="text/javascript" language="javascript"
+	src="js/VersionAdmin.js"></script>
+<script type="text/javascript"
+	src="../plugins/realistic-hover-effect/scripts/execute.js"></script>
+</head>
+<body>
+	<table width="100%">
+		<tr>
+			<td align="center">
+				<div id="body-wrapper">
+					<div id="masthead-container">
+						<table width="100%">
+							<tr>
+								<td valign="top"><img src="../images/IFM-Logo.png"
+									alt="logo" /> <br /> <span class="loginPageTitleText">
+										Admin Homepage </span>
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div id="content-container">
+
+						<div class="content-underline">
+							<!-- empty -->
+						</div>
+
+						<div id="divTheContent">
+							<table cellspacing="0" cellpadding="10px" width="100%">
+								<tr>
+									<td valign="top" align="left">
+										<ul id="nav-shadow">
+											<li class="button-connection"><a
+												href="connectionmanager.html"></a></br>Connections Dashboard</li>
+											<li class="button-monitoring"><a href="monitor.html"></a></br>Service
+												Monitoring page</li>
+											<li class="button-cache"><a href="cachemanager.html"></a></br>EhCache
+												Manager</li>
+											<li class="button-logger"><a href="loggermanager.html"></a></br>Log4j
+												Manager</li>
+											<li class="button-log"><a href="logmanager.html"></a></br>Tomcat
+												Logs</li>
+											<li class="button-diskcache"><a
+												href="diskcachemanager.html"></a></br>Disk Cache Manager</li>
+											<li class="button-configuration"><a
+												href="configmanager.html"></a></br>Configuration Manager</li>
+										</ul>
+									</td>
+								</tr>
+							</table>
+						</div>
+						<br /> <br />
+						<div id="serverUptime">
+							<h1>Server Uptime</h1>
+							<table border="0" cellpadding="1" cellspacing="1" width="45%">
+								<tr>
+									<td align="center" colspan="6">Services have been running
+										for</td>
+								</tr>
+								<tr align="center">
+									<td class="digit" id="tdHours"></td>
+									<td>hours</td>
+									<td class="digit" id="tdMinutes"></td>
+									<td>minutes</td>
+									<td class="digit" id="tdSeconds"></td>
+									<td>seconds</td>
+								</tr>
+								<tr>
+									<td align="right" colspan="3">since it was started at</td>
+									<td class="digit" id="tdSince" colspan="3"></td>
+								</tr>
+							</table>
+						</div>
+						<br /> <br />
+						<div id="systemSnapshot">
+							<h1>System Snapshot</h1>
+							<table cellpadding="1" cellspacing="1" width="35%">
+								<tr>
+									<td class="label">Used Memory:</td>
+									<td id="tdUsedMem"></td>
+								</tr>
+								<tr>
+									<td class="label">Free Memory:</td>
+									<td id="tdFreeMem"></td>
+								</tr>
+								<tr>
+									<td class="label">Current Allocated Memory:</td>
+									<td id="tdCurrentAlloMem"></td>
+								</tr>
+								<tr>
+									<td class="label">Maximum Memory:</td>
+									<td id="tdMaxMem"></td>
+								</tr>
+								<tr>
+									<td class="label">Total GC Time:</td>
+									<td id="tdTotalGCTime"></td>
+								</tr>
+								<tr>
+									<td class="label">Total Processors:</td>
+									<td id="tdTotalProccesors"></td>
+								</tr>
+								<tr>
+									<td class="label">Num Of Executing Threads:</td>
+									<td id="tdNumExecThreads"></td>
+								</tr>
+							</table>
+						</div>
+						<br /> <br />
+						<!-- <div id="settingLookup">
+							<h1>Setting Lookup</h1>
+							<table width="70%">
+								<tr>
+									<td align="right">Setting Full Path:</td>
+									<td><input type="text" id="txSettingFullPath"></input></td>
+								</tr>
+								<tr>
+									<td align="right">Setting Value:</td>
+									<td><input type="text" id="txSettingValue"></input>
+									</td>
+								</tr>
+								<tr>
+									<td align="right" colspan="2"><button class="lookup">LOOKUP</button>
+									</td>
+								</tr>
+								<tr>
+									<td align="right" colspan="2"><button class="viewConfig">VIEW
+											CONFIG</button>
+									</td>
+								</tr>
+							</table>
+						</div> -->
+						<br /> <br />
+					</div>
+
+					<div id="footer-container">
+						<div class="column-container">
+							<div class="column1" id="versionDesc"></div>
+							<div class="column2">Copyright &nbsp;&copy;&nbsp; Infomedia
+								Limited 2010</div>
+						</div>
+						<div class="column-end">
+							<!-- empty -->
+						</div>
+					</div>
+				</div></td>
+		</tr>
+	</table>
+</body>
+</html>

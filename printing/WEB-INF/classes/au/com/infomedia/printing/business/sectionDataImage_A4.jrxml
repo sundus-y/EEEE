@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="sectionDataImage" pageWidth="595" pageHeight="842" columnWidth="539" leftMargin="28" rightMargin="28" topMargin="38" bottomMargin="8">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="641"/>
+	<property name="ireport.layers" value="##Wed Feb 09 14:22:12 BOT 2011\nlayer.0.name=Background\nlayer.0.visible=true\nlayer.0.id=0"/>
+	<subDataset name="Section Dataset">
+		<field name="beginDate" class="java.lang.String">
+			<fieldDescription><![CDATA[@beginDate]]></fieldDescription>
+		</field>
+		<field name="callout" class="java.lang.String">
+			<fieldDescription><![CDATA[@callout]]></fieldDescription>
+		</field>
+		<field name="description" class="java.lang.String">
+			<fieldDescription><![CDATA[@description]]></fieldDescription>
+		</field>
+		<field name="endDate" class="java.lang.String">
+			<fieldDescription><![CDATA[@endDate]]></fieldDescription>
+		</field>
+		<field name="partNumber" class="java.lang.String">
+			<fieldDescription><![CDATA[@partNumber]]></fieldDescription>
+		</field>
+		<field name="price" class="java.lang.String">
+			<fieldDescription><![CDATA[@price]]></fieldDescription>
+		</field>
+		<field name="quantity" class="java.lang.String">
+			<fieldDescription><![CDATA[@quantity]]></fieldDescription>
+		</field>
+		<field name="remark" class="java.lang.String">
+			<fieldDescription><![CDATA[@remark]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="Header Information">
+		<queryString language="xPath">
+			<![CDATA[]]>
+		</queryString>
+		<field name="header_info_label" class="java.lang.String">
+			<fieldDescription><![CDATA[label]]></fieldDescription>
+		</field>
+		<field name="header_info_value" class="java.lang.String">
+			<fieldDescription><![CDATA[value]]></fieldDescription>
+		</field>
+	</subDataset>
+	<parameter name="REPORT_HEADER" class="java.lang.String"/>
+	<parameter name="REPORT_FOOTER" class="java.lang.String"/>
+	<parameter name="TOTAL_PAGES" class="java.lang.String"/>
+	<parameter name="SECTION_DATA_XML_FILE_PATH" class="java.lang.String">
+		<defaultValueExpression><![CDATA["C:/infomedia/business-services/ifm-printing/trunk/src/main/resources/au/com/infomedia/printing/business/sectionData.xml"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[/data/body]]>
+	</queryString>
+	<field name="catalogueLabel" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/header/translations/translation[@item="Catalogue"]]]></fieldDescription>
+	</field>
+	<field name="catalogue" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/header/catalog]]></fieldDescription>
+	</field>
+	<field name="sectionLabel" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/header/translations/translation[@item="Section"]]]></fieldDescription>
+	</field>
+	<field name="section" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/header/section]]></fieldDescription>
+	</field>
+	<field name="vinLabel" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/header/translations/translation[@item="VIN"]]]></fieldDescription>
+	</field>
+	<field name="vin" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/header/vin]]></fieldDescription>
+	</field>
+	<field name="licenseLabel" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/header/translations/translation[@item="Licence"]]]></fieldDescription>
+	</field>
+	<field name="license" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/header/licence]]></fieldDescription>
+	</field>
+	<field name="buildDateLabel" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/header/translations/translation[@item="BuildDate"]]]></fieldDescription>
+	</field>
+	<field name="buildDate" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/header/buildDate]]></fieldDescription>
+	</field>
+	<field name="copyright" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/body/translations/translation[@item="copyright"]]]></fieldDescription>
+	</field>
+	<field name="image" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/body/imageData/image]]></fieldDescription>
+	</field>
+	<field name="pageLabel" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/body/translations/translation[@item="pageno"]]]></fieldDescription>
+	</field>
+	<field name="commentsLabel" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/body/translations/translation[@item="ImageComments"]]]></fieldDescription>
+	</field>
+	<field name="comment" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/body/imageData/comment]]></fieldDescription>
+	</field>
+	<variable name="CURRENT_PAGE_NUMBER" class="java.lang.Integer" resetType="None" incrementType="Report">
+		<variableExpression><![CDATA[$V{CURRENT_PAGE_NUMBER} == null ? 0 : $V{CURRENT_PAGE_NUMBER} + 1]]></variableExpression>
+		<initialValueExpression><![CDATA[1]]></initialValueExpression>
+	</variable>
+	<title>
+		<band height="21">
+			<textField>
+				<reportElement x="7" y="0" width="532" height="21"/>
+				<textElement>
+					<font fontName="Arial Unicode MS" size="14" isBold="true" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{REPORT_HEADER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="39">
+			<frame>
+				<reportElement x="0" y="0" width="539" height="38"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<componentElement>
+					<reportElement key="table" x="9" y="7" width="530" height="18" backcolor="#FFFFFF"/>
+					<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="Header Information">
+							<dataSourceExpression><![CDATA[((au.com.infomedia.printing.jasperreports.SectionDataSource)$P{REPORT_DATA_SOURCE}).headerDetailsDataSource()]]></dataSourceExpression>
+						</datasetRun>
+						<jr:column width="56">
+							<jr:detailCell height="15" rowSpan="1">
+								<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="1" width="56" height="13"/>
+									<textElement textAlignment="Left">
+										<font fontName="Arial Unicode MS" size="8" isBold="false" pdfEncoding="Identity-H"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{header_info_label}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="488">
+							<jr:detailCell height="15" rowSpan="1">
+								<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="487" height="15"/>
+									<textElement>
+										<font fontName="Arial Unicode MS" size="8" pdfEncoding="Identity-H"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{header_info_value}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:table>
+				</componentElement>
+				<textField isStretchWithOverflow="true">
+					<reportElement positionType="FixRelativeToBottom" stretchType="RelativeToTallestObject" x="28" y="27" width="161" height="10"/>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+						<font fontName="Arial Unicode MS" size="8" isBold="false" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA["<b>"+$F{vinLabel}+"</b>  " + $F{vin}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement positionType="FixRelativeToBottom" stretchType="RelativeToTallestObject" x="213" y="27" width="166" height="10"/>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+						<font fontName="Arial Unicode MS" size="8" isBold="false" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA["<b>"+$F{licenseLabel}+"</b>  " + $F{license}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement positionType="FixRelativeToBottom" stretchType="RelativeToTallestObject" x="399" y="27" width="127" height="10"/>
+					<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+						<font fontName="Arial Unicode MS" size="8" isBold="false" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA["<b>"+$F{buildDateLabel}+"</b>  " + $F{buildDate}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="585" splitType="Immediate">
+			<image isUsingCache="false">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="84" y="18" width="380" height="530"/>
+				<imageExpression class="java.lang.String"><![CDATA[$F{image}]]></imageExpression>
+			</image>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="FixRelativeToBottom" stretchType="RelativeToTallestObject" x="0" y="568" width="69" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" markup="none">
+					<font fontName="Arial Unicode MS" size="10" isBold="true" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{commentsLabel}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="69" y="567" width="399" height="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial Unicode MS" size="10" isBold="false" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{comment}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="48">
+			<line>
+				<reportElement x="0" y="1" width="539" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.6"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="0" y="14" width="539" height="15"/>
+				<textElement>
+					<font fontName="Arial Unicode MS" size="8" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{REPORT_FOOTER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="3" width="406" height="12"/>
+				<textElement>
+					<font fontName="Arial Unicode MS" size="8" isBold="false" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{copyright}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="439" y="1" width="100" height="12"/>
+				<textElement textAlignment="Right">
+					<font fontName="Arial Unicode MS" size="8" isBold="false" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{pageLabel}.replace("[x]", $V{CURRENT_PAGE_NUMBER}.toString()).replace("[y]", (Integer.toString((Integer.parseInt($P{TOTAL_PAGES})))).toString())]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" DescendantCount="37">
+    <TocEntry Title="Erste Schritte" Link="/Content/01 Getting started.htm" ComputedResetPageLayout="true" ComputedFirstTopic="true" DescendantCount="1">
+        <TocEntry Title="Einstellungen ändern" Link="/Content/02 Change settings.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Startseite" Link="/Content/03 Home page.htm" ComputedFirstTopic="false" DescendantCount="6">
+        <TocEntry Title="Fahrzeugsuche anhand einer Fg.-Nr. oder einer unvollständigen Fg.-Nr. ausführen" Link="/Content/04 Search for a vehicle by VIN or partial VIN.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Kundenkennzeichen speichern und abrufen" Link="/Content/05 Save and retrieve Customer Tags.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Einer Fg.-Nr. Benutzernotizen hinzufügen" Link="/Content/06 Add user notes to a VIN.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Katalog anhand Baujahr und Modell suchen" Link="/Content/07 Search for a catalogue by build year and model.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Fahrzeuge im Fahrzeugindex filtern" Link="/Content/08 Filter the vehicles in the Vehicle Index.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Katalogübergreifende Teilesuche ausführen" Link="/Content/09 Search for a part across all catalogues.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Teile-Bildschirm" Link="/Content/10 Parts screen.htm" ComputedFirstTopic="false" DescendantCount="16">
+        <TocEntry Title="Teilesuche anhand einer Beschreibung ausführen" Link="/Content/11 Search for parts by description.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Teilesuche anhand von Herstellercodes ausführen" Link="/Content/12 Search for parts by manufacturer part code.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Auf das Fenster Teiledaten zugreifen" Link="/Content/13 Access the Part Data window.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Informationen zu Nachfolgeteilen aufrufen" Link="/Content/14 Access supersession information.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Mithilfe einer grafischen Sicht durch den Index navigieren" Link="/Content/15 Navigate the index using a graphic view.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Mithilfe einer Textsicht durch den Index navigieren" Link="/Content/16 Navigate the index using a text view.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Mit der Brotkrumennavigation arbeiten" Link="/Content/17 Use the navigation breadcrumbs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Schnelle Navigation verwenden" Link="/Content/18 Use the quick navigation tool.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Bildanzeige anpassen" Link="/Content/19 Adjust the image display.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Mit dem Teiledaten-Raster arbeiten" Link="/Content/20 Work with the Parts Data Grid.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Bildteilung anzeigen" Link="/Content/21 Display a split-screen view.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Einer Baugruppe oder einem Teil Benutzernotizen hinzufügen" Link="/Content/22 Add user notes to a section or part.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Filmstreifensicht verwenden" Link="/Content/23 Use the image filmstrip.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Teile der Bestellliste hinzufügen" Link="/Content/24 Add parts to the Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Der Bestellliste eine Teilegruppe hinzufügen" Link="/Content/25 Add a group of parts to the Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Ein Teil direkt in Ihr DMS übertragen" Link="/Content/26 Transfer a part to your DMS.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Bestell-Bildschirm" Link="/Content/27 Orders screen.htm" ComputedFirstTopic="false" DescendantCount="9">
+        <TocEntry Title="Bestellliste anzeigen und bearbeiten" Link="/Content/28 View and edit an Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Kostenberechnung ändern oder ausblenden" Link="/Content/29 Change or hide pricing.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Nicht im Katalog vorhandene Teile hinzufügen" Link="/Content/30 Add non-cataloged parts.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Kundenangaben oder Angaben zum Account hinzufügen" Link="/Content/31 Add customer or account details.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Teile nach Fahrzeugnamen gruppieren" Link="/Content/32 Group parts by vehicle name.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Liste der Teile auf der Bestellliste ordnen" Link="/Content/33 Sort the list of parts on the Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Bestellliste speichern und abrufen" Link="/Content/34 Save and retrieve an Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Bestellliste drucken oder per E-Mail senden" Link="/Content/35 Print or email an Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Teile von der Bestellliste in Ihr DMS übertragen" Link="/Content/36 Transfer parts on the Order List to your DMS.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Rückmeldung senden" Link="/Content/37 Submit feedback.htm" ComputedFirstTopic="false" DescendantCount="0" />
+</CatapultToc>

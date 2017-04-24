@@ -1,0 +1,171 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <defaultCache maxElementsInMemory="1"
+    				eternal="false"
+    				timeToIdleSeconds="0"
+    				timeToLiveSeconds="172800"
+                  	overflowToDisk="false"
+                  	memoryStoreEvictionPolicy="LRU"
+                  	/>
+
+	<!--
+		memoryStoreEvictionPolicy
+		 	-> LRU = Least Recently Used
+		 	-> FIFO = First In First Out
+		 	-> LFU = Least Frequently Used
+
+	 -->
+
+    <cache name="catalog_Primary" maxElementsInMemory="500" eternal="true" timeToLiveSeconds="172800"/>
+    <cache name="catalog_PreWarmed" eternal="true" maxElementsInMemory="1000000"/>
+    <cache name="sectionhierarchy_Primary" maxElementsInMemory="30" eternal="false" timeToLiveSeconds="172800"/>
+    <cache name="sectionhierarchy_PreWarmed" eternal="true" maxElementsInMemory="1000000"/>
+    <cache name="sectionhierarchy_Slim" eternal="true" maxElementsInMemory="1000000"/>
+    <cache name="sectionhierarchy_Descriptions" eternal="true" maxElementsInMemory="1000000"/>
+    <cache name="avsgroups_Primary" maxElementsInMemory="50" eternal="false" timeToLiveSeconds="172800"/>
+    <cache name="avsgroups_PreWarmed" eternal="true" maxElementsInMemory="1000000"/>
+    <cache name="vinprefixtoavs_Primary" maxElementsInMemory="50" eternal="false" timeToLiveSeconds="172800"/>
+    <cache name="vinprefixtoavs_PreWarmed" eternal="true" maxElementsInMemory="1000000"/>
+
+
+	<cache name="partLexiconsCache"
+           maxElementsInMemory="100000"
+		   eternal="false"
+		   timeToLiveSeconds="172800"
+            />
+
+    <cache name="sectionLexiconsCache"
+           maxElementsInMemory="100000"
+   		   eternal="false"
+   		   timeToLiveSeconds="172800"
+           />
+
+	<cache name="priceLevelsCache"
+           maxElementsInMemory="100000"
+		   eternal="false"
+		   timeToLiveSeconds="172800"
+            />
+
+    <cache name="modelCodeOrWMIVDSJouhouCache"
+           maxElementsInMemory="1000"
+		   eternal="false"
+		   timeToLiveSeconds="172800"
+            />
+
+
+    <cache name="wmvdsJouhouCache"
+           maxElementsInMemory="50"
+		   eternal="false"
+		   timeToLiveSeconds="172800"
+            />
+
+
+    <cache name="catalogAbbreviationsCache"
+           maxElementsInMemory="5000"
+		   eternal="false"
+		   timeToLiveSeconds="172800"
+            />
+
+
+    <cache name="catalogAccesoryCache"
+           maxElementsInMemory="500"
+		   eternal="false"
+		   timeToLiveSeconds="172800"
+            />
+
+    <cache name="featureCodeDescriptionsCache"
+           maxElementsInMemory="500"
+            />
+
+    <cache name="featureDetailsSmartRecordCache"
+           maxElementsInMemory="500"
+		   eternal="false"
+		   timeToLiveSeconds="172800"
+            />
+
+    <cache name="optionCodesCache"
+           maxElementsInMemory="10000"
+		   eternal="false"
+		   timeToLiveSeconds="172800"
+            />
+
+    <cache name="dateFromStringCache"
+           maxElementsInMemory="10000"
+		   eternal="false"
+		   timeToLiveSeconds="172800"
+            />
+
+
+	<cache name="catalogDatabaseCache"
+           maxElementsInMemory="500"
+           eternal="true"
+            />
+
+    <cache name="userCache"
+           maxElementsInMemory="10000"
+           eternal="false"
+           timeToLiveSeconds="86400"
+            />         <!--  Hold User for 24 hours  -->
+
+    <cache name="contactCache"
+           maxElementsInMemory="10000"
+           eternal="false"
+           timeToLiveSeconds="3600"
+            />         <!--  Hold User for 1 hours  -->
+
+    <cache name="customerServiceCache"
+           maxElementsInMemory="10000"
+           eternal="false"
+           timeToLiveSeconds="3600"
+            />         <!--  Hold customer services for 1 hours  -->
+
+ 	<cache name="avsCodeCache"
+           maxElementsInMemory="1000"
+           timeToLiveSeconds="3600"
+            />         <!--  Hold AVS codes for 1 hour  -->
+
+
+    <cache name="searchDataCache"
+           maxElementsInMemory="100"
+           timeToLiveSeconds="120"
+            />
+
+    <cache name="FEU_VIN_DECODE"
+          maxElementsInMemory="20000"
+          timeToLiveSeconds="86400"
+           />
+
+<!--  Hold a collection of data languages per franchise for 24 hours  -->
+    <cache name="dataLanguagesCache"
+           maxElementsInMemory="50"
+           eternal="false"
+           timeToLiveSeconds="86400"
+            />
+
+	<cache name="FEU_NotesCache"
+		  maxElementsInMemory="3000"
+          timeToLiveSeconds="86400"
+			/>
+
+	<cache name="LRE_NotesCache"
+		  maxElementsInMemory="3000"
+          timeToLiveSeconds="86400"
+			/>
+
+    <!--Map<String, PDFTitleDataRecord>-->
+    <!--  Hold a collection of all TMC PDFTitleDataRecorddata for 24 hours  -->
+    <cache name="pdfTitleDataRecordsCache"
+          maxElementsInMemory="6000"
+          eternal="false"
+          timeToLiveSeconds="86400"
+           />
+
+    <!--Map<String,List<CatalogIdentificationCode>>-->
+    <!--  Hold a collection of all FNA CatalogIdentificationCode for 24 hours  -->
+    <cache name="allCatalogIdentificationNumbersCache"
+          maxElementsInMemory="50000"
+          eternal="false"
+          timeToLiveSeconds="86400"
+           />
+
+</ehcache>

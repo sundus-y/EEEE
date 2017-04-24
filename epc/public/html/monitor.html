@@ -1,0 +1,166 @@
+<html>
+
+<head>
+
+    <link type="text/css" href="../style/jquery-ui-1.8rc3.custom.css" rel="Stylesheet"/>
+
+    <script type="text/javascript" language="javascript" src="../js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" language="javascript" src="../js/jquery-ui-1.8rc3.custom.min.js"></script>
+    <script type="text/javascript" language="javascript" src="../js/jqXMLUtils.js"></script>
+    <script type="text/javascript" language="javascript" src="../js/menuctrl.js"></script>
+    <style type="text/css" title="currentStyle">
+        @import "../plugins/DataTables/css/demo_page.css";
+        @import "../plugins/DataTables/css/demo_table.css";
+    </style>
+    <script type="text/javascript" language="javascript" src="../plugins/DataTables/js/jquery.dataTables.js"></script>
+
+    <script type="text/javascript" language="javascript" src="../plugins/Tipsy/jquery.tipsy.js"></script>
+    <link type="text/css" href="../plugins/Tipsy/tipsy.css" rel="Stylesheet"/>
+
+    <script type="text/javascript" language="javascript" src="../js/raphael-min.js"></script>
+    <script type="text/javascript" language="javascript" src="../plugins/Tufte/jquery.enumerable.js"></script>
+    <script type="text/javascript" language="javascript" src="../plugins/Tufte/jquery.tufte-graph.js"></script>
+    <link type="text/css" href="../plugins/Tufte/tufte-graph.css" rel="Stylesheet"/>
+
+    <script src="../plugins/iphone-style-checkboxes/iphone-style-checkboxes.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="../plugins/iphone-style-checkboxes/style.css" type="text/css" media="screen" charset="utf-8"/>
+
+    <script language="javascript" type="text/javascript" src="../plugins/flot/jquery.flot.min.js"></script>
+    <script language="javascript" type="text/javascript" src="../plugins/flot/excanvas.min.js"></script>
+
+    <script type="text/javascript" language="javascript" src="../js/encoder.js"></script>
+
+    <script type="text/javascript" language="javascript" src="js/common.js"></script>
+    <script type="text/javascript" language="javascript" src="js/SlowServicesTable.js"></script>
+	<script type="text/javascript" language="javascript" src="js/ServiceErrorsTable.js"></script>
+    <script type="text/javascript" language="javascript" src="js/ServicesSummaryTable.js"></script>
+    <script type="text/javascript" language="javascript" src="js/ActiveThreadsTable.js"></script>
+    <script type="text/javascript" language="javascript" src="js/ServerStats.js"></script>
+    <script type="text/javascript" language="javascript" src="js/ServerStatsMonitor.js"></script>
+
+</head>
+
+<body style="overflow:hidden">
+
+    <div style="height:100%;width:100%;overflow:hidden">
+
+        <div style="height:4%;overflow:hidden">
+            <span style="position:absolute;top:23px;"><b>Executing Threads:</b></span>
+            <div style="float:right;right:0">
+                <img id="refreshingImage" style='cursor:pointer;height:35px;width:35px;float:left' src='/epc/resources/public/images/animated_refresh.gif' onclick="refresh();"/>
+                <div style='cursor:pointer;color:blue;text-decoration:underline;padding-left:3px;float:right;padding-right:5px;padding-top:18px;vertical-align:bottom' onclick="refresh();">Refresh all</div><br/>
+            </div>
+        </div>
+        <div style="height:96%;width:100%;overflow:hidden">
+
+            <div id="activeThreadsTable" style="height:40%;overflow:auto"></div>
+
+            <div style="height:1%;overflow:hidden"></div> <!-- space -->
+
+            <div style="height:59%;overflow:hidden">
+                <div style="float:left;height:100%;width:70%;overflow:hidden">
+                    <div style="height:5%;overflow:hidden;float:left"><b>Service Stats:</b></div><div id="clearButtonDiv" style="float:left;padding-left:15px;"></div>
+                    <div id="servicesTable" style="height:83%;overflow:auto"></div>
+                </div>
+                <div style="float:right;height:100%;width:30%;overflow:hidden;">
+                    <!--<table height="100%" width="100%" border="1">-->
+                        <!--<tr>-->
+                            <!--<td></td><td></td><td></td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                            <!--<td style="width:10%;"></td>-->
+                            <!--<td valign="bottom">-->
+                                <div style="height:5%;overflow:hidden">&nbsp;</div>
+                                <div id="serverStats" style="width:400px;height:50%;margin:auto"></div>
+                                <a href="ServerStatsMonitor.html" style="float:right;padding-right:70px;">Memory telemetry</a>
+                                <div style="height:10%;overflow:hidden">&nbsp;</div>
+                                <div id="serverStatsMonitorDiv" style="width:80%;height:30%;margin:auto;"></div>
+                            <!--</td><td></td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                            <!--<td></td><td></td><td></td>-->
+                        <!--</tr>-->
+                    <!--</table>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        //document.all.main.style.height=(window.innerHeight-document.body.offsetHeight-40)+"px";
+    </script>
+
+
+    <script type="text/javascript">
+
+        window.refreshCounter = 0;
+
+        $(document).keypress(function(event) {
+            if (event.keyCode == '13' || event.keyCode == '32') {
+                refresh();
+           }
+        });
+
+        function refresh() {
+            window.refreshCounter = 4;
+            $("#refreshingImage").show();
+            window.serverStats.refresh();
+            window.servicesSummaryTable.refresh();
+            window.activeThreadsTable.refresh();
+            window.serverStatsMonitor.refresh();
+        };
+
+        function setupClearButton() {
+            $("#clearButtonDiv").html("<div id='clearButton' style='float:left;'></div><div id='clearConfirmation' style='float:left;'></div>");
+            $("#clearButton").button().text("Clear !");
+            $("#clearButton").click(function() {
+                $("#clearConfirmation").button().text("Click here to Confirm !");
+                $("#clearConfirmation").fadeOut(1500,function() {
+                    $("#clearConfirmation").button().unbind("click");
+                    $("#clearConfirmation").html("");
+                    $("#clearConfirmation").show();
+                });
+                $("#clearConfirmation").button().click(function() {
+                    $("#clearConfirmation").button().unbind("click");
+                    $("#clearConfirmation").html("");
+                    $("#clearConfirmation").show();
+                    $("#clearButton").unbind("click");
+                    $("#clearButton").button( "option", "disabled", true );
+                    $("#clearButton").text("Clearing stats...");
+                    $.get(service("admin/services/clear"), function(data){
+                        $("#clearButton").button( "option", "disabled", false );
+                        setupClearButton();
+                        alert("Stats have been cleared.");
+                        refresh();
+                    });
+                });
+            });
+        };
+
+        function checkIfRefreshFinished() {
+            window.refreshCounter = window.refreshCounter-1;
+            if (window.refreshCounter <=0) {
+                $("#refreshingImage").hide();
+            }
+        }
+
+        $(document).ready(function() {
+            setupClearButton();
+
+            window.serverStats = new ServerStats("serverStats");
+            window.serverStats.refreshed = checkIfRefreshFinished;
+            window.activeThreadsTable = new ActiveThreadsTable("activeThreadsTable");
+            window.activeThreadsTable.refreshed = checkIfRefreshFinished;
+            window.servicesSummaryTable = new ServicesSummaryTable("servicesTable");
+            window.servicesSummaryTable.refreshed = checkIfRefreshFinished;
+            window.serverStatsMonitor = new ServerStatsMonitor("serverStatsMonitorDiv", true);
+            window.serverStatsMonitor.refreshed = checkIfRefreshFinished;
+
+            refresh();
+        });
+
+    </script>
+
+</body>
+
+
+</html>

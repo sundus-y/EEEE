@@ -1,0 +1,17 @@
+<list>
+    <loader className="PartIdentificationNumberLoader"/>
+    <loader className="ApplicablePartsInCatalogModelYearLoader"/>
+    <loader className="PartsListLoader"/>
+    <loader className="ComponentDescriptionsLoader"/>
+    <loader className="FNAVinMatrixLoader"/>
+    <loader className="PartDescriptionFinderLoader"/>
+    <loader className="ComponentIdentificationNumbersLoader"/>
+    <loader className="ComponentIdsInCatalogsLoader">
+        <loader className="CatalogueLoader"/>
+        <loader className="ApplicablePartsInCatalogModelYearLoader"/>
+        <loader className="PartsListLoader"/>
+    </loader>
+    <loader className="CatalogueLoader"/>
+    <loader className="PartTextsLoader"/>
+    <loader className="ComponentTextsLoader"/>
+</list>

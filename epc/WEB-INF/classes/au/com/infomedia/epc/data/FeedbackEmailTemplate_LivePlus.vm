@@ -1,0 +1,458 @@
+<html>
+    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <style>
+        h2 {
+        	font-family:Verdana,sans-serif;
+        	color:#3D7A8F;
+        }
+        .,.td, p.MsoNormal, li.MsoNormal, div.MsoNormal
+        {
+			margin-left:1pt;
+			margin-right:1pt;
+        	font-size:9.0pt;
+        	font-family:Verdana,sans-serif;
+		}
+		.small
+        {
+			margin-left:2pt;
+        	margin-bottom:.0001pt;
+        	font-size:7.0pt;
+        	font-family:Verdana,sans-serif;
+		}
+		.MsoNormalHeadline, p.MsoNormalHeadline, span.MsoNormalHeadline {			
+			font-weight:bold;
+			font-size:14.0pt;
+			color:#3D7A8F;
+			line-height:150%;
+			font-family:Verdana,sans-serif;
+		}
+		.MsoNormalSubHeadline, p.MsoNormalSubHeadline, span.MsoNormalSubHeadline {
+			font-weight:bold;
+			font-size:11.0pt;
+			line-height:150%;
+			font-family:Verdana,sans-serif; color:#3D7A8F;
+		}
+		.MsoSmallSubHeadline {
+			font-weight:bold;
+			font-size:10.0pt;
+			font-family:Verdana,sans-serif; color:#3D7A8F;
+		}
+        p.MsoSalutation, li.MsoSalutation, div.MsoSalutation
+        {
+			margin-top:11.0pt;
+        	margin-right:0cm;
+        	margin-bottom:11.0pt;
+        	margin-left:0cm;
+        	line-height:11.0pt;
+        	font-size:10.0pt;
+        	font-family:Arial,sans-serif;
+        	letter-spacing:-.25pt;
+		}
+        a:link, span.MsoHyperlink
+        {	color:blue;
+        	text-decoration:underline;
+		}
+        a:visited, span.MsoHyperlinkFollowed
+        	{color:purple;
+        	text-decoration:underline;}
+        p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+        	{margin:0cm;
+        	margin-bottom:.0001pt;
+        	font-size:8.0pt;
+        	font-family:Tahoma,sans-serif;}
+        span.SalutationChar
+        	{font-family:Arial,sans-serif;
+        	letter-spacing:-.25pt;}
+        span.BalloonTextChar
+        	{font-family:Tahoma,sans-serif;}
+        span.EmailStyle21
+        	{font-family:Calibri,sans-serif;
+        	color:windowtext;}
+        .MsoChpDefault
+        	{font-size:10.0pt;}
+        @page Section1
+        	{margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+        div.Section1
+        	{}
+		.tblBorderBlue{		BORDER-RIGHT: #3D7A8F 1px solid;
+							BORDER-LEFT: #3D7A8F 1px solid;
+							BORDER-TOP: #3D7A8F 1px solid;
+							BORDER-BOTTOM: #3D7A8F 1px solid;
+							COLOR: #000000;
+		}
+		.tdRed{ BACKGROUND-COLOR: #ff0000; FONT-WEIGHT:bold;FONT-SIZE:12pt;COLOR: #ffffff;}
+		.tdPink{ BACKGROUND-COLOR: #da58cd; FONT-WEIGHT:bold;FONT-SIZE:12pt;COLOR: #ffffff;}
+        </style>
+    </head>
+    <body link="blue" vlink="purple" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse; border:solid">
+    <div align="center">
+
+		##TOPHEADER##
+        <table width="98%">
+        <tbody>
+			<tr>
+				##<img id="logo" src="resources/public/images/IFM-MicrocatLivePlus.jpg"height="50" width="300">
+			</tr>
+			<tr>
+                <td>    				
+    				<h2>$lex_microcatCommentsAndImprovements</h2>
+                </td>
+    				#if ($candiVO.isEmergent)
+    		           <td align="center" class="tdRed">$candiVO.priority</td>
+    				#else
+    					#if ($candiVO.isUrgent)
+        		           <td align="center" class="tdPink">$candiVO.priority</td>
+        				#else
+        		           <td align="center"><b>$candiVO.priority</b></td>
+        				#end
+    				#end
+                <td>$lex_creationDate&nbsp;$candiVO.reportDate</td>
+			</tr>
+
+            <tr>
+                <td colspan="3" align="left">
+                    <p class="small">Read in Language:<br />$candiVO.baseURL</p>
+                </td>
+            </tr>
+       </tbody>
+       </table>
+
+	##TOPDETAILS##
+	<table width="98%">
+		<tr>
+			<td class="MsoNormalSubHeadline">$lex_details</td>
+		</tr>
+		<tr>
+        <table width="98%" class="tblBorderBlue">
+            <thead>
+            <tr class="MsoSmallSubHeadline">
+                <td>
+					$lex_priority
+                </td>
+                <td>
+					$lex_category
+                </td>
+                <td>
+					$lex_subcategory
+                </td>
+                <td>
+					$lex_errorTypes
+                </td>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td valign="top">$candiVO.priority</td>
+                <td valign="top">$candiVO.category</td>
+                <td valign="top">$candiVO.subcategory</td>
+                <td valign="top" align="left">
+    				#foreach ($errorType in $candiVO.errorTypes)
+    					$errorType
+    					<br />
+    				#end
+                </td>
+            </tr>
+            </tbody>
+        </table>
+		</tr>
+	</table>
+
+	##USERDETAILSTABLE##
+	<table width="98%">
+    	<tr>
+            <td class="MsoNormalSubHeadline">$lex_customerDetails</td>
+    	</tr>
+    	<tr>
+            <table border="0" class="tblBorderBlue" width="98%">
+            <tbody>
+            <tr>
+            <td>
+                <!-- For each Customer... -->
+                <table border="0">
+                <tbody>
+
+                <!--  Users' Name -->
+                <tr>
+                    <td align="right">$lex_name:</td>
+                    <td>$candiVO.contactName</td>
+                </tr>
+
+        		<!--  Users' Company Name -->
+                <tr>
+                    <td align="right">$lex_companyName:</td>
+                    <td>$candiVO.companyName</td>
+                </tr>
+
+        		<!-- Users' Email Address -->
+        		<tr>
+                    <td align="right">$lex_email:</td>
+                    <td>$candiVO.contactEmail</td>
+                </tr>
+
+                <!-- Users' Company Phone -->
+                <tr>
+                    <td align="right">$lex_phone:</td>
+                    <td>$candiVO.companyPhone</td>
+                </tr>
+
+                <!-- Users' Company Fax -->
+                <tr>
+                    <td align="right">$lex_fax:</td>
+                    <td>$candiVO.companyFax</td>
+                </tr>
+
+                <!--  Users' Address -->
+        		<tr>
+                    <td valign="top" rowspan="2" align="right">$lex_address:</td>
+        			<td>$candiVO.postalAddress</td>
+                </tr>
+
+                </tbody>
+                </table>
+
+            </td>
+
+            <td>
+                <table border="0">
+                <tbody>
+
+                <!-- Users' Supplier details -->
+                <tr>
+                    <td align="right">$lex_supplier:</td>
+                    <td>$candiVO.dealerName</td>
+                </tr>
+
+                <!-- Users' Supplier Contact Name -->
+                <tr>
+                    <td align="right">$lex_contact:</td>
+                    <td>$candiVO.dealerContactName</td>
+                </tr>
+
+        		<!-- Users' Supplier Contact Phone -->
+        		<tr>
+                    <td align="right">$lex_phone:</td>
+                    <td>$candiVO.dealerPhone</td>
+                </tr>
+
+        		<!-- Users' Supplier Contact Fax -->
+        		<tr>
+                    <td align="right">$lex_fax:</td>
+                    <td>$candiVO.dealerFax</td>
+                </tr>
+
+                <!-- Users' Supplier Address -->
+        		<tr>
+                    <td valign="top" align="right">$lex_address:</td>
+                    <td>$candiVO.dealerPostalAddress</td>
+                </tr>
+
+                </tbody>
+                </table>
+
+            </td>
+            </tr>
+            </tbody>
+            </table>
+    	</tr>
+    </table>
+	<br />
+
+	<table width="98%" border="0" cellpadding="0" cellspacing="0">
+	  <col width="47%" />
+	  <col width="2" />
+	  <col width="47%" />
+	  <tbody>
+		<tr>
+		  <td valign="top">
+			##SECTIONDETAILSTABLE##
+
+    		<p class="MsoNormalSubHeadline">$lex_generalSectionInfo</p>
+
+            <table width="98%" class="tblBorderBlue">
+                <thead>
+                    <tr class="MsoSmallSubHeadline" >
+                        <td>$lex_section</td>
+                        <td>$lex_partNumber</td>
+                        <td>$lex_callout</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td valign="top">$candiVO.candi.section</td>
+                        <td valign="top">$candiVO.candi.partNumber</td>
+                        <td valign="top">$candiVO.candi.callout</td>
+                    </tr>
+    			#*
+                    <tr>
+                        <td colspan="3" valign="top">
+                        <b>$lex_subSystemIssues</b>
+                        <br />$candiVO.subSystemIssues</td>
+                    </tr>
+    				*#
+    			</tbody>
+            </table>
+
+		  </td>
+
+		  <td valign="top">
+			##VEHICLEDETAILSTABLE##
+
+            <p class="MsoNormalSubHeadline">$lex_vehicleDetails</p>
+
+            <table width="98%" class="tblBorderBlue">
+				<thead>
+                    <tr class="MsoSmallSubHeadline" >
+                        <td>$lex_model</td>
+                        <td>$lex_vin</td>
+                        <td>$lex_registrationNo</td>
+                        <td>$lex_buildDate</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td valign="top">$candiVO.candi.model</td>
+                        <td valign="top">$candiVO.candi.vin</td>
+                        <td valign="top">$candiVO.candi.rego</td>
+                        <td valign="top">$candiVO.buildDate</td>
+                    </tr>
+
+                 #*  <tr>
+                        <td colspan="4" valign="top"><b>$lex_additionalVehicleInfo</b> -->
+                        <br />
+                        $candiVO.candi.additionalVehicleInfo
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="4" valign="top"><b>$lex_interpretation</b>
+                        <br />$candiVO.interpretation
+                        </td>
+            		</tr>
+    			 *#
+				</tbody>
+    		</table>
+		  </td>
+
+		</tr>
+	  </tbody>
+	</table>
+<br />
+
+	  ##APPLICATIONINFOTABLE##
+	  <table width="98%">
+		<thead>
+    		<tr valign="top">
+    			<td class="MsoNormalSubHeadline">$lex_microcatApplicationAndComponents</td>
+    		</tr>
+		</thead>
+		<tbody>
+    		<tr>
+                <table width="98%" class="tblBorderBlue">
+                <thead>
+                <tr class="MsoSmallSubHeadline">
+                    <td>$lex_application</td>
+                    <td>$lex_version</td>
+                    <td>$lex_franchise</td>
+                    <td>$lex_languages</td>
+    				<td width="40%">$lex_webBrowser</td>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td valign="top">$candiVO.contactName</td>
+                    <td valign="top">
+                        <table border="0" cellpadding="0" cellspacing="1">
+                            <tr>
+                                <td align="left">$lex_application:</td>
+                                <td align="left">$candiVO.candi.flexAppVersion</td>
+                            </tr>
+
+                            <tr>
+                                <td align="left">$lex_webService:</td>
+                                <td align="left">$candiVO.candi.webserviceVersion</td>
+                            </tr>
+
+                            <tr>
+                                <td align="left">$lex_data:</td>
+                                <td align="left">$candiVO.candi.dataVersion</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td valign="top">
+    					$candiVO.franchiseCode<small><br />($candiVO.franchiseDescription)</small>
+                    </td>
+                    <td valign="top">
+                        <table border="0" cellpadding="0" cellspacing="1">
+                            <tr>
+                                <td align="right">$lex_application:</td>
+                                <td align="right">$candiVO.contact.applicationLanguage</td>
+                        	</tr>
+                            <tr>
+                                <td align="right">$lex_data:</td>
+                				<td align="right">$candiVO.contact.subscriptionLanguage</td>
+                        	</tr>
+        				</table>
+    				</td>
+        			<td valign="top" width="40%">
+        				User Agent: $candiVO.candi.userAgent<br />Application: $candiVO.candi.applicationInfo<br /><i>Refering URL: </i>$candiVO.candi.referer
+                    </td>
+                </tr>
+                </tbody>
+                </table>
+    		</tr>
+		</tbody>
+	  </table>
+<br />
+
+	  ##COMMENTSTABLE##
+	  <table width="98%">
+		<tr valign="top">
+			<td class="MsoNormalSubHeadline">$lex_comments</td>
+		</tr>
+		<tr>
+        	<table width="98%" class="tblBorderBlue">
+                <tbody>
+                    <tr>
+                        <td valign="top">$candiVO.comments</td>
+                    </tr>
+                </tbody>
+            </table>
+		</tr>
+	  </table>
+
+	<table width="98%" class="tblOrderHeader" cellspacing="0">
+	  <tbody>
+		<tr>
+		  <td>
+			<center>
+				##FOOTERTEXT##
+				$candiVO.footText
+			</center>
+		  </td>
+		</tr>
+	  </tbody>
+	</table>
+	<br />
+
+		##CANDIID##
+		##<p align="left" class="small">C&I ID:$candiVO.id</p>
+
+		## EMAIL FOOTER
+        <span style="font-size:10.0pt; font-family:Arial,sans-serif; letter-spacing:-.25pt">
+        <hr size="2" width="98%" align="center">
+        </span></div>
+
+    	<table width="95%" align="center">
+			<tr>
+                <p class="MsoSalutation" style="margin:0cm; margin-bottom:.0001pt"><span style="font-size:7.0pt; font-family:Verdana,sans-serif">
+					At Infomedia Ltd, your right to privacy is important. We are committed to complying with legislation governing privacy of personal information by businesses and to protecting and safeguarding your privacy when you deal with us.
+				<br>For more information or to read our full privacy policy, please visit
+                <a href="redir.aspx?C=8aa07588991a48af94abded83061379d&amp;URL=http%3a%2f%2fwww.infomedia.com.au%2fPrivacyPolicy.aspx%3flang%3dEN" target="_blank">
+					http://www.infomedia.com.au/PrivacyPolicy.aspx</a>.<br>
+			</tr>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+Source File	Lexicon ID	English Text	New Lexicon ID (Located by Text)
+ApplicationProxy.as	-1		-1
+EditNoteMediator.as	-1	Add unknown note	-1
+PartDetailsMediator.as	-1	Alt. Part Number	7942
+PartDetailsMediator.as	-1	Alt. Part Number Qty	7943
+UserPrefsMediatorExt.as	-1	BOM data	-1
+IllustrationToolsMediator.as	-1	Click for more notes	-1
+CartMediator.as	-1	Click to sort the order list in ascending order	-1
+CartMediator.as	-1	Click to sort the order list in descending order	-1
+IntegrationStatusMediator.as	-1	Connection to Superservice applications	-1
+CopyrightMediator.as	-1	Copyright entitles the owner to the exclusive right to copy and reproduce the Materials. Copying or reproducing the Materials may infringe the copyright.	-1
+LexiconProxy.as	-1	Cust. Specific Price Ex. Tax	-1
+LexiconProxy.as	-1	Cust. Specific Price In. Tax	-1
+ApplicationProxy.as	-1	DMS unable to cancel order.	-1
+ModuleLoaderMediator.as	-1	Deployment issue, the module for DMSi cannot be located.	-1
+LoginPopupMediator.as	-1	Dongle Error	7953
+EditNoteMediator.as	-1	Edit unknown note	-1
+ApplicationProxy.as	-1	Error loading Direct Visual Access	-1
+ApplicationProxy.as	-1	Error loading the Bulletin	8409
+ApplicationProxy.as	-1	Error loading the application features	-1
+ApplicationProxy.as	-1	Error loading the list of major attributes	-1
+ApplicationProxy.as	-1	Error loading the list of option codes	-1
+ApplicationProxy.as	-1	Error loading the selected language	-1
+ApplicationProxy.as	-1	Error retrieving accessory information	8418
+ApplicationProxy.as	-1	Error retrieving callout attributes	-1
+ApplicationProxy.as	-1	Error sending Comments and Improvements	-1
+IntegrationStatusMediator.as	-1	From: [x]	-1
+IntegrationStatusMediator.as	-1	Incoming Transfer	8265
+CopyrightMediator.as	-1	Infomedia is the rightful owner, licensee and/or licensor of copyright in the Materials. Copyright in certain elements of the Materials remains subject to ownership by third parties, including the Automaker.	-1
+ApplicationProxy.as	-1	Item no longer available	-1
+PrintPartPageMediator.as	-1	Key	129
+IntegrationStatusMediator.as	-1	Load Order	-1
+IntegrationStatusMediator.as	-1	Load [x]	-1
+CatalogueProxy.as	-1	Location	500
+ModuleLoaderMediator.as	-1	Location Error	-1
+AbbreviationsMediator.as	-1	Long Description	-1
+ApplicationProxy.as	-1	Microcat Live	4611
+ApplicationProxy.as	-1	Microcat Live has not found an authorised dongle. Please contact your Microcat Live helpdesk for assistance. Please close the browser now.	-1
+AbstractTransferButtonMediator.as	-1	Microcat.Network options	-1
+PrintVehicleInformationMediatorExt.as	-1	Page	3355
+MMPIncomingRequestMediator.as	-1	Please enter reply	-1
+EditNoteMediator.as	-1	Private Note	-1
+PrintPartPageMediator.as	-1	Remarks	8331
+UserPrefsMediatorExt.as	-1	Show BOM data	-1
+CartMediator.as	-1	Sort List	-1
+CatalogueSelectionMediator.as	-1	Superservice Menus	8344
+ApplicationProxy.as	-1	The Order has been cancelled.	-1
+ApplicationProxy.as	-1	The application failed to load the DVA information. Please try again later.	-1
+ApplicationProxy.as	-1	The application failed to load the e-mail address of Customer Service. Please try again later.	-1
+ApplicationProxy.as	-1	The application failed to load the list of major attributes. Please try again later.	8404
+ApplicationProxy.as	-1	The application failed to load the list of option codes. Please try again later.	8406
+ApplicationProxy.as	-1	The application failed to load the requested Bulletin	-1
+ApplicationProxy.as	-1	The application failed to load the selected language and will default to English. You can still use the application in any other language	-1
+ApplicationProxy.as	-1	The application failed to retrieve the Customer Tag. It could have been created within a different market. Please change markets to retrieve the Customer Tag.	-1
+ApplicationProxy.as	-1	The application failed to retrieve the accessory information for the selected part.	-1
+ApplicationProxy.as	-1	The application failed to retrieve the attributes for the Selected callout.	-1
+ApplicationProxy.as	-1	The application failed to retrieve the list of Features.	-1
+CopyrightMediator.as	-1	The logos “Microcat”, “Microcat LIVE”, “Microcat MARKET”, “Auto PartsBridge” and “Superservice Menus” are all trademarks of Infomedia Ltd and must not be used without the prior specific, written permission of Infomedia Ltd. All other trademarks are the property of their respective holders.	-1
+CopyrightMediator.as	-1	This website and its contents (the “Materials”) are subject to copyright laws.	-1
+AbstractTransferButtonMediator.as	-1	Transfer part to [x]	-1
+TransferButtonOrderMediator.as	-1	Transfer the Order List to D2DLink.	-1
+ApplicationProxy.as	-1	VIN Received	-1
+ApplicationProxy.as	-1	VIN received from Superservice Menus.\nDo you want to discard the currently loaded vehicle and perform a search for this VIN?	-1
+CopyrightMediator.as	-1	You may display and print the materials in unaltered form as per the End User License Agreement. You must not otherwise copy, reproduce or exercise any other exclusive rights belonging to the  copyright owner(s) of the Materials for any purpose except as expressly permitted by the End User License Agreement.	-1
+CopyrightMediator.as	-1	© 2011 Infomedia Ltd and its rightful licensors. All Rights Reserved.	-1

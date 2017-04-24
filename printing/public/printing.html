@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>PDFCreator (Wink)</title>
+</head>
+
+<script type="text/javascript" src="../js/ajax.js"> </script>
+<script type="text/javascript" src="../js/templates.js"> </script>
+
+<body onload="init();">
+    <h1>PDFCreator</h1>
+    <!-- Action value will be set in runtime  -->
+    
+	<form id="templateDataForm" action="../" method="post">
+    <table>
+        <tbody style="background-color: #CEE3F6;">
+            <tr>
+	            <td>Template</td>
+	            <td>
+	                <select id="template" name="template" onchange="changeTemplateData(this.selectedIndex);">
+	                    <option></option>
+						<option value="sectionData">Section Image and Parts</option>
+						<option value="sectionData">Section Image</option>
+						<option value="sectionData">Section Parts</option>
+						<option value="vehicleInformation">Vehicle Information</option>
+						<option value="tmhuOrder">TMHU Sample Order</option>
+						<option value="liveOrder_1_0">Microcat Live Order (v. 1.0)</option>
+						<option value="liveOrder_1_1">Microcat Live Order (v. 1.1)</option>
+						<option value="candi">CandI</option>
+	                </select>
+	                (Please select template)
+	            </td>
+	        </tr>
+        </tbody>
+        <tr>
+            <td>Franchise</td>
+            <td>
+                <select name="franchise">
+                    <option></option>
+					<option>CHR</option>
+					<option>TMC</option>
+                    <option>FNA</option>
+                    <option>LRE</option>
+                    <option>HYW</option>
+                    <option>KIA</option>
+                    <option>FAP</option>
+                    <option>FEU</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Product</td>
+            <td>
+                <select name="product" id="product" onchange="changeProductData(this);">
+                    <option></option>
+                    <option selected="selected">LIVE</option>
+                    <option>MARKET</option>
+                    <option>APB</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>FileName</td>
+            <td>
+                <input name="fileName" value="example1.pdf"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Title</td>
+            <td>
+                <input id="title" name="title" value="Text title of the document" size="100"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Footer</td>
+            <td>
+                <input id="footer" name="footer" value="Text footer of the document" size="100"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Header<br>(XML)</td>
+            <td>
+                <textarea id="header" name="header" rows="15" cols="100">
+                </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>BodyText<br>(XML)</td>
+            <td>
+                <textarea id="bodyText" name="bodyText" rows="20" cols="100">
+                </textarea>
+            </td>
+        </tr>
+    </table>
+    <button type="submit">Create PDF</button>
+    </form>
+</body>
+</html>

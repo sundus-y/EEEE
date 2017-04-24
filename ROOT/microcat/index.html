@@ -1,0 +1,200 @@
+<html lang="en">
+<head profile="http://www.w3.org/2005/10/profile">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Microcat V6 for Hyundai</title>
+<link rel="shortcut icon" type="image/x-icon" href="${favicon}" />
+
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="history/history.css" />
+<!--  END Browser History required section -->
+
+<script src="js/jsUtils.js" language="javascript"></script>
+<script src="js/connector.js" language="javascript"></script>
+<script src="js/AC_OETags.js" language="javascript"></script>
+<script src="js/jquery-1.5.2.min.js" language="javascript"></script>
+<script src="js/jquery-1.7.2.min.js" language="javascript"></script>
+<script src="js/jquery.noty.js" language="javascript"></script>
+<script src="js/notificationHandler.js" language="javascript"></script>
+<script src="js/errorCheck.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section 
+<script src="history/history.js" language="javascript"></script>-->
+<!--  END Browser History required section -->
+
+<style>
+body { margin: 0px; overflow:hidden }
+img {vertical-align:middle;
+	 float:left;}
+</style>
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+
+window.onbeforeunload = clean_up;
+
+function clean_up(evt) {
+	var flex = document.hywV6 || window.hywV6; 
+	var warning = flex.myFlexExitFunction();
+	
+	if (warning != "")
+	{	
+		return warning;
+	}
+	else
+	{
+		return;
+	}
+}
+
+function get_url() {
+	return document.location || window.location;
+}
+
+// Gets the url's query params and return them as an associative array.
+function getUrlVars()
+{
+    var url = get_url().toString();
+    var vars = [], hash;
+
+    if (url.indexOf('?') != -1) {
+        var hashes = url.slice(url.indexOf('?') + 1).split('&');
+        for(var i = 0; i < hashes.length; i++)
+        {
+            hash = hashes[i].split('=');
+            vars.push(hash[0]);
+            vars[hash[0]] = hash[1];
+        }
+    }
+    return vars;
+}
+
+// Get the 'wmode' for the Flash movie.
+function getWindowMode()
+{
+    var mode = getUrlVars()["wmode"];
+
+    if (mode == null) {
+        mode = "opaque";
+    }
+
+    return mode;
+}
+
+// -----------------------------------------------------------------------------
+// -->
+</script>
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+try {
+
+var pageTracker = _gat._getTracker("UA-9657629-1");
+
+pageTracker._trackPageview();
+
+} catch(err) {}</script>
+
+ 
+</head>
+<body scroll="no">
+<link rel="stylesheet" type="text/css" href="js/css/jquery.noty.css"/>
+<link rel="stylesheet" type="text/css" href="js/css/noty_theme_ifm.css"/>
+<script language="JavaScript" type="text/javascript">
+<!--
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+// 'opaque' for jquery, 'window' for AQA
+var windowMode = getWindowMode();
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+    // wmode must be 'window' for AQA to 'see' the swf
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"wmode", windowMode,
+		"id", "hywV6",
+		"quality", "high",
+		"bgcolor", "#ffffff",
+		"name", "hywV6",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	// USE THIS FOR CANADA = a0iS00000000C2tIAE
+	// USE THIS FOR AUSTRALIA =a0iS00000000C2yIAE 
+	AC_FL_RunContent(
+			"src", "hywV6?ver=6.0.3076.53428",
+			"flashVars", "epcDomain=intdev.epc.ifmsystems.com:8080",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"wmode", windowMode,
+			"id", "hywV6",
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "hywV6",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Alternate HTML content should be placed here. '
+  	+ 'This content requires the Adobe Flash Player. '
+   	+ '<a href=http://www.adobe.com/go/getflash/>Get Flash</a>';
+    document.write(alternateContent);  // insert non-flash content
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="hywV6" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="hywV6?ver=6.0.3076.53428" />
+			<param name="quality" value="high" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="hywV6.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="hywV6" align="middle"
+				play="true"
+				loop="false"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+    <partformats>
+        <number bind="partnumber" label="Part number" lexid="7217" code="1" isdefault="1"/>
+        <number bind="pnc" label="PNC" lexid="2943" code="2" isdefault="0"/>
+    </partformats>
+
+    <partsearch>
+        <type bind="part" label="Part Number" lexid="7217" code="1" isdefault="0" iscrosscatalogdefault="0" matchexact="1" matchpartialstart="1" matchdefault="matchexact" crosscatalog="1" crosscatalogselected="0" crosscatalogwithoutparts="1" />
+        <type bind="pnc" label="PNC" lexid="2943" code="2" isdefault="1" iscrosscatalogdefault="1" matchexact="1" matchpartialstart="0" matchdefault="matchexact" crosscatalog="1" crosscatalogselected="0" crosscatalogwithoutparts="1" />
+        <type bind="desc" label="Description" lexid="72" code="102" isdefault="0" iscrosscatalogdefault="0" matchexact="1" matchpartialstart="1" matchdefault="matchexact" crosscatalog="0" crosscatalogselected="0" />
+        <type bind="section" label="Section" lexid="239" code="800" isdefault="0" iscrosscatalogdefault="0" crosscatalog="0" crosscatalogselected="0" />
+        <type bind="supersessionpart" label="Supersession" lexid="7552" code="300" isdefault="0" iscrosscatalogdefault="0" matchexact="1" matchpartialstart="0"
+        				matchdefault="matchexact" crosscatalog="0" crosscatalogselected="0" crosscatalogwithoutparts="0"
+        				checkmodel="0" checkdate="0" checkmodeldefault="0" checkdatedefault="0" />        
+    </partsearch>
+	<vehiclesearch>
+		<type bind="vin" label="VIN" lexid="299" code="0" markets="ALL"/>
+		<type bind="rego" label="Registration" lexid="220" code="0" markets="DATA" />
+	</vehiclesearch>
+    <markets>
+    	<marketcode value="default"/>
+    </markets>
+</rules>

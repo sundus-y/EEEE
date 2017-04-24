@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ifm-data-update</artifactId>
+    <name>Infomedia Data Update Management</name>
+    <version>1.1.70-35</version>
+    <description>Package contains periodic data update management.</description>
+    <dependencies>
+        <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-util</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-monitoring</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-configuration</artifactId>
+        </dependency>
+    </dependencies>
+
+    <parent>
+        <groupId>au.com.infomedia</groupId>
+        <artifactId>ifm-library</artifactId>
+        <version>1.1.70-35</version>
+    </parent>
+
+</project>

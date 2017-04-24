@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="vehicleInformationHYW_sections" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<subDataset name="items">
+		<queryString language="xPath">
+			<![CDATA[item]]>
+		</queryString>
+		<field name="col1" class="java.lang.String">
+			<fieldDescription><![CDATA[@col1]]></fieldDescription>
+		</field>
+		<field name="col2" class="java.lang.String">
+			<fieldDescription><![CDATA[@col2]]></fieldDescription>
+		</field>
+		<field name="col3" class="java.lang.String">
+			<fieldDescription><![CDATA[@col3]]></fieldDescription>
+		</field>
+		<field name="header1" class="java.lang.String">
+			<fieldDescription><![CDATA[../column1]]></fieldDescription>
+		</field>
+		<field name="header2" class="java.lang.String">
+			<fieldDescription><![CDATA[../column2]]></fieldDescription>
+		</field>
+		<field name="header3" class="java.lang.String">
+			<fieldDescription><![CDATA[../column3]]></fieldDescription>
+		</field>
+		<field name="item" class="java.lang.String">
+			<fieldDescription><![CDATA[.]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="dataset1"/>
+	<field name="description" class="java.lang.String">
+		<fieldDescription><![CDATA[@description]]></fieldDescription>
+	</field>
+	<field name="layout" class="java.lang.String">
+		<fieldDescription><![CDATA[@layout]]></fieldDescription>
+	</field>
+	<group name="section" isReprintHeaderOnEachPage="true">
+		<groupExpression><![CDATA[$F{description}]]></groupExpression>
+		<groupHeader>
+			<band height="21">
+				<textField>
+					<reportElement x="0" y="0" width="543" height="21"/>
+					<textElement>
+						<font fontName="Arial Unicode MS" size="14" isBold="true" pdfEncoding="Identity-H"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{description}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="6"/>
+		</groupFooter>
+	</group>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<componentElement>
+				<reportElement key="table" x="2" y="-1" width="360" height="18">
+					<printWhenExpression><![CDATA["table".equals($F{layout})]]></printWhenExpression>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="items">
+						<dataSourceExpression><![CDATA[((au.com.infomedia.printing.jasperreports.XMLDataSource)$P{REPORT_DATA_SOURCE}).subDataSourceMany("/data/body/section[@description='"+$F{description}+"']/item")]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="114">
+						<jr:columnHeader height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20"/>
+								<textElement verticalAlignment="Middle" markup="none">
+									<font fontName="Arial Unicode MS" size="9" isBold="true" pdfEncoding="Identity-H"/>
+								</textElement>
+								<textFieldExpression class="java.lang.String"><![CDATA[$F{header1}]]></textFieldExpression>
+							</textField>
+						</jr:columnHeader>
+						<jr:detailCell height="17" rowSpan="1">
+							<textField isStretchWithOverflow="true">
+								<reportElement x="0" y="0" width="90" height="15"/>
+								<textElement verticalAlignment="Middle">
+									<font fontName="Arial Unicode MS" size="9" pdfEncoding="Identity-H"/>
+								</textElement>
+								<textFieldExpression class="java.lang.String"><![CDATA[$F{col1}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="109">
+						<jr:columnHeader height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20"/>
+								<textElement verticalAlignment="Middle" markup="none">
+									<font fontName="Arial Unicode MS" size="9" isBold="true" pdfEncoding="Identity-H"/>
+								</textElement>
+								<textFieldExpression class="java.lang.String"><![CDATA[$F{header2}]]></textFieldExpression>
+							</textField>
+						</jr:columnHeader>
+						<jr:detailCell height="17" rowSpan="1">
+							<textField isStretchWithOverflow="true">
+								<reportElement x="0" y="0" width="90" height="15"/>
+								<textElement verticalAlignment="Middle">
+									<font fontName="Arial Unicode MS" size="9" pdfEncoding="Identity-H"/>
+								</textElement>
+								<textFieldExpression class="java.lang.String"><![CDATA[$F{col2}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="107">
+						<jr:columnHeader height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20"/>
+								<textElement verticalAlignment="Middle" markup="none">
+									<font fontName="Arial Unicode MS" size="9" isBold="true" pdfEncoding="Identity-H"/>
+								</textElement>
+								<textFieldExpression class="java.lang.String"><![CDATA[$F{header3}]]></textFieldExpression>
+							</textField>
+						</jr:columnHeader>
+						<jr:detailCell height="17" rowSpan="1">
+							<textField isStretchWithOverflow="true">
+								<reportElement x="0" y="0" width="90" height="15"/>
+								<textElement verticalAlignment="Middle">
+									<font fontName="Arial Unicode MS" size="9" pdfEncoding="Identity-H"/>
+								</textElement>
+								<textFieldExpression class="java.lang.String"><![CDATA[$F{col3}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement x="0" y="0" width="541" height="17">
+					<printWhenExpression><![CDATA[!"table".equals($F{layout})]]></printWhenExpression>
+				</reportElement>
+				<jr:list xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" printOrder="Vertical">
+					<datasetRun subDataset="items">
+						<dataSourceExpression><![CDATA[((au.com.infomedia.printing.jasperreports.XMLDataSource)$P{REPORT_DATA_SOURCE}).subDataSourceMany("/data/body/section[@description='"+$F{description}+"']/item")]]></dataSourceExpression>
+					</datasetRun>
+					<jr:listContents height="17" width="541">
+						<textField>
+							<reportElement x="0" y="0" width="540" height="17"/>
+							<textElement>
+								<font fontName="Arial Unicode MS" size="9" pdfEncoding="Identity-H"/>
+							</textElement>
+							<textFieldExpression class="java.lang.String"><![CDATA[$F{item}]]></textFieldExpression>
+						</textField>
+					</jr:listContents>
+				</jr:list>
+			</componentElement>
+		</band>
+	</detail>
+</jasperReport>

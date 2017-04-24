@@ -1,0 +1,57 @@
+
+
+a img {
+	border: 0;
+}
+table.sortable {
+	border-spacing: 0;
+	border: 1px solid #000;
+	border-collapse: collapse;
+
+	border-top: solid 2px #000066;
+	border-bottom: solid 2px #000066;
+	border-left: solid 2px #000066;
+	border-right: solid 2px #000066;
+	margin-left: 32px;
+	padding: 2px;
+	cell-spacing: 0px;
+	min-width: 90%;
+}
+table.sortable th, table.sortable td {
+	padding: 2px 4px 2px 4px;
+
+	border-style: solid;
+	border-color: #444;
+
+	background-color: #796842;
+	font-family:Arial, Helvetica, sans-serif;
+	color: black;
+	font-size:12px;
+	line-height:170%;
+	margin:0px;
+	padding:1px;
+	border: solid 2px #000066;
+	border-top: solid 2px #000066;
+	border-bottom: solid 2px #000066;
+	border-left: solid 2px #000066;
+	border-right: solid 2px #000066;
+}
+table.sortable th {
+	border-width: 0px 1px 1px 1px;
+	background-color: #796842;
+	color: white;
+}
+table.sortable td {
+	border-width: 0px 1px 0px 1px;
+}
+table.sortable tr.odd td {
+	background-color: #ddd;
+}
+table.sortable tr.even td {
+	background-color: #fff;
+}
+table.sortable tr.sortbottom td {
+	border-top: 1px solid #444;
+	background-color: #ccc;
+	font-weight: bold;
+}

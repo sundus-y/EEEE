@@ -1,0 +1,64 @@
+	/* CORE STYLES*/
+	/* noty bar */
+	.noty_bar.noty_theme_ifm {
+		margin-left: -25px;
+		margin-bottom: 12px;
+        color: #464646;
+		font-family: "Arial", "Hiragino Kaku Gothic Pro", "Times New Roman";
+        padding: 8px 8px 8px 8px;
+	}
+
+	/**
+	 * Padding between the inner border and the text
+	 */
+	.noty_bar.noty_theme_ifm.noty_closable .noty_message {
+		padding: 10px 34px 10px 10px;
+	}
+		
+	/* noty_button */
+	.noty_bar.noty_theme_ifm .noty_message .noty_buttons button {
+		margin-left: 250px;
+		margin-top: 5px;
+	}
+		
+	/* LAYOUTS */		
+	.noty_bar.noty_theme_ifm.noty_layout_bottomRight {
+		border: 1px solid #eee;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	}
+	
+	.noty_bar.noty_theme_ifm.noty_layout_bottomRight .noty_message {
+		font-size: 13px;
+	}
+	
+	/* NOTIFICATION TYPES */
+	.noty_bar.noty_theme_ifm.noty_alert {
+		background-color: #fff;
+		border-width: 4px;
+		border-color: #777777;
+	}
+	
+	.noty_bar.noty_theme_ifm.noty_alert.noty_layout_bottomRight .noty_message .noty_buttons {
+		border-color: #ccc;
+	}
+
+    .closeButton {
+        color: #ffffff;
+        font-family: "Arial";
+        height: 22px;
+        width: 22px;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+        background-color: #757E86;
+        position: absolute;
+        padding-top: 2px;
+        padding-right: 2px;
+        top: 5px;
+        right: 5px;
+        text-align: center;
+        text-align: middle;
+    }

@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects xmlns="http://www.springactionscript.org/schema/objects"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springactionscript.org/schema/objects
+         http://www.springactionscript.org/schema/objects/spring-actionscript-objects-1.0.xsd">
+    
+	<object lazy-init="true" skip-metadata="true" id="partsSearchGridColumns" class="mx.collections.ArrayCollection">
+		<constructor-arg>
+			<array>
+				<value><ref>selectColumn</ref></value>  
+				<value><ref>gotoColumn</ref></value>
+				<value><ref>calloutColumn</ref></value>
+				<value><ref>partNumberColumn</ref></value>
+				<value><ref>descriptionColumn</ref></value>
+				<value><ref>qtyColumn</ref></value>
+				<value><ref>supersessionColumn</ref></value>
+				<value><ref>fromDateColumn</ref></value>
+				<value><ref>toDateColumn</ref></value>
+				<value><ref>priceColumn</ref></value>
+				<value><ref>notesColumn</ref></value>
+			</array>
+		</constructor-arg>
+	</object>
+	
+	<object lazy-init="true" skip-metadata="true" id="illustrationPartsGridColumns" class="mx.collections.ArrayCollection">
+		<constructor-arg>
+			<array>
+				<value><ref>selectColumnIllustration</ref></value>  
+				<value><ref>calloutColumnIllustration</ref></value>
+				<value><ref>partNumberColumnIllustration</ref></value>
+				<value><ref>descriptionColumnIllustration</ref></value>
+				<value><ref>qtyColumnIllustration</ref></value>
+				<value><ref>supersessionColumnIllustration</ref></value>
+				<value><ref>fromDateColumnIllustration</ref></value>
+				<value><ref>toDateColumnIllustration</ref></value>
+				<value><ref>priceColumnIllustration</ref></value>
+				<value><ref>notesColumnIllustration</ref></value>
+			</array>
+		</constructor-arg>
+	</object>
+	
+	<object lazy-init="true" skip-metadata="true" id="partOptionResolverGridColumns" class="mx.collections.ArrayCollection">
+		<constructor-arg>
+			<array>
+				<value><ref>selectColumnResolver</ref></value>  
+				<value><ref>calloutColumnResolver</ref></value>
+				<value><ref>partNumberColumnResolver</ref></value>
+				<value><ref>descriptionColumnResolver</ref></value>
+				<value><ref>qtyColumnResolver</ref></value>
+				<value><ref>supersessionColumnResolver</ref></value>
+				<value><ref>fromDateColumnResolver</ref></value>
+				<value><ref>toDateColumnResolver</ref></value>
+				<value><ref>priceColumnResolver</ref></value>
+				<value><ref>notesColumnResolver</ref></value>
+			</array>
+		</constructor-arg>
+	</object>
+	
+	<object lazy-init="true" skip-metadata="true" id="multiVehicleGridColumns" class="mx.collections.ArrayCollection">
+		<constructor-arg>
+			<array>
+				<value><ref>vinColumn</ref></value>  
+				<value><ref>regoColumn</ref></value>  
+				<value><ref>buildDateColumn</ref></value>
+				<value><ref>vehicleLineColumn</ref></value>
+				<value><ref>sidoColumn</ref></value>
+				<value><ref>engineColumn</ref></value>
+				<value><ref>transmissionColumn</ref></value>
+				<value><ref>engineCodeColumn</ref></value>
+				<value><ref>bodyCodeColumn</ref></value>
+			</array>
+		</constructor-arg>
+	</object>
+
+     <object lazy-init="true" skip-metadata="true" id="cartGridColumns" class="mx.collections.ArrayCollection">
+		<constructor-arg>
+        	<array>
+			<value><ref>groupingColumnAdvanced</ref></value>  
+			<value><ref>deleteColumnAdvanced</ref></value> 	
+			<value><ref>gotoColumnAdvanced</ref></value>
+			<value><ref>catalogueColumnAdvanced</ref></value>
+			<value><ref>descriptionColumnAdvanced</ref></value>
+			<value><ref>sectionColumnAdvanced</ref></value>
+			<value><ref>calloutColumnAdvanced</ref></value>
+			<value><ref>qtyColumnAdvanced</ref></value>
+			<value><ref>partNumberColumnAdvanced</ref></value>
+			<value><ref>taxColumnAdvanced</ref></value>
+                	<value><ref>adjustmentColumnAdvanced</ref></value>			
+			<value><ref>priceColumnAdvancedFAP</ref></value>
+       	                <value><ref>dmsiColumnAdvanced</ref></value>
+       	                <value><ref>dmsiSOHColumnAdvanced</ref></value>			
+			<value><ref>subTotalColumnAdvancedFAP</ref></value>
+            </array>
+       </constructor-arg>
+    </object>
+	
+	<object lazy-init="true" skip-metadata="true" id="supersessionColumns" class="mx.collections.ArrayCollection">
+		<constructor-arg>
+			<array>
+			<value><ref>selectSupersessionColumn</ref></value>
+			<value><ref>partNumberSupersessionColumn</ref></value>  
+			<value><ref>descriptionSupersessionColumn</ref></value>
+			<value><ref>commentsSupersessionColumn</ref></value>
+			<value><ref>typeSupersessionColumn</ref></value>
+			<value><ref>qtySupersessionColumn</ref></value>
+			<value><ref>priceSupersessionColumn</ref></value>
+			</array>
+		</constructor-arg>
+	</object>
+	
+	<object lazy-init="true" skip-metadata="true" id="supersessionSearchColumns" class="mx.collections.ArrayCollection">
+		<constructor-arg>
+			<array>
+			<value><ref>selectSupersessionSearchColumn</ref></value>
+			<value><ref>partNumberSupersessionSearchColumn</ref></value>  
+			<value><ref>descriptionSupersessionSearchColumn</ref></value>
+			<value><ref>commentsSupersessionSearchColumn</ref></value>
+			<value><ref>typeSupersessionSearchColumn</ref></value>
+			<value><ref>qtySupersessionSearchColumn</ref></value>
+			<value><ref>priceSupersessionSearchColumn</ref></value>
+			</array>
+		</constructor-arg>
+	</object>
+	
+    <!-- 
+    	ItemRenderer factories
+    -->
+    
+    <object lazy-init="true" skip-metadata="true" id="partNumberHeaderSupersessionFactory"  class="org.springextensions.actionscript.userextensions.flex.ClassRendererFactory">
+    	<property name="rendererID" value="partNumberHeaderSupersessionRenderer"/>             
+    </object>
+    <object lazy-init="true" skip-metadata="true" id="partNumberSupersessionFactory" class="org.springextensions.actionscript.userextensions.flex.ClassRendererFactory">
+       	<property name="rendererID" value="partNumberSupersessionRenderer"/>             
+    </object> 
+    <object lazy-init="true" skip-metadata="true" id="lookupsRendererFactory" class="org.springextensions.actionscript.userextensions.flex.ClassRendererFactory">
+	<property name="rendererID" value="lookupsRenderer"/>	
+    </object>
+    <object lazy-init="true" skip-metadata="true" id="unitSellPackFactory"  class="org.springextensions.actionscript.userextensions.flex.ClassRendererFactory">
+    	<property name="rendererID" value="unitSellPackRenderer"/>             
+    </object>
+    <object lazy-init="true" skip-metadata="true" id="unitSellPackAdvancedFactory"  class="org.springextensions.actionscript.userextensions.flex.ClassRendererFactory">
+    	<property name="rendererID" value="unitSellPackAdvancedRenderer"/>             
+    </object>
+    <object lazy-init="true" skip-metadata="true" id="gotoIllustrationFactory"  class="org.springextensions.actionscript.userextensions.flex.ClassRendererFactory">
+    	<property name="rendererID" value="gotoIllustrationRenderer"/>             
+    </object>
+    <object lazy-init="true" skip-metadata="true" id="descriptionSupersessionFactory"  class="org.springextensions.actionscript.userextensions.flex.ClassRendererFactory">
+       	<property name="rendererID" value="descriptionSupersessionRenderer"/>
+    </object>
+    
+    <!-- 
+    	ItemRenderer instances
+     -->
+    <object lazy-init="true" skip-metadata="true" id="partNumberHeaderSupersessionRenderer" class="au.com.infomedia.fordV6.view.component.renderers.SSPartNumberHeaderRenderer" scope="prototype" />
+    <object lazy-init="true" skip-metadata="true" id="partNumberSupersessionRenderer" class="au.com.infomedia.fordV6.view.component.renderers.SSPartNumberRendererExt" scope="prototype" />
+    <object lazy-init="true" skip-metadata="true" id="lookupsRenderer" class="au.com.infomedia.fordV6.view.component.renderers.LookupsRenderer" scope="prototype" />
+    <object lazy-init="true" skip-metadata="true" id="unitSellPackRenderer" class="au.com.infomedia.fordV6.view.component.renderers.UnitSellPackItemRenderer" scope="prototype" />
+    <object lazy-init="true" skip-metadata="true" id="unitSellPackAdvancedRenderer" class="au.com.infomedia.fordV6.view.component.renderers.UnitSellPackInOrderItemRenderer" scope="prototype" />
+    <object lazy-init="true" skip-metadata="true" id="gotoIllustrationRenderer" class="au.com.infomedia.fordV6.view.component.renderers.GotoIllustrationRendererExt" scope="prototype" />
+    <object lazy-init="true" skip-metadata="true" id="descriptionSupersessionRenderer" class="au.com.infomedia.V6.view.component.renderers.HyperlinkTextRenderer" scope="prototype" />
+    
+	<!--
+       All Datagrid Columns
+     -->
+	<!-- Select Checkbox column -->
+	<object lazy-init="true" skip-metadata="true" id="selectColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.SelectColumn">
+		<constructor-arg value="selectColumn" />
+		<property name="dataField" value="isSelected"/>
+		<property name="width" value="32"/>
+	</object>
+
+	<!-- Select column Illustration -->
+	<object lazy-init="true" id="selectColumnIllustration" parent="selectColumn">
+		<constructor-arg value="selectColumnIllustration" />
+		<property name="width" value="32"/>
+	</object>
+
+	<!-- Select column Resolver -->	
+	<object lazy-init="true" id="selectColumnResolver" parent="selectColumn">
+		<constructor-arg value="selectColumnResolver" />
+		<property name="width" value="32"/>
+	</object>
+	
+	<!-- Camera Goto Column -->
+	<object lazy-init="true" skip-metadata="true" id="gotoColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.GotoColumn">
+		<constructor-arg value="gotoColumn" />
+		<property name="width" value="32"/>
+	</object>
+	
+	<!-- Callout Column -->
+	<object lazy-init="true" skip-metadata="true" id="calloutColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.CalloutColumn">
+		<constructor-arg value="calloutColumn" />
+		<property name="headerText" value="Callout"/>
+		<property name="lexID" value="1637"/>
+		<property name="dataField" value="callout"/>
+		<property name="minWidth" value="30"/>
+		<property name="width" value="75"/>
+	</object>
+
+	<!-- Callout Column Illustration-->
+	<object lazy-init="true" skip-metadata="true" id="calloutColumnIllustration" parent="calloutColumn">
+		<constructor-arg value="calloutColumnIllustration" />
+		<property name="width" value="75"/>
+	</object>
+
+	<!-- Callout Column Resolver-->
+	<object lazy-init="true" skip-metadata="true" id="calloutColumnResolver" parent="calloutColumn">
+		<constructor-arg value="calloutColumnResolver" />
+		<property name="width" value="70"/>
+	</object>	
+
+	<!-- Part Number Column -->
+	<object lazy-init="true" skip-metadata="true" id="partNumberColumn" class="au.com.infomedia.fordV6.view.basicComponent.columnGrids.PartNumberColumnComboHeader">
+		<constructor-arg value="partNumberColumn" />
+		<property name="lexID" value="1215"/>
+		<property name="headerText" value="Number"/>
+		<property name="minWidth" value="65"/>
+		<property name="width" value="95"/>
+	</object>
+
+	<!-- Part Number Column Illustration -->
+	<object lazy-init="true" skip-metadata="true" id="partNumberColumnIllustration" parent="partNumberColumn">
+		<constructor-arg value="partNumberColumnIllustration" />
+		<property name="width" value="95"/>
+	</object>
+
+	<!-- Part Number Column Part Option Resolver-->
+	<object lazy-init="true" skip-metadata="true" id="partNumberColumnResolver" parent="partNumberColumn">
+		<constructor-arg value="partNumberColumnResolver" />
+		<property name="width" value="90"/>
+	</object>
+
+	<!-- Description Column -->
+	<object lazy-init="true" skip-metadata="true" id="descriptionColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.DescriptionColumn">
+		<constructor-arg value="descriptionColumn" />
+		<property name="lexID" value="72"/>
+		<property name="headerText" value="Description"/>
+		<property name="dataField" value="label"/>
+		<property name="minWidth" value="80"/>
+		<property name="width" value="145"/>
+	</object>
+
+	<!-- Description Column (illustrationPartsGrid) -->
+	<object lazy-init="true" skip-metadata="true" id="descriptionColumnIllustration" parent="descriptionColumn">
+		<constructor-arg value="descriptionColumnIllustration" />
+		<property name="width" value="145"/>
+	</object>
+
+	<!-- Description Column (partOptionResolver) -->
+	<object lazy-init="true" skip-metadata="true" id="descriptionColumnResolver" parent="descriptionColumn">
+		<constructor-arg value="descriptionColumnResolver" />
+		<property name="width" value="140"/>
+	</object>
+
+	<!-- Restrictions Column -->
+	<object lazy-init="true" skip-metadata="true" id="restrictionsColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.RestrictionsColumn">
+		<constructor-arg value="restrictionsColumn" />
+		<property name="lexID" value="2133"/>
+		<property name="headerText" value="Restrictions"/>
+		<property name="dataField" value="remark"/>
+		<property name="width" value="140"/>
+		<property name="minWidth" value="80"/>
+	</object>
+
+	<!-- Restrictions Column IllustrationPartsGrid-->
+	<object lazy-init="true" skip-metadata="true" id="restrictionsColumnIllustration" parent="restrictionsColumn">
+		<constructor-arg value="restrictionsColumnIllustration" />
+		<property name="width" value="140"/>
+	</object>
+
+	<!-- Restrictions Column Part Option Resolver-->
+	<object lazy-init="true" skip-metadata="true" id="restrictionsColumnResolver" parent="restrictionsColumn">
+		<constructor-arg value="restrictionsColumnResolver" />
+		<property name="width" value="140"/>
+	</object>
+	
+	<!-- Quantity Column -->
+	<object lazy-init="true" skip-metadata="true" id="qtyColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.QtyColumn">
+		<constructor-arg value="qtyColumn" />
+		<property name="lexID" value="212"/>
+		<property name="headerText" value="Qty"/>
+		<property name="dataField" value="currentQty"/>
+		<property name="width" value="45"/>
+		<property name="minWidth" value="45"/>
+	</object>
+
+	<!-- Quantity Column Illustration Parts Grid-->
+	<object lazy-init="true" skip-metadata="true" id="qtyColumnIllustration" parent="qtyColumn">
+		<constructor-arg value="qtyColumnIllustration" />
+		<property name="width" value="45"/>
+	</object>
+
+	<!-- Quantity Column Part Option Resolver-->
+	<object lazy-init="true" skip-metadata="true" id="qtyColumnResolver" parent="qtyColumn">
+		<constructor-arg value="qtyColumnResolver" />
+		<property name="width" value="45"/>
+	</object>
+
+	<!-- Supersession Column -->
+	<object lazy-init="true" skip-metadata="true" id="supersessionColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.SupersessionColumn">
+		<constructor-arg value="supersessionColumn" />
+		<property name="lexID" value="1225"/>
+		<property name="headerText" value="OSI"/>
+		<property name="width" value="45"/>
+		<property name="minWidth" value="45"/>
+	</object>
+
+	<!-- Supersession Column Illustration Parts-->
+	<object lazy-init="true" skip-metadata="true" id="supersessionColumnIllustration" parent="supersessionColumn">
+		<constructor-arg value="supersessionColumnIllustration" />
+		<property name="width" value="45"/>
+	</object>
+
+	<!-- Supersession Column PartOptionResolver-->
+	<object lazy-init="true" skip-metadata="true" id="supersessionColumnResolver" parent="supersessionColumn">
+		<constructor-arg value="supersessionColumnResolver" />
+		<property name="width" value="45"/>
+	</object>
+
+	<!-- From Date Column -->
+	<object lazy-init="true" skip-metadata="true" id="fromDateColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.DateColumn">
+		<constructor-arg value="fromDateColumn" />
+		<property name="lexID" value="100"/>
+		<property name="headerText" value="From"/>
+		<property name="dataField" value="beginDate"/>
+		<property name="width" value="90"/>
+		<property name="minWidth" value="60"/>
+	</object>
+
+	<!-- From Date Column Illustration Parts-->
+	<object lazy-init="true" skip-metadata="true" id="fromDateColumnIllustration" parent="fromDateColumn">
+		<constructor-arg value="fromDateColumnIllustration" />
+		<property name="width" value="90"/>
+	</object>
+
+	<!-- From Date Column PartOptionResolver-->
+	<object lazy-init="true" skip-metadata="true" id="fromDateColumnResolver" parent="fromDateColumn">
+		<constructor-arg value="fromDateColumnResolver" />
+		<property name="width" value="85"/>
+	</object>
+
+	<!-- To Date Column -->
+	<object lazy-init="true" skip-metadata="true" id="toDateColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.DateColumn">
+		<constructor-arg value="toDateColumn" />
+		<property name="lexID" value="281"/>
+		<property name="headerText" value="To"/>
+		<property name="dataField" value="endDate"/>
+		<property name="width" value="90"/>
+		<property name="minWidth" value="60"/>
+	</object>
+
+	<!-- To Date Column Illustration Parts-->
+	<object lazy-init="true" skip-metadata="true" id="toDateColumnIllustration" parent="toDateColumn">
+		<constructor-arg value="toDateColumnIllustration" />
+		<property name="width" value="90"/>
+	</object>
+
+	<!-- To Date Column PartOptionResolver-->
+	<object lazy-init="true" skip-metadata="true" id="toDateColumnResolver" parent="toDateColumn">
+		<constructor-arg value="toDateColumnResolver" />
+		<property name="width" value="85"/>
+	</object>
+	
+	<!-- Price Column -->
+	<object lazy-init="true" skip-metadata="true" id="priceColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.PriceColumn">
+		<constructor-arg value="priceColumn" />
+		<property name="lexID" value="202"/>
+		<property name="headerText" value="Price"/>
+		<property name="width" value="85"/>
+		<property name="minWidth" value="60"/>
+	</object>
+	
+	<!-- Price Column Illustration Parts-->
+	<object lazy-init="true" skip-metadata="true" id="priceColumnIllustration" parent="priceColumn">
+		<constructor-arg value="priceColumnIllustration" />
+		<property name="width" value="85"/>
+	</object>
+	
+	<!-- Price Column Part Option Resolver-->
+	<object lazy-init="true" skip-metadata="true" id="priceColumnResolver" parent="priceColumn">
+		<constructor-arg value="priceColumnResolver" />
+		<property name="width" value="85"/>
+	</object>
+
+	<!-- Notes Column -->
+	<object lazy-init="true" skip-metadata="true" id="notesColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.NotesColumn">
+		<constructor-arg value="notesColumn" />
+		<property name="lexID" value="-1"/>
+		<property name="headerText" value="!"/>
+		<property name="width" value="40"/>
+		<property name="sortable" value="false"/>
+	</object>
+
+	<!-- Notes Column Illustration Parts-->
+	<object lazy-init="true" skip-metadata="true" id="notesColumnIllustration" parent="notesColumn">
+		<constructor-arg value="notesColumnIllustration" />
+		<property name="width" value="40"/>
+	</object>
+
+	<!-- Notes Column Part Option Resolver-->
+	<object lazy-init="true" skip-metadata="true" id="notesColumnResolver" parent="notesColumn">
+		<constructor-arg value="notesColumnResolver" />
+		<property name="width" value="40"/>
+	</object>
+
+	<!-- Lookups Column -->
+	<object lazy-init="true" skip-metadata="true" id="lookupsColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.LookupsColumn">
+		<constructor-arg value="lookupsColumn" />
+		<property name="itemRenderer" ref="lookupsRendererFactory" />
+		<property name="lexID" value="4330"/>
+		<property name="headerText" value="Lookup"/>
+		<property name="width" value="65"/>
+		<property name="minWidth" value="50"/>
+	</object>
+
+	<!-- Lookups Column Illlustration Parts-->
+	<object lazy-init="true" skip-metadata="true" id="lookupsColumnIllustration" parent="lookupsColumn">
+		<constructor-arg value="lookupsColumnIllustration" />
+		<property name="width" value="65"/>
+	</object>
+
+	<!-- Lookups Column Part Option Resolver-->
+	<object lazy-init="true" skip-metadata="true" id="lookupsColumnResolver" parent="lookupsColumn">
+		<constructor-arg value="lookupsColumnResolver" />
+		<property name="width" value="60"/>
+	</object>
+		
+	<!-- Vehicle Column -->
+	<object lazy-init="true" skip-metadata="true" id="vehicleColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.VehicleColumn">
+		<constructor-arg value="vehicleColumn" />
+		<property name="lexID" value="292"/>
+		<property name="headerText" value="Vehicle"/>
+		<property name="dataField" value="catalogueDescription"/>
+		<property name="visible" value="false"/>
+		<property name="width" value="90"/>
+		<property name="minWidth" value="55"/>		
+	</object>
+
+	<!--
+		Multi Vehicle Grid Columns
+	-->
+	
+	<!-- VIN Column -->
+	<object lazy-init="true" skip-metadata="true" id="vinColumn" class="au.com.infomedia.V6.view.basicComponent.IfmDataGridColumn">
+		<constructor-arg value="vinColumn" />
+		<property name="lexID" value="299"/>
+		<property name="headerText" value="VIN"/>
+		<property name="dataField" value="vin"/>
+		<property name="width" value="140"/>
+	</object>
+	
+	<!-- Rego Column -->
+	<object lazy-init="true" skip-metadata="true" id="regoColumn" class="au.com.infomedia.V6.view.basicComponent.IfmDataGridColumn">
+		<constructor-arg value="regoColumn" />
+		<property name="lexID" value="220"/>
+		<property name="headerText" value="Registration"/>
+		<property name="dataField" value="rego"/>
+		<property name="width" value="125"/>
+	</object>
+	
+	<!-- Build Date Column -->
+	<object lazy-init="true" skip-metadata="true" id="buildDateColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.BuildDateColumn">
+		<constructor-arg value="buildDateColumn" />
+		<property name="lexID" value="596"/>
+		<property name="headerText" value="Build Date"/>
+		<property name="dataField" value="displayBuildDate" />
+		<property name="width" value="120"/>
+	</object>
+	
+	<!-- Model Year Column -->
+	<object lazy-init="true" skip-metadata="true" id="modelYearColumn" class="au.com.infomedia.V6.view.basicComponent.IfmDataGridColumn">
+		<constructor-arg value="modelYearColumn" />
+		<property name="lexID" value="2936"/>
+		<property name="headerText" value="Model Year"/>	
+		<property name="dataField" value="modelYear"/>
+		<property name="width" value="70"/>
+	</object>
+
+	<!-- Catalogue Column -->
+	<object lazy-init="true" skip-metadata="true" id="catalogueColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.CatalogueColumn">
+		<constructor-arg value="catalogueColumn" />
+		<property name="lexID" value="292"/>
+		<property name="headerText" value="Vehicle"/>		
+		<property name="width" value="220"/>
+	</object>
+
+	<!-- Vehicle Line Column -->
+	<object lazy-init="true" skip-metadata="true" id="vehicleLineColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.CatalogueColumn">
+		<constructor-arg value="vehicleLineColumn" />
+		<property name="lexID" value="684"/>
+		<property name="headerText" value="Vehicle Line"/>		
+		<property name="width" value="190"/>
+	</object>
+	
+	<!-- Sido Column -->
+	<object lazy-init="true" skip-metadata="true" id="sidoColumn" class="au.com.infomedia.V6.view.basicComponent.IfmDataGridColumn">
+		<constructor-arg value="sidoColumn" />
+		<property name="lexID" value="1373"/>
+		<property name="headerText" value="SIDO"/>		
+		<property name="width" value="65"/>
+		<property name="dataField" value="sidoNumber" />
+	</object>
+
+	<!-- Engine Column -->
+	<object lazy-init="true" skip-metadata="true" id="engineColumn" class="au.com.infomedia.V6.view.basicComponent.IfmDataGridColumn">
+		<constructor-arg value="engineColumn" />
+		<property name="lexID" value="82"/>
+		<property name="headerText" value="Engine"/>
+		<property name="dataField" value="engine" />
+		<property name="width" value="225"/>
+	</object>
+
+	<!-- Transmission Column -->
+	<object lazy-init="true" skip-metadata="true" id="transmissionColumn" class="au.com.infomedia.V6.view.basicComponent.IfmDataGridColumn">
+		<constructor-arg value="transmissionColumn" />
+		<property name="lexID" value="348"/>
+		<property name="headerText" value="Transmission"/>
+		<property name="dataField" value="transmission" />
+		<property name="width" value="150"/>
+	</object>
+
+	<!-- Engine Code Column -->
+	<object lazy-init="true" skip-metadata="true" id="engineCodeColumn" class="au.com.infomedia.V6.view.basicComponent.IfmDataGridColumn">
+		<constructor-arg value="engineCodeColumn" />
+		<property name="lexID" value="1023"/>
+		<property name="headerText" value="Engine Code"/>
+		<property name="dataField" value="engineNumber" />		
+		<property name="width" value="80"/>
+	</object>
+
+	<!-- Body Code Column -->
+	<object lazy-init="true" skip-metadata="true" id="bodyCodeColumn" class="au.com.infomedia.V6.view.basicComponent.IfmDataGridColumn">
+		<constructor-arg value="bodyCodeColumn" />
+		<property name="lexID" value="3782"/>
+		<property name="headerText" value="Body Code"/>
+		<property name="dataField" value="bodyNumber" />
+		<property name="width" value="80"/>
+	</object>
+	
+	<!--
+		Cart Datagrid Columns
+	-->
+            
+	<!-- Advanced Grouping column -->
+	<object lazy-init="true" skip-metadata="true" id="groupingColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.columnGrids.GroupColumnAdvanced">
+	  <constructor-arg value="groupingColumnAdvanced" />
+	  <property name="minWidth" value="20"/>
+	  <property name="width" value="20"/>
+	  <property name="dataField" value="catalogueDescription"/>
+	</object>
+                         
+	<!-- Advanced Delete column -->
+	<object lazy-init="true" skip-metadata="true" id="deleteColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.columnGrids.DeleteColumnAdvanced">
+		<constructor-arg value="deleteColumnAdvanced" />
+		<property name="width" value="30"/>		
+	</object>
+	     
+	<!-- Advanced Goto column -->
+	<object lazy-init="true" skip-metadata="true" id="gotoColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.columnGrids.GotoColumnAdvanced">
+		<constructor-arg value="gotoColumnAdvanced" />
+		<property name="width" value="30"/>
+	</object>
+	
+	<!-- Advanced Catalogue column -->
+	<object lazy-init="true" skip-metadata="true" id="catalogueColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.columnGrids.CatalogueColumnAdvanced">
+		<constructor-arg value="catalogueColumnAdvanced" />
+		<property name="lexID" value="292"/>
+		<property name="headerText" value="Vehicle"/>
+		<property name="dataField" value="catalogueDescription"/>
+		<property name="width" value="150"/>
+		<property name="minWidth" value="70"/>
+		<property name="editable" value="false"/>
+	</object>            
+	
+	<!-- Advanced Description column -->
+	<object lazy-init="true" skip-metadata="true" id="descriptionColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.IfmAdvancedDataGridColumn">
+		<constructor-arg value="descriptionColumnAdvanced" />
+		<property name="lexID" value="72"/>
+		<property name="headerText" value="Description"/>
+		<property name="dataField" value="label"/>
+		<property name="minWidth" value="180"/>
+		<property name="editable" value="false"/>
+	</object> 
+
+	<!-- Advanced Restrictions column -->
+	<object lazy-init="true" skip-metadata="true" id="restrictionsColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.IfmAdvancedDataGridColumn">
+		<constructor-arg value="restrictionsColumnAdvanced" />
+		<property name="lexID" value="2133"/>
+		<property name="headerText" value="Restrictions"/>
+		<property name="dataField" value="remark"/>
+		<property name="width" value="110"/>
+		<property name="minWidth" value="80"/>
+		<property name="editable" value="false"/>
+	</object>
+		
+	<!-- Advanced Part Number column -->
+	<object lazy-init="true" skip-metadata="true" id="partNumberColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.columnGrids.PartNumberColumnAdvanced">
+		<constructor-arg value="partNumberColumnAdvanced" />
+		<property name="lexID" value="1215"/>
+		<property name="headerText" value="Number"/>
+		<property name="width" value="140"/>
+		<property name="minWidth" value="80"/>
+		<property name="sortable" value="false"/>
+		<property name="editable" value="false"/>
+	</object>
+	
+	<!-- Advanced Qty column -->
+	<object lazy-init="true" skip-metadata="true" id="qtyColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.columnGrids.QtyColumnAdvanced">
+		<constructor-arg value="qtyColumnAdvanced" />
+		<property name="lexID" value="212"/>
+		<property name="headerText" value="Qty"/>
+		<property name="dataField" value="currentQty"/>
+		<property name="width" value="55"/>
+		<property name="minWidth" value="35"/>
+	</object>
+
+	<!-- Advanced Section column -->
+	<object lazy-init="true" skip-metadata="true" id="sectionColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.IfmAdvancedDataGridColumn">
+		<constructor-arg value="sectionColumnAdvanced" />
+		<property name="lexID" value="239"/>
+		<property name="headerText" value="Section"/>
+		<property name="dataField" value="currentSectionForView"/>
+		<property name="width" value="70"/>
+		<property name="editable" value="false"/>
+	</object>
+	                        
+	<!-- Advanced Callout column -->
+	<object lazy-init="true" skip-metadata="true" id="calloutColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.columnGrids.CalloutColumnAdvanced">
+		<constructor-arg value="calloutColumnAdvanced" />
+	  	<property name="lexID" value="1637"/>
+	  	<property name="headerText" value="Callout"/>
+	  	<property name="dataField" value="callout"/>
+	  	<property name="width" value="70"/>
+	  	<property name="editable" value="false"/>
+	</object>
+
+	<!-- Tax column -->
+	<object lazy-init="true" id="taxColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.columnGrids.PercentageColumnAdvanced">
+		<constructor-arg value="taxColumnAdvanced" />
+		<property name="lexID" value="271"/>
+		<property name="headerText" value="Tax"/>
+		<property name="dataField" value="taxPercentageTag"/>
+		<property name="width" value="35"/>
+		<property name="minWidth" value="60"/>
+		<property name="editable" value="false"/>
+	</object>
+
+	<!-- Adjustment column -->
+	<object lazy-init="true" id="adjustmentColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.columnGrids.PercentageColumnAdvanced">
+		<constructor-arg value="adjustmentColumnAdvanced" />
+		<property name="lexID" value="585"/>
+		<property name="headerText" value="Adjustment"/>
+		<property name="dataField" value="adjustmentPercentageTag"/>
+		<property name="width" value="80"/>
+		<property name="minWidth" value="35"/>
+		<property name="editable" value="false"/>
+	</object>
+	
+	<!-- Advanced Price column -->
+	<object lazy-init="true" skip-metadata="true" id="priceColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.columnGrids.PriceColumnAdvanced">
+		<constructor-arg value="priceColumnAdvanced" />
+		<property name="lexID" value="202"/>
+		<property name="headerText" value="Price"/>
+		<property name="width" value="80"/>
+		<property name="minWidth" value="55"/>
+		<property name="editable" value="false"/>		
+	</object>
+	
+	<!-- Advanced Price column -->
+	<object lazy-init="true" skip-metadata="true" id="priceColumnAdvancedFAP" parent="priceColumnAdvanced">
+		<constructor-arg value="priceColumnAdvancedFAP" />
+		<property name="lexID" value="697"/>
+		<property name="headerText" value="Unit Price"/>
+		<property name="width" value="80"/>
+	</object>
+
+	<!-- Advanced dmsi column -->
+	<object lazy-init="true" id="dmsiColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.columnGrids.DmsiColumnAdvanced">
+		<constructor-arg value="dmsiColumnAdvanced" />
+		<property name="lexID" value="5014"/>
+		<property name="headerText" value="DMS Price"/>
+		<property name="dataField" value="dmsiPrice"/>
+		<property name="width" value="80"/>
+		<property name="editable" value="false"/>
+		<property name="visible" value="false"/>
+	</object> 
+
+	<!-- Advanced dmsi SOH column -->
+	<object lazy-init="true" id="dmsiSOHColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.IfmAdvancedDataGridColumn">
+		<constructor-arg value="dmsiSOHColumnAdvanced" />
+		<property name="lexID" value="259"/>
+		<property name="headerText" value="SOH"/>
+		<property name="dataField" value="dmsiSOH"/>
+		<property name="width" value="70"/>
+		<property name="editable" value="false"/>
+		<property name="wordWrap" value="true"/>
+		<property name="visible" value="false"/>
+	</object> 
+	
+	<!-- Advanced Subtotal column Extended -->
+	<object lazy-init="true" skip-metadata="true" id="subTotalColumnAdvanced" class="au.com.infomedia.V6.view.basicComponent.columnGrids.SubTotalColumnAdvanced">
+		<constructor-arg value="subTotalColumnAdvanced" />
+		<property name="lexID" value="545"/>
+		<property name="headerText" value="Subtotal"/>
+		<property name="width" value="80"/>
+		<property name="minWidth" value="60"/>
+		<property name="editable" value="false"/>
+	</object>
+	
+	<!-- Advanced Subtotal column -->
+	<object lazy-init="true" skip-metadata="true" id="subTotalColumnAdvancedFAP" parent="subTotalColumnAdvanced">
+		<constructor-arg value="subTotalColumnAdvancedFAP" />
+		<property name="lexID" value="1043"/>
+		<property name="headerText" value="Ext. Price"/>
+		<property name="width" value="80"/>
+	</object>
+	               	     
+	<!--
+		Supersession columns
+	-->
+
+	<!-- Supersession Part Number column -->
+	<object lazy-init="true" skip-metadata="true" id="partNumberSupersessionColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.PartNumberSupersessionColumnAdvanced">
+		<constructor-arg value="partNumberSupersessionColumn" />
+		<property name="headerRenderer" ref="partNumberHeaderSupersessionFactory" />
+		<property name="itemRenderer" ref="partNumberSupersessionFactory" />
+		<property name="width" value="110"/>
+		<property name="minWidth" value="110"/>
+		<property name="sortable" value="false"/>
+	</object>
+
+	<!-- Supersession Search Part Number column -->
+	<object lazy-init="true" skip-metadata="true" id="partNumberSupersessionSearchColumn" parent="partNumberSupersessionColumn">
+		<constructor-arg value="partNumberSupersessionSearchColumn" />
+		<property name="width" value="110"/>
+	</object>
+
+	<!-- Supersession Description column -->
+	<object lazy-init="true" skip-metadata="true" id="descriptionSupersessionColumn" class="au.com.infomedia.V6.view.basicComponent.IfmAdvancedDataGridColumn">
+		<constructor-arg value="descriptionSupersessionColumn" />
+		<property name="itemRenderer" ref="descriptionSupersessionFactory" />
+		<property name="lexID" value="72"/>
+		<property name="headerText" value="Description"/>
+		<property name="width" value="300"/>
+		<property name="minWidth" value="180"/>
+		<property name="dataField" value="partDescription"/>
+		<property name="sortable" value="false"/>
+	</object>
+	
+	<!-- Advanced SupersessionSearch Description column -->
+	<object lazy-init="true" skip-metadata="true" id="descriptionSupersessionSearchColumn" parent="descriptionSupersessionColumn">
+		<constructor-arg value="descriptionSupersessionSearchColumn" />
+		<property name="width" value="300"/>
+	</object>
+
+	<!-- Advanced Supersession Comments column -->
+	<object lazy-init="true" id="commentsSupersessionColumn" class="au.com.infomedia.V6.view.basicComponent.IfmAdvancedDataGridColumn">
+		<constructor-arg value="commentsSupersessionColumn" />
+		<property name="lexID" value="941"/>
+		<property name="headerText" value="Comments"/>
+		<property name="width" value="140"/>
+		<property name="minWidth" value="90"/>
+		<property name="dataField" value="comment"/>
+		<property name="sortable" value="false"/>
+	</object>
+	
+	<!-- Advanced SupersessionSearch Description column -->
+	<object lazy-init="true" id="commentsSupersessionSearchColumn" parent="commentsSupersessionColumn">
+		<constructor-arg value="commentsSupersessionSearchColumn" />
+		<property name="width" value="150"/>
+	</object>
+	
+   	<!-- Advanced Supersession Qty column -->
+	<object lazy-init="true" skip-metadata="true" id="qtySupersessionColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.QtySupersessionColumnAdvanced">
+		<constructor-arg value="qtySupersessionColumn" />
+		<property name="lexID" value="212"/>
+		<property name="headerText" value="Qty"/>
+		<property name="dataField" value="currentQty"/>
+		<property name="sortable" value="false"/>
+		<property name="width" value="45"/>
+		<property name="minWidth" value="45"/>	
+	</object>
+
+   	<!-- Advanced SupersessionSearch Qty column -->
+	<object lazy-init="true" skip-metadata="true" id="qtySupersessionSearchColumn" parent="qtySupersessionColumn">
+		<constructor-arg value="qtySupersessionSearchColumn" />
+		<property name="width" value="55"/>
+	</object>
+
+	<!-- Advanced Supersession Price column -->
+	<object lazy-init="true" skip-metadata="true" id="priceSupersessionColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.PriceSupersessionColumnAdvanced">
+		<constructor-arg value="priceSupersessionColumn" />
+		<property name="lexID" value="202"/>
+		<property name="headerText" value="Price"/>
+		<property name="sortable" value="false"/>
+		<property name="width" value="75"/>
+		<property name="minWidth" value="65"/>
+	</object>
+
+	<!-- Advanced SupersessionSearch Price column -->
+	<object lazy-init="true" skip-metadata="true" id="priceSupersessionSearchColumn" parent="priceSupersessionColumn">
+		<constructor-arg value="priceSupersessionSearchColumn" />
+		<property name="width" value="75"/>
+	</object>
+	
+	<!-- Advanced Type column -->
+	<object lazy-init="true" skip-metadata="true" id="typeSupersessionColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.TypeColumnAdvanced">
+		<constructor-arg value="typeSupersessionColumn" />
+		<property name="lexID" value="2207"/>
+		<property name="headerText" value="Type"/>
+		<property name="width" value="65"/>
+		<property name="minWidth" value="55"/>
+		<property name="dataField" value="code"/>
+		<property name="sortable" value="false"/>
+	</object>
+
+	<!-- Advanced Type column -->
+	<object lazy-init="true" skip-metadata="true" id="typeSupersessionSearchColumn" parent="typeSupersessionColumn">
+		<constructor-arg value="typeSupersessionSearchColumn" />
+		<property name="width" value="65"/>
+	</object>
+
+	<!-- Advanced Supersession Select Checkbox column -->
+	<object lazy-init="true" skip-metadata="true" id="selectSupersessionColumn" class="au.com.infomedia.V6.view.basicComponent.columnGrids.SelectColumnAdvanced">
+		<constructor-arg value="selectSupersessionColumn" />
+		<property name="dataField" value="isSelected"/>
+		<property name="width" value="40"/>
+		<property name="minWidth" value="35"/>
+	</object>
+	
+	<!-- Advanced SupersessionSearch Select Checkbox column -->
+	<object lazy-init="true" skip-metadata="true" id="selectSupersessionSearchColumn" parent="selectSupersessionColumn">
+		<constructor-arg value="selectSupersessionSearchColumn" />
+		<property name="width" value="40"/>
+	</object>
+</objects>

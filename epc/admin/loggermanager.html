@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>	
+<head>
+	<title>Infomedia Ltd. - Log4j Manager</title>
+	<link rel="stylesheet" type="text/css" href="css/dashboard.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="../css/smoothness/jquery-ui-1.8.5.custom.css" media="screen"/>
+	<style type="text/css" title="currentStyle">
+        @import "../plugins/DataTables-1.7.4/css/demo_page.css";
+        @import "../plugins/DataTables-1.7.4/css/demo_table.css";
+    </style>	
+	<link href="../plugins/google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" language="javascript" src="js/config.js"></script>	
+	<script type="text/javascript" language="javascript" src="../js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" language="javascript" src="../js/jquery-ui-1.8.5.custom.min.js"></script>
+	<script type="text/javascript" language="javascript" src="../plugins/DataTables-1.7.4/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" language="javascript" src="js/common.js"></script>
+	<script type="text/javascript" language="javascript" src="js/LoggerManager.js"></script>
+</head>
+<body>
+<div id="body-wrapper">
+    <div id="masthead-container">
+		<table width="100%"><tr>
+			<td align="left" valign="top">
+		        <img src="../images/IFM-Logo.png" alt="logo"/>
+		        <br/>
+				<span class="loginPageTitleText">
+					Log4j Manager
+				</span>
+			</td>
+			<td align="right" valign="bottom">
+				<span onclick="window.location='index.html';" style="cursor:pointer;font-weight:bold;color:white;text-align: center;">
+					Return to Admin Home
+				</span>
+			</td>
+		</tr></table>
+	</div>
+
+	<div id="content-container">
+		<table width="100%" >
+		<tr>
+			<td valign="baseline" align="right" >
+				<table><tr>
+				<td>
+					<span style='margin-left:10px;padding:3px;'>Auto refresh:</span>
+					<div id='refreshButton' style='display:inline;margin-left:2px;border:1 solid black;padding:3px;cursor:pointer;background-color:maroon;color:white;'
+							onclick='toggleAutoRefresh()'>OFF</div>
+				</td>
+				<td>
+					<div id='refreshIn' style='display:inline;margin-left:2px;border:1 solid black;padding:3px;'>
+							20 secs
+					</div>
+				</td>
+				</tr></table>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="div-logdetail"> 
+		<table width="98%" align="center"><tr><td>
+			<table class="display" id="table-loggers"> 
+				<thead> 
+					<tr> 
+						<th width="5%"></th> 
+						<th width="15%">Level</th> 
+						<th width="20%">Package</th>
+						<th width="15%">INFO</th>
+						<th width="15%">DEBUG</th>
+						<th width="15%">TRACE</th>
+						<th width="15%">INHERIT</th>
+					</tr> 
+				</thead> 
+				<tbody> 
+					<tr>
+						<td>
+							Loading...
+						</td>
+					</tr>
+				</tbody> 
+			</table>
+	
+			<div id="errorMessage">
+				
+			</div> 
+		</td></tr></table>
+	</div>
+
+	 
+</div>
+</body>
+</html>

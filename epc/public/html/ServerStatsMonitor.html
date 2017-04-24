@@ -1,0 +1,44 @@
+<html>
+
+<head>
+
+    <link type="text/css" href="../style/jquery-ui-1.8rc3.custom.css" rel="Stylesheet"/>
+    <script type="text/javascript" language="javascript" src="../js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" language="javascript" src="../js/jquery-ui-1.8rc3.custom.min.js"></script>
+
+    <script language="javascript" type="text/javascript" src="../plugins/flot/jquery.flot.min.js"></script>
+    <script language="javascript" type="text/javascript" src="../plugins/flot/excanvas.min.js"></script>
+
+    <script type="text/javascript" language="javascript" src="js/common.js"></script>
+    <script type="text/javascript" language="javascript" src="js/ServerStatsMonitor.js"></script>
+
+
+</head>
+
+<body style="overflow:hidden">
+
+    <div id="serverStatsMonitorDiv" style="height:100%;width:100%;overflow:hidden"></div>
+
+    <script type="text/javascript">
+
+        $(document).keypress(function(event) {
+            if (event.keyCode == '13' || event.keyCode == '32') {
+                refresh();
+           }
+        });
+
+        function refresh() {
+            window.serverStatsMonitor.refresh();
+        }
+
+        $(document).ready(function() {
+            window.serverStatsMonitor = new ServerStatsMonitor("serverStatsMonitorDiv");
+            window.serverStatsMonitor.refresh();
+        });
+
+    </script>
+
+</body>
+
+
+</html>

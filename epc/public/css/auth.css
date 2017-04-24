@@ -1,0 +1,373 @@
+/* Default values */
+
+html {
+    min-height: 100%;
+    min-width: 800px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+body {
+    background: white;
+    border: 0;
+    margin: 0;
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+img {
+    border: 0;
+}
+
+li, p, div {
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 120%;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+h3 {
+    margin: 15px 0 0 0;
+    font-size: 14px;
+    padding: 0;
+    font-weight: normal;
+}
+
+p {
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+ol, ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:link, a:visited {
+    color: #dd011a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dd011a;
+    text-decoration: underline;
+}
+
+form {
+    padding: 0;
+    margin: 0;
+}
+
+input, textarea, select {
+    font-size: 12px;
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+}
+
+textarea {
+    line-height: 150%;
+    border: 1px solid #ACBEDF;
+    width: 537px;
+}
+
+label {
+    padding: 0 5px;
+}
+
+th {
+    text-align: right;
+    font-weight: normal;
+}
+
+blockquote {
+    background: #eee;
+    border: 1px solid #ccc;
+    margin: 0 0 10px 0;
+    padding: 10px;
+}
+
+/* Header */
+
+#body-wrapper {
+    margin: 0 auto;
+    width: 992px;
+}
+
+/* Masthead */
+
+#masthead-container {
+    background-color: #00694e;
+    text-align: left;
+}
+
+#masthead-container img {
+    vertical-align: bottom;
+}
+
+/* Content pane styles */
+
+#content-container {
+    text-align: left;
+    padding: 0 20px 0 20px;
+}
+
+#content-container h1 {
+    padding: 30px 0 10px 0;
+    color: #00694e;
+}
+
+#content-container h2, #content-container .h2-date {
+    padding-top: 20pt;
+}
+
+#content-container h2 {
+    color: #00694e;
+}
+
+#content-container h3 {
+    color: #00694e;
+}
+
+#content-container p {
+    padding-top: 10pt;
+}
+
+#content-container .text-intro, #content-container .list-intro li, #content-container .text-header, #footer-container {
+    color: #222222;
+}
+
+#content-container .list-intro li {
+    list-style-type: square;
+    list-style-position: inside;
+    padding: 0 20px 0 20px;
+}
+
+#content-container .text-header {
+    font-weight: bold;
+}
+
+#content-container .text-lead {
+    color: #dd011a;
+    font-weight: bold;
+}
+
+#content-container .text-highlight {
+    color: black;
+}
+
+#content-container .h2-date, #content-container .text-body, #content-container .list-body li, ul#page-options li a {
+    color: #666666;
+}
+
+#content-container .list-body li {
+    list-style-type: square;
+    list-style-position: inside;
+    padding: 0 20px 0 20px;
+}
+
+#content-container .date {
+    color: #dfdfdf;
+    font-size: 48pt;
+    padding: 20pt 0 20pt 0;
+}
+
+#content-container div.column-container {
+    width: 100%;
+}
+
+#content-container div.column1, div.column2 {
+    width: 460px;
+}
+
+#content-container div.column1 {
+    float: left;
+    margin-right: 10px;
+}
+
+#content-container div.column2 {
+    float: right;
+    margin-left: 10px;
+}
+
+#content-container div.column-end {
+    clear: both;
+}
+
+#content-container div.content-underline {
+    clear: both;
+    border-bottom: 1px #a8a8a8 solid;
+}
+
+#content-container div.content-spacer {
+    clear: both;
+    padding-top: 20px;
+}
+
+#content-container div.float-right-container {
+    float: right;
+    padding-left: 20px;
+}
+
+#content-container div.float-clear-container {
+    clear: both;
+}
+
+/* Footer */
+
+#footer-container {
+    margin-top: 10pt;
+    border-top: 1px solid #a8a8a8;
+    font-size: 9pt;
+}
+
+#footer-container div.column1, div.column2 {
+    width: 460px;
+}
+
+#footer-container div.column1 {
+    float: left;
+    margin-right: 10px;
+}
+
+#footer-container div.column2 {
+    float: right;
+    margin-left: 10px;
+}
+
+#footer-container div.column-end {
+    clear: both;
+}
+
+#footer-container div.column1 {
+    text-align: left;
+}
+
+#footer-container div.column2 {
+    text-align: right;
+}
+
+
+
+.authInfoTable
+	{		
+		border-top: solid 2px #000066;
+		border-bottom: solid 2px #000066;
+		border-left: solid 2px #000066;
+		border-right: solid 2px #000066;	
+		margin-left: 32px;
+		padding: 2px;
+		cell-spacing: 0px;
+	}
+
+.authInfoHeaderRow 
+	{
+		background-color: #796842;
+		font-family:Arial, Helvetica, sans-serif;
+		color: white;
+		font-size:12px;
+		line-height:170%;
+		margin:0px;
+		padding:1px;
+		border: solid 2px #000066;
+		border-top: solid 2px #000066;
+		border-bottom: solid 2px #000066;
+		border-left: solid 2px #000066;
+		border-right: solid 2px #000066;
+	}
+.authInfoHeaderCell
+	{
+		background-color: #796842;
+		font-family:Arial, Helvetica, sans-serif;
+		color: white;
+		font-size:12px;
+		line-height:170%;
+		margin:0px;
+		padding:1px;
+		border: solid 2px #000066;
+		border-top: solid 2px #000066;
+		border-bottom: solid 2px #000066;
+		border-left: solid 2px #000066;
+		border-right: solid 2px #000066;
+	}
+		
+.authInfoRow 
+	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		line-height:170%;
+		margin:0px;
+		padding:2px;		
+		border: solid 1px #000099;
+		border-top: solid 1px #000066;
+		border-bottom: solid 1px #000066;
+		border-left: solid 1px #000066;
+		border-right: solid 1px #000066;
+	}
+
+.authInfoRowOver
+	{
+		background-color:#989857;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		line-height:170%;
+		margin:0px;
+		padding:2px;		
+		border: solid 1px #000099;
+		border-top: solid 1px #000066;
+		border-bottom: solid 1px #000066;
+		border-left: solid 1px #000066;
+		border-right: solid 1px #000066;
+	}
+
+.authInfoCell
+	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		line-height:170%;
+		margin:0px;
+		padding:2px;
+		border: solid 1px #000099;
+		border-top: solid 1px #000066;
+		border-bottom: solid 1px #000066;
+		border-left: solid 1px #000066;
+		border-right: solid 1px #000066;
+	}
+	
+.authInfoCellOver
+	{
+		background-color:#989857;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		line-height:170%;
+		margin:0px;
+		padding:2px;
+		border: solid 1px #000099;
+		border-top: solid 1px #000066;
+		border-bottom: solid 1px #000066;
+		border-left: solid 1px #000066;
+		border-right: solid 1px #000066;
+	}
+
+.loginPageTitleText {
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+	text-shadow: highlight;
+	line-height: 50px;
+	margin-left:25px;
+}

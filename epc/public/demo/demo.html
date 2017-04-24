@@ -1,0 +1,50 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Demo</title>
+    <link  href="demo.css" rel="stylesheet" type="text/css"/>
+    
+    <link  href="../themes/smoothness/jquery-ui-1.8.5.custom.css" rel="stylesheet" type="text/css"/>
+    <script src="../js/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-ui-1.8.5.custom.min.js" type="text/javascript"></script>
+
+    <script src="../plugins/jquery.watermark.min.js" type="text/javascript"></script>
+    <script src="../plugins/corner.js" type="text/javascript"></script>
+    <script src="box.js" type="text/javascript"></script>
+
+    <script src="box.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="main"></div>
+
+</br>
+</br>
+
+User: <span id="userName"></span>
+
+</br>
+</br>
+
+<div id="secondary"></div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#main").box({text:"this is the text"});
+
+        $.getJSON("http://c-rboyarski.ifmsystems.com:8080/epc/services/user/summary?json=true",
+                function(data) {
+                    $("#userName").text(data.purchaser.firstName).css({"font-weight":"bold"});
+                });
+
+        //$("#secondary").append($("<div></div>").box({text:"this is the text"}));
+        //$("#secondary").append($("<div></div>").box({text:"this is the text"}));
+        //$("#secondary").append($("<div></div>").box({text:"this is the text"}));
+
+
+
+    });
+</script>
+
+</body>
+</html>

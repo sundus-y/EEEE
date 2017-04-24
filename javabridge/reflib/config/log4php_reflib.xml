@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    @author VxR <vxr@vxr.it>
+    @version $Revision: 1.2 $
+    @since 0.3
+-->
+<log4php:configuration xmlns:log4php="http://www.vxr.it/log4php/" threshold="all" debug="false">
+    <appender name="dailyFile" class="LoggerAppenderDailyFile">
+        <param name="file" value="${LOG4PHP_DIR}/../../log/reflib.log" />
+        <param name="append" value="true" />
+        <layout class="LoggerLayoutTTCC">
+            <param name="threadPrinting" value="true" />
+            <param name="categoryPrefixing" value="true" />
+            <param name="contextPrinting" value="true" />
+            <param name="microSecondsPrinting" value="true" />
+            <param name="dateFormat" value="[%c]" />
+        </layout>  
+		
+		<!-- Uncomment the code below to filter out INFO logs
+		<filter class="LoggerLevelMatchFilter">
+			<param name="LevelToMatch" value="INFO" />
+			<param name="AcceptOnMatch" value="false"/>
+		</filter>
+		--> 
+    </appender>
+    
+    <root>
+        <level value="debug" />
+        <!--
+        <appender_ref ref="default" />   
+        -->     
+        <appender_ref ref="dailyFile" />
+    </root>
+</log4php:configuration>

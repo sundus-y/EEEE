@@ -1,0 +1,127 @@
+<body>
+	<translations>
+		<translation item="PartNumber">Part Number</translation>
+		<translation item="PartQuantity">Qty.</translation>
+		<translation item="PartDescription">Description</translation>
+		<translation item="PartRemarks">Remarks</translation>
+		<translation item="PartFromDate">From Date</translation>
+		<translation item="PartToDate">To Date</translation>
+		<translation item="PartPrice">Price</translation>
+		<translation item="PartCallout">Key</translation>
+		<translation item="ImageComments">Comments:</translation>
+		<translation item="copyright">&#169; 2004 - 2010 Infomedia Ltd and its licensors.</translation>
+		<translation item="pageno">Page [x] of [y]</translation>
+	</translations>
+	<columns>
+		<column index="0" width="37" translation="PartCallout" data="callout" align="L" />
+		<column index="1" width="58" translation="PartNumber" data="partnumber" align="L" />
+		<column index="2" width="257" translation="PartDescription" data="description" align="L" />
+		<column index="3" width="208" translation="PartRemarks" data="remark" align="L" />
+		<column index="4" width="26" translation="PartQuantity" data="quantity" align="C" />
+		<column index="5" width="55" translation="PartFromDate" data="begindate" align="L" />
+		<column index="6" width="55" translation="PartToDate" data="enddate" align="L" />
+		<column index="7" width="56" translation="PartPrice" data="price" align="R" />
+	</columns>
+    <parts>
+        <part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='PLUG, CAMSHAFT REAR BEARING, 6 CYL, 4.2 L' remark='2 REQD-REAR CAMSHAFT HOLE &amp; REAR BALANCE SHAFT HOLE IN BLOCK - 6 CYL. - 4.2L.' quantity='2' partNumber='E9SZ 6266-A' price='5.85'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='BEARING, CAMSHAFT REAR, 6 CYL, 4.2 L' remark='REAR ONLY(May be available for DEALERS ONLY via Vintage Parts 877-846-8243 or D2DLink at OEConnection.com) - 6 CYL. - 4.2L.' quantity='1' partNumber='E9SZ 6263-A' price=''/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='DOWEL, CYLINDER HEAD TO CYLINDER BLOCK, 6 CYL, 4.2 L' remark='6 CYL. - 4.2L.' quantity='4' partNumber='D4FZ 6A008-A' price='7.77'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='DOWEL, 6 CYL, 4.2 L' remark='FRONT COVER 6019 TO CYL. BLOCK-12.4MM X 17.3MM - 6 CYL. - 4.2L.' quantity='AR' partNumber='E8DZ 6397-A' price='12.83'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='FREEZE PLUG, ENGINE, 6 CYL, 4.2 L' remark='1.62 O.D.; FRONT &amp; REAR OF HEAD - 6 CYL. - 4.2L.' quantity='AR' partNumber='E6DZ 6026-C' price=''/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='INSULATOR ASY., FRONT SUPPORT, 6 CYL, 4.2 L' remark='LH - 6 CYL. - 4.2L.' quantity='1' partNumber='F7UZ 6038-CB' price='59.77'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='RETAINER, VALVE SPRING, 6 CYL, 4.2 L' remark='6 CYL. - 4.2L.' quantity='12' partNumber='F6ZZ 6514-A' price='8.6'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='BOLT, CYLINDER HEAD, 6 CYL, 4.2 L' remark='LONG-M11 X 1.5 X 132 METRIC - 6 CYL. - 4.2L.' quantity='8' partNumber='F7ZZ 6065-AA' price='35.58'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='BUSHING, VALVE GUIDE, 6 CYL, 4.2 L' remark='INTAKE-STD. - 6 CYL. - 4.2L.' quantity='6' partNumber='F6ZZ 6510-B' price='3.27'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/1998' description='SEAL, VALVE STEM, 6 CYL, 4.2 L' remark='INTAKE &amp; EXHAUST - 6 CYL. - 4.2L.' quantity='12' partNumber='F57Z 6571-A' price='10.55'/>
+		<part callout='23415' beginDate='01/01/2001' endDate='31/12/2004' description='SEAL, VALVE STEM, 6 CYL, 4.2 L' remark='INTAKE &amp; EXHAUST(May be available for DEALERS ONLY via Vintage Parts 877-846-8243 or D2DLink at OEConnection.com) - 6 CYL. - 4.2L.' quantity='12' partNumber='1F2Z 6571-AA' price='1.73'/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1989' description='REINFORCEMENT, BODY SIDE DOOR CHECK ON BODY' remark='Front hinged door.' quantity='1' partNumber='D5UZ 11272A12-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='REINFORCEMENT, DOOR HINGE BODY UPPER' remark='W/HINGED SIDE DOORS.' quantity='1/2' partNumber='D5UZ 11268B60-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1988' description='REINFORCEMENT, ROOF PANEL FRONT' remark='BEFORE 4/88, r/b E9UZ 1550263-A.' quantity='1' partNumber='E6UZ 1550263-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='REINFORCEMENT, BODY LOCK PILLAR THRU 28365' remark='EXC. CUTAWAY CAB, LOWER - R.H., (RH) Lower.' quantity='1' partNumber='E8UZ 1128364-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1987' description='PANEL, BODY SIDE' remark='124 W/B- W/HINGED SIDE DOORS BEFORE 1/87, R.H.-less window opening.' quantity='1' partNumber='E4UZ 15278A96-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1989' description='COVER, ROOF DRIP MOULDING JOINT' remark='(EXC. CUTAWAY CAB).' quantity='8' partNumber='D5UZ 1151762-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='RAIL, ROOF SIDE INNER AND 513A31' remark='R.H., W/SLIDING DOOR, (RH).' quantity='1' partNumber='E5UZ 16513A30-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1982' description='RAIL, ROOF SIDE OUTER REAR' remark='(82,89C,D,E,F) - 138 W/B BEFORE 2/81, (RH).' quantity='1' partNumber='D5UZ 11513A12-B' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='PANEL, COWL SIDE OUTER AND 02045' remark='R.H.' quantity='1' partNumber='EOUZ 1102044-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='APRON, FRONT FENDER' remark='FRONT - R.H., (RH) Front.' quantity='1' partNumber='E8UZ 16054-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1989' description='PANEL, COWL SIDE INNER' remark='INTEGRAL A/C, (RH).' quantity='1' partNumber='D7UZ 1102038-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1989' description='BRACKET, ENGINE COVER PANEL LOCATING' remark='' quantity='1' partNumber='D5UZ 11100A22-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='PLATE, ENGINE COVER LATCH STRIKER' remark='RH AND LH.' quantity='2' partNumber='D5UZ 11101B10-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='PANEL, ENGINE HOUSING SIDE AND 104A11' remark='R.H., (RH).' quantity='1' partNumber='D5UZ 11104A10-A' price=''/>
+		<part callout='23415' beginDate='01/01/1992' endDate='31/12/1997' description='REGISTER, AIR CONDITIONER' remark='WITH AUXILIARY A/C, LOCATED IN ROOF TRIM PANEL.' quantity='AR' partNumber='F2UZ 19893-B' price='22.39'/>
+		<part callout='23415' beginDate='01/01/1999' endDate='31/12/2000' description='MODULE ASY., PASSENGER AIR BAG RESTRAINT' remark='(-D*)-DARK DENIM BLUE.' quantity='1' partNumber='XC2Z 15044A74-AAB' price='622.03'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='SEAL, INTAKE MANIFOLD TO CYLINDER BLOCK - REAR' remark='4.2L, REAR.' quantity='1' partNumber='F65Z 9A424-AA' price='7.58'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='RETAINER, 4.2 L' remark='' quantity='1' partNumber='F5RZ 9F955-AB' price='6.56'/>
+		<part callout='23415' beginDate='01/01/1998' endDate='31/12/1998' description='GASKET SET, MANIFOLD, 6 CYL, 4.2 L' remark='USE ONLY WITH F85Z-9424-AA (LOWER). CONTAINS 4MM THICK 9439 GASKETS., FROM 1/15/98.' quantity='1' partNumber='F85Z 9433-BA' price='53.53'/>
+		<part callout='23415' beginDate='01/01/1998' endDate='31/12/1998' description='GASKET, INTAKE MANIFOLD TO CYLINDER HEAD, 6 CYL, 4.2 L' remark='RH 4MM THICK. USE WITH F85Z-9424-AA., FROM 1/15/98.' quantity='1' partNumber='XF2Z 9439-BA' price='14.01'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='PLUG, CAMSHAFT REAR BEARING, 6 CYL, 4.2 L' remark='2 REQD-REAR CAMSHAFT HOLE &amp; REAR BALANCE SHAFT HOLE IN BLOCK - 6 CYL. - 4.2L.' quantity='2' partNumber='E9SZ 6266-A' price='5.85'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='BEARING, CAMSHAFT REAR, 6 CYL, 4.2 L' remark='REAR ONLY(May be available for DEALERS ONLY via Vintage Parts 877-846-8243 or D2DLink at OEConnection.com) - 6 CYL. - 4.2L.' quantity='1' partNumber='E9SZ 6263-A' price=''/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='DOWEL, CYLINDER HEAD TO CYLINDER BLOCK, 6 CYL, 4.2 L' remark='6 CYL. - 4.2L.' quantity='4' partNumber='D4FZ 6A008-A' price='7.77'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='DOWEL, 6 CYL, 4.2 L' remark='FRONT COVER 6019 TO CYL. BLOCK-12.4MM X 17.3MM - 6 CYL. - 4.2L.' quantity='AR' partNumber='E8DZ 6397-A' price='12.83'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='FREEZE PLUG, ENGINE, 6 CYL, 4.2 L' remark='1.62 O.D.; FRONT &amp; REAR OF HEAD - 6 CYL. - 4.2L.' quantity='AR' partNumber='E6DZ 6026-C' price=''/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='INSULATOR ASY., FRONT SUPPORT, 6 CYL, 4.2 L' remark='LH - 6 CYL. - 4.2L.' quantity='1' partNumber='F7UZ 6038-CB' price='59.77'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='RETAINER, VALVE SPRING, 6 CYL, 4.2 L' remark='6 CYL. - 4.2L.' quantity='12' partNumber='F6ZZ 6514-A' price='8.6'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='BOLT, CYLINDER HEAD, 6 CYL, 4.2 L' remark='LONG-M11 X 1.5 X 132 METRIC - 6 CYL. - 4.2L.' quantity='8' partNumber='F7ZZ 6065-AA' price='35.58'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='BUSHING, VALVE GUIDE, 6 CYL, 4.2 L' remark='INTAKE-STD. - 6 CYL. - 4.2L.' quantity='6' partNumber='F6ZZ 6510-B' price='3.27'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/1998' description='SEAL, VALVE STEM, 6 CYL, 4.2 L' remark='INTAKE &amp; EXHAUST - 6 CYL. - 4.2L.' quantity='12' partNumber='F57Z 6571-A' price='10.55'/>
+		<part callout='23415' beginDate='01/01/2001' endDate='31/12/2004' description='SEAL, VALVE STEM, 6 CYL, 4.2 L' remark='INTAKE &amp; EXHAUST(May be available for DEALERS ONLY via Vintage Parts 877-846-8243 or D2DLink at OEConnection.com) - 6 CYL. - 4.2L.' quantity='12' partNumber='1F2Z 6571-AA' price='1.73'/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1989' description='REINFORCEMENT, BODY SIDE DOOR CHECK ON BODY' remark='Front hinged door.' quantity='1' partNumber='D5UZ 11272A12-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='REINFORCEMENT, DOOR HINGE BODY UPPER' remark='W/HINGED SIDE DOORS.' quantity='1/2' partNumber='D5UZ 11268B60-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1988' description='REINFORCEMENT, ROOF PANEL FRONT' remark='BEFORE 4/88, r/b E9UZ 1550263-A.' quantity='1' partNumber='E6UZ 1550263-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='REINFORCEMENT, BODY LOCK PILLAR THRU 28365' remark='EXC. CUTAWAY CAB, LOWER - R.H., (RH) Lower.' quantity='1' partNumber='E8UZ 1128364-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1987' description='PANEL, BODY SIDE' remark='124 W/B- W/HINGED SIDE DOORS BEFORE 1/87, R.H.-less window opening.' quantity='1' partNumber='E4UZ 15278A96-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1989' description='COVER, ROOF DRIP MOULDING JOINT' remark='(EXC. CUTAWAY CAB).' quantity='8' partNumber='D5UZ 1151762-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='RAIL, ROOF SIDE INNER AND 513A31' remark='R.H., W/SLIDING DOOR, (RH).' quantity='1' partNumber='E5UZ 16513A30-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1982' description='RAIL, ROOF SIDE OUTER REAR' remark='(82,89C,D,E,F) - 138 W/B BEFORE 2/81, (RH).' quantity='1' partNumber='D5UZ 11513A12-B' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='PANEL, COWL SIDE OUTER AND 02045' remark='R.H.' quantity='1' partNumber='EOUZ 1102044-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='APRON, FRONT FENDER' remark='FRONT - R.H., (RH) Front.' quantity='1' partNumber='E8UZ 16054-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1989' description='PANEL, COWL SIDE INNER' remark='INTEGRAL A/C, (RH).' quantity='1' partNumber='D7UZ 1102038-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1989' description='BRACKET, ENGINE COVER PANEL LOCATING' remark='' quantity='1' partNumber='D5UZ 11100A22-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='PLATE, ENGINE COVER LATCH STRIKER' remark='RH AND LH.' quantity='2' partNumber='D5UZ 11101B10-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='PANEL, ENGINE HOUSING SIDE AND 104A11' remark='R.H., (RH).' quantity='1' partNumber='D5UZ 11104A10-A' price=''/>
+		<part callout='23415' beginDate='01/01/1992' endDate='31/12/1997' description='REGISTER, AIR CONDITIONER' remark='WITH AUXILIARY A/C, LOCATED IN ROOF TRIM PANEL.' quantity='AR' partNumber='F2UZ 19893-B' price='22.39'/>
+		<part callout='23415' beginDate='01/01/1999' endDate='31/12/2000' description='MODULE ASY., PASSENGER AIR BAG RESTRAINT' remark='(-D*)-DARK DENIM BLUE.' quantity='1' partNumber='XC2Z 15044A74-AAB' price='622.03'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='SEAL, INTAKE MANIFOLD TO CYLINDER BLOCK - REAR' remark='4.2L, REAR.' quantity='1' partNumber='F65Z 9A424-AA' price='7.58'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='RETAINER, 4.2 L' remark='' quantity='1' partNumber='F5RZ 9F955-AB' price='6.56'/>
+		<part callout='23415' beginDate='01/01/1998' endDate='31/12/1998' description='GASKET SET, MANIFOLD, 6 CYL, 4.2 L' remark='USE ONLY WITH F85Z-9424-AA (LOWER). CONTAINS 4MM THICK 9439 GASKETS., FROM 1/15/98.' quantity='1' partNumber='F85Z 9433-BA' price='53.53'/>
+		<part callout='23415' beginDate='01/01/1998' endDate='31/12/1998' description='GASKET, INTAKE MANIFOLD TO CYLINDER HEAD, 6 CYL, 4.2 L' remark='RH 4MM THICK. USE WITH F85Z-9424-AA., FROM 1/15/98.' quantity='1' partNumber='XF2Z 9439-BA' price='14.01'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='PLUG, CAMSHAFT REAR BEARING, 6 CYL, 4.2 L' remark='2 REQD-REAR CAMSHAFT HOLE &amp; REAR BALANCE SHAFT HOLE IN BLOCK - 6 CYL. - 4.2L.' quantity='2' partNumber='E9SZ 6266-A' price='5.85'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='BEARING, CAMSHAFT REAR, 6 CYL, 4.2 L' remark='REAR ONLY(May be available for DEALERS ONLY via Vintage Parts 877-846-8243 or D2DLink at OEConnection.com) - 6 CYL. - 4.2L.' quantity='1' partNumber='E9SZ 6263-A' price=''/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='DOWEL, CYLINDER HEAD TO CYLINDER BLOCK, 6 CYL, 4.2 L' remark='6 CYL. - 4.2L.' quantity='4' partNumber='D4FZ 6A008-A' price='7.77'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='DOWEL, 6 CYL, 4.2 L' remark='FRONT COVER 6019 TO CYL. BLOCK-12.4MM X 17.3MM - 6 CYL. - 4.2L.' quantity='AR' partNumber='E8DZ 6397-A' price='12.83'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='FREEZE PLUG, ENGINE, 6 CYL, 4.2 L' remark='1.62 O.D.; FRONT &amp; REAR OF HEAD - 6 CYL. - 4.2L.' quantity='AR' partNumber='E6DZ 6026-C' price=''/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='INSULATOR ASY., FRONT SUPPORT, 6 CYL, 4.2 L' remark='LH - 6 CYL. - 4.2L.' quantity='1' partNumber='F7UZ 6038-CB' price='59.77'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='RETAINER, VALVE SPRING, 6 CYL, 4.2 L' remark='6 CYL. - 4.2L.' quantity='12' partNumber='F6ZZ 6514-A' price='8.6'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='BOLT, CYLINDER HEAD, 6 CYL, 4.2 L' remark='LONG-M11 X 1.5 X 132 METRIC - 6 CYL. - 4.2L.' quantity='8' partNumber='F7ZZ 6065-AA' price='35.58'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='BUSHING, VALVE GUIDE, 6 CYL, 4.2 L' remark='INTAKE-STD. - 6 CYL. - 4.2L.' quantity='6' partNumber='F6ZZ 6510-B' price='3.27'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/1998' description='SEAL, VALVE STEM, 6 CYL, 4.2 L' remark='INTAKE &amp; EXHAUST - 6 CYL. - 4.2L.' quantity='12' partNumber='F57Z 6571-A' price='10.55'/>
+		<part callout='23415' beginDate='01/01/2001' endDate='31/12/2004' description='SEAL, VALVE STEM, 6 CYL, 4.2 L' remark='INTAKE &amp; EXHAUST(May be available for DEALERS ONLY via Vintage Parts 877-846-8243 or D2DLink at OEConnection.com) - 6 CYL. - 4.2L.' quantity='12' partNumber='1F2Z 6571-AA' price='1.73'/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1989' description='REINFORCEMENT, BODY SIDE DOOR CHECK ON BODY' remark='Front hinged door.' quantity='1' partNumber='D5UZ 11272A12-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='REINFORCEMENT, DOOR HINGE BODY UPPER' remark='W/HINGED SIDE DOORS.' quantity='1/2' partNumber='D5UZ 11268B60-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1988' description='REINFORCEMENT, ROOF PANEL FRONT' remark='BEFORE 4/88, r/b E9UZ 1550263-A.' quantity='1' partNumber='E6UZ 1550263-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='REINFORCEMENT, BODY LOCK PILLAR THRU 28365' remark='EXC. CUTAWAY CAB, LOWER - R.H., (RH) Lower.' quantity='1' partNumber='E8UZ 1128364-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1987' description='PANEL, BODY SIDE' remark='124 W/B- W/HINGED SIDE DOORS BEFORE 1/87, R.H.-less window opening.' quantity='1' partNumber='E4UZ 15278A96-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1989' description='COVER, ROOF DRIP MOULDING JOINT' remark='(EXC. CUTAWAY CAB).' quantity='8' partNumber='D5UZ 1151762-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='RAIL, ROOF SIDE INNER AND 513A31' remark='R.H., W/SLIDING DOOR, (RH).' quantity='1' partNumber='E5UZ 16513A30-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1982' description='RAIL, ROOF SIDE OUTER REAR' remark='(82,89C,D,E,F) - 138 W/B BEFORE 2/81, (RH).' quantity='1' partNumber='D5UZ 11513A12-B' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='PANEL, COWL SIDE OUTER AND 02045' remark='R.H.' quantity='1' partNumber='EOUZ 1102044-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='APRON, FRONT FENDER' remark='FRONT - R.H., (RH) Front.' quantity='1' partNumber='E8UZ 16054-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1989' description='PANEL, COWL SIDE INNER' remark='INTEGRAL A/C, (RH).' quantity='1' partNumber='D7UZ 1102038-A' price=''/>
+		<part callout='23415' beginDate='01/01/1980' endDate='31/12/1989' description='BRACKET, ENGINE COVER PANEL LOCATING' remark='' quantity='1' partNumber='D5UZ 11100A22-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='PLATE, ENGINE COVER LATCH STRIKER' remark='RH AND LH.' quantity='2' partNumber='D5UZ 11101B10-A' price=''/>
+		<part callout='23415' beginDate='01/01/1990' endDate='31/12/1991' description='PANEL, ENGINE HOUSING SIDE AND 104A11' remark='R.H., (RH).' quantity='1' partNumber='D5UZ 11104A10-A' price=''/>
+		<part callout='23415' beginDate='01/01/1992' endDate='31/12/1997' description='REGISTER, AIR CONDITIONER' remark='WITH AUXILIARY A/C, LOCATED IN ROOF TRIM PANEL.' quantity='AR' partNumber='F2UZ 19893-B' price='22.39'/>
+		<part callout='23415' beginDate='01/01/1999' endDate='31/12/2000' description='MODULE ASY., PASSENGER AIR BAG RESTRAINT' remark='(-D*)-DARK DENIM BLUE.' quantity='1' partNumber='XC2Z 15044A74-AAB' price='622.03'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='SEAL, INTAKE MANIFOLD TO CYLINDER BLOCK - REAR' remark='4.2L, REAR.' quantity='1' partNumber='F65Z 9A424-AA' price='7.58'/>
+		<part callout='23415' beginDate='01/01/1997' endDate='31/12/2004' description='RETAINER, 4.2 L' remark='' quantity='1' partNumber='F5RZ 9F955-AB' price='6.56'/>
+		<part callout='23415' beginDate='01/01/1998' endDate='31/12/1998' description='GASKET SET, MANIFOLD, 6 CYL, 4.2 L' remark='USE ONLY WITH F85Z-9424-AA (LOWER). CONTAINS 4MM THICK 9439 GASKETS., FROM 1/15/98.' quantity='1' partNumber='F85Z 9433-BA' price='53.53'/>
+		<part callout='23415' beginDate='01/01/1998' endDate='31/12/1998' description='GASKET, INTAKE MANIFOLD TO CYLINDER HEAD, 6 CYL, 4.2 L' remark='RH 4MM THICK. USE WITH F85Z-9424-AA., FROM 1/15/98.' quantity='1' partNumber='XF2Z 9439-BA' price='14.01'/>
+    </parts>
+
+	<imageData>
+		<image><![CDATA[http://www.autopartslib.com/wp-content/uploads/2009/11/Acura-RSX-Clutch-Parts-Diagram.png]]></image>
+		<comment>This is the image comment to go with the picture.</comment>
+	</imageData>
+
+</body>
+

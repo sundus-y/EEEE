@@ -1,0 +1,206 @@
+
+body
+	{
+		font: 12px/1.5 Georgia, Palatino, "Palatino Linotype", serif;
+		line-height:170%;
+		background-color:#efefef;
+		margin:0;
+		padding:0;
+		color:#333;
+	}
+
+h2
+	{
+		font-size:16px;
+		color:#000066;
+		font-weight: bold;
+		margin:24px;
+		padding:0;
+	}
+
+/* Masthead */
+
+#masthead-container {
+    background-color: #8080c0;
+    text-align: left;
+}
+
+#masthead-container img {
+    vertical-align: bottom;
+}
+	
+.ifmfooter
+{
+	color: #333;
+	padding-top: 2px;
+	height: 25px;
+	text-align: right;
+}
+
+.ifmfooter a:visited
+{
+	color: #4e4e4e;
+	text-decoration: none;
+}
+.ifmfooter a:hover
+{
+	color: #0055A6;
+	border-bottom: #0055A6 1px dotted;
+	text-decoration: none;
+}
+.ifmfooter a:active
+{
+	color: #0055A6;
+	border-bottom: #0055A6 1px dotted;
+	text-decoration: none;
+}
+.ifmfooter a
+{
+	color: #4e4e4e;
+	text-decoration: none;
+}
+.ifmfooterlinks
+{
+	text-align: right;
+}
+.ifmfooterpipe
+{
+	margin: 0px 8px;
+	color: #afcade;
+}
+
+
+.loginPageTitleText {
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+	text-shadow: highlight;
+	line-height: 50px;
+	margin-left:25px;
+}
+
+/* Footer */
+
+#footer-container {
+    margin-top: 10pt;
+    border-top: 1px solid #a8a8a8;
+    font-size: 9pt;
+}
+
+#footer-container div.column1, div.column2 {
+    width: 460px;
+}
+
+#footer-container div.column1 {
+    float: left;
+    margin-right: 10px;
+}
+
+#footer-container div.column2 {
+    float: right;
+    margin-left: 10px;
+}
+
+#footer-container div.column-end {
+    clear: both;
+}
+
+#footer-container div.column1 {
+    text-align: left;
+}
+
+#footer-container div.column2 {
+    text-align: right;
+}
+
+.clickableDivRed {
+	cursor:pointer;
+	font-weight:bold;
+	color:maroon;
+	text-align: center;
+	text-decoration:underline;
+}
+.clickableDivGreen {
+	cursor:pointer;
+	font-weight:bold;
+	color:green;
+	text-align: center;
+}
+.clickableDivBlue {
+	cursor:pointer;
+	font-weight:bold;
+	color:navy;
+	text-align: center;
+}
+
+.toggleAutoRefreshOn {
+	color: white;
+	background-color:green;
+}
+.toggleAutoRefreshOff {
+	color: white;
+	background-color:maroon;
+}
+
+/* data tables style format */
+
+.datatablerowhighlight {
+	background-color: #ECFFB3 !important;
+}
+
+.column.align-right {
+	text-align: right;
+}
+.column.align-center {
+	text-align: center;
+}
+.column.wrap-breakall {
+	word-wrap: break-all;
+}
+.column.wrap-breakword {
+	word-wrap: break-word;
+}
+.column.nowrap {
+	white-space: nowrap;
+}
+.tbl_expanding {
+	padding-left:0px;
+	width:100%;
+	cellpadding:0px;
+	cellspacing:0px; 
+	border:0px;
+}
+
+div.red {
+	background: transparent url(../images/red.png) no-repeat scroll 0px 0px;			
+	border: 0px;
+	width:36px;
+	height: 36px;
+	float: center;		
+}	
+div.green {
+	background: transparent url(../images/green.png) no-repeat scroll 0px 0px;		
+	border: 0px;
+	width:36px;
+	height: 36px;
+	float: center;		
+}
+div.yellow {
+	background: transparent url(../images/yellow.png) no-repeat scroll 0px 0px;
+	border: 0px;
+	width:36px;
+	height: 36px;
+	float: center;			
+}
+div#settingLookup input {
+	width: 600px;	
+}
+div#settingLookup table {
+	align: center;
+}
+div#serverUptime table tr td.digit {
+	font-size:14px;
+	color:#0000CC;
+	font-weight: bold;
+	text-align:right;
+}

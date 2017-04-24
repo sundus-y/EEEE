@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: root
+Build-Jdk: 1.6.0_23
+Hudson-Build-Number: 77
+Hudson-Project: Business Services - IFM Offline Notes Service - Releas
+ e Build
+Hudson-Version: 1.423
+Jenkins-Build-Number: 77
+Jenkins-Project: Business Services - IFM Offline Notes Service - Relea
+ se Build
+Jenkins-Version: 1.423
+

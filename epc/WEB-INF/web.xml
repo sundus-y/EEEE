@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <display-name>epc</display-name>
+
+    <filter>
+        <filter-name>WindowsAuthenticationFilter</filter-name>
+        <filter-class>au.com.infomedia.localsecurity.authentication.WindowsAuthenticationFilter</filter-class>
+        <init-param>
+            <param-name>securityFilterProviders</param-name>
+            <param-value>
+				waffle.servlet.spi.BasicSecurityFilterProvider
+            </param-value>
+        </init-param>
+    </filter>
+
+    <filter id="adminFilter">
+        <filter-name>adminFilter</filter-name>
+        <display-name>Infomedia Admin Pages Filter</display-name>
+        <description>Filter for protecting the Admin Pages.</description>
+        <filter-class>au.com.infomedia.service.filters.AdminFunctionsProtectionFilter</filter-class>
+    </filter>
+    <filter id="noCacheFilter">
+        <filter-name>noCacheFilter</filter-name>
+        <display-name>No Cache Filter</display-name>
+        <description>Filter to add no-cache HTTP Headers to the HTTP request (asking the browser to not cache the
+            response).
+        </description>
+        <filter-class>au.com.infomedia.service.filters.NoCacheFilter</filter-class>
+    </filter>
+    <filter id="cacheFilter">
+        <filter-name>cacheFilter</filter-name>
+        <display-name>No Cache Filter</display-name>
+        <description>Filter to addHTTP Headers to the HTTP response</description>
+        <filter-class>au.com.infomedia.service.filters.CacheFilter</filter-class>
+    </filter>
+    <filter id="publicOnlyFilter">
+        <filter-name>PublicOnlyFilter</filter-name>
+        <display-name>Only Public Files Filter</display-name>
+        <description>Filter that will only allow serving of resources from the public directory.</description>
+        <filter-class>au.com.infomedia.service.filters.PublicResourceOnlyFilter</filter-class>
+    </filter>
+    <filter id="RESTServiceUserContextFilter">
+        <filter-name>RESTServiceUserContextFilter</filter-name>
+        <display-name>REST Service User Context Filter</display-name>
+        <description>Filter applies the user to the current context for the REST Services</description>
+        <filter-class>au.com.infomedia.epc.filter.RESTServiceUserContextFilter</filter-class>
+    </filter>
+    <!-- URLs that require an admin cookie -->
+    <filter-mapping>
+        <filter-name>WindowsAuthenticationFilter</filter-name>
+        <url-pattern>/services/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="adminFilterMapping1">
+        <filter-name>adminFilter</filter-name>
+        <url-pattern>/admin/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="adminFilterMapping2">
+        <filter-name>adminFilter</filter-name>
+        <url-pattern>/services/admin/ping/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="adminFilterMapping4">
+        <filter-name>adminFilter</filter-name>
+        <url-pattern>/services/admin/manifest/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="adminFilterMapping5">
+        <filter-name>adminFilter</filter-name>
+        <url-pattern>/services/admin/openlogfile/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="adminFilterMapping6">
+        <filter-name>adminFilter</filter-name>
+        <url-pattern>/services/admin/cache/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="adminFilterMapping7">
+        <filter-name>adminFilter</filter-name>
+        <url-pattern>/services/admin/services/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="adminFilterMapping8">
+        <filter-name>adminFilter</filter-name>
+        <url-pattern>/services/admin/statsovertime/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="adminFilterMapping9">
+        <filter-name>adminFilter</filter-name>
+        <url-pattern>/services/admin/stats/*</url-pattern>
+    </filter-mapping>
+    <!-- URLs that require a user in the context
+    <filter-mapping id="RESTServiceUserContextFilter1">
+    <filter-name>RESTServiceUserContextFilter</filter-name>
+    <url-pattern>/services/admin/version/*</url-pattern>
+    </filter-mapping>-->
+    <filter-mapping id="RESTServiceUserContextFilter2">
+        <filter-name>RESTServiceUserContextFilter</filter-name>
+        <url-pattern>/services/catalog/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="RESTServiceUserContextFilter3">
+        <filter-name>RESTServiceUserContextFilter</filter-name>
+        <url-pattern>/services/tags/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="RESTServiceUserContextFilter4">
+        <filter-name>RESTServiceUserContextFilter</filter-name>
+        <url-pattern>/services/feedback/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="RESTServiceUserContextFilter6">
+        <filter-name>RESTServiceUserContextFilter</filter-name>
+        <url-pattern>/services/search/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="RESTServiceUserContextFilter7">
+        <filter-name>RESTServiceUserContextFilter</filter-name>
+        <url-pattern>/search/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="RESTServiceUserContextFilter8">
+        <filter-name>RESTServiceUserContextFilter</filter-name>
+        <url-pattern>/services/user/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="RESTServiceUserContextFilter9">
+        <filter-name>RESTServiceUserContextFilter</filter-name>
+        <url-pattern>/chainservices/*</url-pattern>
+    </filter-mapping>
+    <!-- Don't apply this to the AMF broker - User context must be set in the AMF Java adapter for access to AMF headers
+    <filter-mapping id="RESTServiceUserContextFilter9">
+        <filter-name>RESTServiceUserContextFilter</filter-name>
+        <url-pattern>/amfbroker/*</url-pattern>
+    </filter-mapping>
+    -->
+    <filter-mapping id="RESTServiceUserContextFilter11">
+        <filter-name>RESTServiceUserContextFilter</filter-name>
+        <url-pattern>/search/*</url-pattern>
+    </filter-mapping>
+    <!-- No cache Filter Mappings -->
+    <filter-mapping id="cachingFilter1">
+        <filter-name>cacheFilter</filter-name>
+        <url-pattern>/services/catalog/listwithrules/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="cachingFilter2">
+        <filter-name>cacheFilter</filter-name>
+        <url-pattern>/services/catalog/*/sectionhierarchywithrules/*</url-pattern>
+    </filter-mapping>
+    <!-- No cache Filter Mappings -->
+    <filter-mapping id="NoCachingFilter1">
+        <filter-name>noCacheFilter</filter-name>
+        <url-pattern>/services/user/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="NoCachingFilter2">
+        <filter-name>noCacheFilter</filter-name>
+        <url-pattern>/services/admin/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="NoCachingFilter3">
+        <filter-name>noCacheFilter</filter-name>
+        <url-pattern>/services/tags/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="NoCachingFilter4">
+        <filter-name>noCacheFilter</filter-name>
+        <url-pattern>/services/order/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="NoCachingFilter5">
+        <filter-name>noCacheFilter</filter-name>
+        <url-pattern>/services/health/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="NoCachingFilter6">
+        <filter-name>noCacheFilter</filter-name>
+        <url-pattern>/services/feedback/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping id="NoCachingFilter7">
+        <filter-name>noCacheFilter</filter-name>
+        <url-pattern>/amfbroker/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>PublicOnlyFilter</filter-name>
+        <url-pattern>/resources/*</url-pattern>
+        <!--<servlet-name>PublicResourceServlet</servlet-name>-->
+    </filter-mapping>
+    <!-- Http Flex Session attribute and binding listener support -->
+    <listener>
+        <listener-class>flex.messaging.HttpFlexSession</listener-class>
+    </listener>
+    <listener>
+        <listener-class>au.com.infomedia.epc.service.UserSessionListener</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>RESTServicesServlet</servlet-name>
+        <servlet-class>au.com.infomedia.service.RESTServlet</servlet-class>
+        <!-- define the startup application for setting up the REST services -->
+        <init-param>
+            <param-name>javax.ws.rs.Application</param-name>
+            <param-value>au.com.infomedia.epc.service.RESTApplication</param-value>
+        </init-param>
+        <init-param>
+            <param-name>propertiesLocation</param-name>
+            <param-value>wink.properties</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <!-- MessageBroker Servlet -->
+    <servlet>
+        <servlet-name>AmfServlet</servlet-name>
+        <servlet-class>au.com.infomedia.epc.service.AmfServlet</servlet-class>
+        <init-param>
+            <param-name>services.configuration.file</param-name>
+            <param-value>/WEB-INF/flex/services-config.xml</param-value>
+        </init-param>
+        <init-param>
+            <param-name>flex.write.path</param-name>
+            <param-value>/WEB-INF/flex</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <!-- REST Servlet -->
+    <servlet>
+        <servlet-name>RESTServlet</servlet-name>
+        <display-name>RESTServlet</display-name>
+        <servlet-class>au.com.infomedia.epc.service.RESTServlet</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>ChainedSearchServlet</servlet-name>
+        <display-name>ChainedSearchServlet</display-name>
+        <servlet-class>au.com.infomedia.epc.servlet.ChainServicesServlet</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>EPCMBeanLoaderServlet</servlet-name>
+        <display-name>EPCMBeanLoaderServlet</display-name>
+        <servlet-class>au.com.infomedia.epc.management.EPCMBeanLoaderServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>ComponentRegistryServlet</servlet-name>
+        <display-name>ComponentRegistryServlet</display-name>
+        <servlet-class>au.com.infomedia.epc.search.component.http.HttpComponentServlet</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>ServicesPage</servlet-name>
+        <display-name>ServicesPage</display-name>
+        <jsp-file>/servicesApp.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>PublicResourceServlet</servlet-name>
+        <display-name>Public Resources Servlet</display-name>
+        <servlet-class>org.apache.catalina.servlets.DefaultServlet</servlet-class>
+        <init-param>
+            <param-name>listings</param-name>
+            <param-value>false</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AmfServlet</servlet-name>
+        <url-pattern>/amfbroker/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ComponentRegistryServlet</servlet-name>
+        <url-pattern>/componentservice/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ComponentRegistryServlet</servlet-name>
+        <url-pattern>/componentservice</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ChainedSearchServlet</servlet-name>
+        <url-pattern>/chainservices/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PublicResourceServlet</servlet-name>
+        <url-pattern>/resources/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PublicResourceServlet</servlet-name>
+        <url-pattern>/admin/resources/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RESTServicesServlet</servlet-name>
+        <url-pattern>/services-wink/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RESTServicesServlet</servlet-name>
+        <url-pattern>/unprotected-services/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RESTServlet</servlet-name>
+        <url-pattern>/services/*</url-pattern>
+    </servlet-mapping>
+    <!--<servlet-mapping>
+    <servlet-name>RESTServlet</servlet-name>
+    <url-pattern>/</url-pattern>
+    </servlet-mapping>-->
+    <welcome-file-list>
+        <welcome-file>default.jsp</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>

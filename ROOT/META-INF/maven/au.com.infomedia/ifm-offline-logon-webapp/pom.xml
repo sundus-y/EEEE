@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>au.com.infomedia</groupId>
+        <artifactId>ifm-super-pom</artifactId>
+        <version>1.1.0</version>
+    </parent>
+
+    <groupId>au.com.infomedia</groupId>
+    <artifactId>ifm-offline-logon-webapp</artifactId>
+    <version>1.0</version>
+
+    <name>Infomedia Offline Disc - Logon Web Application</name>
+    <description>Displays a logon page to the user as the root context of the website containing the offline Microcat
+        disc product.
+    </description>
+    <packaging>war</packaging>
+
+    <properties>
+        <ifm-library.version>1.1.70-29</ifm-library.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.0.2</version>
+                <configuration>
+                    <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-jsptags</artifactId>
+            <version>${ifm-library.version}</version>
+            <type>war</type>
+            <scope>runtime</scope>
+            <optional>false</optional>
+        </dependency>
+        <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-service-connector</artifactId>
+            <version>${ifm-library.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+        </dependency>
+    </dependencies>
+</project>

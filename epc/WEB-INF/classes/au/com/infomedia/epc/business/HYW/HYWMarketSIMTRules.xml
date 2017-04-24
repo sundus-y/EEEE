@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+    <partformats>
+        <number bind="part" label="Part number" lexid="7217" code="1" isdefault="1"/>
+        <number bind="pnc" label="PNC" lexid="2943" code="2" isdefault="0"/>
+    </partformats>
+
+    <partsearch>
+        <type bind="part" label="Part Number" lexid="7217" code="1" isdefault="1" iscrosscatalogdefault="1" matchexact="1" matchpartialstart="1" matchdefault="matchexact" crosscatalog="1" crosscatalogselected="0" crosscatalogwithoutparts="1" />
+        <type bind="pnc" label="PNC" lexid="2943" code="2" isdefault="0" iscrosscatalogdefault="0" matchexact="1" matchpartialstart="0" matchdefault="matchexact" crosscatalog="1" crosscatalogselected="0" crosscatalogwithoutparts="1" />
+        <type bind="desc" label="Description" lexid="72" code="102" isdefault="0" iscrosscatalogdefault="0" matchexact="1" matchpartialstart="1" matchdefault="matchexact" crosscatalog="0" crosscatalogselected="0" />
+        <type bind="section" label="Section" lexid="239" code="800" isdefault="0" iscrosscatalogdefault="0" crosscatalog="0" crosscatalogselected="0" />        
+    </partsearch>
+	<vehiclesearch>
+		<type bind="vin" label="VIN" lexid="299" code="0" markets="ALL"/>
+	</vehiclesearch>
+	<support>
+		<market value="default">
+			<setting name="phonenumber" value="+1-888-929-5599" />
+			<setting name="faxnumber" value="+1-888-434-5544" />
+			<setting name="supportemail" value="help@microcat.net" />
+			<setting name="supporttimes" value="help@microcat.net" />
+			<setting name="_supportemailcc" value="us-custserv@infomedia.com.au" />
+			<setting name="_supportemailbcc" value="" />
+		</market>
+	</support>
+    <markets>
+        <marketcode value="US"/>
+        <marketcode value="CA"/>
+        <marketcode value="NL"/>
+        <marketcode value="AU"/>
+    </markets>
+</rules>

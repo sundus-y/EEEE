@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" applicationComplete="getAllServices()" backgroundColor="white">
+
+	<mx:HDividedBox x="20" y="20" width="95%" height="95%">
+		<mx:Box width="514" height="100%" cornerRadius="25" borderStyle="solid" backgroundColor="white">
+			<mx:Box height="15"/>
+			<mx:Tree id="servicesList" dataProvider="{servicesXml}" labelFunction="treeLabel" paddingLeft="10" paddingRight="10" width="100%" height="100%" itemClick="serviceClicked()" showRoot="false" borderThickness="0" focusEnabled="false" />
+			<mx:Box height="15"/>
+		</mx:Box>
+		<mx:Box width="100%" height="100%">
+			<mx:Grid id="resultsGrid" width="100%" height="100%">
+				<mx:GridRow width="100%" height="0">
+					<mx:GridItem width="100%" height="100%">
+						<mx:VBox id="paramsBox" height="100%" width="100%" paddingTop="20">
+						</mx:VBox>
+					</mx:GridItem>
+				</mx:GridRow>
+				<mx:GridRow width="100%" height="0">
+					<mx:GridItem width="100%" height="100%">
+						<mx:Button click="invokeParametrizedService()" label="Invoke!"/>
+					</mx:GridItem>
+				</mx:GridRow>
+				<mx:GridRow width="100%" height="100%">
+					<mx:GridItem width="100%" height="100%">
+						<mx:Box height="100%" width="100%" cornerRadius="15" borderStyle="solid" backgroundColor="white">
+							<mx:Box height="15"/>
+							<mx:TextArea id="resultArea" height="100%" width="100%" borderThickness="0" paddingLeft="10" paddingRight="10" editable="false" focusEnabled="false"/>
+							<mx:Box height="15"/>
+						</mx:Box>
+					</mx:GridItem>
+				</mx:GridRow>
+			</mx:Grid>
+		</mx:Box>
+	</mx:HDividedBox>
+
+
+	<mx:Script>
+		<![CDATA[
+			import mx.utils.StringUtil;
+			import mx.utils.URLUtil;
+			import mx.messaging.config.ConfigMap;
+			import mx.rpc.http.HTTPService;
+			import mx.events.FlexEvent;
+			import mx.controls.TextInput;
+			import mx.controls.Text;
+			import mx.containers.HBox;
+			import mx.controls.Label;
+			import mx.events.ListEvent;
+			import mx.rpc.AsyncToken;
+		
+			import mx.rpc.events.ResultEvent;
+			import mx.rpc.events.FaultEvent;
+			import mx.controls.Alert;
+
+			[Bindable]
+            private var servicesXml:XML;
+			[Bindable]
+            private var serviceResultXml:XML;
+            
+            private var paramInputBoxes:Array;
+            private var httpParams:Dictionary;
+            private var httpParamsList:Array;
+            
+            private var serverPrefix:String;
+
+			private function handleFault(event:FaultEvent):void {
+				resultArea.text = event.fault.faultString;
+			}
+
+			private function handleGetServices(event:ResultEvent):void {
+				servicesXml = event.result as XML;
+			}
+			
+			private function serviceClicked():void {
+				var url:String = servicesList.selectedItem.@url;
+				var httpParamsString:String = servicesList.selectedItem.@httpParams;
+				resultsGrid.getChildAt(0).height=0;
+				resultArea.text="";
+				if (url!="") {
+					if (url.indexOf("{")<=0 && httpParamsString.length==0) {
+						resultsGrid.getChildAt(1).height=0;
+						callService(url);
+					} else {
+						resultsGrid.getChildAt(1).height=30;
+						showParametersPanel(url,httpParamsString);
+					}
+				} else {
+					resultsGrid.getChildAt(1).height=0;
+				}
+			}
+			
+			private function callService(url:String):void {
+				resultArea.text = "";
+				var service:HTTPService = new HTTPService();
+				service.url = url;
+				service.useProxy=false;
+				service.resultFormat="e4x";
+				service.addEventListener(FaultEvent.FAULT,handleFault);
+				service.addEventListener(ResultEvent.RESULT,handleServiceResult);
+				service.send();
+			}
+
+			private function handleServiceResult(event:ResultEvent):void {
+				serviceResultXml = event.result as XML;
+				resultArea.text = serviceResultXml;
+			}
+			
+			private function showParametersPanel(url:String,httpParamsString:String):void {
+				resultArea.text = "";
+				paramsBox.removeAllChildren();
+				paramInputBoxes = new Array();
+				httpParams = new Dictionary();
+				httpParamsList = new Array();
+				var tokens:Array = url.split(/({[a-zA-Z0-9]+})/);
+				// handle http params
+				if (httpParamsString!=null && httpParamsString.length>0) {
+					var httpParamsArray:Array = httpParamsString.split(",");
+					for (var i:int=0; i<httpParamsArray.length; i++) {
+						var httpParamName:String = StringUtil.trim(httpParamsArray[i]);
+						tokens.push(httpParamName);
+						httpParams[httpParamName]=httpParamName;
+						httpParamsList.push(httpParamName);
+					}
+				}
+				var height:int = 20;
+				var first:Boolean = true;
+				for (var i:int=0; i<tokens.length; i++) {
+					var token:String = tokens[i];
+					if (token.length>0 && (token.substr(0,1)=="{" || httpParams[token]!=null)) {
+						height=height+30;
+						var paramContainer:HBox = new HBox();
+						var label:Label = new Label();
+						if (token.substr(0,1)=="{") {
+							label.text=token.substr(1,token.length-2);
+						} else {
+							label.text = token;
+						}
+						var text:TextInput = new TextInput();
+						text.name=token;
+						text.addEventListener(KeyboardEvent.KEY_DOWN,
+							function(event:KeyboardEvent):void {
+								if (event.keyCode==Keyboard.ENTER) {
+									invokeParametrizedService();									
+								}								
+							});
+						paramInputBoxes.push(text);
+						paramContainer.addChild(label);
+						paramContainer.addChild(text);
+						paramsBox.addChild(paramContainer);
+						if (first) {
+							first = false;
+							text.setFocus();
+						}
+					}
+				}
+				resultsGrid.getChildAt(0).height=height;
+			}
+			
+			private function invokeParametrizedService():void {
+				var pattern:String = servicesList.selectedItem.@url;
+				var missingInput:Boolean = false;
+				var paramValues:Dictionary = new Dictionary();
+				for (var i:int=0; i<paramInputBoxes.length; i++) {
+					var inputBox:TextInput = paramInputBoxes[i];
+					if (inputBox.text.length==0) {
+						missingInput=true;
+					} else {
+						paramValues[inputBox.name]=inputBox.text;
+					}
+				}
+				if (missingInput) {
+					Alert.show("Please fill in all parameters."); 
+				} else {
+					var url:String = "";
+					var tokens:Array = pattern.split(/({[a-zA-Z0-9]+})/);
+					for (var i:int=0; i<httpParamsList.length; i++) {
+						tokens.push(httpParamsList[i]);
+					}
+					var first:Boolean = true;
+					for (var i:int=0; i<tokens.length; i++) {
+						var token:String = tokens[i];
+						if (httpParams[token]==null) {
+							// url parameter
+							if (token.length>0 && token.substr(0,1)=="{") {
+								url = url + paramValues[token];
+							} else {
+								url = url + token;
+							}
+						} else {
+							// http parameter
+							if (first) {
+								url = url + "?";
+								first = false;
+							} else {
+								url = url + "&";
+							}
+							url = url + token + "=" + paramValues[token];
+						}
+					}
+					callService(url);
+				}
+			}
+			
+			private function treeLabel(item:Object):String {
+				var node:XML = XML(item);
+				if (node.localName()=="action") {
+					return node.@name;
+				} else if (node.localName()=="service") { 
+					return node.@url;
+				} else {
+					return "?_" + node.localName() + "_?";
+				}
+			}
+			
+			private function getAllServices():void {
+				var service:HTTPService = new HTTPService();
+				var url:String = Application.application.loaderInfo.url;
+				var name:String = URLUtil.getServerNameWithPort(Application.application.loaderInfo.url);
+				if (name==null || name.length==0) {
+					name = "localhost";
+				}
+				serverPrefix = "http://" + name + "/epc/services/";
+				service.url = serverPrefix + "admin/services";
+				service.useProxy=false;
+				service.resultFormat="e4x";
+				service.addEventListener(FaultEvent.FAULT,handleFault);
+				service.addEventListener(ResultEvent.RESULT,handleGetServices);
+				service.send();
+			}
+			
+		]]>
+	</mx:Script>
+	
+</mx:Application>

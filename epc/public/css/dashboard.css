@@ -1,0 +1,283 @@
+
+body
+	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:70%;
+		line-height:170%;
+		background-color:#efefef;
+		margin:0;
+		padding:0;
+		color:#333;
+	}
+
+h2
+	{
+		font-size:16px;
+		color:#000066;
+		font-weight: bold;
+		margin:24px;
+		padding:0;
+	}
+
+/* Masthead */
+
+#masthead-container {
+    background-color: #00694e;
+    text-align: left;
+}
+
+#masthead-container img {
+    vertical-align: bottom;
+}
+
+.logFileTable
+	{		
+		border-top: solid 2px #000066;
+		border-bottom: solid 2px #000066;
+		border-left: solid 2px #000066;
+		border-right: solid 2px #000066;	
+		margin-left: 32px;
+		padding: 2px;
+		cell-spacing: 0px;
+	}
+
+.logFileHeaderRow 
+	{
+		background-color: #796842;
+		font-family:Arial, Helvetica, sans-serif;
+		color: white;
+		font-size:12px;
+		line-height:170%;
+		margin:0px;
+		padding:1px;
+		border: solid 2px #000066;
+		border-top: solid 2px #000066;
+		border-bottom: solid 2px #000066;
+		border-left: solid 2px #000066;
+		border-right: solid 2px #000066;
+	}
+.logFileHeaderCell
+	{
+		background-color: #796842;
+		font-family:Arial, Helvetica, sans-serif;
+		color: white;
+		font-size:12px;
+		line-height:170%;
+		margin:0px;
+		padding:1px;
+		border: solid 2px #000066;
+		border-top: solid 2px #000066;
+		border-bottom: solid 2px #000066;
+		border-left: solid 2px #000066;
+		border-right: solid 2px #000066;
+	}
+		
+.logFileRow 
+	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		line-height:170%;
+		margin:0px;
+		padding:2px;		
+		border: solid 1px #000099;
+		border-top: solid 1px #000066;
+		border-bottom: solid 1px #000066;
+		border-left: solid 1px #000066;
+		border-right: solid 1px #000066;
+	}
+
+.logFileRowOver
+	{
+		background-color:#989857;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		line-height:170%;
+		margin:0px;
+		padding:2px;		
+		border: solid 1px #000099;
+		border-top: solid 1px #000066;
+		border-bottom: solid 1px #000066;
+		border-left: solid 1px #000066;
+		border-right: solid 1px #000066;
+	}
+
+.logFileCell
+	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		line-height:170%;
+		margin:0px;
+		padding:2px;
+		border: solid 1px #000099;
+		border-top: solid 1px #000066;
+		border-bottom: solid 1px #000066;
+		border-left: solid 1px #000066;
+		border-right: solid 1px #000066;
+	}
+	
+.logFileCellOver
+	{
+		background-color:#989857;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		line-height:170%;
+		margin:0px;
+		padding:2px;
+		border: solid 1px #000099;
+		border-top: solid 1px #000066;
+		border-bottom: solid 1px #000066;
+		border-left: solid 1px #000066;
+		border-right: solid 1px #000066;
+	}
+
+
+.logFileCellOverGreen
+		{
+		background-color:#aaefaa;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		line-height:170%;
+		margin:0px;
+		padding:2px;
+		border: solid 1px #000099;
+		border-top: solid 1px #000066;
+		border-bottom: solid 1px #000066;
+		border-left: solid 1px #000066;
+		border-right: solid 1px #000066;
+	}
+	
+.logFileCellOverRed
+		{
+		background-color:#efaaaa;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		line-height:170%;
+		margin:0px;
+		padding:2px;
+		border: solid 1px #000099;
+		border-top: solid 1px #000066;
+		border-bottom: solid 1px #000066;
+		border-left: solid 1px #000066;
+		border-right: solid 1px #000066;
+	}
+	
+.logFileCellOverOrange
+		{
+		background-color:#cfcfaa;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		line-height:170%;
+		margin:0px;
+		padding:2px;
+		border: solid 1px #000099;
+		border-top: solid 1px #000066;
+		border-bottom: solid 1px #000066;
+		border-left: solid 1px #000066;
+		border-right: solid 1px #000066;
+	}
+	
+	
+.ifmfooter
+{
+	color: #333;
+	padding-top: 2px;
+	height: 25px;
+	text-align: right;
+}
+
+.ifmfooter a:visited
+{
+	color: #4e4e4e;
+	text-decoration: none;
+}
+.ifmfooter a:hover
+{
+	color: #0055A6;
+	border-bottom: #0055A6 1px dotted;
+	text-decoration: none;
+}
+.ifmfooter a:active
+{
+	color: #0055A6;
+	border-bottom: #0055A6 1px dotted;
+	text-decoration: none;
+}
+.ifmfooter a
+{
+	color: #4e4e4e;
+	text-decoration: none;
+}
+.ifmfooterlinks
+{
+	text-align: right;
+}
+.ifmfooterpipe
+{
+	margin: 0px 8px;
+	color: #afcade;
+}
+
+
+.loginPageTitleText {
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+	text-shadow: highlight;
+	line-height: 50px;
+	margin-left:25px;
+}
+
+/* Footer */
+
+#footer-container {
+    margin-top: 10pt;
+    border-top: 1px solid #a8a8a8;
+    font-size: 9pt;
+}
+
+#footer-container div.column1, div.column2 {
+    width: 460px;
+}
+
+#footer-container div.column1 {
+    float: left;
+    margin-right: 10px;
+}
+
+#footer-container div.column2 {
+    float: right;
+    margin-left: 10px;
+}
+
+#footer-container div.column-end {
+    clear: both;
+}
+
+#footer-container div.column1 {
+    text-align: left;
+}
+
+#footer-container div.column2 {
+    text-align: right;
+}
+
+
+.clickableDivRed {
+	cursor:pointer;
+	font-weight:bold;
+	color:maroon;
+	text-align: center;
+	text-decoration:underline;
+}
+.clickableDivGreen {
+	cursor:pointer;
+	font-weight:bold;
+	color:green;
+	text-align: center;
+}
+.clickableDivBlue {
+	cursor:pointer;
+	font-weight:bold;
+	color:navy;
+	text-align: center;
+}

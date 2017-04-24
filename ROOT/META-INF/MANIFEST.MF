@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: root
+Build-Jdk: 1.6.0_23
+Hudson-Build-Number: 89
+Hudson-Project: Business Services - HYW Offline Logon Web Application
+Hudson-Version: 1.423
+Jenkins-Build-Number: 89
+Jenkins-Project: Business Services - HYW Offline Logon Web Application
+Jenkins-Version: 1.423
+

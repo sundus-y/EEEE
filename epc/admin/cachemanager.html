@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>	
+<head>
+	<title>Infomedia Ltd. - Cache Manager</title>
+	<link rel="stylesheet" type="text/css" href="css/dashboard.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="../themes/smoothness/jquery-ui-1.8.5.custom.css" media="screen"/>
+	<style type="text/css" title="currentStyle">
+        @import "../plugins/datatables.1.7.3/css/demo_page.css";
+        @import "../plugins/datatables.1.7.3/css/demo_table.css";
+    </style>
+	<script type="text/javascript" language="javascript" src="js/config.js"></script>	
+	<script type="text/javascript" language="javascript" src="../js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" language="javascript" src="../js/jquery-ui-1.8.5.custom.min.js"></script>
+	<script type="text/javascript" language="javascript" src="../plugins/datatables.1.7.3/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" language="javascript" src="js/common.js"></script>
+	<script type="text/javascript" language="javascript" src="js/CacheManager.js"></script>
+</head>
+<body>
+<div id="body-wrapper">
+    <div id="masthead-container">
+		<table width="100%"><tr>
+			<td align="left" valign="top">
+		        <img src="../images/IFM-Logo.png" alt="logo"/>
+		        <br/>
+				<span class="loginPageTitleText">
+					Cache Manager
+				</span>
+			</td>
+			<td align="right" valign="bottom">
+				<span onclick="window.location='index.html';" style="cursor:pointer;font-weight:bold;color:white;text-align: center;">
+					Return to Admin Home
+				</span>
+			</td>
+		</tr></table>
+	</div>
+
+	<div id="content-container">
+		<table width="100%" >
+		<tr><td valign="top" align="left" >
+			</td>
+		<td valign="baseline" align="right" >
+			<table><tr>
+			<td>
+				<span style='margin-left:10px;padding:3px;'>Auto refresh:</span>
+				<div id='refreshButton' style='display:inline;margin-left:2px;border:1 solid black;padding:3px;cursor:pointer;background-color:maroon;color:white;'
+						onclick='toggleAutoRefresh()'>OFF</div>
+			</td>
+			<td>
+				<div id='refreshIn' style='display:inline;margin-left:2px;border:1 solid black;padding:3px;'>
+						20 secs
+				</div>
+			</td>
+			</tr></table>
+		</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="cachelist"> 
+	<table width="98%" align="center"><tr><td>
+		<table class="display" id="tbl_cachelist"> 
+			<thead> 
+				<tr> 
+					<th width="20%">Cache Name</th> 
+					<th width="10%">Object Count</th> 
+					<th width="10%">In Memory Hits</th>
+					<th width="10%">On Disk Hits</th>
+					<th width="10%">Total Hits</th> 
+					<th width="15%">Average Get Time</th> 
+					<!--<th class="flushAll" width="15%" style='cursor:pointer;color:blue;text-decoration:underline;'>Flush All</th>-->
+				</tr> 
+			</thead> 
+			<tbody> 
+				<tr>
+					<td>
+						Loading...
+					</td>
+				</tr>
+			</tbody> 
+		</table>
+		
+		<table width="15%" align="center">
+			<tr>
+				<td width="50%"><button class="flush">Flush</button></td>
+				<td width="50%"><button class="flushall">Flush All</button></td>
+			</tr>
+		</table>
+		
+		<div id = "errorMessage">
+			
+		</div> 
+	</td></tr></table>
+	</div> 
+</div>
+</body>
+</html>

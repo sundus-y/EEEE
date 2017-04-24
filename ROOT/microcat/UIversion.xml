@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Build version info
+Mon Feb 02 09:22:30 EST 2009 -->
+<root>
+	<buildBy>uibuild</buildBy>
+	<major>6</major>
+	<revision>53428</revision>
+	<minor>0</minor>
+	<buildDate>2012-09-03_17-33-38</buildDate>
+	<build>3077</build>
+	<v6revision>${svnV6Revision}</v6revision>
+</root>

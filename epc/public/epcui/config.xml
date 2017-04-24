@@ -1,0 +1,7 @@
+<config>
+    <epcdomain>http://intdev.epc.ifmsystems.com:8080</epcdomain>
+    <epccontext>epc</epccontext>
+    <imagesdomain>http://intdev.images.ifmsystems.com:8080</imagesdomain>
+    <imagescontext>illustrations</imagescontext>
+    <imagesformat>.png</imagesformat>
+</config>

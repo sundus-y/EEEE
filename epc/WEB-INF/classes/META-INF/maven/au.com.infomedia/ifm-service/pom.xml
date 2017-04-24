@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ifm-library</artifactId>
+        <groupId>au.com.infomedia</groupId>
+        <version>1.1.70-35</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>au.com.infomedia</groupId>
+    <artifactId>ifm-service</artifactId>
+    <version>1.1.70-35</version>
+    <name>Infomedia Service API</name>
+    <description>Framework for implementing HTTP services.</description>
+
+    <dependencies>
+       <!-- infomedia dependencies-->
+       <dependency>
+           <groupId>au.com.infomedia</groupId>
+           <artifactId>ifm-util</artifactId>
+       </dependency>
+       <dependency>
+           <groupId>au.com.infomedia</groupId>
+           <artifactId>ifm-security</artifactId>
+       </dependency>        
+       <dependency>
+           <groupId>au.com.infomedia</groupId>
+           <artifactId>ifm-globalization</artifactId>
+       </dependency>        
+       <dependency>
+           <groupId>au.com.infomedia</groupId>
+           <artifactId>ifm-configuration</artifactId>
+       </dependency>        
+        <!-- required library for Wink REST services -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-jdk14</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wink</groupId>
+            <artifactId>wink-common</artifactId>
+            <version>1.1.2-incubating</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wink</groupId>
+            <artifactId>wink-server</artifactId>
+            <version>1.1.2-incubating</version>
+        </dependency>
+        <!--required library for Apache Bean Validation (bVal)-->
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-validation_1.0_spec</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.bval</groupId>
+            <artifactId>org.apache.bval.bundle</artifactId>
+            <version>0.2-incubating</version>
+        </dependency>
+        <!--  -->
+	    <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+        </dependency>
+
+	   <!--  Easymock -->
+	   <dependency>
+            <groupId>org.easymock</groupId>
+            <artifactId>easymockclassextension</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.easymock</groupId>
+            <artifactId>easymock</artifactId>
+        </dependency>        
+    </dependencies>
+</project>

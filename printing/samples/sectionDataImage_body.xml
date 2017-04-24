@@ -1,0 +1,22 @@
+<body>
+	<translations>
+		<translation item="PartNumber">Part Number</translation>
+		<translation item="PartQuantity">Qty.</translation>
+		<translation item="PartDescription">Description</translation>
+		<translation item="PartRemarks">Remarks</translation>
+		<translation item="PartFromDate">From Date</translation>
+		<translation item="PartToDate">To Date</translation>
+		<translation item="PartPrice">Price</translation>
+		<translation item="PartCallout">Key</translation>
+		<translation item="ImageComments">Comments:</translation>
+		<translation item="copyright">&#169; 2004 - 2010 Infomedia Ltd and its licensors.</translation>
+		<translation item="pageno">Page [x] of [y]</translation>
+	</translations>
+
+	<imageData>
+		<image>http://www.autopartslib.com/wp-content/uploads/2009/11/Acura-RSX-Clutch-Parts-Diagram.png</image>
+		<comment>This is the image comment to go with the picture.</comment>
+	</imageData>
+
+</body>
+

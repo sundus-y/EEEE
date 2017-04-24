@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+
+    <filter>
+        <filter-name>WindowsAuthenticationFilter</filter-name>
+        <filter-class>au.com.infomedia.localsecurity.authentication.WindowsAuthenticationFilter</filter-class>
+        <init-param><param-name>securityFilterProviders</param-name><param-value>waffle.servlet.spi.BasicSecurityFilterProvider</param-value></init-param>
+    </filter>
+
+    <filter-mapping>
+      <filter-name>WindowsAuthenticationFilter</filter-name>
+      <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+	<!-- MessageBroker Servlet -->
+	<servlet>
+		<servlet-name>AmfServlet</servlet-name>
+		<servlet-class>au.com.infomedia.notes.service.AmfServlet</servlet-class>
+		<init-param>
+			<param-name>services.configuration.file</param-name>
+			<param-value>/WEB-INF/flex/services-config.xml</param-value>
+		</init-param>
+		<init-param>
+			<param-name>flex.write.path</param-name>
+			<param-value>/WEB-INF/flex</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>jsp</servlet-name>
+		<servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
+		<init-param>
+			<param-name>trimSpaces</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</servlet>
+
+	<!-- <filter id="noCacheFilter"> <filter-name>noCacheFilter</filter-name> 
+		<display-name>No Cache Filter</display-name> <description>Filter to add no-cache 
+		HTTP Headers to the HTTP request (asking the browser to not cache the response).</description> 
+		<filter-class>au.com.infomedia.service.filters.NoCacheFilter</filter-class> 
+		</filter> -->
+
+
+	<!-- path to the REST services -->
+	<servlet-mapping>
+		<servlet-name>AmfServlet</servlet-name>
+		<url-pattern>/amfbroker/*</url-pattern>
+	</servlet-mapping>
+
+	<!-- path to all services -->
+	<!-- <filter-mapping id="NoCachingFilter1">
+		<filter-name>noCacheFilter</filter-name>
+		<url-pattern>/services/*</url-pattern>
+	</filter-mapping>-->
+
+	<welcome-file-list>
+		<welcome-file>default.jsp</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+
+</web-app>

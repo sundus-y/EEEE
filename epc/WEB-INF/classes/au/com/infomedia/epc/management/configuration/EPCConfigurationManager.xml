@@ -1,0 +1,237 @@
+<configurations>
+	<configuration id="FNA" name="Ford North and South America">
+        <franchises>
+            <franchise>FNA</franchise>
+        </franchises>
+		<connections>
+            <!--<connection name="candi"/>-->
+            <connection name="customerTag"/>
+            <!--<connection name="idmWebServices"/>-->
+            <connection name="fnacatalog"/>
+            <connection name="fnacommon"/>
+            <connection name="fnavins"/>
+            <connection name="fordvins"/>
+            <connection name="fnavcis"/>
+            <connection name="fnasupersession"/>
+            <connection name="fnacatalogsolr"/>
+        </connections>
+	</configuration>
+	<configuration id="FOC" name="Ford of Canada">
+        <franchises>
+            <franchise>FNA</franchise>
+        </franchises>
+		<connections>
+            <!--<connection name="candi"/>-->
+            <connection name="customerTag"/>
+            <!--<connection name="idmWebServices"/>-->
+            <connection name="fnacatalog"/>
+            <connection name="fnacommon"/>
+            <connection name="fnavins"/>
+            <connection name="fordvins"/>
+            <connection name="fnavcis"/>
+            <connection name="fnasupersession"/>
+            <connection name="fnacatalogsolr"/>
+        </connections>
+	</configuration>
+	<configuration id="FOM" name="Ford of Mexico">
+        <franchises>
+            <franchise>FNA</franchise>
+        </franchises>
+		<connections>
+            <!--<connection name="candi"/>-->
+            <connection name="customerTag"/>
+            <!--<connection name="idmWebServices"/>-->
+            <connection name="fnacatalog"/>
+            <connection name="fnacommon"/>
+            <connection name="fnavins"/>
+            <connection name="fordvins"/>
+            <connection name="fnavcis"/>
+            <connection name="fnasupersession"/>
+            <connection name="fnacatalogsolr"/>
+        </connections>
+	</configuration>
+	<configuration id="TMC" name="Toyota">
+        <franchises>
+            <franchise>TMC</franchise>
+        </franchises>
+		<connections>
+            <!--<connection name="candi"/>-->
+            <connection name="customerTag"/>
+            <!--<connection name="idmWebServices"/>-->
+            <connection name="tmccatalog"/>
+            <connection name="tmcfrkata"/>
+            <connection name="tmceurvins"/>
+            <connection name="tmcpricing"/>
+            <connection name="tmclookups"/>
+        </connections>
+	</configuration>
+    <configuration id="LRE" name="Land Rover">
+        <franchises>
+            <franchise>LRE</franchise>
+        </franchises>
+        <connections>
+            <!--<connection name="candi"/>-->
+            <connection name="customerTag"/>
+            <!--<connection name="idmWebServices"/>-->
+            <connection name="lrecatalog"/>
+            <connection name="lrepricing"/>
+        </connections>
+    </configuration>
+    <configuration id="FEU" name="Ford Europe">
+        <franchises>
+            <franchise>FEU</franchise>
+        </franchises>
+        <connections>
+            <!--<connection name="candi"/>-->
+            <connection name="customerTag"/>
+            <!--<connection name="idmWebServices"/>-->
+            <connection name="feucatalog"/>
+            <connection name="feupricing"/>
+            <connection name="fordvins"/>
+        </connections>
+    </configuration>
+    <configuration id="FAP" name="Ford Asia Pacific">
+        <franchises>
+            <franchise>FAP</franchise>
+        </franchises>
+        <connections>
+            <!--<connection name="candi"/>-->
+            <connection name="customerTag"/>
+            <!--<connection name="idmWebServices"/>-->
+            <connection name="fapcatalog"/>
+            <connection name="foacatalog"/>
+            <connection name="fojcatalog"/>
+            <connection name="fappricing"/>
+            <connection name="foapricing"/>
+            <connection name="fojpricing"/>
+            <connection name="fapmfnotes"/>
+            <connection name="fordvins"/>
+        </connections>
+    </configuration>
+    <configuration id="FEG" name="Ford Export and Growth">
+        <franchises>
+            <franchise>FNA</franchise>
+            <franchise>FAP</franchise>
+            <franchise>FEU</franchise>
+        </franchises>
+        <connections>
+            <!--<connection name="candi"/>-->
+            <connection name="customerTag"/>
+            <!--<connection name="idmWebServices"/>-->
+            <connection name="fnacatalog"/>
+            <connection name="fnacommon"/>
+            <connection name="fnavins"/>
+            <connection name="fapcatalog"/>
+            <connection name="foacatalog"/>
+            <connection name="fojcatalog"/>
+            <connection name="feucatalog"/>
+            <connection name="fappricing"/>
+            <connection name="foapricing"/>
+            <connection name="fojpricing"/>
+            <connection name="feupricing"/>            
+            <connection name="fapmfnotes"/>
+            <connection name="fordvins"/>
+            <connection name="fnavcis"/>
+            <connection name="fnasupersession"/>
+            <connection name="fnacatalogsolr"/>
+        </connections>
+    </configuration>
+
+    <configuration id="FORD" name="Ford">
+        <franchises>
+            <franchise>FNA</franchise>
+            <franchise>FAP</franchise>
+            <franchise>FEU</franchise>
+        </franchises>
+        <connections>
+            <!--<connection name="candi"/>-->
+            <connection name="customerTag"/>
+            <!--<connection name="idmWebServices"/>-->
+            <connection name="fnacatalog"/>
+            <connection name="fnacommon"/>
+            <connection name="fnavins"/>
+            <connection name="fapcatalog"/>
+            <connection name="foacatalog"/>
+            <connection name="fojcatalog"/>
+            <connection name="feucatalog"/>
+            <connection name="fappricing"/>
+            <connection name="foapricing"/>
+            <connection name="fojpricing"/>
+            <connection name="feupricing"/>
+            <connection name="fapmfnotes"/>
+            <connection name="fordvins"/>
+            <connection name="fnavcis"/>
+            <connection name="fnasupersession"/>
+        </connections>
+    </configuration>
+
+     <configuration id="ALL" name="All EPC">
+        <franchises>
+            <franchise>FNA</franchise>
+            <franchise>FAP</franchise>
+            <franchise>FEU</franchise>
+            <franchise>TMC</franchise>
+            <franchise>LRE</franchise>
+            <franchise>HYW</franchise>
+            <franchise>KIA</franchise>
+        </franchises>
+        <connections>
+            <!--<connection name="candi"/>-->
+            <connection name="customerTag"/>
+            <connection name="fnacatalog"/>
+            <connection name="fnacommon"/>
+            <connection name="fnavins"/>
+            <connection name="tmccatalog"/>
+            <connection name="tmcfrkata"/>
+            <connection name="tmclookups"/>
+            <connection name="tmceurvins"/>
+            <connection name="tmcpricing"/>
+            <connection name="lrecatalog"/>
+            <connection name="lrepricing"/>            
+            <connection name="fapcatalog"/>
+            <connection name="foacatalog"/>
+            <connection name="fojcatalog"/>
+            <connection name="feucatalog"/>
+            <connection name="fappricing"/>
+            <connection name="foapricing"/>
+            <connection name="fojpricing"/>
+            <connection name="feupricing"/>
+            <connection name="fapmfnotes"/>
+            <connection name="fordvins"/>
+            <connection name="hywcatalog"/>
+            <connection name="kiacatalog"/>
+            <connection name="fnavcis"/>
+            <connection name="fnasupersession"/>
+            <connection name="fnacatalogsolr"/>
+            <!--<connection name="idmWebServices"/>-->
+            <!-- ibox -->
+            <!--<connection name="cache"/>-->
+            
+        </connections>
+    </configuration>
+
+	<configuration id="HYW" name="Hyundai">
+        <franchises>
+            <franchise>HYW</franchise>
+        </franchises>
+		<connections>
+            <!--<connection name="candi"/>-->
+            <connection name="customerTag"/>
+            <!--<connection name="idmWebServices"/>-->
+            <connection name="hywcatalog"/>
+        </connections>
+	</configuration>
+
+
+	<configuration id="KIA" name="Kia">
+        <franchises>
+            <franchise>KIA</franchise>
+        </franchises>
+		<connections>
+            <!--<connection name="candi"/>-->
+            <connection name="customerTag"/>
+            <!--<connection name="idmWebServices"/>-->
+            <connection name="kiacatalog"/>
+        </connections>
+	</configuration>
+</configurations>

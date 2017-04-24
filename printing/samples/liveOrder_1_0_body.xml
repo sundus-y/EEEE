@@ -1,0 +1,156 @@
+<order>
+  <header id="db7e7d0c-7a83-11e0-86df-000c29ca435a" date="2011-05-13T17:11:23-00:00">
+    <customer name="UI Development" phone="" accountnumber="90055156" email="heli_all@ifm.com" address="?" shippingAddress="?" street="13 Test Ave" suburb="New York" state="NY" postcode="90210" country="US"/>
+    <info name="order with free form part" job="order with free form part" confirmnumber="" po="" taxCode="" comment="order with free form part" accountNumber="order with free form part" market="null"/>
+    <options time="Fri May 13 2011 01:11:23 PM" date="2011-05-13T17:11:23-00:00" priceToShow="SRP" currencySymbol="$ " alignSymbol="left" decimalSeparator="." thousandsSeparator=","/>
+    <client name="order with free form part" accountnum="order with free form part" refnum="order with free form part" dmsnum="" type="Invoice">
+      <postaladdress street="" suburb="" state="" postcode="" country="" phone="" fax="" contactname="" email=""/>
+      <shippingaddress issame="false" street="" suburb="" state="" postcode="" country="" phone="" fax="" contactname="" email=""/>
+    </client>
+  </header>
+  <vehicles>
+    <vehicle name="Aerostar A 1986-1997" date="" interpretation="&lt;interpretation catalog=&quot;38&quot; type=&quot;CARS&quot; hastsl=&quot;0&quot; hasvbom=&quot;0&quot;>&#xA;  &lt;avs data=&quot;SEAA!&quot; type=&quot;SE&quot;/>&#xA;&lt;/interpretation>" catalog="38" vehicledatasource="0">
+      <items>
+        <part id="-1193988018" catalog="38" callout="1408" begindate="19900101" enddate="19971231" label="BOLT, SPARE WHEEL" remark="M12 X 1.75 X 164.5 HOOK BOLT(May be available for DEALERS ONLY via Vintage Parts 877-846-8243 or D2DLink at OEConnection.com), M12 x 1.75 x 164.5 Hock Bolt." currentQty="1" qty="1" type="N" partFormat="formatted" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="0">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <base>1408</base>
+            <formatted>E4TZ 1408-E</formatted>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="0" priceSummary="&lt;pricedetail unitsellpack=&quot;0&quot; exchangesurcharge=&quot;0&quot; mlicode=&quot;&quot; discountcode=&quot;&quot; taxCode=&quot;&quot; pippReturnCode=&quot;&quot; pdcType=&quot;&quot; weight=&quot;0&quot;>&#xA;  &lt;partnumber>E4TZ1408E&lt;/partnumber>&#xA;  &lt;pricelevels>&#xA;    &lt;pricelevel taxmethod=&quot;None&quot; taxpercentage=&quot;0&quot; adjustmentpercentage=&quot;0&quot; code=&quot;SRP&quot;>&#xA;      &lt;price includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;      &lt;priceincludingsurcharge includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;    &lt;/pricelevel>&#xA;    &lt;pricelevel taxmethod=&quot;None&quot; taxpercentage=&quot;0&quot; adjustmentpercentage=&quot;0&quot; code=&quot;WINS&quot;>&#xA;      &lt;price includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;      &lt;priceincludingsurcharge includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;    &lt;/pricelevel>&#xA;    &lt;pricelevel taxmethod=&quot;None&quot; taxpercentage=&quot;0&quot; adjustmentpercentage=&quot;0&quot; code=&quot;DEALER&quot;>&#xA;      &lt;price includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;      &lt;priceincludingsurcharge includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;    &lt;/pricelevel>&#xA;  &lt;/pricelevels>&#xA;&lt;/pricedetail>">
+            <WINS>0</WINS>
+            <SRP>0</SRP>
+            <DEALER>0</DEALER>
+          </price>
+          <currentSection data="187392" code="P18928"/>
+          <currentSectionForView data="1.87392"/>
+        </part>
+        <part id="942775337" catalog="38" callout="1408" begindate="19860101" enddate="19891231" label="BOLT, SPARE WHEEL" remark="ALL, M12 x 1.75 x 164.5 Hock Bolt." currentQty="1" qty="1" type="N" partFormat="formatted" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="1">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <base>1408</base>
+            <formatted>E4TZ 1408-E</formatted>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="0" priceSummary="&lt;pricedetail unitsellpack=&quot;0&quot; exchangesurcharge=&quot;0&quot; mlicode=&quot;&quot; discountcode=&quot;&quot; taxCode=&quot;&quot; pippReturnCode=&quot;&quot; pdcType=&quot;&quot; weight=&quot;0&quot;>&#xA;  &lt;partnumber>E4TZ1408E&lt;/partnumber>&#xA;  &lt;pricelevels>&#xA;    &lt;pricelevel taxmethod=&quot;None&quot; taxpercentage=&quot;0&quot; adjustmentpercentage=&quot;0&quot; code=&quot;SRP&quot;>&#xA;      &lt;price includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;      &lt;priceincludingsurcharge includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;    &lt;/pricelevel>&#xA;    &lt;pricelevel taxmethod=&quot;None&quot; taxpercentage=&quot;0&quot; adjustmentpercentage=&quot;0&quot; code=&quot;WINS&quot;>&#xA;      &lt;price includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;      &lt;priceincludingsurcharge includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;    &lt;/pricelevel>&#xA;    &lt;pricelevel taxmethod=&quot;None&quot; taxpercentage=&quot;0&quot; adjustmentpercentage=&quot;0&quot; code=&quot;DEALER&quot;>&#xA;      &lt;price includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;      &lt;priceincludingsurcharge includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;    &lt;/pricelevel>&#xA;  &lt;/pricelevels>&#xA;&lt;/pricedetail>">
+            <WINS>0</WINS>
+            <SRP>0</SRP>
+            <DEALER>0</DEALER>
+          </price>
+          <currentSection data="187392" code="P18928"/>
+          <currentSectionForView data="1.87392"/>
+        </part>
+        <part id="-1562200248" catalog="38" callout="1424" begindate="19900101" enddate="19971231" label="PLATE, SPARE WHEEL MOUNTING" remark="" currentQty="1" qty="1" type="N" partFormat="formatted" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="2">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <base>1424</base>
+            <formatted>E69Z 1424-A</formatted>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="0" priceSummary="&lt;pricedetail unitsellpack=&quot;0&quot; exchangesurcharge=&quot;0&quot; mlicode=&quot;&quot; discountcode=&quot;&quot; taxCode=&quot;&quot; pippReturnCode=&quot;&quot; pdcType=&quot;&quot; weight=&quot;0&quot;>&#xA;  &lt;partnumber>E69Z1424A&lt;/partnumber>&#xA;  &lt;pricelevels>&#xA;    &lt;pricelevel taxmethod=&quot;None&quot; taxpercentage=&quot;0&quot; adjustmentpercentage=&quot;0&quot; code=&quot;SRP&quot;>&#xA;      &lt;price includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;      &lt;priceincludingsurcharge includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;    &lt;/pricelevel>&#xA;    &lt;pricelevel taxmethod=&quot;None&quot; taxpercentage=&quot;0&quot; adjustmentpercentage=&quot;0&quot; code=&quot;WINS&quot;>&#xA;      &lt;price includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;      &lt;priceincludingsurcharge includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;    &lt;/pricelevel>&#xA;    &lt;pricelevel taxmethod=&quot;None&quot; taxpercentage=&quot;0&quot; adjustmentpercentage=&quot;0&quot; code=&quot;DEALER&quot;>&#xA;      &lt;price includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;      &lt;priceincludingsurcharge includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;    &lt;/pricelevel>&#xA;  &lt;/pricelevels>&#xA;&lt;/pricedetail>">
+            <WINS>0</WINS>
+            <SRP>0</SRP>
+            <DEALER>0</DEALER>
+          </price>
+          <currentSection data="187392" code="P18928"/>
+          <currentSectionForView data="1.87392"/>
+        </part>
+        <part id="-2123079128" catalog="38" callout="1424" begindate="19860101" enddate="19861231" label="PLATE, SPARE WHEEL MOUNTING" remark="" currentQty="1" qty="1" type="N" partFormat="formatted" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="3">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <base>1424</base>
+            <formatted>E69Z 1424-A</formatted>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="0" priceSummary="&lt;pricedetail unitsellpack=&quot;0&quot; exchangesurcharge=&quot;0&quot; mlicode=&quot;&quot; discountcode=&quot;&quot; taxCode=&quot;&quot; pippReturnCode=&quot;&quot; pdcType=&quot;&quot; weight=&quot;0&quot;>&#xA;  &lt;partnumber>E69Z1424A&lt;/partnumber>&#xA;  &lt;pricelevels>&#xA;    &lt;pricelevel taxmethod=&quot;None&quot; taxpercentage=&quot;0&quot; adjustmentpercentage=&quot;0&quot; code=&quot;SRP&quot;>&#xA;      &lt;price includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;      &lt;priceincludingsurcharge includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;    &lt;/pricelevel>&#xA;    &lt;pricelevel taxmethod=&quot;None&quot; taxpercentage=&quot;0&quot; adjustmentpercentage=&quot;0&quot; code=&quot;WINS&quot;>&#xA;      &lt;price includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;      &lt;priceincludingsurcharge includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;    &lt;/pricelevel>&#xA;    &lt;pricelevel taxmethod=&quot;None&quot; taxpercentage=&quot;0&quot; adjustmentpercentage=&quot;0&quot; code=&quot;DEALER&quot;>&#xA;      &lt;price includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;      &lt;priceincludingsurcharge includingtax=&quot;0&quot; tax=&quot;0&quot; value=&quot;0&quot;/>&#xA;    &lt;/pricelevel>&#xA;  &lt;/pricelevels>&#xA;&lt;/pricedetail>">
+            <WINS>0</WINS>
+            <SRP>0</SRP>
+            <DEALER>0</DEALER>
+          </price>
+          <currentSection data="187392" code="P18928"/>
+          <currentSectionForView data="1.87392"/>
+        </part>
+      </items>
+    </vehicle>
+    <vehicle name="" date="" interpretation="&lt;interpretation/>" catalog="" vehicledatasource="0">
+      <items>
+        <part id="testpart00001_this is a test part" catalog="" callout="" begindate="" enddate="" label="this is a test part" remark="" currentQty="1" qty="1" type="null" partFormat="nags" featuredesc="" speccodedesc="" manualchanged="false" applicable="0" changepointvinbegin="null" changepointvinend="null" isFreeForm="true" useSurchargeInPrice="true" indexInOrder="4">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <engineering>testpart00001</engineering>
+            <nags>testpart00001</nags>
+            <formatted>testpart00001</formatted>
+          </num>
+          <price freeFormPrice="123" surchargePrice="0" unitSellPack="" priceSummary=""/>
+          <currentSection data="" code=""/>
+          <currentSectionForView data=""/>
+        </part>
+      </items>
+    </vehicle>
+  </vehicles>
+  <pricetotals>
+    <components>
+      <surcharges>0</surcharges>
+      <profit>0</profit>
+    </components>
+    <totals>
+      <total type="ExcludingComponents">123</total>
+      <total type="IncludingComponents">123</total>
+    </totals>
+  </pricetotals>
+  <headerConfiguration>
+    <translations>
+      <dealerDetails>
+        <translation item="name">Full Name</translation>
+        <translation item="phone">Phone number</translation>
+        <translation item="email">Email</translation>
+        <translation item="accountNumber">Account number</translation>
+        <translation item="address">Address</translation>
+        <translation item="theTitle">Dealer Details</translation>
+      </dealerDetails>
+      <customerDetails>
+        <translation item="name">Customer name</translation>
+        <translation item="phone">Phone number</translation>
+        <translation item="faxNumber">Fax number</translation>
+        <translation item="contactName">Contact Name</translation>
+        <translation item="email">Email</translation>
+        <translation item="address">Address</translation>
+        <translation item="theTitle">Customer Details</translation>
+      </customerDetails>
+      <orderDetails>
+        <translation item="orderName">Customer name</translation>
+        <translation item="jobReference">Reference number</translation>
+        <translation item="accountNumber">Account number</translation>
+        <translation item="orderType">Order type</translation>
+        <translation item="phone">Phone number</translation>
+        <translation item="faxNumber">Fax number</translation>
+        <translation item="contactName">Contact Name</translation>
+        <translation item="email">Email</translation>
+        <translation item="address">Address</translation>
+        <translation item="theTitle">Order Details</translation>
+      </orderDetails>
+      <translation column="order" item="orderList">Order List</translation>
+      <translation item="total">Total</translation>
+      <translation item="subtotal">Subtotal</translation>
+      <translation item="surcharges">Surcharge</translation>
+      <translation item="pagePagination">page [x] of [y]</translation>
+      <translation item="orderDate">13/05/2011</translation>
+      <translation item="orderTypeValue">Invoice</translation>
+    </translations>
+  </headerConfiguration>
+  <columnsConfiguration>
+    <translations>
+      <translation item="Vehicle">Vehicle</translation>
+      <translation item="Description">Description</translation>
+      <translation item="Restrictions">Restrictions</translation>
+      <translation item="Qty">Qty</translation>
+      <translation item="Retail">Unit Price</translation>
+      <translation item="Subtotal">Ext. Price</translation>
+    </translations>
+    <columns>
+      <column width="40" translation="Vehicle" data="vehicles.vehicle.@name" align="L" type="vehicle"/>
+      <column width="-1" translation="Description" data="vehicles.vehicle.items.part.@label" align="L"/>
+      <column width="30" translation="Restrictions" data="vehicles.vehicle.items.part.@remark" align="L"/>
+      <column width="12" translation="Qty" data="vehicles.vehicle.items.part.@qty" align="C" type="qty"/>
+      <column width="34" translation="Retail" data="header.options.#priceToShow" align="R" type="mainPrice"/>
+      <column width="35" translation="Subtotal" data="{SUBTOTAL}" align="R" type="price"/>
+    </columns>
+  </columnsConfiguration>
+</order>

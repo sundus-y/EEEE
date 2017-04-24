@@ -1,0 +1,813 @@
+     [copy] UIversion.xml added as UIversion.xml doesn't exist.
+     [copy] config.xml added as config.xml doesn't exist.
+     [copy] springas-config.xml added as springas-config.xml doesn't exist.
+     [copy]  omitted as /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin is up to date.
+     [copy] Copying 3 files to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/springas-config.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/springas-config.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/UIversion.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/config.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/config.xml
+init:  duration 0 seconds
+
+build-modules:
+     [echo] Compiling: MMPModule
+     [java] Executing '/usr/java/jdk1.6.0_23/jre/bin/java' with arguments:
+'-Xms32m'
+'-Xmx768m'
+'-Dsun.io.useCanonCaches=false'
+'-Xmx512m'
+'-jar'
+'/opt/flex_sdk_4.1.0.16076/lib/mxmlc.jar'
+'-title=Microcat V6 for Hyundai'
+'-publisher=Infomedia Ltd'
+'-creator=RIA Team'
+'-language=EN'
+'-license=flashbuilder4,1424-4708-4154-4441-7944-9578'
+'+flexlib=/opt/flex_sdk_4.1.0.16076/frameworks'
+'-source-path=/opt/flex_sdk_4.1.0.16076/frameworks/libs'
+'-static-link-runtime-shared-libraries=true'
+'-library-path+=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/libs'
+'-default-background-color=#FFFFFF'
+'-theme=/opt/flex_sdk_4.1.0.16076/frameworks/themes/Halo/halo.swc'
+'-incremental=false'
+'-optimize=true'
+'-strict=true'
+'-use-network=true'
+'-target-player=10.0.0'
+'-output=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/projects/V6Modules/main/flex/au/com/infomedia/modules/mmp/view/component//MMPModule.swf'
+'-debug=false'
+'-source-path+=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/V6Modules/main/flex,/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/ifmCommons/main/flex'
+'/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/V6Modules/main/flex/au/com/infomedia/modules/mmp/view/component/MMPModule.mxml'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [java] Loading configuration file /opt/flex_sdk_4.1.0.16076/frameworks/flex-config.xml
+     [java] /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/projects/V6Modules/main/flex/au/com/infomedia/modules/mmp/view/component/MMPModule.swf (220279 bytes)
+build-modules:  duration 13 seconds
+
+build:
+Project base dir set to: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6
+  [antcall] calling target(s) [extractClassesFromApplicationContext] in build file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build.xml
+Project base dir set to: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.properties
+Override ignored for property "isdk.dir"
+Override ignored for property "demo.server.password"
+Override ignored for property "intdev.server.name"
+Override ignored for property "demo.server.os"
+Override ignored for property "intdev.server.ip"
+Override ignored for property "continuous.build.deploy"
+Override ignored for property "demo.server.username"
+Override ignored for property "demo.server.name"
+Override ignored for property "intdev.server.destination"
+Override ignored for property "app.name"
+Override ignored for property "testRunner.name"
+Override ignored for property "title"
+Override ignored for property "demo.server.destination"
+Override ignored for property "demo.server.ip"
+Override ignored for property "intdev.server.password"
+Override ignored for property "intdev.server.username"
+Override ignored for property "continuous.build.deployContext"
+Override ignored for property "intdev.server.os"
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.properties
+Override ignored for property "svn.revision"
+Override ignored for property "svn.password"
+Override ignored for property "jar.dir"
+Override ignored for property "ui.version.file"
+Override ignored for property "asdoc.compiler.jar"
+Override ignored for property "additionalFlexCompileOptions"
+Override ignored for property "mail.to.address"
+Override ignored for property "output.dir"
+Override ignored for property "build.dir"
+Override ignored for property "swf"
+Override ignored for property "bgcolor"
+Override ignored for property "config.file"
+Override ignored for property "height"
+Override ignored for property "mail.message.buildSuccessfully"
+Override ignored for property "modules.test.dir"
+Override ignored for property "version.revision"
+Override ignored for property "svn.rootURL"
+Override ignored for property "domainextensions"
+Override ignored for property "build.logs.dir"
+Override ignored for property "wrapper.dir"
+Override ignored for property "modules.dir"
+Override ignored for property "lexicon.dir"
+Override ignored for property "width"
+Override ignored for property "svn.project.name"
+Override ignored for property "mail.message.buildFailure"
+Override ignored for property "unitTestReport.dir"
+Override ignored for property "flex.src.dir"
+Override ignored for property "mail.subject.buildFailure"
+Override ignored for property "version.major"
+Override ignored for property "lexicon.report.message"
+Override ignored for property "language"
+Override ignored for property "docsoutputfolder"
+Override ignored for property "output.html"
+Override ignored for property "mail.subject.buildSuccessfully"
+Override ignored for property "svn.project.branch.url"
+Override ignored for property "ui.version.major"
+Override ignored for property "mail.reply.to"
+Override ignored for property "ui.version.minor"
+Override ignored for property "bin-debug.dir"
+Override ignored for property "creator"
+Override ignored for property "publisher"
+Override ignored for property "flex.licence"
+Override ignored for property "ifmCommons.test.dir"
+Override ignored for property "svn.v6.url"
+Override ignored for property "flex.test.dir"
+Override ignored for property "svn.v6.branch.url"
+Override ignored for property "application"
+Override ignored for property "mail.port"
+Override ignored for property "svn.username"
+Override ignored for property "build.modules.dir"
+Override ignored for property "mail.encoding"
+Override ignored for property "lexicons.processor"
+Override ignored for property "lexicon.report.recipient"
+Override ignored for property "mail.smtp"
+Override ignored for property "target.flash.player"
+Override ignored for property "ifmCommons.dir"
+Override ignored for property "mail.from.address"
+Override ignored for property "version.minor"
+Override ignored for property "svn.project.url"
+parsing buildfile jar:file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/jar/ant-contrib-1.0b3.jar!/net/sf/antcontrib/antlib.xml with URI = jar:file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/jar/ant-contrib-1.0b3.jar!/net/sf/antcontrib/antlib.xml from a zip file
+Trying to override old definition of task propertycopy
+Trying to override old definition of task shellscript
+Trying to override old definition of task pathtofileset
+Trying to override old definition of task runtarget
+Trying to override old definition of task remoteant
+Trying to override old definition of task propertyregex
+Trying to override old definition of task assert
+Trying to override old definition of task math
+Trying to override old definition of task trycatch
+Trying to override old definition of task antserver
+Trying to override old definition of task antcallback
+Trying to override old definition of task compilewithwalls
+Trying to override old definition of task outofdate
+Trying to override old definition of task osfamily
+Trying to override old definition of task stopwatch
+Trying to override old definition of task throw
+Trying to override old definition of task antclipse
+Trying to override old definition of task urlencode
+Trying to override old definition of task timestampselector
+Trying to override old definition of task foreach
+Trying to override old definition of task if
+Trying to override old definition of task propertyselector
+Trying to override old definition of task sortlist
+Trying to override old definition of task antfetch
+Trying to override old definition of task post
+Trying to override old definition of task forget
+Trying to override old definition of task limit
+Trying to override old definition of task switch
+Trying to override old definition of task relentless
+Trying to override old definition of task var
+Trying to override old definition of task inifile
+Trying to override old definition of task verifydesign
+Trying to override old definition of task for
+Trying to override old definition of datatype httpState
+Trying to override old definition of datatype httpClient
+Trying to override old definition of task getCookie
+Trying to override old definition of task addCookie
+Trying to override old definition of task clearCookies
+Trying to override old definition of task addCredentials
+Trying to override old definition of task clearCredentials
+Trying to override old definition of task purgeExpiredCookies
+Trying to override old definition of task postMethod
+Trying to override old definition of task getMethod
+Trying to override old definition of task headMethod
+Trying to override old definition of task importurl
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.linux.properties
+Override ignored for property "svn.exec"
+Override ignored for property "browser.path"
+Override ignored for property "flex.home"
+Override ignored for property "isOffline"
+Importing file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml from /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/build-common.xml
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.properties
+Override ignored for property "svn.revision"
+Override ignored for property "svn.password"
+Override ignored for property "jar.dir"
+Override ignored for property "ui.version.file"
+Override ignored for property "asdoc.compiler.jar"
+Override ignored for property "additionalFlexCompileOptions"
+Override ignored for property "mail.to.address"
+Override ignored for property "output.dir"
+Override ignored for property "build.dir"
+Override ignored for property "swf"
+Override ignored for property "bgcolor"
+Override ignored for property "config.file"
+Override ignored for property "height"
+Override ignored for property "mail.message.buildSuccessfully"
+Override ignored for property "modules.test.dir"
+Override ignored for property "version.revision"
+Override ignored for property "svn.rootURL"
+Override ignored for property "domainextensions"
+Override ignored for property "build.logs.dir"
+Override ignored for property "wrapper.dir"
+Override ignored for property "modules.dir"
+Override ignored for property "lexicon.dir"
+Override ignored for property "width"
+Override ignored for property "svn.project.name"
+Override ignored for property "mail.message.buildFailure"
+Override ignored for property "unitTestReport.dir"
+Override ignored for property "flex.src.dir"
+Override ignored for property "mail.subject.buildFailure"
+Override ignored for property "version.major"
+Override ignored for property "lexicon.report.message"
+Override ignored for property "language"
+Override ignored for property "docsoutputfolder"
+Override ignored for property "output.html"
+Override ignored for property "mail.subject.buildSuccessfully"
+Override ignored for property "svn.project.branch.url"
+Override ignored for property "ui.version.major"
+Override ignored for property "mail.reply.to"
+Override ignored for property "ui.version.minor"
+Override ignored for property "bin-debug.dir"
+Override ignored for property "creator"
+Override ignored for property "publisher"
+Override ignored for property "flex.licence"
+Override ignored for property "ifmCommons.test.dir"
+Override ignored for property "svn.v6.url"
+Override ignored for property "flex.test.dir"
+Override ignored for property "svn.v6.branch.url"
+Override ignored for property "application"
+Override ignored for property "mail.port"
+Override ignored for property "svn.username"
+Override ignored for property "build.modules.dir"
+Override ignored for property "mail.encoding"
+Override ignored for property "lexicons.processor"
+Override ignored for property "lexicon.report.recipient"
+Override ignored for property "mail.smtp"
+Override ignored for property "target.flash.player"
+Override ignored for property "ifmCommons.dir"
+Override ignored for property "mail.from.address"
+Override ignored for property "version.minor"
+Override ignored for property "svn.project.url"
+Importing file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/ant-macros.xml from /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/ant-macros.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/ant-macros.xml
+ [macrodef] creating macro  svn.update
+ [macrodef] creating macro  svn.checkout
+ [macrodef] creating macro  svn.copy
+ [macrodef] creating macro  svn.propset
+ [macrodef] creating macro  svn.getLastChangedRevision
+ [macrodef] creating macro  process.lexicon
+ [macrodef] creating macro  make.wrapper
+ [macrodef] creating macro  compile.flex
+ [macrodef] creating macro  zip.folder
+ [macrodef] creating macro  ftp.content
+ [macrodef] creating macro  scp.content
+ [macrodef] creating macro  uploadFilesToServer
+Importing file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/springasprebuild.xml from /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/springasprebuild.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/springasprebuild.xml
+Override ignored for property "flexpmd.version"
+Override ignored for property "isOffline"
+Trying to override old definition of task xmltask
+Trying to override old definition of task flexunit
+Trying to override old definition of task flexPmd
+Trying to override old definition of task cpd
+Trying to override old definition of task metrics
+Build sequence for target(s) `extractClassesFromApplicationContext' is [extractClassesFromApplicationContext]
+Complete build sequence is [extractClassesFromApplicationContext, generateBuildVersion, clean, init, build-modules, build, makeHTMLWrapper, processLexicons, deployRC, runUnitTests, sendNotificationByEmail, prepareBinDebug, updateExternalDependencies, generateASDocs, deployToIntdevServer, initForDev, copyFilesToDevServer, deployToDevServer, ant-macros.extractClassesFromApplicationContext, metrics, emailLexiconReport, cpd, createBranch, offlineBuild, usage, , flexPmdWithDefaultRuleset]
+  [antcall] Entering /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml...
+Build sequence for target(s) `extractClassesFromApplicationContext' is [extractClassesFromApplicationContext]
+Complete build sequence is [extractClassesFromApplicationContext, generateBuildVersion, clean, init, build-modules, build, makeHTMLWrapper, processLexicons, deployRC, runUnitTests, sendNotificationByEmail, prepareBinDebug, updateExternalDependencies, generateASDocs, deployToIntdevServer, initForDev, copyFilesToDevServer, deployToDevServer, ant-macros.extractClassesFromApplicationContext, metrics, emailLexiconReport, cpd, createBranch, offlineBuild, usage, , flexPmdWithDefaultRuleset]
+
+extractClassesFromApplicationContext:
+     [xslt] Using class org.apache.tools.ant.taskdefs.optional.TraXLiaison
+     [xslt] Processing /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/src/main/resources/application-context.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/springas-config.xml
+     [xslt] Loading stylesheet /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/springasconfig.xsl
+extractClassesFromApplicationContext:  duration 1 second
+  [antcall] Exiting /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml.
+Override ignored for property "rsl.dir"
+     [java] Executing '/usr/java/jdk1.6.0_23/jre/bin/java' with arguments:
+'-Xms32m'
+'-Xmx768m'
+'-Dsun.io.useCanonCaches=false'
+'-Xmx512m'
+'-jar'
+'/opt/flex_sdk_4.1.0.16076/lib/mxmlc.jar'
+'-title=Microcat V6 for Hyundai'
+'-publisher=Infomedia Ltd'
+'-creator=RIA Team'
+'-language=EN'
+'-license=flashbuilder4,1424-4708-4154-4441-7944-9578'
+'+flexlib=/opt/flex_sdk_4.1.0.16076/frameworks'
+'-source-path=/opt/flex_sdk_4.1.0.16076/frameworks/libs'
+'-static-link-runtime-shared-libraries=true'
+'-library-path+=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/libs'
+'-default-background-color=#FFFFFF'
+'-theme=/opt/flex_sdk_4.1.0.16076/frameworks/themes/Halo/halo.swc'
+'-incremental=false'
+'-optimize=true'
+'-strict=true'
+'-use-network=true'
+'-target-player=10.0.0'
+'-output=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/hywV6.swf'
+'-debug=false'
+'-source-path+=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/V6Modules/main/flex,/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/ifmCommons/main/flex'
+'-link-report=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/hywV6.xml'
+'-load-config+=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/springas-config.xml'
+'-accessible'
+'-include-libraries+=/opt/flex_sdk_4.1.0.16076/frameworks/libs/automation/automation.swc,/opt/flex_sdk_4.1.0.16076/frameworks/libs/automation/automation_agent.swc,/opt/flex_sdk_4.1.0.16076/frameworks/libs/automation/automation_dmv.swc,/opt/flex_sdk_4.1.0.16076/frameworks/libs/automation/automation_flashflexkit.swc,/opt/flex_sdk_4.1.0.16076/frameworks/libs/automation/automation_spark.swc,/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/libs/FlexTechDomain.swc'
+'-includes+=au.com.infomedia.ifmCommons.automation.DataGridScrollButtonFixedSizeAutomationImpl'
+'-includes+=au.com.infomedia.V6.automation.CollapsiblePanelAutomationImpl'
+'-includes+=au.com.infomedia.V6.automation.SwappablePanelAutomationImpl'
+'-includes+=au.com.infomedia.V6.automation.NoteEditorEntryAutomationImpl'
+'-includes+=au.com.infomedia.V6.automation.CartGridAutomationImpl'
+'-includes+=au.com.infomedia.V6.automation.ADGTreeLinesRendererAutomationImpl'
+'-includes+=au.com.infomedia.V6.automation.SupersessionGridAutomationImpl'
+'-includes+=au.com.infomedia.V6.automation.HyperlinkComboAutomationImpl'
+'/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/src/main/flex/hywV6.mxml'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [java] Loading configuration file /opt/flex_sdk_4.1.0.16076/frameworks/flex-config.xml
+     [java] Loading configuration file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/springas-config.xml
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(26): Warning: The style 'backgroundColor' is only supported by type 'spark.components.BorderContainer' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(54): Warning: The style 'dropShadowVisible' is only supported by type 'spark.components.ComboBox' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(64): Warning: The style 'dropShadowVisible' is only supported by type 'spark.components.DropDownList' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(99): Warning: The style 'borderColor' is only supported by type 'spark.components.Panel' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(97): Warning: The style 'backgroundColor' is only supported by type 'spark.components.Panel' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(101): Warning: The style 'dropShadowVisible' is only supported by type 'spark.components.Panel' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(100): Warning: The style 'cornerRadius' is only supported by type 'spark.components.Panel' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(99): Warning: The style 'borderAlpha' is only supported by type 'spark.components.Panel' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(149): Warning: The style 'cornerRadius' is only supported by type 'spark.components.TabBar' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(178): Warning: The style 'borderColor' is only supported by type 'spark.components.TitleWindow' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(180): Warning: The style 'dropShadowVisible' is only supported by type 'spark.components.TitleWindow' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(179): Warning: The style 'cornerRadius' is only supported by type 'spark.components.TitleWindow' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(178): Warning: The style 'borderAlpha' is only supported by type 'spark.components.TitleWindow' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(196): Warning: The style 'dropShadowVisible' is only supported by type 'spark.components.VideoPlayer' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/framework.swc$defaults.css(488): Warning: The style 'dropShadowVisible' is only supported by type 'mx.controls.List' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/hywV6.swf (2308856 bytes)
+Override ignored for property "buildResultProperty"
+build:  duration 28 seconds
+
+generateBuildVersion:
+     [exec] Current OS is Linux
+     [exec] Output redirected to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.properties
+     [exec] Executing 'svn' with arguments:
+'info'
+
+The ' characters around the executable and arguments are
+not part of the command.
+ [loadfile] loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.properties into property svnRevision
+ [loadfile] loaded 5 characters
+     [exec] Current OS is Linux
+     [exec] Output redirected to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.v6.properties
+     [exec] Executing 'svn' with arguments:
+'info'
+'https://sydvsvn01.infomedia.com.au/LiveV6/V6/trunk/'
+
+The ' characters around the executable and arguments are
+not part of the command.
+ [loadfile] loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.v6.properties into property svnV6Revision
+ [loadfile] loaded 5 characters
+   [delete] Could not find file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/svnlog.out to delete.
+  [xmltask] Reading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml
+  [xmltask] Executing xmltask 1.15.1
+  [xmltask] Processing /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml into /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml
+  [xmltask] Using predefined xml catalog
+  [xmltask] Applying CopyAction(buildNumber) to //build/text()
+  [xmltask] Applied CopyAction(buildNumber) - 1 match(es)
+  [xmltask] Normalizing resultant document
+  [xmltask] Indenting resultant document
+  [xmltask] Reading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml
+  [xmltask] Executing xmltask 1.15.1
+  [xmltask] Processing /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml into /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml
+  [xmltask] Using predefined xml catalog
+  [xmltask] Applying TextAction(6) to //major/text()
+  [xmltask] Applied TextAction(6) - 1 match(es)
+  [xmltask] Applying TextAction(0) to //minor/text()
+  [xmltask] Applied TextAction(0) - 1 match(es)
+  [xmltask] Applying TextAction(3077) to //build/text()
+  [xmltask] Applied TextAction(3077) - 1 match(es)
+  [xmltask] Applying TextAction(2012-08-23_11-53-46) to //buildDate/text()
+  [xmltask] Applied TextAction(2012-08-23_11-53-46) - 1 match(es)
+  [xmltask] Applying TextAction(53428) to //revision/text()
+  [xmltask] Applied TextAction(53428) - 1 match(es)
+  [xmltask] Applying TextAction(42756) to //v6revision/text()
+  [xmltask] Applied TextAction(42756) - 1 match(es)
+  [xmltask] Applying TextAction(uibuild) to //buildBy/text()
+  [xmltask] Applied TextAction(uibuild) - 1 match(es)
+  [xmltask] Normalizing resultant document
+  [xmltask] Indenting resultant document
+     [copy] Copying 1 file to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/UIversion.xml
+Overriding previous definition of reference to logRecord
+   [delete] Deleting /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.properties
+   [delete] Deleting /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.v6.properties
+generateBuildVersion:  duration 1 second
+
+makeHTMLWrapper:
+Property "favicon" has not been set
+     [copy] AC_OETags.js added as AC_OETags.js doesn't exist.
+     [copy] history/history.css added as history/history.css doesn't exist.
+     [copy] history/history.js added as history/history.js doesn't exist.
+     [copy] history/historyFrame.html added as history/historyFrame.html doesn't exist.
+     [copy] js/AC_OETags.js added as js/AC_OETags.js doesn't exist.
+     [copy] js/checkplayer.js added as js/checkplayer.js doesn't exist.
+     [copy] js/connector.js added as js/connector.js doesn't exist.
+     [copy] js/errorCheck.js added as js/errorCheck.js doesn't exist.
+     [copy] js/flXHR.js added as js/flXHR.js doesn't exist.
+     [copy] js/flXHR.swf added as js/flXHR.swf doesn't exist.
+     [copy] js/flensed.js added as js/flensed.js doesn't exist.
+     [copy] js/jquery-1.5.2.min.js added as js/jquery-1.5.2.min.js doesn't exist.
+     [copy] js/jquery-1.7.2.min.js added as js/jquery-1.7.2.min.js doesn't exist.
+     [copy] js/jquery.noty.js added as js/jquery.noty.js doesn't exist.
+     [copy] js/jsUtils.js added as js/jsUtils.js doesn't exist.
+     [copy] js/notificationHandler.js added as js/notificationHandler.js doesn't exist.
+     [copy] js/swfobject.js added as js/swfobject.js doesn't exist.
+     [copy] playerProductInstall.swf added as playerProductInstall.swf doesn't exist.
+     [copy]  omitted as /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin is up to date.
+     [copy] history added as history doesn't exist.
+     [copy] js added as js doesn't exist.
+     [copy] Copying 18 files to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/history/historyFrame.html to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/history/historyFrame.html
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/flXHR.swf to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/flXHR.swf
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/notificationHandler.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/notificationHandler.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/history/history.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/history/history.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/jsUtils.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/jsUtils.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/AC_OETags.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/AC_OETags.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/history/history.css to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/history/history.css
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/flensed.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/flensed.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/jquery.noty.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/jquery.noty.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/flXHR.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/flXHR.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/connector.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/connector.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/AC_OETags.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/AC_OETags.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/jquery-1.7.2.min.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/jquery-1.7.2.min.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/playerProductInstall.swf to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/playerProductInstall.swf
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/errorCheck.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/errorCheck.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/jquery-1.5.2.min.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/jquery-1.5.2.min.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/checkplayer.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/checkplayer.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/swfobject.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/swfobject.js
+     [exec] Current OS is Linux
+     [exec] Output redirected to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.properties
+     [exec] Executing 'svn' with arguments:
+'info'
+
+The ' characters around the executable and arguments are
+not part of the command.
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.properties
+Override ignored for property "svnRevision"
+  [xmltask] Reading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml
+  [xmltask] Executing xmltask 1.15.1
+  [xmltask] Processing /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml into /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml
+  [xmltask] Using predefined xml catalog
+  [xmltask] Applying CopyAction(buildNumber) to //build/text()
+Override ignored for property "buildNumber"
+  [xmltask] Applied CopyAction(buildNumber) - 1 match(es)
+  [xmltask] Normalizing resultant document
+  [xmltask] Indenting resultant document
+     [copy] Copying 1 file to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/index.template.html to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html
+Property "favicon" has not been set
+[replaceregexp] Replacing pattern '\$\{favicon\}' with '${favicon}' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] Replacing pattern '\$\{width\}' with '100%' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{height\}' with '100%' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{title\}' with 'Microcat V6 for Hyundai' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{version_major\}' with '10' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{version_minor\}' with '0' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{version_revision\}' with '0' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{application\}' with 'hywV6' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{releaseVersion\}' with '6.0.3076.53428' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{bgcolor\}' with '#ffffff' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{swf\}' with 'hywV6' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+   [delete] Deleting /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.properties
+makeHTMLWrapper:  duration 0 seconds
+
+offlineBuild:
+Project base dir set to: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6
+  [antcall] calling target(s) [processLexicons] in build file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build.xml
+Project base dir set to: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.properties
+Override ignored for property "isdk.dir"
+Override ignored for property "demo.server.password"
+Override ignored for property "intdev.server.name"
+Override ignored for property "demo.server.os"
+Override ignored for property "intdev.server.ip"
+Override ignored for property "continuous.build.deploy"
+Override ignored for property "demo.server.username"
+Override ignored for property "demo.server.name"
+Override ignored for property "intdev.server.destination"
+Override ignored for property "app.name"
+Override ignored for property "testRunner.name"
+Override ignored for property "title"
+Override ignored for property "demo.server.destination"
+Override ignored for property "demo.server.ip"
+Override ignored for property "intdev.server.password"
+Override ignored for property "intdev.server.username"
+Override ignored for property "continuous.build.deployContext"
+Override ignored for property "intdev.server.os"
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.properties
+Override ignored for property "svn.revision"
+Override ignored for property "svn.password"
+Override ignored for property "jar.dir"
+Override ignored for property "ui.version.file"
+Override ignored for property "asdoc.compiler.jar"
+Override ignored for property "additionalFlexCompileOptions"
+Override ignored for property "mail.to.address"
+Override ignored for property "output.dir"
+Override ignored for property "build.dir"
+Override ignored for property "swf"
+Override ignored for property "bgcolor"
+Override ignored for property "config.file"
+Override ignored for property "height"
+Override ignored for property "mail.message.buildSuccessfully"
+Override ignored for property "modules.test.dir"
+Override ignored for property "version.revision"
+Override ignored for property "svn.rootURL"
+Override ignored for property "domainextensions"
+Override ignored for property "build.logs.dir"
+Override ignored for property "wrapper.dir"
+Override ignored for property "modules.dir"
+Override ignored for property "lexicon.dir"
+Override ignored for property "width"
+Override ignored for property "svn.project.name"
+Override ignored for property "mail.message.buildFailure"
+Override ignored for property "unitTestReport.dir"
+Override ignored for property "flex.src.dir"
+Override ignored for property "mail.subject.buildFailure"
+Override ignored for property "version.major"
+Override ignored for property "lexicon.report.message"
+Override ignored for property "language"
+Override ignored for property "docsoutputfolder"
+Override ignored for property "output.html"
+Override ignored for property "mail.subject.buildSuccessfully"
+Override ignored for property "svn.project.branch.url"
+Override ignored for property "ui.version.major"
+Override ignored for property "mail.reply.to"
+Override ignored for property "ui.version.minor"
+Override ignored for property "bin-debug.dir"
+Override ignored for property "creator"
+Override ignored for property "publisher"
+Override ignored for property "flex.licence"
+Override ignored for property "ifmCommons.test.dir"
+Override ignored for property "svn.v6.url"
+Override ignored for property "flex.test.dir"
+Override ignored for property "svn.v6.branch.url"
+Override ignored for property "application"
+Override ignored for property "mail.port"
+Override ignored for property "svn.username"
+Override ignored for property "build.modules.dir"
+Override ignored for property "mail.encoding"
+Override ignored for property "lexicons.processor"
+Override ignored for property "lexicon.report.recipient"
+Override ignored for property "mail.smtp"
+Override ignored for property "target.flash.player"
+Override ignored for property "ifmCommons.dir"
+Override ignored for property "mail.from.address"
+Override ignored for property "version.minor"
+Override ignored for property "svn.project.url"
+parsing buildfile jar:file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/jar/ant-contrib-1.0b3.jar!/net/sf/antcontrib/antlib.xml with URI = jar:file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/jar/ant-contrib-1.0b3.jar!/net/sf/antcontrib/antlib.xml from a zip file
+Trying to override old definition of task propertycopy
+Trying to override old definition of task shellscript
+Trying to override old definition of task pathtofileset
+Trying to override old definition of task runtarget
+Trying to override old definition of task remoteant
+Trying to override old definition of task propertyregex
+Trying to override old definition of task assert
+Trying to override old definition of task math
+Trying to override old definition of task trycatch
+Trying to override old definition of task antserver
+Trying to override old definition of task antcallback
+Trying to override old definition of task compilewithwalls
+Trying to override old definition of task outofdate
+Trying to override old definition of task osfamily
+Trying to override old definition of task stopwatch
+Trying to override old definition of task throw
+Trying to override old definition of task antclipse
+Trying to override old definition of task urlencode
+Trying to override old definition of task timestampselector
+Trying to override old definition of task foreach
+Trying to override old definition of task if
+Trying to override old definition of task propertyselector
+Trying to override old definition of task sortlist
+Trying to override old definition of task antfetch
+Trying to override old definition of task post
+Trying to override old definition of task forget
+Trying to override old definition of task limit
+Trying to override old definition of task switch
+Trying to override old definition of task relentless
+Trying to override old definition of task var
+Trying to override old definition of task inifile
+Trying to override old definition of task verifydesign
+Trying to override old definition of task for
+Trying to override old definition of datatype httpState
+Trying to override old definition of datatype httpClient
+Trying to override old definition of task getCookie
+Trying to override old definition of task addCookie
+Trying to override old definition of task clearCookies
+Trying to override old definition of task addCredentials
+Trying to override old definition of task clearCredentials
+Trying to override old definition of task purgeExpiredCookies
+Trying to override old definition of task postMethod
+Trying to override old definition of task getMethod
+Trying to override old definition of task headMethod
+Trying to override old definition of task importurl
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.linux.properties
+Override ignored for property "svn.exec"
+Override ignored for property "browser.path"
+Override ignored for property "flex.home"
+Override ignored for property "isOffline"
+Importing file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml from /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/build-common.xml
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.properties
+Override ignored for property "svn.revision"
+Override ignored for property "svn.password"
+Override ignored for property "jar.dir"
+Override ignored for property "ui.version.file"
+Override ignored for property "asdoc.compiler.jar"
+Override ignored for property "additionalFlexCompileOptions"
+Override ignored for property "mail.to.address"
+Override ignored for property "output.dir"
+Override ignored for property "build.dir"
+Override ignored for property "swf"
+Override ignored for property "bgcolor"
+Override ignored for property "config.file"
+Override ignored for property "height"
+Override ignored for property "mail.message.buildSuccessfully"
+Override ignored for property "modules.test.dir"
+Override ignored for property "version.revision"
+Override ignored for property "svn.rootURL"
+Override ignored for property "domainextensions"
+Override ignored for property "build.logs.dir"
+Override ignored for property "wrapper.dir"
+Override ignored for property "modules.dir"
+Override ignored for property "lexicon.dir"
+Override ignored for property "width"
+Override ignored for property "svn.project.name"
+Override ignored for property "mail.message.buildFailure"
+Override ignored for property "unitTestReport.dir"
+Override ignored for property "flex.src.dir"
+Override ignored for property "mail.subject.buildFailure"
+Override ignored for property "version.major"
+Override ignored for property "lexicon.report.message"
+Override ignored for property "language"
+Override ignored for property "docsoutputfolder"
+Override ignored for property "output.html"
+Override ignored for property "mail.subject.buildSuccessfully"
+Override ignored for property "svn.project.branch.url"
+Override ignored for property "ui.version.major"
+Override ignored for property "mail.reply.to"
+Override ignored for property "ui.version.minor"
+Override ignored for property "bin-debug.dir"
+Override ignored for property "creator"
+Override ignored for property "publisher"
+Override ignored for property "flex.licence"
+Override ignored for property "ifmCommons.test.dir"
+Override ignored for property "svn.v6.url"
+Override ignored for property "flex.test.dir"
+Override ignored for property "svn.v6.branch.url"
+Override ignored for property "application"
+Override ignored for property "mail.port"
+Override ignored for property "svn.username"
+Override ignored for property "build.modules.dir"
+Override ignored for property "mail.encoding"
+Override ignored for property "lexicons.processor"
+Override ignored for property "lexicon.report.recipient"
+Override ignored for property "mail.smtp"
+Override ignored for property "target.flash.player"
+Override ignored for property "ifmCommons.dir"
+Override ignored for property "mail.from.address"
+Override ignored for property "version.minor"
+Override ignored for property "svn.project.url"
+Importing file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/ant-macros.xml from /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/ant-macros.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/ant-macros.xml
+ [macrodef] creating macro  svn.update
+ [macrodef] creating macro  svn.checkout
+ [macrodef] creating macro  svn.copy
+ [macrodef] creating macro  svn.propset
+ [macrodef] creating macro  svn.getLastChangedRevision
+ [macrodef] creating macro  process.lexicon
+ [macrodef] creating macro  make.wrapper
+ [macrodef] creating macro  compile.flex
+ [macrodef] creating macro  zip.folder
+ [macrodef] creating macro  ftp.content
+ [macrodef] creating macro  scp.content
+ [macrodef] creating macro  uploadFilesToServer
+Importing file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/springasprebuild.xml from /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/springasprebuild.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/springasprebuild.xml
+Override ignored for property "flexpmd.version"
+Override ignored for property "isOffline"
+Trying to override old definition of task xmltask
+Trying to override old definition of task flexunit
+Trying to override old definition of task flexPmd
+Trying to override old definition of task cpd
+Trying to override old definition of task metrics
+Build sequence for target(s) `processLexicons' is [processLexicons]
+Complete build sequence is [processLexicons, generateBuildVersion, clean, init, build-modules, build, makeHTMLWrapper, deployRC, runUnitTests, sendNotificationByEmail, prepareBinDebug, updateExternalDependencies, generateASDocs, deployToIntdevServer, initForDev, copyFilesToDevServer, deployToDevServer, ant-macros.extractClassesFromApplicationContext, metrics, emailLexiconReport, cpd, createBranch, offlineBuild, usage, extractClassesFromApplicationContext, , flexPmdWithDefaultRuleset]
+  [antcall] Entering /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml...
+Build sequence for target(s) `processLexicons' is [processLexicons]
+Complete build sequence is [processLexicons, generateBuildVersion, clean, init, build-modules, build, makeHTMLWrapper, deployRC, runUnitTests, sendNotificationByEmail, prepareBinDebug, updateExternalDependencies, generateASDocs, deployToIntdevServer, initForDev, copyFilesToDevServer, deployToDevServer, ant-macros.extractClassesFromApplicationContext, metrics, emailLexiconReport, cpd, createBranch, offlineBuild, usage, extractClassesFromApplicationContext, , flexPmdWithDefaultRuleset]
+
+processLexicons:
+     [echo] Application is Offline? true
+    [mkdir] Created dir: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons
+     [java] Executing '/usr/java/jdk1.6.0_23/jre/bin/java' with arguments:
+'-Xms32m'
+'-Xmx768m'
+'-Dsun.io.useCanonCaches=false'
+'-Xmx512m'
+'-jar'
+'/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/jar/lexiconparser.jar'
+'-i:/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6'
+'-o:/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons'
+'-m:/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/logs'
+'-v:v6'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [java] Located source code input directory: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6
+     [java] Located output directory: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons
+     [java] Located report directory: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/logs
+     [java] Using regular expression version: v6
+     [java] Defaulting to database connection string: jdbc:sqlserver://PROD31;Database=MicrocatLIVE_Lexicon;user=lexiconuser2;password=lexiconuser2;
+     [java] com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host PROD31, port 1433 has failed. Error: "null. Verify the connection properties, check that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port, and that no firewall is blocking TCP connections to the port.".
+     [java] Unable to connect to database (connection string: jdbc:sqlserver://PROD31;Database=MicrocatLIVE_Lexicon;user=lexiconuser2;password=lexiconuser2;)
+     [java] 
+     [java] 
+     [java] 
+     [java] ------------------------
+     [java] Infomedia Lexicon Parser
+     [java] ------------------------
+     [java] Reports missing lexicons, missing translations, and new introduced lexicons in the application source code. It also generates the lexicon files that the application needs (i.e. with only the lexicons required by the application source code).
+     [java] 
+     [java] Execution Notes
+     [java] ---------------
+     [java] java -jar lexiconparser.jar -i:inputPath [-o:outputPath] [-m:ReportPath] [-v:Version]
+     [java] 
+     [java] e.g. java -jar lexiconparser.jar -i:c:\v6\code -o:c:\v6\lexicons -m:"c:\v6\lexicon report" -v:v6
+     [java] 
+     [java] Options :
+     [java] 
+     [java] 	-i:[Path] >> Required. Specifies the source-code directory to parse. If a path is entered that does not exist, an error will be generated indicating the path that was not found.
+     [java] 	-o:[Path] >> Optional. Specifies the output directory for lexicon files. Defaults to [current working directory]\output.
+     [java] 	-m:[Path] >> Optional. Specifies the output directory for the missing lexicon report. Defaults to [current working directory]\report.
+     [java] 	-v:[Version] >> Optional. Specifies which regular expression version to use to parse. Defaults to v6. Supported values are v6 and v5 (as defined in the regularexpressions.xml resource inside the JAR).
+     [java] 	-db:[Database Connection URL] >> Optional. Specifies the database connection URL to use to connect to the lexicon database. Default set in the lexiconparser.properties JAR file.
+     [java]     
+     [java] Notes:
+     [java] Add multiple application source-code directory paths by using [-i:] as many times as necessary
+     [java] Example: java -jar lexiconparser.jar -i:"C:\\App\\Microcat" -i:"C:\\App\\Common"
+     [java] Java Result: 255
+     [copy] No sources found.
+     [copy] /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons skipped - don't know how to handle it
+processLexicons:  duration 20 seconds
+  [antcall] Exiting /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml.
+offlineBuild:  duration 20 seconds
+
+BUILD SUCCESSFUL

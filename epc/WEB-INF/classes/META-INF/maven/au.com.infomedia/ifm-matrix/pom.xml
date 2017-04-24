@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ifm-matrix</artifactId>
+    <name>Infomedia Matrix</name>
+    <version>1.1.70-35</version>
+    
+    <description>This package contains matrix search structures used for in-memory searches.</description>
+    <!--
+        1.0.4   Expose public constructor for QuickSearchMatrix
+        1.0.3   Improved performance of matrix if no scoring is needed
+        1.0.2   Updated to latest library version
+        1.0.1   Changed parent pom to be the library
+        1.0.0   Initial seperation from EPC code base
+    -->
+    <parent>
+        <groupId>au.com.infomedia</groupId>
+        <artifactId>ifm-library</artifactId>
+        <version>1.1.70-35</version>
+    </parent>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-object-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.collections</groupId>
+            <artifactId>google-collections</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+        </dependency>        
+    </dependencies>
+    
+</project>

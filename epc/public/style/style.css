@@ -1,0 +1,332 @@
+html
+{
+	height: 100%;
+	overflow: auto;
+}
+body
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	line-height: 1.4em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    background: #eeebe7 repeat-x left top;
+    width: 100%;
+	min-height: 100%;
+	height: 100%;
+}
+a{color: #0066ff;}
+a:visited {color: #3c8aff;}
+a:hover {color: #0500d5;}
+form
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	min-height: 100%;
+	height: 100%;
+}
+
+table
+{
+	border-collapse: collapse;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	empty-cells: show;
+}
+
+TD
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+    font-size: 11px;
+}
+
+input
+{
+	font-size: 11px;
+}
+
+.rememberUsername
+{
+    width: 230px;
+    text-align: center;
+}
+
+.rememberUsername input
+{
+    vertical-align: -3px;
+}
+
+.rememberUsername label
+{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+select
+{
+	font-size: 11px;
+}
+
+.errorMessage li
+{
+	list-style-type: none;
+	margin-left: -10px;
+}
+
+#languageForm
+{
+    display: inline;
+}
+
+#page
+{
+	width: 913px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+#page-header
+{
+	margin: 10px auto 0 auto;
+	width: 899px;
+	height: 30px;
+	padding: 0 7px;
+	color: Black;
+	font-size: 11px;
+}
+
+#page-header a
+{
+	color: Black;
+	text-decoration: none;
+	border-bottom: black 1px dotted;
+}
+
+#page-border-top
+{
+	background-image: url('../images/main_panel_top.jpg');
+	width: 913px;
+	height: 24px;
+}
+
+#page-border-bottom
+{
+	background-image: url('../images/main_panel_bottom.jpg');
+	width: 913px;
+	height: 24px;
+}
+
+#page-center-area
+{
+    background: url('../images/main_panel_side.jpg') repeat-y top left;
+    width: 913px;
+}
+
+#page-center-area-content
+{
+	width: 873px;
+    margin: auto;
+}
+
+#banner-area-container
+{
+    background: url('../images/Header_BG.jpg') no-repeat top left;
+    width: 843px;
+	height: 63px;
+	padding: 15px 15px;
+	color: Black;
+}
+
+#login-main
+{
+    background: url('../images/Grey_Panel.jpg') no-repeat;
+    text-align: center;
+	vertical-align: middle;
+	width: 641px;
+	height: 283px;
+	margin: auto auto 0 auto;
+    position: relative;
+}
+
+#login-container
+{
+    background: url('../images/log_in_box.jpg') no-repeat;
+    text-align: center;
+	vertical-align: middle;
+	width: 300px;
+	height: 82px;
+	margin: auto auto 0 auto;
+}
+
+.login-container
+{
+	text-align: center;
+	vertical-align: top;
+	width: 250px;
+	height: 242px;
+}
+
+#error-container-password
+{
+	text-align: center;
+	vertical-align: middle;
+	width: 300px;
+	margin: 109px auto 0 auto;
+}
+
+.startLocalData
+{
+    position:absolute;
+    bottom:32px;
+    left:30px;
+    width:242px;
+    text-align: left;
+}
+
+.input-container
+{
+    background: Transparent url('../images/dialog_box_g.jpg') no-repeat top left;
+    padding: 0 1px 0 0;
+	width: 133px;
+	height: 15px;
+	margin: 0 5px 0 0;
+}
+
+.text-input
+{
+    background: Transparent url('../images/dialog_box_g.jpg') no-repeat;
+    border: 0;
+	color: Black;
+	vertical-align: middle;
+	width: 245px;
+	height: 15px;
+	margin: 0 5px;
+	padding: 0 5px;
+	font-size: 11px;
+}
+
+.text-input-w
+{
+    background: Transparent url('../images/dialog_box_w.jpg') no-repeat;
+    border: 0;
+	color: Black;
+	vertical-align: middle;
+	width: 205px;
+	height: 15px;
+	margin: 0 5px;
+	padding: 0 5px;
+	font-size: 11px;
+}
+
+.text-input-w-disabled
+{
+    background: Transparent url('../images/dialog_box_w_disabled.jpg') no-repeat;
+}
+
+.usernamePasswordLabels
+{
+    height: 18px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #606060;
+    font-weight: bold;
+}
+
+.application-logon-button
+{
+    background: Transparent url('../images/login_button.jpg') no-repeat;
+    border: 0;
+	color: White;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	width: 100px;
+	height: 16px;
+	display: table-cell;
+	cursor: pointer;
+}
+
+.application-logon-button-disabled
+{
+    background: Transparent url('../images/login_button_disabled.jpg') no-repeat;
+    cursor: default;
+}
+
+[disabled]
+{
+    color: #d3d3d3;
+}
+a[disabled]:link
+{
+    color: #d3d3d3;
+}
+a[disabled]:visited
+{
+    color: #d3d3d3;
+}
+a[disabled]:hover
+{
+    color: #d3d3d3;
+}
+a[disabled]:active
+{
+    color: #d3d3d3;
+}
+
+
+.application-loginfo-button
+{
+    background: Transparent url('../images/login_button.jpg') no-repeat;
+    border: 0;
+	color: White;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	width: 100px;
+	height: 16px;
+	display: table-cell;
+	cursor: pointer;
+	float: right;
+}
+
+#bottom-links
+{
+	width: 800px;
+	margin: auto;
+	color: black;
+	padding-top: 2px;
+	height: 35px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+#bottom-links a
+{
+	color: black;
+	text-decoration: none;
+	border-bottom: black 1px dotted;
+}
+
+.footerpipe
+{
+	margin: 0 8px;
+	color: #afcade;
+}
+
+.errorMessage
+{
+	color: #FF0000;
+}
+
+.usernamePasswordInputContainer {
+    height: 18px;
+    padding-left: 10px;
+    padding-top: 5px;
+}

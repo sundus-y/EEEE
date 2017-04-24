@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ifm-library</artifactId>
+        <groupId>au.com.infomedia</groupId>
+        <version>1.1.70-35</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <name>Infomedia web service connector</name>
+    <description>Module for connecting to web services in AMF, JSON, XML</description>
+    <artifactId>ifm-service-connector</artifactId>
+	<properties>
+        <blazeds.version>3.3.0.20931</blazeds.version>
+    </properties>
+
+    <dependencies>
+		<dependency>
+			<groupId>jackson-all</groupId>
+			<artifactId>jackson-all</artifactId>
+			<version>1.8.0</version>
+		</dependency>
+
+        <!-- BlazeDS Requirements -->
+        <dependency>
+            <groupId>blazeds</groupId>
+            <artifactId>flex-messaging-common</artifactId>
+            <version>${blazeds.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>blazeds</groupId>
+            <artifactId>flex-messaging-core</artifactId>
+            <version>${blazeds.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>blazeds</groupId>
+            <artifactId>flex-messaging-opt</artifactId>
+            <version>${blazeds.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>blazeds</groupId>
+            <artifactId>flex-messaging-proxy</artifactId>
+            <version>${blazeds.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>backport-util-concurrent</groupId>
+            <artifactId>backport-util-concurrent</artifactId>
+            <version>3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>blazeds</groupId>
+            <artifactId>flex-messaging-remoting</artifactId>
+            <version>${blazeds.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>blazeds</groupId>
+            <artifactId>cfgatewayadapter</artifactId>
+            <version>${blazeds.version}</version>
+        </dependency>
+    </dependencies>
+</project>

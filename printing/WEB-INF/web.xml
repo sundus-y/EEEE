@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+
+ <filter id="requestCharacterEncodingFilter">
+    <filter-name>requestCharacterEncodingFilter</filter-name>
+    <filter-class>au.com.infomedia.printing.filters.RequestCharacterEncodingFilter</filter-class>
+      <init-param>
+        <param-name>requestCharacterEncoding</param-name>
+        <param-value>UTF-8</param-value>
+      </init-param>
+   </filter>
+
+  <filter id="adminFilter">
+      <filter-name>adminFilter</filter-name>
+      <filter-class>au.com.infomedia.service.filters.AdminFunctionsProtectionFilter</filter-class>
+ </filter>
+
+  <filter-mapping id="jasperFilterMapping">
+    <filter-name>requestCharacterEncodingFilter</filter-name>
+    <url-pattern>/services/*</url-pattern>
+  </filter-mapping>
+
+  <filter-mapping id="adminFilterMapping">
+  <filter-name>adminFilter</filter-name>
+  <url-pattern>/public/*</url-pattern>
+ </filter-mapping>
+
+    <servlet>
+        <servlet-name>RESTServicesServlet</servlet-name>
+        <servlet-class>au.com.infomedia.service.RESTServlet</servlet-class>
+        <!-- define the startup application for setting up the REST services -->
+        <init-param>
+            <param-name>javax.ws.rs.Application</param-name>
+            <param-value>au.com.infomedia.printing.services.RESTApplication</param-value>
+        </init-param>
+        <init-param>
+            <param-name>propertiesLocation</param-name>
+            <param-value>wink.properties</param-value>
+         </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <!--<servlet>-->
+        <!--<servlet-name>AdminConsoleServlet</servlet-name>-->
+        <!--<servlet-class>org.apache.wink.patch.PatchedAdminServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!---->
+    <servlet>
+		<servlet-name>TomcatLogServlet</servlet-name>
+		<servlet-class>au.com.infomedia.admin.servlet.TomcatLogServlet</servlet-class>
+    </servlet>
+
+    <!-- path to the REST services -->
+    <servlet-mapping>
+        <servlet-name>RESTServicesServlet</servlet-name>
+        <url-pattern>/services/*</url-pattern>
+    </servlet-mapping>
+
+    <!-- path to the Admin services -->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>AdminConsoleServlet</servlet-name>-->
+        <!--<url-pattern>/services-description/*</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+	<!-- path to Tomcat logs services -->
+	<servlet-mapping>
+		<servlet-name>TomcatLogServlet</servlet-name>
+		<url-pattern>/admin/logs/*</url-pattern>
+	</servlet-mapping>
+	
+  
+</web-app>

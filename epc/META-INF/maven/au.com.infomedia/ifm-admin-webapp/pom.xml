@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ifm-library</artifactId>
+        <groupId>au.com.infomedia</groupId>
+        <version>1.1.70-35</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>au.com.infomedia</groupId>
+    <artifactId>ifm-admin-webapp</artifactId>
+    <version>1.1.70-35</version>
+    <name>Infomedia Admin Web Application</name>
+    <description>Displays administration monitoring information about the service and the JVM.</description>
+    <packaging>war</packaging>
+
+     <build>
+         <plugins>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.0.2</version>
+                <configuration>
+                    <webXml>WEB-INF/web.xml</webXml>
+                </configuration>
+             </plugin>
+         </plugins>
+
+     </build>
+
+</project>

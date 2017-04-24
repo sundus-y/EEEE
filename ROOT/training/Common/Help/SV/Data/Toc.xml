@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" DescendantCount="37">
+    <TocEntry Title="Komma igång" Link="/Content/01 Getting started.htm" ComputedResetPageLayout="true" ComputedFirstTopic="true" DescendantCount="1">
+        <TocEntry Title="Ändra inställningar" Link="/Content/02 Change settings.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Startsidan" Link="/Content/03 Home page.htm" ComputedFirstTopic="false" DescendantCount="6">
+        <TocEntry Title="Söka efter fordon på chassinummer eller del av chassinummer" Link="/Content/04 Search for a vehicle by VIN or partial VIN.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Spara och hämta kundtaggar" Link="/Content/05 Save and retrieve Customer Tags.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Ange användaranteckningar för ett chassinummer" Link="/Content/06 Add user notes to a VIN.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Söka efter en katalog med hjälp av årsmodell och modell" Link="/Content/07 Search for a catalogue by build year and model.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Filtrera fordonen i fordonsindexet" Link="/Content/08 Filter the vehicles in the Vehicle Index.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Söka efter en reservdel i alla kataloger" Link="/Content/09 Search for a part across all catalogues.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Reservdelsfönstret" Link="/Content/10 Parts screen.htm" ComputedFirstTopic="false" DescendantCount="16">
+        <TocEntry Title="Söka efter reservdelar med beskrivning" Link="/Content/11 Search for parts by description.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Söka efter reservdelar via tillverkarkod" Link="/Content/12 Search for parts by manufacturer part code.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Öppna fönstret Reservdelsdata" Link="/Content/13 Access the Part Data window.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Öppna ersättningsinformation" Link="/Content/14 Access supersession information.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Navigera i indexet med grafisk vy" Link="/Content/15 Navigate the index using a graphic view.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Navigera i indexet med textvy" Link="/Content/16 Navigate the index using a text view.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Använda dynamiska länkar för navigering" Link="/Content/17 Use the navigation breadcrumbs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Använda snabbnavigeringsverktyget" Link="/Content/18 Use the quick navigation tool.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Justera bildvisningen" Link="/Content/19 Adjust the image display.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Arbeta med reservdelstabellen" Link="/Content/20 Work with the Parts Data Grid.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Vy med delad skärm" Link="/Content/21 Display a split-screen view.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Lägga till användaranteckningar till ett avsnitt eller en reservdel" Link="/Content/22 Add user notes to a section or part.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Miniatyrbilder" Link="/Content/23 Use the image filmstrip.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Lägga till reservdelar i orderlistan" Link="/Content/24 Add parts to the Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Lägga till reservdelar gruppvis i orderlistan" Link="/Content/25 Add a group of parts to the Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Överföra reservdelar till ditt DMS" Link="/Content/26 Transfer a part to your DMS.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Orderfönstret" Link="/Content/27 Orders screen.htm" ComputedFirstTopic="false" DescendantCount="9">
+        <TocEntry Title="Visa och redigera orderlistor" Link="/Content/28 View and edit an Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Ändra eller dölj prissättning" Link="/Content/29 Change or hide pricing.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Lägga till ej katalogiserade reservdelar" Link="/Content/30 Add non-cataloged parts.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Lägga till kund- eller kontouppgifter" Link="/Content/31 Add customer or account details.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Gruppera reservdelar efter fordonsnamn" Link="/Content/32 Group parts by vehicle name.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Sortera listan över reservdelar på orderlistan" Link="/Content/33 Sort the list of parts on the Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Spara och hämta orderlistor" Link="/Content/34 Save and retrieve an Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Skriva ut eller skicka orderlistor som e-post" Link="/Content/35 Print or email an Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Överföra reservdelar på orderlistan till ditt DMS" Link="/Content/36 Transfer parts on the Order List to your DMS.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Skicka in feedback" Link="/Content/37 Submit feedback.htm" ComputedFirstTopic="false" DescendantCount="0" />
+</CatapultToc>

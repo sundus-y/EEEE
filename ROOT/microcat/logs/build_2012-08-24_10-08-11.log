@@ -1,0 +1,2633 @@
+     [copy] UIversion.xml added as UIversion.xml doesn't exist.
+     [copy] config.xml added as config.xml doesn't exist.
+     [copy] springas-config.xml added as springas-config.xml doesn't exist.
+     [copy]  omitted as /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin is up to date.
+     [copy] Copying 3 files to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/springas-config.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/springas-config.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/UIversion.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/config.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/config.xml
+init:  duration 0 seconds
+
+build-modules:
+     [echo] Compiling: MMPModule
+     [java] Executing '/usr/java/jdk1.6.0_23/jre/bin/java' with arguments:
+'-Xms32m'
+'-Xmx768m'
+'-Dsun.io.useCanonCaches=false'
+'-Xmx512m'
+'-jar'
+'/opt/flex_sdk_4.1.0.16076/lib/mxmlc.jar'
+'-title=Microcat V6 for Hyundai'
+'-publisher=Infomedia Ltd'
+'-creator=RIA Team'
+'-language=EN'
+'-license=flashbuilder4,1424-4708-4154-4441-7944-9578'
+'+flexlib=/opt/flex_sdk_4.1.0.16076/frameworks'
+'-source-path=/opt/flex_sdk_4.1.0.16076/frameworks/libs'
+'-static-link-runtime-shared-libraries=true'
+'-library-path+=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/libs'
+'-default-background-color=#FFFFFF'
+'-theme=/opt/flex_sdk_4.1.0.16076/frameworks/themes/Halo/halo.swc'
+'-incremental=false'
+'-optimize=true'
+'-strict=true'
+'-use-network=true'
+'-target-player=10.0.0'
+'-output=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/projects/V6Modules/main/flex/au/com/infomedia/modules/mmp/view/component//MMPModule.swf'
+'-debug=false'
+'-source-path+=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/V6Modules/main/flex,/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/ifmCommons/main/flex'
+'/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/V6Modules/main/flex/au/com/infomedia/modules/mmp/view/component/MMPModule.mxml'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [java] Loading configuration file /opt/flex_sdk_4.1.0.16076/frameworks/flex-config.xml
+     [java] /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/projects/V6Modules/main/flex/au/com/infomedia/modules/mmp/view/component/MMPModule.swf (220279 bytes)
+build-modules:  duration 8 seconds
+
+build:
+Project base dir set to: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6
+  [antcall] calling target(s) [extractClassesFromApplicationContext] in build file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build.xml
+Project base dir set to: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.properties
+Override ignored for property "isdk.dir"
+Override ignored for property "demo.server.password"
+Override ignored for property "intdev.server.name"
+Override ignored for property "demo.server.os"
+Override ignored for property "intdev.server.ip"
+Override ignored for property "continuous.build.deploy"
+Override ignored for property "demo.server.username"
+Override ignored for property "demo.server.name"
+Override ignored for property "intdev.server.destination"
+Override ignored for property "app.name"
+Override ignored for property "testRunner.name"
+Override ignored for property "title"
+Override ignored for property "demo.server.destination"
+Override ignored for property "demo.server.ip"
+Override ignored for property "intdev.server.password"
+Override ignored for property "intdev.server.username"
+Override ignored for property "continuous.build.deployContext"
+Override ignored for property "intdev.server.os"
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.properties
+Override ignored for property "svn.revision"
+Override ignored for property "svn.password"
+Override ignored for property "jar.dir"
+Override ignored for property "ui.version.file"
+Override ignored for property "asdoc.compiler.jar"
+Override ignored for property "additionalFlexCompileOptions"
+Override ignored for property "mail.to.address"
+Override ignored for property "output.dir"
+Override ignored for property "build.dir"
+Override ignored for property "swf"
+Override ignored for property "bgcolor"
+Override ignored for property "config.file"
+Override ignored for property "height"
+Override ignored for property "mail.message.buildSuccessfully"
+Override ignored for property "modules.test.dir"
+Override ignored for property "version.revision"
+Override ignored for property "svn.rootURL"
+Override ignored for property "domainextensions"
+Override ignored for property "build.logs.dir"
+Override ignored for property "wrapper.dir"
+Override ignored for property "modules.dir"
+Override ignored for property "lexicon.dir"
+Override ignored for property "width"
+Override ignored for property "svn.project.name"
+Override ignored for property "mail.message.buildFailure"
+Override ignored for property "unitTestReport.dir"
+Override ignored for property "flex.src.dir"
+Override ignored for property "mail.subject.buildFailure"
+Override ignored for property "version.major"
+Override ignored for property "lexicon.report.message"
+Override ignored for property "language"
+Override ignored for property "docsoutputfolder"
+Override ignored for property "output.html"
+Override ignored for property "mail.subject.buildSuccessfully"
+Override ignored for property "svn.project.branch.url"
+Override ignored for property "ui.version.major"
+Override ignored for property "mail.reply.to"
+Override ignored for property "ui.version.minor"
+Override ignored for property "bin-debug.dir"
+Override ignored for property "creator"
+Override ignored for property "publisher"
+Override ignored for property "flex.licence"
+Override ignored for property "ifmCommons.test.dir"
+Override ignored for property "svn.v6.url"
+Override ignored for property "flex.test.dir"
+Override ignored for property "svn.v6.branch.url"
+Override ignored for property "application"
+Override ignored for property "mail.port"
+Override ignored for property "svn.username"
+Override ignored for property "build.modules.dir"
+Override ignored for property "mail.encoding"
+Override ignored for property "lexicons.processor"
+Override ignored for property "lexicon.report.recipient"
+Override ignored for property "mail.smtp"
+Override ignored for property "target.flash.player"
+Override ignored for property "ifmCommons.dir"
+Override ignored for property "mail.from.address"
+Override ignored for property "version.minor"
+Override ignored for property "svn.project.url"
+parsing buildfile jar:file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/jar/ant-contrib-1.0b3.jar!/net/sf/antcontrib/antlib.xml with URI = jar:file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/jar/ant-contrib-1.0b3.jar!/net/sf/antcontrib/antlib.xml from a zip file
+Trying to override old definition of task propertycopy
+Trying to override old definition of task shellscript
+Trying to override old definition of task pathtofileset
+Trying to override old definition of task runtarget
+Trying to override old definition of task remoteant
+Trying to override old definition of task propertyregex
+Trying to override old definition of task assert
+Trying to override old definition of task math
+Trying to override old definition of task trycatch
+Trying to override old definition of task antserver
+Trying to override old definition of task antcallback
+Trying to override old definition of task compilewithwalls
+Trying to override old definition of task outofdate
+Trying to override old definition of task osfamily
+Trying to override old definition of task stopwatch
+Trying to override old definition of task throw
+Trying to override old definition of task antclipse
+Trying to override old definition of task urlencode
+Trying to override old definition of task timestampselector
+Trying to override old definition of task foreach
+Trying to override old definition of task if
+Trying to override old definition of task propertyselector
+Trying to override old definition of task sortlist
+Trying to override old definition of task antfetch
+Trying to override old definition of task post
+Trying to override old definition of task forget
+Trying to override old definition of task limit
+Trying to override old definition of task switch
+Trying to override old definition of task relentless
+Trying to override old definition of task var
+Trying to override old definition of task inifile
+Trying to override old definition of task verifydesign
+Trying to override old definition of task for
+Trying to override old definition of datatype httpState
+Trying to override old definition of datatype httpClient
+Trying to override old definition of task getCookie
+Trying to override old definition of task addCookie
+Trying to override old definition of task clearCookies
+Trying to override old definition of task addCredentials
+Trying to override old definition of task clearCredentials
+Trying to override old definition of task purgeExpiredCookies
+Trying to override old definition of task postMethod
+Trying to override old definition of task getMethod
+Trying to override old definition of task headMethod
+Trying to override old definition of task importurl
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.linux.properties
+Override ignored for property "svn.exec"
+Override ignored for property "browser.path"
+Override ignored for property "flex.home"
+Override ignored for property "isOffline"
+Importing file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml from /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/build-common.xml
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.properties
+Override ignored for property "svn.revision"
+Override ignored for property "svn.password"
+Override ignored for property "jar.dir"
+Override ignored for property "ui.version.file"
+Override ignored for property "asdoc.compiler.jar"
+Override ignored for property "additionalFlexCompileOptions"
+Override ignored for property "mail.to.address"
+Override ignored for property "output.dir"
+Override ignored for property "build.dir"
+Override ignored for property "swf"
+Override ignored for property "bgcolor"
+Override ignored for property "config.file"
+Override ignored for property "height"
+Override ignored for property "mail.message.buildSuccessfully"
+Override ignored for property "modules.test.dir"
+Override ignored for property "version.revision"
+Override ignored for property "svn.rootURL"
+Override ignored for property "domainextensions"
+Override ignored for property "build.logs.dir"
+Override ignored for property "wrapper.dir"
+Override ignored for property "modules.dir"
+Override ignored for property "lexicon.dir"
+Override ignored for property "width"
+Override ignored for property "svn.project.name"
+Override ignored for property "mail.message.buildFailure"
+Override ignored for property "unitTestReport.dir"
+Override ignored for property "flex.src.dir"
+Override ignored for property "mail.subject.buildFailure"
+Override ignored for property "version.major"
+Override ignored for property "lexicon.report.message"
+Override ignored for property "language"
+Override ignored for property "docsoutputfolder"
+Override ignored for property "output.html"
+Override ignored for property "mail.subject.buildSuccessfully"
+Override ignored for property "svn.project.branch.url"
+Override ignored for property "ui.version.major"
+Override ignored for property "mail.reply.to"
+Override ignored for property "ui.version.minor"
+Override ignored for property "bin-debug.dir"
+Override ignored for property "creator"
+Override ignored for property "publisher"
+Override ignored for property "flex.licence"
+Override ignored for property "ifmCommons.test.dir"
+Override ignored for property "svn.v6.url"
+Override ignored for property "flex.test.dir"
+Override ignored for property "svn.v6.branch.url"
+Override ignored for property "application"
+Override ignored for property "mail.port"
+Override ignored for property "svn.username"
+Override ignored for property "build.modules.dir"
+Override ignored for property "mail.encoding"
+Override ignored for property "lexicons.processor"
+Override ignored for property "lexicon.report.recipient"
+Override ignored for property "mail.smtp"
+Override ignored for property "target.flash.player"
+Override ignored for property "ifmCommons.dir"
+Override ignored for property "mail.from.address"
+Override ignored for property "version.minor"
+Override ignored for property "svn.project.url"
+Importing file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/ant-macros.xml from /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/ant-macros.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/ant-macros.xml
+ [macrodef] creating macro  svn.update
+ [macrodef] creating macro  svn.checkout
+ [macrodef] creating macro  svn.copy
+ [macrodef] creating macro  svn.propset
+ [macrodef] creating macro  svn.getLastChangedRevision
+ [macrodef] creating macro  process.lexicon
+ [macrodef] creating macro  make.wrapper
+ [macrodef] creating macro  compile.flex
+ [macrodef] creating macro  zip.folder
+ [macrodef] creating macro  ftp.content
+ [macrodef] creating macro  scp.content
+ [macrodef] creating macro  uploadFilesToServer
+Importing file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/springasprebuild.xml from /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/springasprebuild.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/springasprebuild.xml
+Override ignored for property "flexpmd.version"
+Override ignored for property "isOffline"
+Trying to override old definition of task xmltask
+Trying to override old definition of task flexunit
+Trying to override old definition of task flexPmd
+Trying to override old definition of task cpd
+Trying to override old definition of task metrics
+Build sequence for target(s) `extractClassesFromApplicationContext' is [extractClassesFromApplicationContext]
+Complete build sequence is [extractClassesFromApplicationContext, generateBuildVersion, clean, init, build-modules, build, makeHTMLWrapper, processLexicons, deployRC, runUnitTests, sendNotificationByEmail, prepareBinDebug, updateExternalDependencies, generateASDocs, deployToIntdevServer, initForDev, copyFilesToDevServer, deployToDevServer, ant-macros.extractClassesFromApplicationContext, metrics, emailLexiconReport, cpd, createBranch, offlineBuild, usage, , flexPmdWithDefaultRuleset]
+  [antcall] Entering /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml...
+Build sequence for target(s) `extractClassesFromApplicationContext' is [extractClassesFromApplicationContext]
+Complete build sequence is [extractClassesFromApplicationContext, generateBuildVersion, clean, init, build-modules, build, makeHTMLWrapper, processLexicons, deployRC, runUnitTests, sendNotificationByEmail, prepareBinDebug, updateExternalDependencies, generateASDocs, deployToIntdevServer, initForDev, copyFilesToDevServer, deployToDevServer, ant-macros.extractClassesFromApplicationContext, metrics, emailLexiconReport, cpd, createBranch, offlineBuild, usage, , flexPmdWithDefaultRuleset]
+
+extractClassesFromApplicationContext:
+     [xslt] Using class org.apache.tools.ant.taskdefs.optional.TraXLiaison
+     [xslt] Processing /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/src/main/resources/application-context.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/springas-config.xml
+     [xslt] Loading stylesheet /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/springasconfig.xsl
+extractClassesFromApplicationContext:  duration 0 seconds
+  [antcall] Exiting /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml.
+Override ignored for property "rsl.dir"
+     [java] Executing '/usr/java/jdk1.6.0_23/jre/bin/java' with arguments:
+'-Xms32m'
+'-Xmx768m'
+'-Dsun.io.useCanonCaches=false'
+'-Xmx512m'
+'-jar'
+'/opt/flex_sdk_4.1.0.16076/lib/mxmlc.jar'
+'-title=Microcat V6 for Hyundai'
+'-publisher=Infomedia Ltd'
+'-creator=RIA Team'
+'-language=EN'
+'-license=flashbuilder4,1424-4708-4154-4441-7944-9578'
+'+flexlib=/opt/flex_sdk_4.1.0.16076/frameworks'
+'-source-path=/opt/flex_sdk_4.1.0.16076/frameworks/libs'
+'-static-link-runtime-shared-libraries=true'
+'-library-path+=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/libs'
+'-default-background-color=#FFFFFF'
+'-theme=/opt/flex_sdk_4.1.0.16076/frameworks/themes/Halo/halo.swc'
+'-incremental=false'
+'-optimize=true'
+'-strict=true'
+'-use-network=true'
+'-target-player=10.0.0'
+'-output=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/hywV6.swf'
+'-debug=false'
+'-source-path+=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/V6Modules/main/flex,/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/ifmCommons/main/flex'
+'-link-report=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/hywV6.xml'
+'-load-config+=/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/springas-config.xml'
+'-accessible'
+'-include-libraries+=/opt/flex_sdk_4.1.0.16076/frameworks/libs/automation/automation.swc,/opt/flex_sdk_4.1.0.16076/frameworks/libs/automation/automation_agent.swc,/opt/flex_sdk_4.1.0.16076/frameworks/libs/automation/automation_dmv.swc,/opt/flex_sdk_4.1.0.16076/frameworks/libs/automation/automation_flashflexkit.swc,/opt/flex_sdk_4.1.0.16076/frameworks/libs/automation/automation_spark.swc,/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/libs/FlexTechDomain.swc'
+'-includes+=au.com.infomedia.ifmCommons.automation.DataGridScrollButtonFixedSizeAutomationImpl'
+'-includes+=au.com.infomedia.V6.automation.CollapsiblePanelAutomationImpl'
+'-includes+=au.com.infomedia.V6.automation.SwappablePanelAutomationImpl'
+'-includes+=au.com.infomedia.V6.automation.NoteEditorEntryAutomationImpl'
+'-includes+=au.com.infomedia.V6.automation.CartGridAutomationImpl'
+'-includes+=au.com.infomedia.V6.automation.ADGTreeLinesRendererAutomationImpl'
+'-includes+=au.com.infomedia.V6.automation.SupersessionGridAutomationImpl'
+'-includes+=au.com.infomedia.V6.automation.HyperlinkComboAutomationImpl'
+'/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/src/main/flex/hywV6.mxml'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [java] Loading configuration file /opt/flex_sdk_4.1.0.16076/frameworks/flex-config.xml
+     [java] Loading configuration file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/springas-config.xml
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(26): Warning: The style 'backgroundColor' is only supported by type 'spark.components.BorderContainer' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(54): Warning: The style 'dropShadowVisible' is only supported by type 'spark.components.ComboBox' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(64): Warning: The style 'dropShadowVisible' is only supported by type 'spark.components.DropDownList' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(99): Warning: The style 'borderColor' is only supported by type 'spark.components.Panel' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(97): Warning: The style 'backgroundColor' is only supported by type 'spark.components.Panel' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(101): Warning: The style 'dropShadowVisible' is only supported by type 'spark.components.Panel' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(100): Warning: The style 'cornerRadius' is only supported by type 'spark.components.Panel' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(99): Warning: The style 'borderAlpha' is only supported by type 'spark.components.Panel' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(149): Warning: The style 'cornerRadius' is only supported by type 'spark.components.TabBar' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(178): Warning: The style 'borderColor' is only supported by type 'spark.components.TitleWindow' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(180): Warning: The style 'dropShadowVisible' is only supported by type 'spark.components.TitleWindow' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(179): Warning: The style 'cornerRadius' is only supported by type 'spark.components.TitleWindow' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(178): Warning: The style 'borderAlpha' is only supported by type 'spark.components.TitleWindow' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/spark.swc$defaults.css(196): Warning: The style 'dropShadowVisible' is only supported by type 'spark.components.VideoPlayer' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /opt/flex_sdk_4.1.0.16076/frameworks/libs/framework.swc$defaults.css(488): Warning: The style 'dropShadowVisible' is only supported by type 'mx.controls.List' with the theme(s) 'spark'.
+     [java] 
+     [java] 
+     [java] 
+     [java] /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/hywV6.swf (2308854 bytes)
+Override ignored for property "buildResultProperty"
+build:  duration 28 seconds
+
+generateBuildVersion:
+     [exec] Current OS is Linux
+     [exec] Output redirected to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.properties
+     [exec] Executing 'svn' with arguments:
+'info'
+
+The ' characters around the executable and arguments are
+not part of the command.
+ [loadfile] loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.properties into property svnRevision
+ [loadfile] loaded 5 characters
+     [exec] Current OS is Linux
+     [exec] Output redirected to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.v6.properties
+     [exec] Executing 'svn' with arguments:
+'info'
+'https://sydvsvn01.infomedia.com.au/LiveV6/V6/trunk/'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [exec] Result: 1
+ [loadfile] loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.v6.properties into property svnV6Revision
+   [delete] Could not find file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/svnlog.out to delete.
+  [xmltask] Reading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml
+  [xmltask] Executing xmltask 1.15.1
+  [xmltask] Processing /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml into /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml
+  [xmltask] Using predefined xml catalog
+  [xmltask] Applying CopyAction(buildNumber) to //build/text()
+  [xmltask] Applied CopyAction(buildNumber) - 1 match(es)
+  [xmltask] Normalizing resultant document
+  [xmltask] Indenting resultant document
+  [xmltask] Reading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml
+Property "svnV6Revision" has not been set
+  [xmltask] Executing xmltask 1.15.1
+  [xmltask] Processing /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml into /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml
+  [xmltask] Using predefined xml catalog
+  [xmltask] Applying TextAction(6) to //major/text()
+  [xmltask] Applied TextAction(6) - 1 match(es)
+  [xmltask] Applying TextAction(0) to //minor/text()
+  [xmltask] Applied TextAction(0) - 1 match(es)
+  [xmltask] Applying TextAction(3077) to //build/text()
+  [xmltask] Applied TextAction(3077) - 1 match(es)
+  [xmltask] Applying TextAction(2012-08-24_10-08-11) to //buildDate/text()
+  [xmltask] Applied TextAction(2012-08-24_10-08-11) - 1 match(es)
+  [xmltask] Applying TextAction(53428) to //revision/text()
+  [xmltask] Applied TextAction(53428) - 1 match(es)
+  [xmltask] Applying TextAction(${svnV6Revision}) to //v6revision/text()
+  [xmltask] Applied TextAction(${svnV6Revision}) - 1 match(es)
+  [xmltask] Applying TextAction(uibuild) to //buildBy/text()
+  [xmltask] Applied TextAction(uibuild) - 1 match(es)
+  [xmltask] Normalizing resultant document
+  [xmltask] Indenting resultant document
+     [copy] Copying 1 file to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/UIversion.xml
+Overriding previous definition of reference to logRecord
+   [delete] Deleting /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.properties
+   [delete] Deleting /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.v6.properties
+generateBuildVersion:  duration 1 second
+
+makeHTMLWrapper:
+Property "favicon" has not been set
+     [copy] AC_OETags.js added as AC_OETags.js doesn't exist.
+     [copy] history/history.css added as history/history.css doesn't exist.
+     [copy] history/history.js added as history/history.js doesn't exist.
+     [copy] history/historyFrame.html added as history/historyFrame.html doesn't exist.
+     [copy] js/AC_OETags.js added as js/AC_OETags.js doesn't exist.
+     [copy] js/checkplayer.js added as js/checkplayer.js doesn't exist.
+     [copy] js/connector.js added as js/connector.js doesn't exist.
+     [copy] js/errorCheck.js added as js/errorCheck.js doesn't exist.
+     [copy] js/flXHR.js added as js/flXHR.js doesn't exist.
+     [copy] js/flXHR.swf added as js/flXHR.swf doesn't exist.
+     [copy] js/flensed.js added as js/flensed.js doesn't exist.
+     [copy] js/jquery-1.5.2.min.js added as js/jquery-1.5.2.min.js doesn't exist.
+     [copy] js/jquery-1.7.2.min.js added as js/jquery-1.7.2.min.js doesn't exist.
+     [copy] js/jquery.noty.js added as js/jquery.noty.js doesn't exist.
+     [copy] js/jsUtils.js added as js/jsUtils.js doesn't exist.
+     [copy] js/notificationHandler.js added as js/notificationHandler.js doesn't exist.
+     [copy] js/swfobject.js added as js/swfobject.js doesn't exist.
+     [copy] playerProductInstall.swf added as playerProductInstall.swf doesn't exist.
+     [copy]  omitted as /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin is up to date.
+     [copy] history added as history doesn't exist.
+     [copy] js added as js doesn't exist.
+     [copy] Copying 18 files to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/history/historyFrame.html to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/history/historyFrame.html
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/flXHR.swf to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/flXHR.swf
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/notificationHandler.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/notificationHandler.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/history/history.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/history/history.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/jsUtils.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/jsUtils.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/AC_OETags.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/AC_OETags.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/history/history.css to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/history/history.css
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/flensed.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/flensed.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/jquery.noty.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/jquery.noty.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/flXHR.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/flXHR.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/connector.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/connector.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/AC_OETags.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/AC_OETags.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/jquery-1.7.2.min.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/jquery-1.7.2.min.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/playerProductInstall.swf to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/playerProductInstall.swf
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/errorCheck.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/errorCheck.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/jquery-1.5.2.min.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/jquery-1.5.2.min.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/checkplayer.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/checkplayer.js
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/js/swfobject.js to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/js/swfobject.js
+     [exec] Current OS is Linux
+     [exec] Output redirected to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.properties
+     [exec] Executing 'svn' with arguments:
+'info'
+
+The ' characters around the executable and arguments are
+not part of the command.
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.properties
+Override ignored for property "svnRevision"
+  [xmltask] Reading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml
+  [xmltask] Executing xmltask 1.15.1
+  [xmltask] Processing /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml into /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/config/UIversion.xml
+  [xmltask] Using predefined xml catalog
+  [xmltask] Applying CopyAction(buildNumber) to //build/text()
+Override ignored for property "buildNumber"
+  [xmltask] Applied CopyAction(buildNumber) - 1 match(es)
+  [xmltask] Normalizing resultant document
+  [xmltask] Indenting resultant document
+     [copy] Copying 1 file to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/html-template/index.template.html to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html
+Property "favicon" has not been set
+[replaceregexp] Replacing pattern '\$\{favicon\}' with '${favicon}' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] Replacing pattern '\$\{width\}' with '100%' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{height\}' with '100%' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{title\}' with 'Microcat V6 for Hyundai' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{version_major\}' with '10' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{version_minor\}' with '0' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{version_revision\}' with '0' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{application\}' with 'hywV6' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{releaseVersion\}' with '6.0.3076.53428' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{bgcolor\}' with '#ffffff' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern '\$\{swf\}' with 'hywV6' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/index.html' with flags: 'gs'.
+[replaceregexp] File has changed; saving the updated file
+   [delete] Deleting /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/svn.properties
+makeHTMLWrapper:  duration 0 seconds
+
+offlineBuild:
+Project base dir set to: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6
+  [antcall] calling target(s) [processLexicons] in build file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build.xml
+Project base dir set to: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.properties
+Override ignored for property "isdk.dir"
+Override ignored for property "demo.server.password"
+Override ignored for property "intdev.server.name"
+Override ignored for property "demo.server.os"
+Override ignored for property "intdev.server.ip"
+Override ignored for property "continuous.build.deploy"
+Override ignored for property "demo.server.username"
+Override ignored for property "demo.server.name"
+Override ignored for property "intdev.server.destination"
+Override ignored for property "app.name"
+Override ignored for property "testRunner.name"
+Override ignored for property "title"
+Override ignored for property "demo.server.destination"
+Override ignored for property "demo.server.ip"
+Override ignored for property "intdev.server.password"
+Override ignored for property "intdev.server.username"
+Override ignored for property "continuous.build.deployContext"
+Override ignored for property "intdev.server.os"
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.properties
+Override ignored for property "svn.revision"
+Override ignored for property "svn.password"
+Override ignored for property "jar.dir"
+Override ignored for property "ui.version.file"
+Override ignored for property "asdoc.compiler.jar"
+Override ignored for property "additionalFlexCompileOptions"
+Override ignored for property "mail.to.address"
+Override ignored for property "output.dir"
+Override ignored for property "build.dir"
+Override ignored for property "swf"
+Override ignored for property "bgcolor"
+Override ignored for property "config.file"
+Override ignored for property "height"
+Override ignored for property "mail.message.buildSuccessfully"
+Override ignored for property "modules.test.dir"
+Override ignored for property "version.revision"
+Override ignored for property "svn.rootURL"
+Override ignored for property "domainextensions"
+Override ignored for property "build.logs.dir"
+Override ignored for property "wrapper.dir"
+Override ignored for property "modules.dir"
+Override ignored for property "lexicon.dir"
+Override ignored for property "width"
+Override ignored for property "svn.project.name"
+Override ignored for property "mail.message.buildFailure"
+Override ignored for property "unitTestReport.dir"
+Override ignored for property "flex.src.dir"
+Override ignored for property "mail.subject.buildFailure"
+Override ignored for property "version.major"
+Override ignored for property "lexicon.report.message"
+Override ignored for property "language"
+Override ignored for property "docsoutputfolder"
+Override ignored for property "output.html"
+Override ignored for property "mail.subject.buildSuccessfully"
+Override ignored for property "svn.project.branch.url"
+Override ignored for property "ui.version.major"
+Override ignored for property "mail.reply.to"
+Override ignored for property "ui.version.minor"
+Override ignored for property "bin-debug.dir"
+Override ignored for property "creator"
+Override ignored for property "publisher"
+Override ignored for property "flex.licence"
+Override ignored for property "ifmCommons.test.dir"
+Override ignored for property "svn.v6.url"
+Override ignored for property "flex.test.dir"
+Override ignored for property "svn.v6.branch.url"
+Override ignored for property "application"
+Override ignored for property "mail.port"
+Override ignored for property "svn.username"
+Override ignored for property "build.modules.dir"
+Override ignored for property "mail.encoding"
+Override ignored for property "lexicons.processor"
+Override ignored for property "lexicon.report.recipient"
+Override ignored for property "mail.smtp"
+Override ignored for property "target.flash.player"
+Override ignored for property "ifmCommons.dir"
+Override ignored for property "mail.from.address"
+Override ignored for property "version.minor"
+Override ignored for property "svn.project.url"
+parsing buildfile jar:file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/jar/ant-contrib-1.0b3.jar!/net/sf/antcontrib/antlib.xml with URI = jar:file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/jar/ant-contrib-1.0b3.jar!/net/sf/antcontrib/antlib.xml from a zip file
+Trying to override old definition of task propertycopy
+Trying to override old definition of task shellscript
+Trying to override old definition of task pathtofileset
+Trying to override old definition of task runtarget
+Trying to override old definition of task remoteant
+Trying to override old definition of task propertyregex
+Trying to override old definition of task assert
+Trying to override old definition of task math
+Trying to override old definition of task trycatch
+Trying to override old definition of task antserver
+Trying to override old definition of task antcallback
+Trying to override old definition of task compilewithwalls
+Trying to override old definition of task outofdate
+Trying to override old definition of task osfamily
+Trying to override old definition of task stopwatch
+Trying to override old definition of task throw
+Trying to override old definition of task antclipse
+Trying to override old definition of task urlencode
+Trying to override old definition of task timestampselector
+Trying to override old definition of task foreach
+Trying to override old definition of task if
+Trying to override old definition of task propertyselector
+Trying to override old definition of task sortlist
+Trying to override old definition of task antfetch
+Trying to override old definition of task post
+Trying to override old definition of task forget
+Trying to override old definition of task limit
+Trying to override old definition of task switch
+Trying to override old definition of task relentless
+Trying to override old definition of task var
+Trying to override old definition of task inifile
+Trying to override old definition of task verifydesign
+Trying to override old definition of task for
+Trying to override old definition of datatype httpState
+Trying to override old definition of datatype httpClient
+Trying to override old definition of task getCookie
+Trying to override old definition of task addCookie
+Trying to override old definition of task clearCookies
+Trying to override old definition of task addCredentials
+Trying to override old definition of task clearCredentials
+Trying to override old definition of task purgeExpiredCookies
+Trying to override old definition of task postMethod
+Trying to override old definition of task getMethod
+Trying to override old definition of task headMethod
+Trying to override old definition of task importurl
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.linux.properties
+Override ignored for property "svn.exec"
+Override ignored for property "browser.path"
+Override ignored for property "flex.home"
+Override ignored for property "isOffline"
+Importing file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml from /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/build-common.xml
+ [property] Loading /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.properties
+Override ignored for property "svn.revision"
+Override ignored for property "svn.password"
+Override ignored for property "jar.dir"
+Override ignored for property "ui.version.file"
+Override ignored for property "asdoc.compiler.jar"
+Override ignored for property "additionalFlexCompileOptions"
+Override ignored for property "mail.to.address"
+Override ignored for property "output.dir"
+Override ignored for property "build.dir"
+Override ignored for property "swf"
+Override ignored for property "bgcolor"
+Override ignored for property "config.file"
+Override ignored for property "height"
+Override ignored for property "mail.message.buildSuccessfully"
+Override ignored for property "modules.test.dir"
+Override ignored for property "version.revision"
+Override ignored for property "svn.rootURL"
+Override ignored for property "domainextensions"
+Override ignored for property "build.logs.dir"
+Override ignored for property "wrapper.dir"
+Override ignored for property "modules.dir"
+Override ignored for property "lexicon.dir"
+Override ignored for property "width"
+Override ignored for property "svn.project.name"
+Override ignored for property "mail.message.buildFailure"
+Override ignored for property "unitTestReport.dir"
+Override ignored for property "flex.src.dir"
+Override ignored for property "mail.subject.buildFailure"
+Override ignored for property "version.major"
+Override ignored for property "lexicon.report.message"
+Override ignored for property "language"
+Override ignored for property "docsoutputfolder"
+Override ignored for property "output.html"
+Override ignored for property "mail.subject.buildSuccessfully"
+Override ignored for property "svn.project.branch.url"
+Override ignored for property "ui.version.major"
+Override ignored for property "mail.reply.to"
+Override ignored for property "ui.version.minor"
+Override ignored for property "bin-debug.dir"
+Override ignored for property "creator"
+Override ignored for property "publisher"
+Override ignored for property "flex.licence"
+Override ignored for property "ifmCommons.test.dir"
+Override ignored for property "svn.v6.url"
+Override ignored for property "flex.test.dir"
+Override ignored for property "svn.v6.branch.url"
+Override ignored for property "application"
+Override ignored for property "mail.port"
+Override ignored for property "svn.username"
+Override ignored for property "build.modules.dir"
+Override ignored for property "mail.encoding"
+Override ignored for property "lexicons.processor"
+Override ignored for property "lexicon.report.recipient"
+Override ignored for property "mail.smtp"
+Override ignored for property "target.flash.player"
+Override ignored for property "ifmCommons.dir"
+Override ignored for property "mail.from.address"
+Override ignored for property "version.minor"
+Override ignored for property "svn.project.url"
+Importing file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/ant-macros.xml from /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/ant-macros.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/ant-macros.xml
+ [macrodef] creating macro  svn.update
+ [macrodef] creating macro  svn.checkout
+ [macrodef] creating macro  svn.copy
+ [macrodef] creating macro  svn.propset
+ [macrodef] creating macro  svn.getLastChangedRevision
+ [macrodef] creating macro  process.lexicon
+ [macrodef] creating macro  make.wrapper
+ [macrodef] creating macro  compile.flex
+ [macrodef] creating macro  zip.folder
+ [macrodef] creating macro  ftp.content
+ [macrodef] creating macro  scp.content
+ [macrodef] creating macro  uploadFilesToServer
+Importing file /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/springasprebuild.xml from /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/build-common.xml
+parsing buildfile /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/springasprebuild.xml with URI = file:/srv/hudson/jobs/UI_HYW_KIA_Offline%20-%20NDF/workspace/hywV6/build/springasprebuild.xml
+Override ignored for property "flexpmd.version"
+Override ignored for property "isOffline"
+Trying to override old definition of task xmltask
+Trying to override old definition of task flexunit
+Trying to override old definition of task flexPmd
+Trying to override old definition of task cpd
+Trying to override old definition of task metrics
+Build sequence for target(s) `processLexicons' is [processLexicons]
+Complete build sequence is [processLexicons, generateBuildVersion, clean, init, build-modules, build, makeHTMLWrapper, deployRC, runUnitTests, sendNotificationByEmail, prepareBinDebug, updateExternalDependencies, generateASDocs, deployToIntdevServer, initForDev, copyFilesToDevServer, deployToDevServer, ant-macros.extractClassesFromApplicationContext, metrics, emailLexiconReport, cpd, createBranch, offlineBuild, usage, extractClassesFromApplicationContext, , flexPmdWithDefaultRuleset]
+  [antcall] Entering /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml...
+Build sequence for target(s) `processLexicons' is [processLexicons]
+Complete build sequence is [processLexicons, generateBuildVersion, clean, init, build-modules, build, makeHTMLWrapper, deployRC, runUnitTests, sendNotificationByEmail, prepareBinDebug, updateExternalDependencies, generateASDocs, deployToIntdevServer, initForDev, copyFilesToDevServer, deployToDevServer, ant-macros.extractClassesFromApplicationContext, metrics, emailLexiconReport, cpd, createBranch, offlineBuild, usage, extractClassesFromApplicationContext, , flexPmdWithDefaultRuleset]
+
+processLexicons:
+     [echo] Application is Offline? true
+    [mkdir] Created dir: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons
+     [java] Executing '/usr/java/jdk1.6.0_23/jre/bin/java' with arguments:
+'-Xms32m'
+'-Xmx768m'
+'-Dsun.io.useCanonCaches=false'
+'-Xmx512m'
+'-jar'
+'/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build/jar/lexiconparser.jar'
+'-i:/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6'
+'-o:/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons'
+'-m:/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/logs'
+'-v:v6'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [java] Located source code input directory: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6
+     [java] Located output directory: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons
+     [java] Located report directory: /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/logs
+     [java] Using regular expression version: v6
+     [java] Defaulting to database connection string: jdbc:sqlserver://PROD31;Database=MicrocatLIVE_Lexicon;user=lexiconuser2;password=lexiconuser2;
+     [java] Verified database (connection string: jdbc:sqlserver://PROD31;Database=MicrocatLIVE_Lexicon;user=lexiconuser2;password=lexiconuser2;)
+     [java] =============
+     [java] PrintVehicleInformationMediatorExt.as
+     [java] =============
+     [java] '828', "Unknown"
+     [java] '828', "Unknown"
+     [java] '2248', "Major Attributes"
+     [java] '4387', "Exterior Color"
+     [java] '4388', "Interior Color"
+     [java] '2203', "General"
+     [java] '2703', "Option Codes"
+     [java] '-1', "Page"
+     [java] '2708', "No Description"
+     [java] =============
+     [java] PartDetailsMediatorExt.as
+     [java] =============
+     [java] '184', 'Part Number'
+     [java] '3687', 'Model Description'
+     [java] '3686', 'Part Name'
+     [java] =============
+     [java] EmailPdfMediatorExt.as
+     [java] =============
+     [java] '4759', 'Please enter a valid email address'
+     [java] '1969', 'Invalid Entry'
+     [java] =============
+     [java] ContextMenuMediatorExt.as
+     [java] =============
+     [java] "2361", "Supersession Search"
+     [java] "2361", "Supersession Search"
+     [java] =============
+     [java] AbbreviationsMediator.as
+     [java] =============
+     [java] "168", "OK"
+     [java] "1325", "Reset"
+     [java] "4861", "There is no Service data available."
+     [java] "1575", "Abbreviations"
+     [java] "2703", "Option Codes"
+     [java] "2248", "Major Attributes"
+     [java] "935", "Code"
+     [java] "478", "Description"
+     [java] "-1", "Long Description"
+     [java] =============
+     [java] CatalogueSearchMediatorExt.as
+     [java] =============
+     [java] "3688", "Region"
+     [java] =============
+     [java] PartDataMediatorExt.as
+     [java] =============
+     [java] '4098', 'New Parts'
+     [java] '3687', 'Model Description'
+     [java] '3686', 'Part Name'
+     [java] '2942', 'ITC'
+     [java] '2957', 'S/S'
+     [java] '2943', 'PNC'
+     [java] '129', 'Key'
+     [java] =============
+     [java] VehicleInfoTabsMediatorExt.as
+     [java] =============
+     [java] "2203", "General"
+     [java] "2703", "Option Codes"
+     [java] "2708", "No Description"
+     [java] "4387", "Exterior Color"
+     [java] "4388", "Interior Color"
+     [java] =============
+     [java] UserPrefsMediatorExt.as
+     [java] =============
+     [java] "2347", "Show Model Symbol Names"
+     [java] "5345", "Show Long Descriptions for Model Symbol Names (English only)"
+     [java] "2347", "Show Model Symbol Names"
+     [java] "5345", "Show Long Descriptions for Model Symbol Names (English only)"
+     [java] "5962", "Remove Dash While Copying Part Number"
+     [java] "5962", "Remove Dash While Copying Part Number"
+     [java] "-1", "BOM data"
+     [java] "-1", "Show BOM data"
+     [java] =============
+     [java] PartSearchMediatorExt.as
+     [java] =============
+     [java] "3908", "Parts Search"
+     [java] "7759", "Locate parts using a range of search types such as PNC or description. If searching by PNC, enter one or multiple PNCs separated by a space. If searching by description, enter one or multiple words in any order."
+     [java] "7230", "Tip:"
+     [java] "7240", "Click the <b>Cross Catalogue</b> checkbox to search for a part across all vehicle catalogues."
+     [java] "3908", "Parts Search"
+     [java] "3908", "Parts Search"
+     [java] "7759", "Locate parts using a range of search types such as PNC or description. If searching by PNC, enter one or multiple PNCs separated by a space. If searching by description, enter one or multiple words in any order."
+     [java] "7230", "Tip:"
+     [java] "7240", "Click the <b>Cross Catalogue</b> checkbox to search for a part across all vehicle catalogues."
+     [java] =============
+     [java] PrintPartPageMediatorExt.as
+     [java] =============
+     [java] "202", "Price"
+     [java] "2943", "PNC"
+     [java] "184", "Part Number"
+     [java] "212", "Qty"
+     [java] "3686", "Part Name"
+     [java] "3687", "Model Description"
+     [java] "100", "From"
+     [java] "281", "To"
+     [java] "856", "2004 - 2010 Infomedia Ltd and its licensors."
+     [java] "3868", "Page [x] of [y]"
+     [java] =============
+     [java] ReferenceLibraryProxyExt.as
+     [java] =============
+     [java] "2703", "Option Codes"
+     [java] "2248", "Major Attributes"
+     [java] "1575", "Abbreviations"
+     [java] =============
+     [java] CatalogueProxyExt.as
+     [java] =============
+     [java] '2248', "Major Attributes"
+     [java] '4387', "Exterior Color"
+     [java] '4388', "Interior Color"
+     [java] '2203', "General"
+     [java] '2703', "Option Codes"
+     [java] "828", "Unknown"
+     [java] "828", "Unknown"
+     [java] =============
+     [java] ApplicationFacade.as
+     [java] =============
+     [java] '7538', 'You have items in the Order List. Would you like to clear the Order List?'
+     [java] =============
+     [java] LabelFunctionUtil.as
+     [java] =============
+     [java] '64', 'Date'
+     [java] '2840', 'Revision'
+     [java] =============
+     [java] CalloutsCommand.as
+     [java] =============
+     [java] '2161', 'HARDWARE ITEM'
+     [java] =============
+     [java] ReferenceLibraryDocViewMediator.as
+     [java] =============
+     [java] '5523', 'Display the image to its actual size'
+     [java] '5525', 'Resize the image to fit the page width.'
+     [java] '6690', 'Resize the image to fit the page height.'
+     [java] '525', 'Print the PDF.'
+     [java] '5526', 'Drag the image in any direction.'
+     [java] '7542', 'Open the Reference file as a PDF'
+     [java] '1279', 'Previous Page'
+     [java] '1190', 'Next Page'
+     [java] "3868", "Page [x] of [y]"
+     [java] "3868", "Page [x] of [y]"
+     [java] =============
+     [java] MMPPartInquiryResultMediator.as
+     [java] =============
+     [java] '6370', 'Part Inquiry Information'
+     [java] '42', 'Close'
+     [java] =============
+     [java] MMPPartDataFormMediator.as
+     [java] =============
+     [java] "4628", "Part number not on file."
+     [java] "5884", "DMS"
+     [java] =============
+     [java] IntegrationStatusMediator.as
+     [java] =============
+     [java] "8278", "One Transfer is pending."
+     [java] "8575", "The transfer was successful."
+     [java] "8276", "The transfer was unsuccessful."
+     [java] "8278", "One Transfer is pending."
+     [java] "-1", "Incoming Transfer"
+     [java] "-1", "From: [x]"
+     [java] "-1", "Load Order"
+     [java] "-1", "Load [x]"
+     [java] =============
+     [java] PartSearchMediator.as
+     [java] =============
+     [java] "3908", "Parts Search"
+     [java] "3908", "Parts Search"
+     [java] "234", "Search for"
+     [java] "231", "Search"
+     [java] "930", "Clear History List"
+     [java] "7225", "Enter search criteria."
+     [java] "597", "Cross catalog"
+     [java] "7582", "Collapse the panel."
+     [java] "7583", "Expand the panel."
+     [java] "3908", "Parts Search"
+     [java] "7239", "Locate parts using a range of search types such as part number or description."
+     [java] "7230", "Tip:"
+     [java] "7240", "Click the <b>Cross Catalogue</b> checkbox to search for a part across all vehicle catalogues."
+     [java] "3908", "Parts Search"
+     [java] "3908", "Parts Search"
+     [java] "231", "Search"
+     [java] =============
+     [java] PrintVehicleInformationMediator.as
+     [java] =============
+     [java] '346', "Vehicle Information"
+     [java] '30', "Cancel"
+     [java] '1286', "Print"
+     [java] '1635', "Email"
+     [java] '2272', "Features"
+     [java] '346', "Vehicle Information"
+     [java] '31', "Catalog"
+     [java] '299', "VIN"
+     [java] '6244', "Customer Tag"
+     [java] '2936', "Model Year"
+     [java] '596', "Build Date"
+     [java] "220", "Registration"
+     [java] =============
+     [java] CustomerServiceMediator.as
+     [java] =============
+     [java] '2054', 'Customer Service'
+     [java] '1633', 'Telephone'
+     [java] '1634', 'Fax'
+     [java] '3323', 'Email'
+     [java] '42', 'Close'
+     [java] '1791', 'Support Times'
+     [java] =============
+     [java] EditNoteMediator.as
+     [java] =============
+     [java] "6027", "Author"
+     [java] "7533", "Last modified:"
+     [java] "2838", "Expiry date"
+     [java] "-1", "Private Note"
+     [java] "366", "Delete"
+     [java] "3480", "Submit"
+     [java] "30", "Cancel"
+     [java] "-1", "Edit unknown note"
+     [java] "1017", "Edit Note"
+     [java] "-1", "Add unknown note"
+     [java] "4746", "Add Catalog note"
+     [java] "7523", "Add VIN note"
+     [java] "7521", "Add Section Note"
+     [java] "4424", "Add Part Number Note"
+     [java] '4421', "Add Callout note"
+     [java] =============
+     [java] TransferButtonOrderMediator.as
+     [java] =============
+     [java] "6849", "Transfer the order to your DMS"
+     [java] "8264", "Transfer to Superservice Menus."
+     [java] "8345", "EDOS"
+     [java] "8346", "Export the Order List for EDOS."
+     [java] "7553", "Transfer the Order List to EDIX."
+     [java] "-1", "Transfer the Order List to D2DLink."
+     [java] "2665", "Search PartsVoice"
+     [java] =============
+     [java] MMPCustomerInquiryResolverMediator.as
+     [java] =============
+     [java] "60", "Customer Inquiry"
+     [java] "8", "Account Number"
+     [java] "61", "Customer Name"
+     [java] "299", "VIN"
+     [java] "220", "Registration"
+     [java] "30", "Cancel"
+     [java] "351", "Load"
+     [java] =============
+     [java] MMPPartInquiryMediator.as
+     [java] =============
+     [java] "182", "Part Inquiry"
+     [java] =============
+     [java] OrderPartMediator.as
+     [java] =============
+     [java] '1223', 'Order Many'
+     [java] '30', 'Cancel'
+     [java] '7195', 'Add to Order'
+     [java] '4494', 'Please select the quantity you want to order.'
+     [java] '72', 'Description'
+     [java] '212', 'Qty'
+     [java] '1215', 'Number'
+     [java] '844', 'Skip'
+     [java] '1223', 'Order Many'
+     [java] '6710', '[x] of [y]'
+     [java] =============
+     [java] TransferButtonVehicleMediator.as
+     [java] =============
+     [java] "-1", "Transfer to SSM"
+     [java] "8264", "Transfer Microcat.Network data to Superservice Menus."
+     [java] =============
+     [java] MoreLinksBoxMediator.as
+     [java] =============
+     [java] '3105', 'Welcome'
+     [java] "5218", "General Settings"
+     [java] "7395", "Personal Settings"
+     [java] "3313", "Account Details"
+     [java] "6310", "Integration Settings"
+     [java] "2832", "Pricing Administration"
+     [java] "5670", "Settings"
+     [java] "2054", "Customer Service"
+     [java] "7299", "Submit Feedback"
+     [java] "5692", "About"
+     [java] "115", "Help"
+     [java] "8332", "Video Tutorials"
+     [java] '7539', 'There are currently parts in the Order List. If you continue, the Order List will be lost. Do you really want to change region?'
+     [java] '3899', 'Confirmation'
+     [java] '7412', 'There are currently parts in the Order List. If you continue, the Order List will be lost. Do you really want to change market?'
+     [java] '3899', 'Confirmation'
+     [java] =============
+     [java] ExceptionPopupMediator.as
+     [java] =============
+     [java] "1091", "Ignore"
+     [java] "7221", "Send Exception"
+     [java] "7202", "More Details"
+     [java] "7530", "Please enter a comment:"
+     [java] "168", "OK"
+     [java] "305", "Yes"
+     [java] "199", "No"
+     [java] "30", "Cancel"
+     [java] "388", "Append"
+     [java] "388", "Overwrite"
+     [java] "7222", "Send Error"
+     [java] "30", "Cancel"
+     [java] "7485", "Multiple errors found"
+     [java] "7486", "Multiple errors have occurred. Click <b>More Details</b> to view details about the errors"
+     [java] =============
+     [java] AboutBoxMediator.as
+     [java] =============
+     [java] "6590", "Application Version:"
+     [java] '4804', 'About Microcat LIVE'
+     [java] '42', 'Close'
+     [java] '3516', 'End User Licence Agreement'
+     [java] '7266', 'Copyright Notice'
+     [java] =============
+     [java] LoginPopupMediator.as
+     [java] =============
+     [java] "-1", "Dongle Error"
+     [java] "7188", "Error initialising the application"
+     [java] "2558", "Username:"
+     [java] "2559", "Password:"
+     [java] "3430", "Log On"
+     [java] =============
+     [java] ContextMenuMediator.as
+     [java] =============
+     [java] '4421', "Add Callout note"
+     [java] "7598", "Copy number"
+     [java] "4877", "Order 1"
+     [java] "1223", "Order many"
+     [java] '4424', "Add Part Number Note"
+     [java] "7598", "Copy number"
+     [java] "4877", "Order 1"
+     [java] "1223", "Order many"
+     [java] '6127', "Substitute Parts"
+     [java] "7738", "Order Exchange Part"
+     [java] "7741", "Historical Parts"
+     [java] "6810", "Warranty Linked Selling Part"
+     [java] "2379", "Linked Selling Parts"
+     [java] "2168", "View Parts List"
+     [java] "2169", "View Kit"
+     [java] "6560", "Search for Right Hand Part"
+     [java] "6556", "Search for Left Hand Part"
+     [java] "5930", "EDIX Part Number Inquiry"
+     [java] "4354", "D2DLink Part Number Inquiry"
+     [java] "2665", "Search PartsVoice"
+     [java] "7738", "Order Exchange Part"
+     [java] "2665", "Search PartsVoice"
+     [java] "6810", "Warranty Linked Selling Part"
+     [java] "2379", "Linked Selling Parts"
+     [java] "5930", "EDIX Part Number Inquiry"
+     [java] "4354", "D2DLink Part Number Inquiry"
+     [java] "1227", "OSI Search"
+     [java] "1227", "OSI Search"
+     [java] =============
+     [java] PartOptionResolverMediator.as
+     [java] =============
+     [java] '323', 'Part Option Resolver'
+     [java] '7248', 'Previous part'
+     [java] '7249', 'Next part'
+     [java] '1187', 'Next'
+     [java] '42', 'Close'
+     [java] '7195', 'Add to Order'
+     [java] '7220', 'Transfer this part to your DMS'
+     [java] "284", "Transfer"
+     [java] "323", "Part Option Resolver"
+     [java] "7245", "Select the required part from the list of parts."
+     [java] "7230", "Tip:"
+     [java] "7242", "Click the checkbox to add a part to the order."
+     [java] '30', 'Cancel'
+     [java] '321', 'Results'
+     [java] '6710', '[x] of [y]'
+     [java] '42', 'Close'
+     [java] '321', 'Results'
+     [java] =============
+     [java] VehicleSearchMediator.as
+     [java] =============
+     [java] "4140", "Vehicle Search"
+     [java] "232", "Search by"
+     [java] "6244", "Customer Tag"
+     [java] "930", "Clear History List"
+     [java] "930", "Clear History List"
+     [java] "231", "Search"
+     [java] "6933", "Retrieve or delete Customer Tags."
+     [java] "7582", "Collapse the panel."
+     [java] "7583", "Expand the panel."
+     [java] "4140", "Vehicle Search"
+     [java] "7231", "Search for a vehicle by VIN. Other search types will be available based on your region."
+     [java] "7230", "Tip:"
+     [java] "7232", "You can search by partial VIN (last 8 digits)."
+     [java] "232", "Search by"
+     [java] "168", "OK"
+     [java] =============
+     [java] EmailMediator.as
+     [java] =============
+     [java] '1647', 'Send Email'
+     [java] '1669', 'To'
+     [java] '6929', 'Bcc...'
+     [java] '4757', 'Cc...'
+     [java] '4758', 'Subject'
+     [java] '6930', 'Reply-To'
+     [java] '1647', 'Send Email'
+     [java] '30', 'Cancel'
+     [java] '6984', 'This order was created by [x], provided by Infomedia Ltd.'
+     [java] '7066', "Microcat LIVE"
+     [java] "6095", "[x] Order"
+     [java] "7066", "Microcat LIVE"
+     [java] =============
+     [java] FreeFormPartEntryMediator.as
+     [java] =============
+     [java] "99", "Freeform part entry"
+     [java] "7590", "Enter the part details of a non-catalogued part."
+     [java] "7230", "Tip:"
+     [java] "7244", "Click <b>Order</b> to add the part to the Order List."
+     [java] "99", "Freeform part entry"
+     [java] "2207", "Type"
+     [java] "181", "Part"
+     [java] "1215", "Number"
+     [java] "212", "Qty"
+     [java] "72", "Description"
+     [java] "7195", "Add to Order"
+     [java] "30", "Cancel"
+     [java] '844', 'Skip'
+     [java] '202', 'Price'
+     [java] "7937", "Apply tax code"
+     [java] "99", "Freeform part entry"
+     [java] '6710', '[x] of [y]'
+     [java] "99", "Freeform part entry"
+     [java] =============
+     [java] BreadcrumbMediator.as
+     [java] =============
+     [java] "367", "Home"
+     [java] "7280", "Go to the Home page."
+     [java] =============
+     [java] AbstractPartsGridMediator.as
+     [java] =============
+     [java] '202', 'Price'
+     [java] =============
+     [java] ApplicationMediator.as
+     [java] =============
+     [java] "1244", "Parts"
+     [java] "4456", "Orders"
+     [java] "7278", "Go to the Parts screen."
+     [java] "7279", "Go to the Orders screen."
+     [java] '7534', 'Reference Library'
+     [java] '7531', "Go to the Reference Library screen"
+     [java] '4695', 'Supersession Type'
+     [java] "1969", "Invalid entry"
+     [java] '2708', 'NO DESCRIPTION'
+     [java] "828", "Unknown"
+     [java] '305', 'Yes'
+     [java] '199', 'No'
+     [java] '168', 'Ok'
+     [java] '30', 'Cancel'
+     [java] "7790", "Some of the pricing information is temporarily unavailable. Please contact Customer Service."
+     [java] "427", "Phone"
+     [java] "1634", "Fax"
+     [java] "3323", "Email"
+     [java] "7789", "Unavailable pricing information"
+     [java] "168", "OK"
+     [java] "7792", "All the pricing information has now been restored."
+     [java] "7791", "Pricing information restored"
+     [java] "168", "OK"
+     [java] =============
+     [java] CopyrightMediator.as
+     [java] =============
+     [java] '7266', 'Copyright Notice'
+     [java] '42', 'Close'
+     [java] "1286", "Print"
+     [java] '7266', 'Copyright Notice'
+     [java] '7267', 'This web site and its contents are subject to copyright under the laws of Australia and, through international treaties, other countries.'
+     [java] '7268', 'The copyright in materials on this site and in this web site as a whole are either owned or licensed by Infomedia Ltd. The copyright in some materials, namely the automaker data, incorporated within this web site is owned by third parties.'
+     [java] '7269', 'Copyright entitles the owner to the exclusive right to copy and reproduce the materials. Copying or reproducing the materials may infringe the copyright. You are permitted only to display and print the materials in unaltered form as per the End User License Agreement.'
+     [java] '7270', 'You must not otherwise exercise the copyright in the whole or any part of this web site for any other purpose except as expressly permitted by the End User License Agreement.'
+     [java] '7271', 'Notice of Trademark'
+     [java] '7272', 'The logos “Microcat LIVE”, “Microcat MARKET”, “Auto Partsbridge” and “Superservice MENUS” are all trademarks of Infomedia Ltd and may not be used without the prior specific, written permission of Infomedia Ltd. All other trademarks are the property of their respective holders.'
+     [java] '7273', '© 2010 Infomedia Ltd and its rightful licensors.'
+     [java] '7274', 'All Rights Reserved.'
+     [java] '7266', 'Copyright Notice'
+     [java] '-1', 'This website and its contents (the “Materials”) are subject to copyright laws.'
+     [java] '-1', 'Infomedia is the rightful owner, licensee and/or licensor of copyright in the Materials. Copyright in certain elements of the Materials remains subject to ownership by third parties, including the Automaker.'
+     [java] '-1', 'Copyright entitles the owner to the exclusive right to copy and reproduce the Materials. Copying or reproducing the Materials may infringe the copyright.'
+     [java] '-1', 'You may display and print the materials in unaltered form as per the End User License Agreement. You must not otherwise copy, reproduce or exercise any other exclusive rights belonging to the  copyright owner(s) of the Materials for any purpose except as expressly permitted by the End User License Agreement.'
+     [java] '7271', 'Notice of Trademark'
+     [java] '-1', 'The logos “Microcat”, “Microcat LIVE”, “Microcat MARKET”, “Auto PartsBridge” and “Superservice Menus” are all trademarks of Infomedia Ltd and must not be used without the prior specific, written permission of Infomedia Ltd. All other trademarks are the property of their respective holders.'
+     [java] '-1', '© 2011 Infomedia Ltd and its rightful licensors. All Rights Reserved.'
+     [java] '7274', 'All Rights Reserved.'
+     [java] =============
+     [java] MMPCustomerInquiryMediator.as
+     [java] =============
+     [java] "60", "Customer Inquiry"
+     [java] =============
+     [java] PartSearchGridMediator.as
+     [java] =============
+     [java] "4752", "Go to Illustration"
+     [java] =============
+     [java] HeaderPanelMediator.as
+     [java] =============
+     [java] "284", "Transfer"
+     [java] "6849", "Transfer the order to your DMS"
+     [java] "6783", "Enter shortcut..."
+     [java] "7457", "News"
+     [java] "7818", "Show all"
+     [java] "7563", "Quick navigation"
+     [java] "7564", "Type a shortcut and press Enter on the keyboard."
+     [java] "7568", "catalog code"
+     [java] "7568", "catalog code"
+     [java] "7567", "basic number"
+     [java] "7567", "basic number"
+     [java] "7571", "commodity code"
+     [java] "2943", "PNC"
+     [java] "7570", "section number"
+     [java] "7569", "model year"
+     [java] "7569", "model year"
+     [java] "7569", "model year"
+     [java] "7566", "last 7 characters of VIN"
+     [java] "7565", "last 8 characters of VIN"
+     [java] "83", "Enter"
+     [java] =============
+     [java] PrintPartPageMediator.as
+     [java] =============
+     [java] "31", "Catalogue"
+     [java] "299", "VIN"
+     [java] "220", "Registration"
+     [java] "596", "Build Date"
+     [java] "856", "2004-2010 Infomedia Ltd and its Licensors"
+     [java] '7532', "Include Parts List"
+     [java] '1286', 'Print'
+     [java] '3323', 'Email'
+     [java] "30", "Cancel"
+     [java] "448", "Printed by"
+     [java] "72", "Description"
+     [java] "941", "Comments"
+     [java] "212", "Qty"
+     [java] "762", "From Date"
+     [java] "827", "To Date"
+     [java] "202", "Price"
+     [java] "448", "Printed by"
+     [java] "31", "Catalogue"
+     [java] "220", "Registration"
+     [java] "299", "VIN"
+     [java] "596", "Build Date"
+     [java] "31", "Catalogue"
+     [java] "239", "Section"
+     [java] "299", "VIN"
+     [java] "220", "Registration"
+     [java] "596", "Build Date"
+     [java] "212", "Qty"
+     [java] "72", "Description"
+     [java] "-1", "Remarks"
+     [java] "762", "From Date"
+     [java] "827", "To Date"
+     [java] "-1", "Key"
+     [java] "941", "Comments"
+     [java] "856", "2004 - 2010 Infomedia Ltd and its licensors."
+     [java] "3868", "Page [x] of [y]"
+     [java] =============
+     [java] AbstractTransferButtonMediator.as
+     [java] =============
+     [java] "-1", "Microcat.Network options"
+     [java] "-1", "Transfer part to [x]"
+     [java] "-1", "Transfer order to [x]"
+     [java] =============
+     [java] MMPLogonWindowMediator.as
+     [java] =============
+     [java] "4565", "DMS Logon"
+     [java] "290", "User name"
+     [java] "189", "Password"
+     [java] "4063", "Log on"
+     [java] "6197", "Automatic logon"
+     [java] =============
+     [java] EulaMediator.as
+     [java] =============
+     [java] '7066', 'Microcat LIVE'
+     [java] '6680', '[x] End User Licence Agreement'
+     [java] '5538', 'I have read and agree with the privacy policy'
+     [java] '6681', 'Privacy Policy'
+     [java] '5539', 'I have read and agree with the terms of the EULA'
+     [java] '1286', 'Print'
+     [java] '5540', 'Decline'
+     [java] '42', 'Close'
+     [java] '399', 'Continue'
+     [java] '3516', 'End-User Licence Agreement'
+     [java] '7573', 'You have declined the EULA. Please close your browser.'
+     [java] =============
+     [java] UserPrefsMediator.as
+     [java] =============
+     [java] "7771", "Successfully connected to the DMSi."
+     [java] "7773", "Unable to connect to the DMSi. Check the parameters and ensure that the DMSi is running."
+     [java] "5670", "Settings"
+     [java] "5218", "General Settings"
+     [java] "7395", "Personal Settings"
+     [java] "3313", "Account Details"
+     [java] "6310", "Integration Settings"
+     [java] "-1", "Transfer button"
+     [java] "-1", "Transfer parts to this system by default"
+     [java] "3730", "Part Number Format Selection"
+     [java] "5495", "Price Display Selection"
+     [java] "7250", "Hide Pricing"
+     [java] "7794", "Show Adjustments"
+     [java] "7795", "Show Taxes"
+     [java] "7796", "Show Profit"
+     [java] "4684", "Show or hide non-applicable"
+     [java] "4847", "Show Non-Applicable"
+     [java] "5605", "Date Format"
+     [java] "1366", "Short Date"
+     [java] "7541", "Print and Email"
+     [java] "1674", "Header"
+     [java] "1675", "Footer"
+     [java] "3123", "Hide Part Numbers"
+     [java] "7556", "[x] Integration"
+     [java] "7745", "[x] Host"
+     [java] "7746", "[x] Port"
+     [java] "4850", "Show DMS Status Bar"
+     [java] "7907", "DMSi Integration Type"
+     [java] "7910", "Other DMS connections"
+     [java] "7908", "DealerTrack and advanced integration"
+     [java] "7909", "Contact Customer Service for licensing details."
+     [java] "4698", "Test Connection"
+     [java] "1678", "Email Preferences"
+     [java] "1013", "Email Address"
+     [java] "1661", "Mail Server"
+     [java] "2583", "Port"
+     [java] "290", "User name"
+     [java] "189", "Password"
+     [java] "4698", "Test Connection"
+     [java] "1123", "Language Selection"
+     [java] "5494", "Application Language"
+     [java] "1247", "Part Data Language"
+     [java] "7407", "Hotspots"
+     [java] "7408", "Show Hotspots"
+     [java] "5362", "Colours"
+     [java] "3094", "Sounds"
+     [java] "307", "Play Sound on Order"
+     [java] "7247", "Show/Hide screen tips"
+     [java] "7374", "Show screen tips"
+     [java] "7824", "Show or Hide News Feed"
+     [java] "7825", "Hide News Feed"
+     [java] "7747", "To access D2DLink website, you need Internet Explorer."
+     [java] "7760", "URL"
+     [java] "290", "User name"
+     [java] "189", "Password"
+     [java] "3874", "Supersessions"
+     [java] "8060", "Prompt for supersession when ordering"
+     [java] "3380", "First Name"
+     [java] "3428", "Last Name"
+     [java] "8", "Account Number"
+     [java] "3240", "Company Name"
+     [java] "1251", "Phone Number"
+     [java] "1046", "Fax Number"
+     [java] "1635", "Email"
+     [java] "252", "Shipping Address"
+     [java] "252", "Shipping Address"
+     [java] "10", "Address"
+     [java] "1399", "Suburb/City"
+     [java] "1396", "State/Province"
+     [java] "1272", "Postal Code"
+     [java] "963", "Country"
+     [java] "6907", "Postal Address"
+     [java] "6907", "Postal Address"
+     [java] "10", "Address"
+     [java] "1399", "Suburb/City"
+     [java] "1396", "State/Province"
+     [java] "1272", "Postal Code"
+     [java] "963", "Country"
+     [java] "950", "Correct Fit"
+     [java] "1096", "Incorrect Fit"
+     [java] "354", "Selective Fit"
+     [java] "172", "Order Highlight Colour"
+     [java] "6405", "Reset to Defaults"
+     [java] "7911", "This feature is not supported by the current DMSi. Please install the latest DMSi sent by Infomedia or check \"
+     [java] "150", "Message"
+     [java] "5362", "Colours"
+     [java] "7769", "Trying to connect to the DMSi…"
+     [java] "3210", "The email address is not valid."
+     [java] =============
+     [java] CatalogueSelectionMediator.as
+     [java] =============
+     [java] "-1", "Superservice Menus"
+     [java] "284", "Transfer"
+     [java] "30", "Cancel"
+     [java] "8271", "Select vehicle"
+     [java] "8272", "* You can only transfer data for one VIN at a time to Superservice Menus."
+     [java] =============
+     [java] CandIMediator.as
+     [java] =============
+     [java] '7299', 'Submit Feedback'
+     [java] "1325", "Reset"
+     [java] "1325", "Reset"
+     [java] "2338", "Send"
+     [java] "2338", "Send"
+     [java] "30", "Cancel"
+     [java] "30", "Cancel"
+     [java] "3313", "Account Details"
+     [java] "2054", "Customer Service"
+     [java] '5533', 'Issue Type'
+     [java] '941', 'Comments'
+     [java] "4578", "Full Name"
+     [java] "3240", "Company Name"
+     [java] "10", "Address"
+     [java] "1633", "Telephone"
+     [java] "1634", "Fax"
+     [java] "1635", "Email"
+     [java] "1068", "Franchise"
+     [java] "1633", "Telephone"
+     [java] "1634", "Fax"
+     [java] "1635", "Email"
+     [java] "685", "Version"
+     [java] "64", "Date"
+     [java] "7666", "Time"
+     [java] "31", "Catalogue"
+     [java] '299', 'VIN'
+     [java] "220", "Registration"
+     [java] '596', 'Build Date'
+     [java] '158', 'Model'
+     [java] '239', 'Section'
+     [java] '1637', 'Callout'
+     [java] '1215', 'Number'
+     [java] '1644', 'Interpretation Error'
+     [java] '1639', 'Not in Catalogue'
+     [java] '1641', 'Incorrect Description'
+     [java] '1642', 'Incorrect Pricing'
+     [java] '1640', 'Incorrect Illustration'
+     [java] '1643', 'Incorrect Part Number'
+     [java] '1690', 'Incorrect Build Date'
+     [java] '1645', 'Other'
+     [java] "1678", "Email Preferences"
+     [java] "1013", "Email Address"
+     [java] "1661", "Mail Server"
+     [java] "2583", "Port"
+     [java] "290", "User name"
+     [java] "189", "Password"
+     [java] "4698", "Test Connection"
+     [java] "3210", "The email address is not valid."
+     [java] =============
+     [java] VehicleIndexMediator.as
+     [java] =============
+     [java] "7226", "Filter the search results of the current page"
+     [java] "7149", "Error transferring order to DMS"
+     [java] "1899", "Message from DMS"
+     [java] "7585", "Enter filter criteria."
+     [java] "7281", "Show or hide vehicle information."
+     [java] "7283", "Go back a level."
+     [java] "7286", "Display a graphical view of the index."
+     [java] "7287", "Display a text-based view of the index."
+     [java] "2385", "Search Results"
+     [java] "7285", "Display split-screen: vertical."
+     [java] "7284", "Display split-screen: horizontal."
+     [java] "321", "results"
+     [java] "874", "Alpha Index"
+     [java] "320", "Cross Catalogue Part Locator"
+     [java] "294", "Vehicle Index"
+     [java] "3715", "Graphic Index"
+     [java] "294", "Vehicle Index"
+     [java] "4140", "Vehicle Search"
+     [java] "3035", "Search Section View"
+     [java] "4735", "Illustration Index"
+     [java] "2385", "Search Results"
+     [java] =============
+     [java] NotesMediator.as
+     [java] =============
+     [java] "4413", "Notes"
+     [java] "7520", "Catalogue Notes"
+     [java] "7524", "VIN Notes"
+     [java] "7522", "Section Notes"
+     [java] "7525", "Part Number Notes"
+     [java] "7526", "Callout Notes"
+     [java] "867", "Add Note"
+     [java] "42", "Close"
+     [java] =============
+     [java] DMSiBarMediator.as
+     [java] =============
+     [java] "5884", "DMS"
+     [java] "7743", "Send a customer enquiry to the DMS. Use a full or partial account name or account number."
+     [java] "7742", "Send a part enquiry to the DMS."
+     [java] "7771", "Successfully connected to the DMSi."
+     [java] "7773", "Unable to connect to the DMSi. Check the parameters and ensure that the DMSi is running."
+     [java] "7774", "Successfully logged on to the DMS."
+     [java] "7777", "Successfully logged off from the DMS."
+     [java] "7778", "Failed to log off from DMS."
+     [java] "7776", "Unable to log on to the DMS. Check that the DMS is running and try again."
+     [java] "7779", "Searching for [x]…"
+     [java] "7781", "Your search returned one customer. The application is loading the customer and vehicle details."
+     [java] "7780", "Your search returned multiple customers. Select a customer from the list."
+     [java] "7782", "Your search did not return any results. Enter alternative criteria and try again."
+     [java] "7779", "Searching for [x]…"
+     [java] "7788", "Your search did not return any result. Enter a full part number and try again."
+     [java] "7787", "The part number was found."
+     [java] "1838", "Order transferred successfully"
+     [java] "7149", "Error transferring order to DMS"
+     [java] "1980", "The order has been finalised."
+     [java] "1836", "DMS unable to finalise order."
+     [java] "7769", "Trying to connect to the DMSi…"
+     [java] "7744", "Connect to your DMS by entering your logon details."
+     [java] "7770", "Disconnect from the DMS."
+     [java] "7774", "Successfully logged on to the DMS."
+     [java] "7744", "Connect to your DMS by entering your logon details."
+     [java] "7777", "Successfully logged off from the DMS."
+     [java] "7771", "Successfully connected to the DMSi."
+     [java] "7783", "The application is loading the customer and vehicle details."
+     [java] "7786", "All the customer details have been loaded."
+     [java] "7784", "The customer details have been loaded. No vehicle is associated with this customer."
+     [java] "7772", "Successfully connected to the DMSi. Log on to the DMS."
+     [java] =============
+     [java] CatalogueSearchMediator.as
+     [java] =============
+     [java] "7197", "Catalogue Search"
+     [java] "2449", "Year"
+     [java] "2207", "Type"
+     [java] "31", "Catalog"
+     [java] "7582", "Collapse the panel."
+     [java] "7583", "Expand the panel."
+     [java] "7197", "Catalogue Search"
+     [java] "7233", "Search for a vehicle by catalogue details."
+     [java] "7230", "Tip:"
+     [java] "7234", "Select all the known details of the vehicle."
+     [java] =============
+     [java] IllustrationGridsMediator.as
+     [java] =============
+     [java] "7582", "Collapse the panel."
+     [java] "7583", "Expand the panel."
+     [java] '2385', 'Search Results'
+     [java] '3035', 'Search Section View'
+     [java] '321', 'results'
+     [java] '7201', 'Illustrated Parts'
+     [java] '321', 'results'
+     [java] '7201', 'Illustrated Parts'
+     [java] =============
+     [java] SupersessionPopupMediator.as
+     [java] =============
+     [java] '7405', 'Search Supersession:'
+     [java] '1187', 'Next'
+     [java] '42', 'Close'
+     [java] "284", "Transfer"
+     [java] '7248', 'Previous part'
+     [java] '7249', 'Next part'
+     [java] '7195', 'Add to Order'
+     [java] "2361", "Supersession Search"
+     [java] "7241", "View the supersession chain for the selected part."
+     [java] "7230", "Tip:"
+     [java] "7242", "Click the checkbox to add a part to the order."
+     [java] "7732", "Transfer these parts to your DMS"
+     [java] "7220", "Transfer this part to your DMS"
+     [java] '6710', '[x] of [y]'
+     [java] =============
+     [java] VehicleInfoMediator.as
+     [java] =============
+     [java] "346", "Vehicle Information"
+     [java] "596", "Build Date"
+     [java] "1286", "Print"
+     [java] "5620", "Email"
+     [java] "7393", "Print the vehicle information."
+     [java] "299", "VIN"
+     [java] "220", "Registration"
+     [java] "1690", "Incorrect build date"
+     [java] "7523", "Add VIN Note"
+     [java] "4746", "Add Catalog Note"
+     [java] "6244", "Customer Tag"
+     [java] "1336", "Save"
+     [java] "8264", "Transfer to Superservice Menus."
+     [java] "346", "Vehicle Information"
+     [java] "7235", "View details of a vehicle that has been identified by a VIN."
+     [java] "7230", "Tip:"
+     [java] "7236", "When identifying a vehicle by catalogue, select the major attributes to refine your search."
+     [java] "6246", "The Customer Tag has been saved."
+     [java] "6244", "Customer Tag"
+     [java] '7523', "Add VIN note"
+     [java] =============
+     [java] MultiSectionGridMediator.as
+     [java] =============
+     [java] '4968', 'Section(s)'
+     [java] =============
+     [java] CustomerTagsWindowMediator.as
+     [java] =============
+     [java] "366", "Delete"
+     [java] "351", "Load"
+     [java] "42", "Close"
+     [java] "6938", "Customer Tags"
+     [java] '6244', 'Customer Tag'
+     [java] '299', 'VIN'
+     [java] '292', 'Vehicle'
+     [java] "6938", "Customer Tags"
+     [java] "7237", "View, load or delete Customer Tags."
+     [java] "7230", "Tip:"
+     [java] "7238", "Select a Customer Tag, and click <b>Load</b> to retrieve the associated vehicle."
+     [java] =============
+     [java] NotedText.as
+     [java] =============
+     [java] "7521", "Add Section Note"
+     [java] "4746", "Add Catalog note"
+     [java] =============
+     [java] PartDetailsMediator.as
+     [java] =============
+     [java] '4733', 'Part Details'
+     [java] '2203', 'General'
+     [java] "5884", "DMS"
+     [java] '1637', 'Callout'
+     [java] '212', 'Qty'
+     [java] '7217', 'Part Number'
+     [java] '72', 'Description'
+     [java] '2133', 'Restrictions'
+     [java] '762', 'From Date'
+     [java] '827', 'To Date'
+     [java] '1225', 'OSI'
+     [java] '202', 'Price'
+     [java] '6854', 'Core'
+     [java] '4092', 'Surcharge'
+     [java] '2815', 'Discount Code'
+     [java] '338', 'Tax code'
+     [java] "4628", "Part number not on file."
+     [java] '184', 'Part Number'
+     [java] '72', 'Description'
+     [java] '2139', 'Total Stock'
+     [java] '628', 'Location Bin 1'
+     [java] '629', 'Location Bin 2'
+     [java] '-1', 'Alt. Part Number'
+     [java] '-1', 'Alt. Part Number Qty'
+     [java] "1796", "Incl. Tax"
+     [java] "1797", "Excl. Tax"
+     [java] =============
+     [java] VehicleInfoTabsMediator.as
+     [java] =============
+     [java] "828", "Unknown"
+     [java] "828", "Unknown"
+     [java] "2248", "Major Attributes"
+     [java] "2248", "Major Attributes"
+     [java] "637", "Minor Features"
+     [java] "1325", "Reset"
+     [java] "637", "Minor Features"
+     [java] "2248", "Major Attributes"
+     [java] "3942", "VIN Decode"
+     [java] "7739", "Microcat LIVE did not find the VIN entered and has automatically decoded the VIN."
+     [java] "5465", "The selected vehicle is produced in an overseas plant (not in Korea) and the provided vehicle information is insufficient"
+     [java] "5466", "therefore Microcat could require you to make a selection for part numbers from inconsistent search results."
+     [java] "5950", "Please note that aged vehicles have a limited level of interpretation. Check the information from the vehicle to inform correct interpretation."
+     [java] "5953", "If you still require assistance please contact your Kia Distributor."
+     [java] "5465", "The selected vehicle is produced in an overseas plant (not in Korea) and the provided vehicle information is insufficient"
+     [java] "5466", "therefore Microcat could require you to make a selection for part numbers from inconsistent search results."
+     [java] "5950", "Please note that aged vehicles have a limited level of interpretation. Check the information from the vehicle to inform correct interpretation."
+     [java] "5953", "If you still require assistance please contact your Kia Distributor."
+     [java] "1325", "Reset"
+     [java] =============
+     [java] WebinarsMediator.as
+     [java] =============
+     [java] "8332", "Video Tutorials"
+     [java] '42', 'Close'
+     [java] "6179", "[x] minutes"
+     [java] =============
+     [java] OrdersTabMediator.as
+     [java] =============
+     [java] "5183", "Saved Orders"
+     [java] "7296", "View your saved orders."
+     [java] "173", "Order List"
+     [java] "7294", "Display the Order List."
+     [java] "99", "Freeform part entry"
+     [java] "7295", "Add a non-catalogued part."
+     [java] "5183", "Saved Orders"
+     [java] =============
+     [java] PartDataMediator.as
+     [java] =============
+     [java] '6543', 'Part Data'
+     [java] '2203', 'General'
+     [java] '7248', 'Previous part'
+     [java] '7249', 'Next part'
+     [java] '7220', 'Transfer this part to your DMS'
+     [java] '867', 'Add Note'
+     [java] '170', 'Order'
+     [java] '7402', 'Order the number of parts displayed in the Qty field.'
+     [java] '7529', "No note on this part"
+     [java] "5884", "DMS"
+     [java] "6543", "Part Data"
+     [java] "7243", "View the part information such as number, quantity and price."
+     [java] "7230", "Tip:"
+     [java] "7244", "Click Add to Order to add a part to the order."
+     [java] '522', 'Pricing'
+     [java] '6854', 'Core'
+     [java] '4092', 'Surcharge'
+     [java] '2815', 'Discount Code'
+     [java] '338', 'Tax code'
+     [java] '100', 'From'
+     [java] '281', 'To'
+     [java] '1225', 'OSI'
+     [java] '72', 'Description'
+     [java] '1637', 'Callout'
+     [java] '7217', 'Part Number'
+     [java] '212', 'Qty'
+     [java] '4413', 'Notes'
+     [java] =============
+     [java] OrderListMediator.as
+     [java] =============
+     [java] "7582", "Collapse the panel."
+     [java] "7583", "Expand the panel."
+     [java] "61", "Customer name"
+     [java] "8", "Account number"
+     [java] "6396", "Ref. no."
+     [java] "5183", "Saved Orders"
+     [java] "5183", "Saved Orders"
+     [java] "7586", "View, load or delete saved orders."
+     [java] "7230", "Tip:"
+     [java] "7587", "Double-click directly on an order to load the Order List."
+     [java] "3656", "Order not available"
+     [java] "5619", "Order"
+     [java] =============
+     [java] MMPIncomingRequestMediator.as
+     [java] =============
+     [java] "1899", "Message from DMS"
+     [java] "2338", "Send"
+     [java] "-1", "Please enter reply"
+     [java] "1825", "Receiving Header information from DMS, do you want to import this?"
+     [java] "305", "Yes"
+     [java] "199", "No"
+     [java] =============
+     [java] IllustrationMediator.as
+     [java] =============
+     [java] '740', 'Part not applicable to this vehicle.'
+     [java] '2161', 'HARDWARE ITEM'
+     [java] '7195', 'Add to Order'
+     [java] '2092', 'NON SERVICED PART'
+     [java] '6620', 'This callout is not catalogued in the section. Click on the callout to perform a Basic Number search for [x]'
+     [java] '6621', 'This callout is not catalogued in the section. Click on the callout to perform an Identification Number search for [x]'
+     [java] "1547", "Non-Illustrated section"
+     [java] '6710', '[x] of [y]'
+     [java] =============
+     [java] PartsTabMediator.as
+     [java] =============
+     [java] "7281", "Show or hide vehicle information."
+     [java] =============
+     [java] CartMediator.as
+     [java] =============
+     [java] "432", "Total"
+     [java] "432", "Total"
+     [java] "6931", "Ungroup"
+     [java] "3806", "Group"
+     [java] "7207", "Display parts without vehicle heading."
+     [java] "7200", "Display parts according to the vehicle they belong to."
+     [java] "5562", "Delete the item."
+     [java] "7288", "View the part in the image."
+     [java] "1336", "Save"
+     [java] "7206", "Save the Order List."
+     [java] "39", "Clear"
+     [java] "7219", "Clear the Order List."
+     [java] "284", "Transfer"
+     [java] "6849", "Transfer the order to your DMS"
+     [java] "5620", "Email"
+     [java] "7199", "Email the Order List."
+     [java] "1286", "Print"
+     [java] "7210", "Print the Order List"
+     [java] "366", "Delete"
+     [java] "6715", "Delete Order"
+     [java] "8345", "EDOS"
+     [java] "8346", "Export the Order List for EDOS."
+     [java] "8264", "Transfer Microcat.Network data to Superservice Menus."
+     [java] "7553", "Transfer the Order List to EDIX."
+     [java] "-1", "Transfer the Order List to D2DLink."
+     [java] "5116", "Finalise to DMS"
+     [java] "5117", "Remove from DMS"
+     [java] "1002", "DMS No."
+     [java] "5397", "Search for a Customer Name"
+     [java] "5398", "Search for an Account Number"
+     [java] "59", "Customer"
+     [java] "5619", "Order"
+     [java] "61", "Customer name"
+     [java] "8", "Account Number"
+     [java] "6396", "Ref. no."
+     [java] "177", "Order type"
+     [java] "202", "Price"
+     [java] "173", "Order List"
+     [java] "7588", "View and edit parts on the Order List. You can also print, save or email the Order List."
+     [java] "7230", "Tip:"
+     [java] "7589", "Add customer details in the <b>Customer</b> tab of the Order List."
+     [java] "292", "Vehicle"
+     [java] "299", "VIN"
+     [java] "596", "Build Date"
+     [java] "2936", "Model Year"
+     [java] "220", "Registration"
+     [java] "82", "Engine"
+     [java] "445", "Customer Address"
+     [java] "424", "Street"
+     [java] "1399", "Suburb/City"
+     [java] "345", "State"
+     [java] "426", "Postcode"
+     [java] "963", "Country"
+     [java] "1251", "Phone number"
+     [java] "1046", "Fax number"
+     [java] "1685", "Contact name"
+     [java] "1013", "Email address"
+     [java] "252", "Shipping Address"
+     [java] "7068", "Same as customer address"
+     [java] "424", "Street"
+     [java] "1399", "Suburb/City"
+     [java] "345", "State"
+     [java] "426", "Postcode"
+     [java] "963", "Country"
+     [java] "1251", "Phone number"
+     [java] "1046", "Fax number"
+     [java] "1685", "Contact name"
+     [java] "1013", "Email address"
+     [java] '202', 'Price'
+     [java] "173", "Order List"
+     [java] "4481", "Order Details"
+     [java] "292", "Vehicle"
+     [java] "299", "VIN"
+     [java] "596", "Build Date"
+     [java] "2936", "Model Year"
+     [java] "1316", "Rego"
+     [java] "82", "Engine"
+     [java] "545", "Subtotal"
+     [java] "6854", "Core"
+     [java] "4092", "Surcharge"
+     [java] "5217", "Profit"
+     [java] "6095", "Microcat LIVE Order"
+     [java] "1561", "Dealer Details"
+     [java] "3239", "Customer Details"
+     [java] "4481", "Order Details"
+     [java] "4578", "Full Name"
+     [java] "1251", "Phone"
+     [java] "1635", "Email"
+     [java] "1634", "Fax number"
+     [java] "7209", "Account number"
+     [java] "1685", "Contact name"
+     [java] "10", "Address"
+     [java] "3342", "Job Reference"
+     [java] "173", "Order List"
+     [java] "292", "Vehicle"
+     [java] "72", "Description"
+     [java] "2272", "Features"
+     [java] "2701", "Spec. Codes"
+     [java] "1215", "Number"
+     [java] "212", "Qty"
+     [java] "202", "Price"
+     [java] "545", "Subtotal"
+     [java] "220", "Registration"
+     [java] "-1", "Click to sort the order list in ascending order"
+     [java] "-1", "Click to sort the order list in descending order"
+     [java] "-1", "Sort List"
+     [java] "3210", "The email address is not valid."
+     [java] "1840", "Order transfered successfully. The DMS awaits finalisation of this order."
+     [java] "6097", "DMS Integration"
+     [java] =============
+     [java] LeftAndRightMediator.as
+     [java] =============
+     [java] '7292', 'Previous image'
+     [java] '7291', 'Next image'
+     [java] '6710', '[x] of [y]'
+     [java] =============
+     [java] SupersessionGridMediator.as
+     [java] =============
+     [java] '202', 'Price'
+     [java] '202', 'Price'
+     [java] =============
+     [java] IllustrationToolsMediator.as
+     [java] =============
+     [java] '5523', 'Display the image to its actual size'
+     [java] '5525', 'Resize the image to fit the page width.'
+     [java] '6690', 'Resize the image to fit the page height.'
+     [java] '525', 'Print the image.'
+     [java] '7404', 'Send the image by email.'
+     [java] '7528', 'Add a note for this section.'
+     [java] '5526', 'Drag the image in any direction.'
+     [java] '-1', 'Click for more notes'
+     [java] '7528', 'Add a note for this section.'
+     [java] =============
+     [java] ReferenceLibraryPopUpMediator.as
+     [java] =============
+     [java] "7536", "Reference Library content not available"
+     [java] "42", "Close"
+     [java] =============
+     [java] ModuleLoaderMediator.as
+     [java] =============
+     [java] "-1", "Deployment issue, the module for DMSi cannot be located."
+     [java] "-1", "Location Error"
+     [java] =============
+     [java] Pager.as
+     [java] =============
+     [java] '321', 'results'
+     [java] "1279", "Prev Page"
+     [java] "1190", "Next Page"
+     [java] "3908", "Parts Search"
+     [java] "7227", "Your search returned [x] results. Only 200 results are displayed in this page."
+     [java] "7228", "To see more results, please click on a page number."
+     [java] "7229", "To refine your search, go back to the Vehicle Information and select as many vehicle attributes as you can."
+     [java] =============
+     [java] SectionChooserMediator.as
+     [java] =============
+     [java] "7224", "This part is displayed in the following illustrations:"
+     [java] =============
+     [java] NoteEntry.mxml
+     [java] =============
+     [java] "1016", "Edit"
+     [java] "6027", "Author"
+     [java] '7533', "Last modified"
+     [java] =============
+     [java] NoteIconSprite.as
+     [java] =============
+     [java] '-1', 'Click for more notes'
+     [java] =============
+     [java] NoteIconButton.as
+     [java] =============
+     [java] '7540', 'Click to see the entire note'
+     [java] =============
+     [java] GraphicIndexRenderer.as
+     [java] =============
+     [java] "7521", "Add Section Note"
+     [java] "4746", "Add Catalog note"
+     [java] =============
+     [java] PartNotesRenderer.as
+     [java] =============
+     [java] '7540', 'Click to see the entire note'
+     [java] =============
+     [java] NoteEditorEntry.mxml
+     [java] =============
+     [java] "4745", "Note title"
+     [java] "4744", "Note Text"
+     [java] =============
+     [java] PartSearchProxy.as
+     [java] =============
+     [java] "2675", "[x] of [y]"
+     [java] '321', 'results'
+     [java] "7205", "result"
+     [java] =============
+     [java] PriceProxy.as
+     [java] =============
+     [java] "271", "Tax"
+     [java] =============
+     [java] UserProxy.as
+     [java] =============
+     [java] "-1", "Transfer part to [x]"
+     [java] =============
+     [java] OrderProxy.as
+     [java] =============
+     [java] '6984', 'This order was created by [x], provided by Infomedia Ltd.'
+     [java] '7066', "Microcat LIVE"
+     [java] "6095", "[x] Order"
+     [java] "7066", "Microcat LIVE"
+     [java] =============
+     [java] PartProxy.as
+     [java] =============
+     [java] '4695', 'Supersession Type'
+     [java] =============
+     [java] ApplicationProxy.as
+     [java] =============
+     [java] "7169", "An unexpected error has occurred. Click Send exception to send this error to our technicians for review. Click Ignore to continue working. Note that the application can remain unstable, we recommend to close it and log in again."
+     [java] "7170", "Unexpected error"
+     [java] "7169", "An unexpected error has occurred. Click <b>Send exception</b> to send this error to our technicians for review. Click <b>Ignore</b> to continue working. Note that the application can remain unstable, we recommend to close it and log in again."
+     [java] "7251", "Items no longer available"
+     [java] "7252", "Unable to order these items as they are no longer available"
+     [java] "-1", "Item no longer available"
+     [java] "7254", "Unable to order this item as it is no longer available"
+     [java] "7107", "Error ordering Non Serviced Parts"
+     [java] "2093", "These items are Non Serviced Parts and cannot be supplied on their own. Order these parts from your local supplier or refer to the corresponding part list."
+     [java] "7158", "Error adding parts to Order List"
+     [java] "7157", "The selected parts cannot be added to the Order List. Please try again later."
+     [java] "7108", "Error ordering Non Serviced Part"
+     [java] "7106", "This item is a Non Serviced Part and cannot be supplied on its own. Order the part from your local supplier or refer to the corresponding part list."
+     [java] "7160", "Error clearing Order List"
+     [java] "7159", "The Order List cannot be cleared. Please try again later."
+     [java] "7110", "Error loading vehicle catalogues"
+     [java] "7109", "The application failed to load the vehicle catalogues and will close. Please try to log in again."
+     [java] "7162", "Error loading your information"
+     [java] "7161", "The application failed to load your information and will close. Please log in again."
+     [java] "7176", "Error loading list of parts description languages"
+     [java] "7175", "The application failed to load the list of languages for the parts description. You can still use the application in your preferred language but you will only be able to view the parts data in English."
+     [java] "7178", "Error loading list of part description"
+     [java] "7177", "The application failed to load the part description list. You can still use the application but you will only be able to search for parts by description."
+     [java] "7180", "Error loading list of part format"
+     [java] "7179", "The application failed to load the list of part formats. You can still use the application but you will only be able to view the part numbers."
+     [java] "7182", "Error loading price level list"
+     [java] "7181", "The application failed to load the price level list. You can still use the application but you will only be able to view the retail price for each part."
+     [java] "7265", "Error processing the list of brands"
+     [java] "7264", "The application failed to process the list of brands."
+     [java] "7184", "Error loading order type list"
+     [java] "7183", "The application failed to load the order type list. You can still use the application but you will only be able to create invoices."
+     [java] "7112", "Error retrieving vehicle attributes"
+     [java] "7111", "The application failed to retrieve the vehicle attributes. This may cause interpretation errors when searching for parts. Try loading the vehicle attributes again or enter a VIN."
+     [java] "3900", "Search error"
+     [java] "7114", "The application failed to process this search criteria. Please try again later."
+     [java] "7122", "Error deleting Customer Tag"
+     [java] "7121", "The application failed to delete the Customer Tag. Please try again later."
+     [java] "7123", "Error displaying Customer Tags list"
+     [java] "7103", "The application failed to load the Customer Tags list. Please try again later."
+     [java] "7125", "Error saving Customer Tag"
+     [java] "7124", "The application failed to save the Customer Tag. Please try again later."
+     [java] "7118", "Error retrieving Customer Tag"
+     [java] "7117", "The application failed to retrieve the Customer Tag. Please try again later."
+     [java] "7127", "Error identifying part"
+     [java] "7126", "The application failed to identify the part you are searching for. Please try again later."
+     [java] "7131", "Error loading selected section"
+     [java] "7130", "The application failed to load the selected section. Go back to the start of the Graphic Index and try again."
+     [java] "7133", "Error loading the navigation breadcrumbs"
+     [java] "7132", "The application failed to load the navigation breadcrumbs for this catalogue. You can navigate through the sections using the Graphic Index."
+     [java] "7135", "Error performing supersession search"
+     [java] "7134", "The application failed to perform the supersession search for the selected part. Please try again later."
+     [java] "7139", "Error displaying the EULA"
+     [java] "7138", "The EULA cannot be displayed. Please try again later."
+     [java] "7186", "Error loading Training resources"
+     [java] "7185", "Please try again later. In the meantime, you can use the onscreen help."
+     [java] "7141", "Error sending Comments and Improvements form"
+     [java] "7140", "The Comments and Improvements form has not been sent. Please try again later."
+     [java] "7168", "Error displaying version information"
+     [java] "7167", "The version information cannot be displayed. Please close the window and try later."
+     [java] "7145", "Error sending order"
+     [java] "7144", "The application failed to send the selected order by email. Please try again later."
+     [java] "7147", "Error saving order"
+     [java] "7146", "The application failed to save the selected order. Please try again later."
+     [java] "7149", "Error transferring order to DMS"
+     [java] "7148", "The application failed to transfer the selected order to the DMS. Please check that your DMS application is running. You may need to restart the DMS application to continue."
+     [java] "7151", "Error loading the list of orders"
+     [java] "7150", "The application failed to load the list or orders. Please try again later."
+     [java] "7153", "Error displaying the order status"
+     [java] "7152", "The order status cannot be displayed. Please log off from the application and log in again."
+     [java] "7154", "Error opening order"
+     [java] "7104", "The application failed to open the selected order. The order may have been deleted by another user or there was an error processing the order."
+     [java] "7156", "Error deleting order"
+     [java] "7155", "The application failed to delete the selected order. Please try again later."
+     [java] "7188", "Error initialising the application"
+     [java] "7187", "The application failed to initialise and will close. Please try to log in again."
+     [java] "7166", "Error saving preferences"
+     [java] "7165", "The preferences you have entered cannot be saved. Please check the information and try again."
+     [java] "7190", "Session has expired"
+     [java] "7189", "Your session has expired and you have been logged off from the application. The application may have reached the inactivity time limit or your user name and password are being used by another user. Please enter your user name and password to log in again."
+     [java] "7120", "Invalid Customer Tag"
+     [java] "7119", "The application failed to retrieve the Customer Tag. Please check your entry and try again."
+     [java] "3900", "Search Error"
+     [java] "7113", "The application could not return any search result. Please check your entry and try again."
+     [java] "-1", ""
+     [java] "6064", "Please contact the Microcat Customer Service for immediate assistance."
+     [java] "556", "This part is not illustrated in the catalogue"
+     [java] "2236", "This part cannot be viewed as it is not illustrated in the catalogue."
+     [java] "7413", "Error loading the list of abbreviations"
+     [java] "7414", "The application failed to load the list of abbreviations. Please try again later."
+     [java] "-1", "Error retrieving callout attributes"
+     [java] "-1", "The application failed to retrieve the attributes for the Selected callout."
+     [java] "3900", "Search Error"
+     [java] "7782", "Your search did not return any results. Enter alternative criteria and try again."
+     [java] "7120", "Invalid Customer Tag"
+     [java] "-1", "The application failed to retrieve the Customer Tag. It could have been created within a different market. Please change markets to retrieve the Customer Tag."
+     [java] "-1", "Error loading the application features"
+     [java] "-1", "The application failed to retrieve the list of Features."
+     [java] "7188", "Error initialising the application"
+     [java] "7187", "The application failed to initialise and will close. Please try to log in again."
+     [java] "1969", "Invalid Entry"
+     [java] "4759", "Please enter a valid email address"
+     [java] "734", "Not Applicable"
+     [java] "7255", "This part is not applicable to the current specification. Do you still want to order it?"
+     [java] "734", "Not Applicable"
+     [java] "7256", "These parts are not applicable to the current specification. Do you still want to order them?"
+     [java] "-1", "Error loading the selected language"
+     [java] "-1", "The application failed to load the selected language and will default to English. You can still use the application in any other language"
+     [java] "7403", "The components of this Parts list cannot be ordered by themselves. Please refer to the part number of the corresponding assembly part."
+     [java] "7543", "The application failed to retrieve the note."
+     [java] "6097", "DMS Integration"
+     [java] "-1", "The Order has been cancelled."
+     [java] "6097", "DMS Integration"
+     [java] "-1", "DMS unable to cancel order."
+     [java] "6938", "Customer Tags"
+     [java] "2672", "No Results"
+     [java] "410", "Enter Customer Name"
+     [java] "195", "Please enter a customer name before continuing."
+     [java] "7923", "Enter Account Number"
+     [java] "7924", "Please enter a Customer Account Number before continuing."
+     [java] "5766", "Unable to log on"
+     [java] "4711", "Unable to Log on. Please check the username and password."
+     [java] "6838", "Delete Item"
+     [java] "1737", "Do you really want to delete this item?"
+     [java] "7065", "Delete Items"
+     [java] "7064", "Do you really want to delete the selected items?"
+     [java] "7219", "Clear Order List"
+     [java] "7218", "Do you really want to clear the Order List?"
+     [java] "6715", "Delete the saved order"
+     [java] "6716", "Do you really want to delete this order?"
+     [java] "6244", "Customer Tag"
+     [java] "6983", "Do you really want to delete this Customer Tag?"
+     [java] "7198", "Clear Order List"
+     [java] "7538", "You have items in the Order List. Would you like to clear the Order List?"
+     [java] "7219", "Clear Order List"
+     [java] "4038", "There are currently parts in the Order List. If you continue the order list will be lost. Click Cancel to return to the current order."
+     [java] "7418", "Colour already used"
+     [java] "7419", "This colour is already used. Please choose a different colour"
+     [java] "-1", "Error loading the Bulletin"
+     [java] "-1", "The application failed to load the requested Bulletin"
+     [java] "5573", "Feedback"
+     [java] "5564", "Thank you for your feedback. It has been submitted successfully."
+     [java] "7915", "Pricing Update"
+     [java] "7920", "The price of the selected part has been updated. Please log off from Microcat LIVE and log on again to ensure the latest pricing information is displayed"
+     [java] "-1", "Microcat Live"
+     [java] "-1", "Microcat Live has not found an authorised dongle. Please contact your Microcat Live helpdesk for assistance. Please close the browser now."
+     [java] "-1", "Error sending Comments and Improvements"
+     [java] "-1", "The application failed to load the e-mail address of Customer Service. Please try again later."
+     [java] "7596", "Order saved"
+     [java] "3510", "Your order has been saved successfully."
+     [java] "1647", "Send Email"
+     [java] "3211", "Email was sent successfully"
+     [java] "-1", "Error loading Direct Visual Access"
+     [java] "-1", "The application failed to load the DVA information. Please try again later."
+     [java] "-1", "Error retrieving accessory information"
+     [java] "-1", "The application failed to retrieve the accessory information for the selected part."
+     [java] "1668", "Please enter your user name, email address and server address. If you are unsure of these, please contact your systems administrator."
+     [java] "7950", "This feature is only available online."
+     [java] "7953", "Dongle Error"
+     [java] "7954", "No authorised dongle was found. Please close the application and contact Customer Service for assistance."
+     [java] "7952", "Connection Successful"
+     [java] "7951", "Connection failed"
+     [java] "3075", "Microcat"
+     [java] "4949", "The version of Microcat you are running needs to be updated."
+     [java] "8256", "Error sending vehicle information"
+     [java] "8257", "The application failed to send the vehicle information by email. Please try again later."
+     [java] "8258", "Error sending section information"
+     [java] "8259", "The application failed to send the section information by email. Please try again later."
+     [java] "-1", "Error loading the list of option codes"
+     [java] "-1", "The application failed to load the list of option codes. Please try again later."
+     [java] "-1", "Error loading the list of major attributes"
+     [java] "-1", "The application failed to load the list of major attributes. Please try again later."
+     [java] "8347", "Export Error"
+     [java] "8348", "The application could not export the Order List. Please try again later."
+     [java] "8349", "Export Complete"
+     [java] "8350", "The Order List was successfully exported and is ready to be imported in EDOS."
+     [java] "-1", "VIN Received"
+     [java] "-1", "VIN received from Superservice Menus.\nDo you want to discard the currently loaded vehicle and perform a search for this VIN?"
+     [java] "8284", "Loading Transfer Data"
+     [java] "8285", "There are currently parts on the Order List. Click Append to add the parts to the Order List. Click Overwrite to replace the parts on the Order List."
+     [java] =============
+     [java] LexiconProxy.as
+     [java] =============
+     [java] '6710', '[x] of [y]'
+     [java] '3539', '[x] could not be found in the data'
+     [java] '7544', 'Ford Asia Pacific and Africa'
+     [java] '726', 'Ford Europe'
+     [java] '3120', 'Ford North America'
+     [java] '3767', 'Chinese (Simplified)'
+     [java] '3244', 'Chinese (Traditional)'
+     [java] '2050', 'Czech'
+     [java] '979', 'Danish'
+     [java] '376', 'English'
+     [java] '5913', 'English (US)'
+     [java] '5991', 'English (Australia)'
+     [java] '379', 'Spanish'
+     [java] '5915', 'Español (México)'
+     [java] '378', 'French'
+     [java] '5914', 'French (Canada)'
+     [java] '1110', 'Italian'
+     [java] '1806', 'Greek'
+     [java] '1809', 'Hungarian'
+     [java] '2618', 'Japanese'
+     [java] '1011', 'Dutch'
+     [java] '1209', 'Norwegian'
+     [java] '2052', 'Polski'
+     [java] '1269', 'Portuguese'
+     [java] '1053', 'Finnish'
+     [java] '1407', 'Svenska'
+     [java] '3245', 'Thai'
+     [java] '2619', 'Türkçe'
+     [java] '1209', 'German'
+     [java] '377', 'German'
+     [java] '1269', 'Portuguese'
+     [java] '1965', 'Russian'
+     [java] '1053', 'Suomi'
+     [java] '1407', 'Swedish'
+     [java] '2619', 'Türkçe'
+     [java] '3246', 'Vietnamese'
+     [java] '4510', 'All'
+     [java] '2141', 'Light Trucks'
+     [java] '2142', 'Medium Trucks'
+     [java] '187', 'Passenger'
+     [java] '134', 'Light Commercial'
+     [java] '184', 'Part Number'
+     [java] '888', 'Basic Number'
+     [java] '486', 'FINIS Code'
+     [java] '1711', 'Motorcraft'
+     [java] '2170', 'Engineering Number'
+     [java] '6735', 'NAGS Number'
+     [java] '2231', 'Service Part Number'
+     [java] '5986', 'Local P/N'
+     [java] '3015', 'Associated Parts'
+     [java] '72', 'Description'
+     [java] '7217', 'Part Number'
+     [java] '888', 'Basic Number'
+     [java] '2147', 'Parts List'
+     [java] '1711', 'Motorcraft'
+     [java] '2148', 'Identification Number'
+     [java] '2178', 'Calibration Number'
+     [java] '3877', 'Recall Number'
+     [java] '6535', 'Group Number'
+     [java] '2147', 'Parts List'
+     [java] '4098', 'New Parts'
+     [java] '7552', 'Supersession'
+     [java] '4498', 'Commodity'
+     [java] '531', 'Retail'
+     [java] '6851', 'Wins'
+     [java] '6852', 'Dealer'
+     [java] '6853', 'Wholesale'
+     [java] '6854', 'Core'
+     [java] '6855', 'Insurance'
+     [java] '283', 'Trade'
+     [java] '7917', 'Retail (incl. VAT)'
+     [java] '7918', 'Retail (excl. VAT)'
+     [java] '1136', 'List Price (ex. Tax)'
+     [java] '2643', 'SRP'
+     [java] '736', 'Wholesale'
+     [java] '65', 'Dealer'
+     [java] '334', 'List Price'
+     [java] '337', 'Dealer Price'
+     [java] '699', 'Distributor Price'
+     [java] '700', 'Wholesale Price'
+     [java] '336', 'Trade Price'
+     [java] '76', 'Distributor'
+     [java] '138', 'List'
+     [java] "7250", "Hide Pricing"
+     [java] '128', 'Invoice'
+     [java] '215', 'Quotation'
+     [java] '192', 'Picking slip'
+     [java] '3362', 'Puchase Order'
+     [java] '5536', 'Submit Feedback or Report a Bug'
+     [java] '5537', 'Submit Feedback or Report a Bug'
+     [java] '7299', 'Submit Feedback'
+     [java] '3516', 'End User Licence Agreement'
+     [java] '7266', 'Copyright Notice'
+     [java] '6980', 'Quick Reference Card'
+     [java] '4878', 'Comments and Improvements'
+     [java] '5576', 'Getting Started Guide'
+     [java] '2218', 'Help File'
+     [java] '7890', 'DMS integration Guide'
+     [java] '7891', 'Product Demonstration'
+     [java] '7892', 'Watch this demonstration to get started with Microcat LIVE.'
+     [java] '7893', 'Recorded Live Webinar'
+     [java] '7894', 'Watch this instructor-led training session to get the most out of Microcat LIVE.'
+     [java] '7895', 'See and Learn Videos'
+     [java] '7896', 'Watch these videos to get more out of Microcat LIVE.'
+     [java] '7900', 'Webinars'
+     [java] '7901', 'Click to watch the product demonstration.'
+     [java] '7902', 'Click to watch the recorded live webinar.'
+     [java] '7903', 'Click to go to the See and Learn videos.'
+     [java] '7904', 'Webinar Registration'
+     [java] '7905', 'Register for an upcoming instructor-led webinar.'
+     [java] '6179', '[x] minutes'
+     [java] '7967', 'Credits'
+     [java] "8332", "Video Tutorials"
+     [java] '1792', 'Monday - Friday'
+     [java] '7517', 'Monday To Thursday'
+     [java] '3583', 'Saturday'
+     [java] '3582', 'Friday'
+     [java] '7719', 'Microcat LIVE data, training issues and other general questions'
+     [java] "299", "VIN"
+     [java] "220", "Registration"
+     [java] "596", "Build Date"
+     [java] "292", "Vehicle"
+     [java] "2936", "Model Year"
+     [java] "82", "Engine"
+     [java] "348", "Transmission"
+     [java] "598", "Cab Style"
+     [java] "615", "Drive"
+     [java] "620", "Exterior Paint"
+     [java] "623", "Interior Environment"
+     [java] "624", "Interior Fabric"
+     [java] "688", "Wheel Base"
+     [java] "8295", "RV"
+     [java] '292', 'Vehicle'
+     [java] '72', 'Description'
+     [java] '2133', 'Restrictions'
+     [java] '1215', 'Number'
+     [java] '212', 'Qty'
+     [java] '4413', 'Notes'
+     [java] '6854', 'Core'
+     [java] '545', 'Subtotal'
+     [java] '5014', 'DMS Price'
+     [java] '259', 'SOH'
+     [java] '6854', 'Core'
+     [java] '4330', 'Lookup'
+     [java] '1215', 'Number'
+     [java] '72', 'Description'
+     [java] '212', 'Qty'
+     [java] '2133', 'Restrictions'
+     [java] '1225', 'OSI'
+     [java] '762', 'From Date'
+     [java] '827', 'To Date'
+     [java] '4413', 'Notes'
+     [java] '292', 'Vehicle'
+     [java] '4096', 'Catalogue Documents'
+     [java] '115', 'Help'
+     [java] '3647', 'Parts Bulletin'
+     [java] '2959', 'Colour Code Instructions'
+     [java] '184', 'Part Number'
+     [java] '2138', 'Part Status'
+     [java] '72', 'Description'
+     [java] '204', 'Price level'
+     [java] '1796', 'Incl. Tax'
+     [java] '1797', 'Excl. tax'
+     [java] '-1', 'Cust. Specific Price In. Tax'
+     [java] '-1', 'Cust. Specific Price Ex. Tax'
+     [java] '892', 'Bin Location 1'
+     [java] '893', 'Bin Location 2'
+     [java] '2139', 'Total Stock'
+     [java] '7942', 'Alt. Part Number'
+     [java] '7943', 'Alt. Part Number Qty'
+     [java] '202', 'Price'
+     [java] '647', 'Percent Adjustment'
+     [java] '5073', 'Tax percentage'
+     [java] "2094", "January"
+     [java] "2095", "February"
+     [java] "2096", "March"
+     [java] "2097", "April"
+     [java] "2098", "May"
+     [java] "2099", "June"
+     [java] "2100", "July"
+     [java] "2101", "August"
+     [java] "2102", "September"
+     [java] "2103", "October"
+     [java] "2104", "November"
+     [java] "2105", "December"
+     [java] '2837', 'Effective Date'
+     [java] '4646', 'Reference'
+     [java] =============
+     [java] CatalogueProxy.as
+     [java] =============
+     [java] "220", "Registration"
+     [java] "346", "Vehicle Information"
+     [java] "2237", "Vehicle Properties"
+     [java] "31", "Catalog"
+     [java] "299", "VIN"
+     [java] '6244', "Customer Tag"
+     [java] "2936", "Model Year"
+     [java] "596", "Build Date"
+     [java] "64", "Date"
+     [java] "446", "Time"
+     [java] "-1", "Location"
+     [java] "856", "2004 - 2010 Infomedia Ltd and its licensors."
+     [java] "3868", "Page [x] of [y]"
+     [java] =============
+     [java] OrderSerializer.as
+     [java] =============
+     [java] "4578", "Full Name"
+     [java] "1251", "Phone Number"
+     [java] "1635", "Email"
+     [java] "8", "Account Number"
+     [java] "10", "Address"
+     [java] "1561", "Dealer Details"
+     [java] "61", "Customer name"
+     [java] "1251", "Phone Number"
+     [java] "1046", "Fax Number"
+     [java] "1685", "Contact Name"
+     [java] "1635", "Email"
+     [java] "10", "Address"
+     [java] "3239", "Customer Details"
+     [java] "61", "Customer name"
+     [java] "6396", "Reference number"
+     [java] "8", "Account Number"
+     [java] "177", "Order type"
+     [java] "1251", "Phone Number"
+     [java] "1046", "Fax Number"
+     [java] "1685", "Contact Name"
+     [java] "1635", "Email"
+     [java] "10", "Address"
+     [java] "4481", "Order Details"
+     [java] "173", "Order List"
+     [java] "432", "Total"
+     [java] "545", "Subtotal"
+     [java] "4092", "Surcharges"
+     [java] "3868", "Page [x] of [y]"
+     [java] "292", "Vehicle"
+     [java] "72", "Description"
+     [java] "1215", "Number"
+     [java] "212", "Qty"
+     [java] "545", "Subtotal"
+     [java] "531", "Retail"
+     [java] "1215", "Number"
+     [java] "585", "Adjustment"
+     [java] "271", "Tax"
+     [java] =============
+     [java] HeaderPanelMediatorTest.as
+     [java] =============
+     [java] "7570", "section number"
+     [java] "83", "Enter"
+     [java] "7568", "catalog code"
+     [java] "7567", "basic number"
+     [java] "7565", "last 8 characters of VIN"
+     [java] collecting lexicons for language = EN
+     [java] writing lexicons for language = EN
+     [java] collecting lexicons for language = EN-US
+     [java] writing lexicons for language = EN-US
+     [java] collecting lexicons for language = ZH-CN
+     [java] writing lexicons for language = ZH-CN
+     [java] collecting lexicons for language = ZH-TW
+     [java] writing lexicons for language = ZH-TW
+     [java] collecting lexicons for language = CS
+     [java] writing lexicons for language = CS
+     [java] collecting lexicons for language = DA
+     [java] writing lexicons for language = DA
+     [java] collecting lexicons for language = NL
+     [java] writing lexicons for language = NL
+     [java] collecting lexicons for language = FI
+     [java] writing lexicons for language = FI
+     [java] collecting lexicons for language = FR
+     [java] writing lexicons for language = FR
+     [java] collecting lexicons for language = FR-CA
+     [java] writing lexicons for language = FR-CA
+     [java] collecting lexicons for language = DE
+     [java] writing lexicons for language = DE
+     [java] collecting lexicons for language = EL
+     [java] writing lexicons for language = EL
+     [java] collecting lexicons for language = HU
+     [java] writing lexicons for language = HU
+     [java] collecting lexicons for language = ID
+     [java] writing lexicons for language = ID
+     [java] collecting lexicons for language = IT
+     [java] writing lexicons for language = IT
+     [java] collecting lexicons for language = JA
+     [java] writing lexicons for language = JA
+     [java] collecting lexicons for language = KO
+     [java] writing lexicons for language = KO
+     [java] collecting lexicons for language = NO
+     [java] writing lexicons for language = NO
+     [java] collecting lexicons for language = PL
+     [java] writing lexicons for language = PL
+     [java] collecting lexicons for language = PT
+     [java] writing lexicons for language = PT
+     [java] collecting lexicons for language = RO
+     [java] writing lexicons for language = RO
+     [java] collecting lexicons for language = RU
+     [java] writing lexicons for language = RU
+     [java] collecting lexicons for language = ES
+     [java] writing lexicons for language = ES
+     [java] collecting lexicons for language = ES-MX
+     [java] writing lexicons for language = ES-MX
+     [java] collecting lexicons for language = SV
+     [java] writing lexicons for language = SV
+     [java] collecting lexicons for language = TH
+     [java] writing lexicons for language = TH
+     [java] collecting lexicons for language = TR
+     [java] writing lexicons for language = TR
+     [java] collecting lexicons for language = UK
+     [java] writing lexicons for language = UK
+     [java] collecting lexicons for language = VI
+     [java] writing lexicons for language = VI
+     [java] writing missing lexicons report
+     [java] 
+     [java] ========================
+     [java] Lexicon process complete
+     [java] ========================
+     [copy] CS.xml added as CS.v6.xml doesn't exist.
+     [copy] DA.xml added as DA.v6.xml doesn't exist.
+     [copy] DE.xml added as DE.v6.xml doesn't exist.
+     [copy] EL.xml added as EL.v6.xml doesn't exist.
+     [copy] EN-US.xml added as EN-US.v6.xml doesn't exist.
+     [copy] EN.xml added as EN.v6.xml doesn't exist.
+     [copy] ES-MX.xml added as ES-MX.v6.xml doesn't exist.
+     [copy] ES.xml added as ES.v6.xml doesn't exist.
+     [copy] FI.xml added as FI.v6.xml doesn't exist.
+     [copy] FR-CA.xml added as FR-CA.v6.xml doesn't exist.
+     [copy] FR.xml added as FR.v6.xml doesn't exist.
+     [copy] HU.xml added as HU.v6.xml doesn't exist.
+     [copy] ID.xml added as ID.v6.xml doesn't exist.
+     [copy] IT.xml added as IT.v6.xml doesn't exist.
+     [copy] JA.xml added as JA.v6.xml doesn't exist.
+     [copy] KO.xml added as KO.v6.xml doesn't exist.
+     [copy] NL.xml added as NL.v6.xml doesn't exist.
+     [copy] NO.xml added as NO.v6.xml doesn't exist.
+     [copy] PL.xml added as PL.v6.xml doesn't exist.
+     [copy] PT.xml added as PT.v6.xml doesn't exist.
+     [copy] RO.xml added as RO.v6.xml doesn't exist.
+     [copy] RU.xml added as RU.v6.xml doesn't exist.
+     [copy] SV.xml added as SV.v6.xml doesn't exist.
+     [copy] TH.xml added as TH.v6.xml doesn't exist.
+     [copy] TR.xml added as TR.v6.xml doesn't exist.
+     [copy] UK.xml added as UK.v6.xml doesn't exist.
+     [copy] VI.xml added as VI.v6.xml doesn't exist.
+     [copy] ZH-CN.xml added as ZH-CN.v6.xml doesn't exist.
+     [copy] ZH-TW.xml added as ZH-TW.v6.xml doesn't exist.
+     [copy] /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons skipped - don't know how to handle it
+     [copy] Copying 29 files to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/EN.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/EN.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/FI.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/FI.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/VI.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/VI.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/ES.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/ES.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/ZH-CN.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/ZH-CN.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/PT.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/PT.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/PL.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/PL.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/UK.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/UK.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/TH.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/TH.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/IT.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/IT.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/RO.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/RO.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/DE.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/DE.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/ID.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/ID.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/EN-US.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/EN-US.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/TR.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/TR.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/KO.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/KO.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/ES-MX.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/ES-MX.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/FR.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/FR.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/JA.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/JA.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/HU.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/HU.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/SV.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/SV.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/NO.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/NO.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/EL.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/EL.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/ZH-TW.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/ZH-TW.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/CS.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/CS.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/DA.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/DA.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/NL.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/NL.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/FR-CA.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/FR-CA.v6.xml
+     [copy] Copying /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/RU.xml to /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/RU.v6.xml
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/CS.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/DA.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/DE.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/EL.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/EN-US.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/EN.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/ES-MX.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/ES.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/FI.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/FR-CA.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/FR.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/HU.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/ID.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/IT.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/JA.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/KO.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/NL.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/NO.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/PL.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/PT.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/RO.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/RU.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/SV.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/TH.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/TR.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/UK.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/VI.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/ZH-CN.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+[replaceregexp] Replacing pattern 'Microcat LIVE' with 'Microcat' in '/srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/bin/lexicons/ZH-TW.v6.xml' with flags: 'g'.
+[replaceregexp] File has changed; saving the updated file
+processLexicons:  duration 33 seconds
+  [antcall] Exiting /srv/hudson/jobs/UI_HYW_KIA_Offline - NDF/workspace/hywV6/build.xml.
+offlineBuild:  duration 33 seconds
+
+BUILD SUCCESSFUL

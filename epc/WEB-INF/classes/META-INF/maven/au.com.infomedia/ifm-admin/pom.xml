@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ifm-library</artifactId>
+        <groupId>au.com.infomedia</groupId>
+        <version>1.1.70-35</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>au.com.infomedia</groupId>
+    <artifactId>ifm-admin</artifactId>
+    <version>1.1.70-35</version>
+    <name>Infomedia Admin Services</name>
+    <description>Infomedia Admin Services</description>
+
+     <build>
+
+     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-object-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-util</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-configuration</artifactId>
+        </dependency> 
+        <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-service</artifactId>
+        </dependency>         
+        <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-solr</artifactId>
+        </dependency>      
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-jdk14</artifactId>
+            <version>1.5.6</version>
+        </dependency>        
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>1.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>jsr311-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-validation_1.0_spec</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.bval</groupId>
+            <artifactId>org.apache.bval.bundle</artifactId>
+        </dependency>		
+    </dependencies>
+</project>

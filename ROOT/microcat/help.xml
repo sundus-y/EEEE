@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <category categoryName="End User License Agreement" lexid="6680">
+  		<helpItem name="End User Licence Agreement" lexid="6680">
+  			<file type="EULA" icon="feedbackIcon" link="" toolTip="Open" lexid="770"/>
+  		</helpItem>  
+  		<helpItem name="Copyright Notice" lexid="7266">
+  			<file type="CR" icon="feedbackIcon" link="" toolTip="Open" lexid="7266"/>
+  		</helpItem>  				
+  </category>
+  <category categoryName="Comments and Improvements" lexid="4878">
+  		<helpItem name="Customer Service" lexid="2054">
+  			<file type="CUSTOMERSERVICE" icon="feedbackIcon" link="" toolTip="Open" lexid="770"/>
+  		</helpItem>
+  		<helpItem name="Submit Feedback or Report a Bug" lexid="5536">
+  			<file type="FB" icon="feedbackIcon" link="" toolTip="Open" lexid="770"/>
+  		</helpItem>
+  </category>
+  <category categoryName="Quick Reference Card" lexid="6980">
+		<helpItem name="English" lexid="376">
+			<file type="PDF" icon="pdfIcon" link="/pdf/qrc/Microcat LIVE Quick Reference Card_EN v1.1.pdf" toolTip="Download" lexid="5876" /> 
+	  	</helpItem >
+		<helpItem name="French (Canada)" lexid="5914">
+			<file type="PDF" icon="pdfIcon" link="/pdf/qrc/Microcat LIVE Quick Reference Card_FR-CA v1.1.pdf" toolTip="Download" lexid="5876" /> 
+		</helpItem >
+		<helpItem name="Spanish (Mexico)" lexid="5915">
+			<file type="PDF" icon="pdfIcon" link="/pdf/qrc/Microcat LIVE Quick Reference Card_ES-MX v1.1.pdf" toolTip="Download" lexid="5876" /> 
+		</helpItem >
+  </category>
+</root>

@@ -1,0 +1,149 @@
+<au.com.infomedia.security.data.Contact>
+  <username>demo_au@ifm.com</username>
+  <permissionLevel>Licence Administrator</permissionLevel>
+  <firstName>BS HYW</firstName>
+  <lastName>AU</lastName>
+  <email>demo_au@ifm.com</email>
+  <language>en</language>
+  <defaultMarket>AU</defaultMarket>
+  <timezone>(GMT+10:00) Canberra, Melbourne, Sydney</timezone>
+  <locale>en_CA</locale>
+  <mailingAddress>
+    <street>1 Hello Way</street>
+    <country>CA</country>
+    <city>New York</city>
+    <state>NY</state>
+    <zip>123465</zip>
+  </mailingAddress>
+  <subscriptions>
+    <au.com.infomedia.security.data.Subscription>
+      <id>a0iS00000000C2tIAE</id>
+      <name>Microcat LIVE - HYW - Canada (Medium &amp; TSL)</name>
+      <franchise>HYW</franchise>
+      <features>
+        <au.com.infomedia.security.data.Feature>
+          <namespace>com.infomedia.epc.orderOption</namespace>
+          <value>Quotation</value>
+          <lexiconId>215</lexiconId>
+          <isDefault>true</isDefault>
+          <markets/>
+        </au.com.infomedia.security.data.Feature>
+        <au.com.infomedia.security.data.Feature>
+          <namespace>com.infomedia.epc.priceLevel</namespace>
+          <value>LST</value>
+          <lexiconId>334</lexiconId>
+          <isDefault>true</isDefault>
+          <markets/>
+        </au.com.infomedia.security.data.Feature>
+        <au.com.infomedia.security.data.Feature>
+          <namespace>com.infomedia.epc.priceLevel</namespace>
+          <value>SRP</value>
+          <lexiconId>531</lexiconId>
+          <isDefault>false</isDefault>
+          <markets/>
+        </au.com.infomedia.security.data.Feature>
+          <au.com.infomedia.security.data.Feature>
+          <namespace>com.infomedia.epc.priceLevel</namespace>
+          <value>WSL</value>
+          <lexiconId>736</lexiconId>
+          <isDefault>false</isDefault>
+          <markets/>
+        </au.com.infomedia.security.data.Feature>
+        <au.com.infomedia.security.data.Feature>
+          <namespace>com.infomedia.epc.priceLevel</namespace>
+          <value>DLR</value>
+          <lexiconId>65</lexiconId>
+          <isDefault>false</isDefault>
+          <markets/>
+        </au.com.infomedia.security.data.Feature>
+        <au.com.infomedia.security.data.Feature>
+          <namespace>com.infomedia.epc.partFormat</namespace>
+          <value>partNumber</value>
+          <lexiconId>7217</lexiconId>
+          <isDefault>true</isDefault>
+          <markets/>
+        </au.com.infomedia.security.data.Feature>
+        <au.com.infomedia.security.data.Feature>
+          <namespace>com.infomedia.epc.orderOption</namespace>
+          <value>Invoice</value>
+          <lexiconId>128</lexiconId>
+          <isDefault>true</isDefault>
+          <markets/>
+        </au.com.infomedia.security.data.Feature>
+        <au.com.infomedia.security.data.Feature>
+          <namespace>com.infomedia.epc.partFormat</namespace>
+          <value>pnc</value>
+          <lexiconId>2943</lexiconId>
+          <isDefault>false</isDefault>
+          <markets/>
+        </au.com.infomedia.security.data.Feature>
+        <au.com.infomedia.security.data.Feature>
+          <namespace>com.infomedia.epc.orderOption</namespace>
+          <value>Picking Slip</value>
+          <lexiconId>192</lexiconId>
+          <isDefault>false</isDefault>
+          <markets/>
+        </au.com.infomedia.security.data.Feature>
+      </features>
+      <language>English</language>
+      <solutionEdition>MicrocatLive</solutionEdition>
+      <brands>
+        <string>HYW</string>
+      </brands>
+      <regions>
+        <au.com.infomedia.security.data.Region>
+          <name>AUS</name>
+          <regionIsCatalogIdentifier>true</regionIsCatalogIdentifier>
+          <dlaMarkets/>
+        </au.com.infomedia.security.data.Region>
+      </regions>
+      <administrativeContactName></administrativeContactName>
+      <dataLanguages>
+        <string>zh-cn</string>
+        <string>de</string>
+        <string>en</string>
+        <string>es</string>
+        <string>fr</string>
+        <string>ja</string>
+        <string>kr</string>
+        <string>ru</string>
+      </dataLanguages>
+      <markets>
+        <au.com.infomedia.security.data.Market>
+          <name>Australia</name>
+          <code>AU</code>
+          <lexiconId></lexiconId>
+        </au.com.infomedia.security.data.Market>
+          <au.com.infomedia.security.data.Market>
+          <name>USA</name>
+          <code>US</code>
+          <lexiconId></lexiconId>
+        </au.com.infomedia.security.data.Market>
+      </markets>
+    </au.com.infomedia.security.data.Subscription>
+  </subscriptions>
+  <account>
+    <id>001S0000008sfh9IAA</id>
+    <name>Business Services Team Hyundai Australia Dealer Account</name>
+    <phone>69</phone>
+    <accountNumber>90054395</accountNumber>
+    <accountType>Dealer</accountType>
+    <billingAddress>
+      <street>4545 Oak St.</street>
+      <country>AU</country>
+      <city>Dee Why</city>
+      <state>New South Wales</state>
+      <zip>12345</zip>
+    </billingAddress>
+    <shippingAddress>
+      <street>4545 Oak St.</street>
+      <country>AU</country>
+      <city>Dee Why</city>
+      <state>New South Wales</state>
+      <zip>12345</zip>
+    </shippingAddress>
+  </account>
+  <currentSubscription reference="../subscriptions/au.com.infomedia.security.data.Subscription"/>
+  <priceFormatSelections/>
+  <partFormatSelections/>
+</au.com.infomedia.security.data.Contact>

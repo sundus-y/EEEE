@@ -1,0 +1,390 @@
+<html>
+  <head>
+	<style type="text/css">
+				BODY{		FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 10pt;}
+				LABEL{		FONT-WEIGHT:bold;FONT-SIZE: 10pt;}
+				HR{        	color:#EAF7FF;}
+				TD {		FONT-WEIGHT:none;
+								COLOR: #003366;
+								FONT-SIZE: 10pt;
+				}
+				.label{		FONT-WEIGHT:bold;FONT-SIZE: 11pt;}
+				.textbox{	border:1px solid #003366;}
+				.textarea{	border:1px solid #003366;}
+				.button{	border:1px solid #003366;}
+				.titleHeader{		FONT-WEIGHT:bold;FONT-SIZE:12pt;COLOR: #003366;}
+				.orderlistHeader TD {	BACKGROUND-COLOR: #EAF7FF;
+					                    COLOR: #00008b;
+										BORDER-BOTTOM: #00008b 1px solid;
+										BORDER-RIGHT: #00008b 1px solid;
+    									BORDER-LEFT: #00008b 1px solid;
+    									BORDER-TOP: #00008b 1px solid;
+				}
+				.orderlistHeaderLine{	BORDER-RIGHT: #00008b 1px solid;FONT-WEIGHT:bold;}
+				.tblBorderBlue{		BORDER-RIGHT: black 1px solid;
+									BORDER-LEFT: black 1px solid;
+									BORDER-TOP: black 1px solid;
+									BORDER-BOTTOM: black 1px solid;
+									COLOR: #000000;
+				}
+				.tdRed{ BACKGROUND-COLOR: #ff0000; FONT-WEIGHT:bold;FONT-SIZE:12pt;COLOR: #ffffff;}
+				.tdPink{ BACKGROUND-COLOR: #da58cd; FONT-WEIGHT:bold;FONT-SIZE:12pt;COLOR: #ffffff;}
+			</style>
+  </head>
+  ##<image src="http://www.microcatmarket.com/skins/McatMarket1.gif" />
+  <body>
+		<HR />
+
+	##TOPHEADER##
+        <table width="100%" cellspacing="0">
+        <tbody>
+        <tr>
+            <td class="titleHeader">
+				<label><b>$lex_microcatCommentsAndImprovements</b></label>&nbsp;
+            </td>
+				#if ($candiVO.isEmergent)
+		           <td align="center" class="tdRed">$candiVO.priority</td>
+				#else
+					#if ($candiVO.isUrgent)
+    		           <td align="center" class="tdPink">$candiVO.priority</td>
+    				#else
+    		           <td align="center"><b>$candiVO.priority</b></td>
+    				#end
+				#end
+            <td align="right"><b>$lex_creationDate</b>&nbsp;$candiVO.reportDate</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" align="left">
+                <small><label>Read in Language: </label></small><br />$candiVO.baseURL
+            </td>
+        </tr>
+
+        </tbody>
+        </table>
+	<hr />
+	##TOPDETAILS##
+	<table width="100%" class="titleHeader">
+		<tr>
+			<td class="titleHeader">
+				<label>$lex_details</label>
+			</td>
+		</tr>
+		<tr>
+        <table width="100%" class="tblBorderBlue">
+            <thead>
+            <tr class="orderlistHeader">
+                <td class="orderlistHeaderLine">
+					<label lexid="6693">$lex_priority</label>
+                </td>
+                <td class="orderlistHeaderLine">
+					<label lexid="6703">$lex_category</label>
+                </td>
+                <td class="orderlistHeaderLine">
+					<label lexid="6694">$lex_subcategory</label>
+                </td>
+                <td class="orderlistHeaderLine">
+					<label lexid="4569">$lex_errorTypes</label>
+                </td>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td valign="top">$candiVO.priority</td>
+                <td valign="top">$candiVO.category</td>
+                <td valign="top">$candiVO.subcategory</td>
+                <td valign="top" align="left">
+    				#foreach ($errorType in $candiVO.errorTypes)
+    					$errorType
+    					<br />
+    				#end
+                </td>
+            </tr>
+            </tbody>
+        </table>
+		</tr>
+	</table>
+	<hr />
+	##USERDETAILSTABLE##
+	<table width="100%" class="titleHeader">
+    	<tr>
+            <td class="titleHeader"><label>$lex_customerDetails</label></td>
+    	</tr>
+    	<tr>
+            <table border="0" class="tblBorderBlue" width="100%">
+            <tbody>
+            <tr>
+            <td>
+                <!-- For each Customer... -->
+                <table border="0">
+                <tbody>
+
+                <!--  Users' Name -->
+                <tr>
+                    <td align="right">$lex_name:</td>
+                    <td>$candiVO.contactName</td>
+                </tr>
+
+        		<!--  Users' Company Name -->
+                <tr>
+                    <td align="right">$lex_companyName:</td>
+                    <td>$candiVO.companyName</td>
+                </tr>
+
+        		<!-- Users' Email Address -->
+        		<tr>
+                    <td align="right">$lex_email:</td>
+                    <td>$candiVO.contact.email</td>
+                </tr>
+
+                <!-- Users' Company Phone -->
+                <tr>
+                    <td align="right">$lex_phone:</td>
+                    <td>$candiVO.companyPhone</td>
+                </tr>
+
+                <!-- Users' Company Fax -->
+                <tr>
+                    <td align="right">$lex_fax:</td>
+                    <td>$candiVO.companyFax</td>
+                </tr>
+
+                <!--  Users' Address -->
+        		<tr>
+                    <td valign="top" rowspan="2" align="right">$lex_address:</td>
+        			<td>$candiVO.postalAddress</td>
+                </tr>
+
+                </tbody>
+                </table>
+
+            </td>
+
+            <td>
+                <table border="0">
+                <tbody>
+
+                <!-- Users' Supplier details -->
+                <tr>
+                    <td align="right">$lex_supplier:</td>
+                    <td>$candiVO.dealerName</td>
+                </tr>
+
+                <!-- Users' Supplier Contact Name -->
+                <tr>
+                    <td align="right">$lex_contact:</td>
+                    <td>$candiVO.dealerContactName</td>
+                </tr>
+
+        		<!-- Users' Supplier Contact Phone -->
+        		<tr>
+                    <td align="right">$lex_phone:</td>
+                    <td>$candiVO.dealerPhone</td>
+                </tr>
+
+        		<!-- Users' Supplier Contact Fax -->
+        		<tr>
+                    <td align="right">$lex_fax:</td>
+                    <td>$candiVO.dealerFax</td>
+                </tr>
+
+                <!-- Users' Supplier Address -->
+        		<tr>
+                    <td valign="top" align="right">$lex_address:</td>
+                    <td>$candiVO.dealerPostalAddress</td>
+                </tr>
+
+                </tbody>
+                </table>
+
+            </td>
+            </tr>
+            </tbody>
+            </table>
+    	</tr>
+    </table>
+	<br />
+		<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		  <col width="50%" />
+		  <col width="5" />
+		  <col width="50%" />
+		  <tbody>
+			<tr>
+			  <td valign="top" class="titleHeader">
+				##SECTIONDETAILSTABLE##
+
+        		<label lexid="2167"  class="titleHeader">$lex_generalSectionInfo</label>
+
+                <table width="100%" class="tblBorderBlue">
+                <thead>
+                <tr class="orderlistHeader">
+                    <td class="orderlistHeaderLine">$lex_section</td>
+                    <td class="orderlistHeaderLine">$lex_partNumber</td>
+                    <td class="orderlistHeaderLine">$lex_callout</td>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td valign="top">$candiVO.candi.section</td>
+                    <td valign="top">$candiVO.candi.partNumber</td>
+                    <td valign="top">$candiVO.candi.callout</td>
+                </tr>
+				#*
+                <tr>
+                    <td colspan="3" valign="top">
+                    <b>$lex_subSystemIssues</b>
+                    <br />$candiVO.subSystemIssues</td>
+                </tr>
+				*#
+                </tbody>
+                </table>
+
+			  </td>
+			  <td style="BACKGROUND-COLOR:#FFFFFF;">
+				&nbsp;
+			  </td>
+			  <td valign="top" class="titleHeader">
+				##VEHICLEDETAILSTABLE##
+
+                <label lexid="3927"  class="titleHeader">$lex_vehicleDetails</label>
+
+                <table width="100%" class="tblBorderBlue">
+                <thead>
+                <tr class="orderlistHeader">
+                    <td class="orderlistHeaderLine">$lex_model</td>
+                    <td class="orderlistHeaderLine">$lex_vin</td>
+                    <!--<td class="orderlistHeaderLine">$lex_registrationNo</td>-->
+                    <td class="orderlistHeaderLine">$lex_buildDate</td>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td valign="top">$candiVO.candi.model</td>
+                    <td valign="top">$candiVO.candi.vin</td>
+                    <!--<td valign="top">$candiVO.candi.rego</td> -->
+                    <td valign="top">$candiVO.buildDate</td>
+                </tr>
+
+             #*  <tr>
+                    <td colspan="4" valign="top"><b>$lex_additionalVehicleInfo</b> -->
+                    <br />
+                    $candiVO.candi.additionalVehicleInfo
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="4" valign="top"><b>$lex_interpretation</b>
+                    <br />$candiVO.interpretation
+                    </td>
+        		</tr>
+			 *#
+                </tbody>
+        		</table>
+
+			  </td>
+			</tr>
+		  </tbody>
+		</table>
+
+	  <br />
+	  ##APPLICATIONINFOTABLE##
+	  <table width="100%" class="titleHeader">
+		<tr>
+			<td class="titleHeader">
+				<label>$lex_microcatApplicationAndComponents</label>
+			</td>
+		</tr>
+		<tr>
+            <table width="100%" class="tblBorderBlue">
+            <thead>
+            <tr class="orderlistHeader">
+                <td class="orderlistHeaderLine">$lex_application</td>
+                <td class="orderlistHeaderLine">$lex_version</td>
+                <td class="orderlistHeaderLine">$lex_franchise</td>
+                <td class="orderlistHeaderLine">$lex_languages</td>
+				<td class="orderlistHeaderLine" width="40%">$lex_webBrowser</td>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td valign="top">$candiVO.contactName</td>
+                <td valign="top">
+                    <table border="0" cellpadding=\0" cellspacing="1">
+                        <tr>
+                            <td align="left">$lex_application:</td>
+                            <td align="left">$candiVO.candi.flexAppVersion</td>
+                        </tr>
+
+                        <tr>
+                            <td align="left">$lex_webService:</td>
+                            <td align="left">$candiVO.candi.webserviceVersion</td>
+                        </tr>
+
+                        <tr>
+                            <td align="left">$lex_data:</td>
+                            <td align="left">$candiVO.candi.dataVersion</td>
+                        </tr>
+                    </table>
+                </td>
+                <td valign="top">
+					$candiVO.franchiseCode<small><br />($candiVO.franchiseDescription)</small>
+                </td>
+                <td valign="top">
+                    <table border="0" cellpadding=\0" cellspacing="1">
+                        <tr>
+                            <td align="right">$lex_application:</td>
+                            <td align="right">$candiVO.contact.applicationLanguage</td>
+                    	</tr>
+                        <tr>
+                            <td align="right">$lex_data:</td>
+            				<td align="right">$candiVO.contact.subscriptionLanguage</td>
+                    	</tr>
+    				</table>
+				</td>
+    			<td valign="top" width="40%">
+    				User Agent: $candiVO.candi.userAgent<br />Application: $candiVO.candi.applicationInfo<br /><i>Refering URL: </i>$candiVO.candi.referer
+                </td>
+            </tr>
+            </tbody>
+            </table>
+		</tr>
+	  </table>
+	  <br />
+	  ##COMMENTSTABLE##
+        <table width="100%" class="tblBorderBlue">
+        <thead>
+            <tr class="orderlistHeader">
+                <td class="orderlistHeaderLine">$lex_comments</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td valign="top">$candiVO.comments</td>
+            </tr>
+        </tbody>
+        </table>
+	<hr />
+	<table width="100%" class="tblOrderHeader" cellspacing="0">
+	  <tbody>
+		<tr>
+		  <td>
+			<center>
+				##FOOTERTEXT##
+				$candiVO.footText
+			</center>
+		  </td>
+		</tr>
+	  </tbody>
+	</table>
+	<br />
+
+	##CANDIID##
+	<small><b>C&I ID:$candiVO.id</b></small>
+	<hr />
+  </body>
+</html>

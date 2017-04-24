@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" DescendantCount="37">
+    <TocEntry Title="Introduzione" Link="/Content/01 Getting started.htm" ComputedResetPageLayout="true" ComputedFirstTopic="true" DescendantCount="1">
+        <TocEntry Title="Modifica delle impostazioni" Link="/Content/02 Change settings.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Pagina iniziale" Link="/Content/03 Home page.htm" ComputedFirstTopic="false" DescendantCount="6">
+        <TocEntry Title="Cercare un veicolo in base al VIN o al VIN parziale" Link="/Content/04 Search for a vehicle by VIN or partial VIN.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Salvare e recuperare le Etichette cliente" Link="/Content/05 Save and retrieve Customer Tags.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Aggiungere note utente al VIN" Link="/Content/06 Add user notes to a VIN.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Cercare un catalogo per anno di costruzione e modello" Link="/Content/07 Search for a catalogue by build year and model.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Filtrare i veicoli nell'Indice veicoli" Link="/Content/08 Filter the vehicles in the Vehicle Index.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Cercare un ricambio in tutti i cataloghi" Link="/Content/09 Search for a part across all catalogues.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Schermata ricambi" Link="/Content/10 Parts screen.htm" ComputedFirstTopic="false" DescendantCount="16">
+        <TocEntry Title="Cercare ricambi in base alla descrizione" Link="/Content/11 Search for parts by description.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Cercare i ricambi in base al codice ricambio del costruttore" Link="/Content/12 Search for parts by manufacturer part code.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Accedere alla finestra Dati ricambi" Link="/Content/13 Access the Part Data window.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Accedere alle informazioni sui ricambi sostitutivi" Link="/Content/14 Access supersession information.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Navigare nell'indice con la visualizzazione grafica" Link="/Content/15 Navigate the index using a graphic view.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Navigare nell'indice con la visualizzazione di testo" Link="/Content/16 Navigate the index using a text view.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Usare i percorsi di navigazione" Link="/Content/17 Use the navigation breadcrumbs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Usare lo strumento di navigazione rapida" Link="/Content/18 Use the quick navigation tool.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Regolare la visualizzazione dell'immagine" Link="/Content/19 Adjust the image display.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Operare con la Griglia dati ricambi" Link="/Content/20 Work with the Parts Data Grid.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Visualizzare l'immagine a schermo suddiviso" Link="/Content/21 Display a split-screen view.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Aggiungere note utente a un ricambio o a una sezione" Link="/Content/22 Add user notes to a section or part.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Usare la sequenza delle immagini" Link="/Content/23 Use the image filmstrip.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Aggiungere i ricambi all'Elenco ordini" Link="/Content/24 Add parts to the Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Aggiungere un gruppo di ricambi all'Elenco ordini" Link="/Content/25 Add a group of parts to the Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Trasferire un ricambio al DMS" Link="/Content/26 Transfer a part to your DMS.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Schermata ordini" Link="/Content/27 Orders screen.htm" ComputedFirstTopic="false" DescendantCount="9">
+        <TocEntry Title="Visualizzare e modificare un Elenco ordini" Link="/Content/28 View and edit an Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Modificare o nascondere il prezzo" Link="/Content/29 Change or hide pricing.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Aggiungere ricambi non catalogati" Link="/Content/30 Add non-cataloged parts.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Aggiungere i dati del cliente o dell'account" Link="/Content/31 Add customer or account details.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Raggruppare i ricambi per nome veicolo" Link="/Content/32 Group parts by vehicle name.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Ordinare l'elenco di ricambi nell'Elenco ordini" Link="/Content/33 Sort the list of parts on the Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Salvare e recuperare un Elenco ordini" Link="/Content/34 Save and retrieve an Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Stampare o inviare tramite e-mail un Elenco ordini" Link="/Content/35 Print or email an Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Trasferire i ricambi sull'Elenco ordini al vostro DMS" Link="/Content/36 Transfer parts on the Order List to your DMS.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Inviare suggerimenti" Link="/Content/37 Submit feedback.htm" ComputedFirstTopic="false" DescendantCount="0" />
+</CatapultToc>

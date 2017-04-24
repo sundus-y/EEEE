@@ -1,0 +1,38 @@
+<data>
+<header>
+  <translations applang="zh-cn" datalang="en">
+    <translation item="MainHeading">车辆信息</translation>
+    <translation item="Heading">Vehicle Properties</translation>
+    <translation item="Catalog">单一车辆目录:</translation>
+    <translation item="VIN">车辆识别号:</translation>
+    <translation item="UserTag">Customer Tag:</translation>
+    <translation item="ModelYear">车型年:</translation>
+    <translation item="BuildDate">制造日期:</translation>
+    <translation item="Date">Date:</translation>
+    <translation item="Time">Time:</translation>
+    <translation item="Location">Location:</translation>
+    <translation item="Licence">汽车牌照:</translation>
+    <translation item="copyright">2004 - 2010 Infomedia Ltd and its licensors.</translation>
+    <translation item="pageno">Page [x] of [y]</translation>
+  </translations>
+  <catalog>ACCENT 00MY [AUS]</catalog>
+  <vin>null</vin>
+  <usertag>null</usertag>
+  <modelyear>null</modelyear>
+  <builddate/>
+  <date>19/05/2011</date>
+  <time>12:07:58</time>
+  <location/>
+  <licence>null</licence>
+</header>
+<body>
+  <section description="主要属性">
+    <item>Body: 未知</item>
+    <item>Drive Type: (R) RHD</item>
+    <item>Engine Capacity: 未知</item>
+    <item>Fuel: (6) MPI-DOHC</item>
+    <item>Grade: 未知</item>
+    <item>T/M: 未知</item>
+  </section>
+</body>
+</data>

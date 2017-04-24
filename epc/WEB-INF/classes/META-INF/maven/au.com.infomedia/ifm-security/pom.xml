@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ifm-security</artifactId>
+    <name>Infomedia Security Module</name>
+    <description>Povides access to identity management web service and access control framework.</description>
+    <version>1.1.70-35</version>
+
+    <parent>
+        <groupId>au.com.infomedia</groupId>
+        <artifactId>ifm-library</artifactId>
+        <version>1.1.70-35</version>
+    </parent>
+    <dependencies>
+        <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-object-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-monitoring</artifactId>
+        </dependency>        
+        <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-globalization</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.thoughtworks.xstream</groupId>
+            <artifactId>xstream</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.thoughtworks.xstream</groupId>
+            <artifactId>xstream-parent</artifactId>
+        </dependency>
+       <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-util</artifactId>
+        </dependency>
+
+		<!-- GOOGLE collection -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>r09</version>
+        </dependency>
+
+        <!-- axis library framework -->
+        <dependency>
+            <groupId>org.apache.axis2</groupId>
+            <artifactId>axis2-adb</artifactId>
+            <version>1.5.1</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.apache.geronimo.specs</groupId>
+                    <artifactId>geronimo-javamail_1.4_spec</artifactId>
+                </exclusion>
+                <exclusion>
+                	<groupId>javax.servlet</groupId>
+		            <artifactId>servlet-api</artifactId>
+           		</exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.axis2</groupId>
+            <artifactId>axis2-transport-local</artifactId>
+            <version>1.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.axis2</groupId>
+            <artifactId>axis2-transport-http</artifactId>
+            <version>1.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.axis2</groupId>
+            <artifactId>axis2</artifactId>
+            <version>1.5.1</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>findbugs-maven-plugin</artifactId>
+                <configuration>
+                    <excludeFilterFile>
+                        findbugs-exclude.xml
+                    </excludeFilterFile>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <configuration>
+
+                    <excludes>
+                        <!-- Exclude auto generate code -->
+                      <exclude>**/au/com/infomedia/security/dataaccess/service/*.java</exclude>
+                      <exclude>**/IdmWebServiceStub.java</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    
+</project>

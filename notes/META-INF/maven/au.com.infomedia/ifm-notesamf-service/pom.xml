@@ -1,0 +1,228 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>ifm-super-pom</artifactId>
+		<groupId>au.com.infomedia</groupId>
+		<version>1.1.1</version>
+	</parent>
+	<!-- <groupId>au.com.infomedia</groupId> -->
+	<artifactId>ifm-notesamf-service</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>Infomedia Notes AMF Service</name>
+	<description>Web service that provides interface for managing notes.</description>
+
+	<properties>
+		<!-- Environmental variable set by Hudson CI server -->
+		<build.id>${BUILD_ID}</build.id>
+		<build.number>${BUILD_NUMBER}</build.number>
+		<svn.revision>${SVN_REVISION}</svn.revision>
+
+		<blazeds.version>3.3.0.20931</blazeds.version>
+
+		<libraryVersion>1.1.88-SNAPSHOT</libraryVersion>
+		<ifm-library.version>1.1.88-SNAPSHOT</ifm-library.version>
+	</properties>
+
+	<scm>
+		<connection>scm:svn:https://sydvsvn01.infomedia.com.au/LiveV6/business-services/ifm-pricing-service/trunk</connection>
+		<developerConnection>scm:svn:https://sydvsvn01.infomedia.com.au/LiveV6/business-services/ifm-pricing-service/trunk</developerConnection>
+		<url>https://sydvsvn01.infomedia.com.au/LiveV6/business-services/ifm-pricing-service/trunk</url>
+	</scm>
+
+	<dependencies>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.0</version>
+			<type>jar</type>
+			<optional>false</optional>
+		</dependency>
+		<dependency>
+			<groupId>commons-pool</groupId>
+			<artifactId>commons-pool</artifactId>
+			<version>1.5.5</version>
+			<type>jar</type>
+			<optional>false</optional>
+		</dependency>
+		<dependency>
+			<groupId>c3p0</groupId>
+			<artifactId>c3p0</artifactId>
+			<version>0.9.1.2</version>
+			<type>jar</type>
+			<optional>false</optional>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.1.2</version>
+			<type>jar</type>
+			<optional>false</optional>
+		</dependency>
+		<dependency>
+			<groupId>commons-httpclient</groupId>
+			<artifactId>commons-httpclient</artifactId>
+			<version>3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>taglibs</groupId>
+			<artifactId>standard</artifactId>
+			<version>1.1.2</version>
+			<type>jar</type>
+			<optional>false</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.easymock</groupId>
+			<artifactId>easymockclassextension</artifactId>
+			<version>2.3</version>
+			<type>jar</type>
+			<optional>false</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.easymock</groupId>
+			<artifactId>easymock</artifactId>
+			<version>2.3</version>
+			<type>jar</type>
+			<optional>false</optional>
+		</dependency>
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>1.5.2</version>
+			<type>jar</type>
+			<optional>false</optional>
+		</dependency>
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>3.2.1</version>
+			<type>jar</type>
+			<optional>false</optional>
+		</dependency>
+		<dependency>
+			<groupId>com.google.collections</groupId>
+			<artifactId>google-collections</artifactId>
+			<version>1.0</version>
+			<type>jar</type>
+			<optional>false</optional>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>r07</version>
+			<type>jar</type>
+			<scope>compile</scope>
+			<optional>false</optional>
+		</dependency>
+
+		<!-- BlazeDS Requirements -->
+		<dependency>
+			<groupId>blazeds</groupId>
+			<artifactId>flex-messaging-common</artifactId>
+			<version>${blazeds.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>blazeds</groupId>
+			<artifactId>flex-messaging-core</artifactId>
+			<version>${blazeds.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>blazeds</groupId>
+			<artifactId>flex-messaging-opt</artifactId>
+			<version>${blazeds.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>blazeds</groupId>
+			<artifactId>flex-messaging-proxy</artifactId>
+			<version>${blazeds.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>backport-util-concurrent</groupId>
+			<artifactId>backport-util-concurrent</artifactId>
+			<version>3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>blazeds</groupId>
+			<artifactId>flex-messaging-remoting</artifactId>
+			<version>${blazeds.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>blazeds</groupId>
+			<artifactId>cfgatewayadapter</artifactId>
+			<version>${blazeds.version}</version>
+		</dependency>
+
+        <dependency>
+            <groupId>au.com.infomedia</groupId>
+            <artifactId>ifm-localsecurity</artifactId>
+            <version>${ifm-library.version}</version>
+        </dependency>
+		<dependency>
+			<groupId>au.com.infomedia</groupId>
+			<artifactId>ifm-configuration</artifactId>
+			<version>${ifm-library.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>au.com.infomedia</groupId>
+			<artifactId>ifm-service</artifactId>
+			<version>${ifm-library.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>au.com.infomedia</groupId>
+			<artifactId>ifm-service-connector</artifactId>
+			<version>${ifm-library.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>jackson-all</groupId>
+					<artifactId>jackson-all</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.1</version>
+				<!-- <configuration> <webXml>WEB-INF/web.xml</webXml> <archive> -->
+				<!-- Writes in the build specific information into the manifest -->
+				<!-- <manifestEntries> <Specification-Title> ${project.name} </Specification-Title> 
+					<Specification-Version> ${project.version} </Specification-Version> <Specification-Vendor> 
+					${organization.name} </Specification-Vendor> <Build-Id>${build.id}</Build-Id> 
+					<SVN-Revision>${svn.revision}</SVN-Revision> <hudson-build-number>${build.number}</hudson-build-number> 
+					</manifestEntries> </archive> </configuration> -->
+			</plugin>
+
+			<!-- copy the javadocs to the war -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.1</version>
+				<!-- <configuration> -->
+				<!-- this is relative to the pom.xml directory <webResources> <resource> 
+					<directory>./target/site</directory> </resource> </webResources> -->
+				<!-- <overlays> <overlay> <groupId>au.com.infomedia</groupId> <artifactId>ifm-admin-webapp</artifactId> 
+					<excludes> <exclude>WEB-INF/web.xml</exclude> </excludes> </overlay> </overlays> 
+					</configuration> -->
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<configuration>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<tagBase>https://sydvsvn01.infomedia.com.au/LiveV6/business-services/ifm-notes-service/tags/releases</tagBase>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+</project>

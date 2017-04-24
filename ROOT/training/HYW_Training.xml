@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<training>
+                	<resource type="menuitem" name="Quick Reference Card" lexiconid="6980">
+                                <link>
+                                                <value>Common/QRC/V6_QuickReferenceCard_EN.pdf</value>
+                                                <languages>
+                                                               <language code="en" />
+                                                               <language code="en-us" />
+                                                               <language code="hu" />
+                                                               <language code="id" />
+                                                               <language code="ko" />
+                                                               <language code="ro" />
+                                                               <language code="th" />
+                                                               <language code="vi" />
+                                                </languages>
+  			     </link>
+                                 <link>
+                                                <value>Common/QRC/V6_QuickReferenceCard_CS.pdf</value>
+                                                <languages>
+                                                                <language code="cs" />
+                                                </languages>
+			     </link>
+                                 <link>
+                                                <value>Common/QRC/V6_QuickReferenceCard_DA.pdf</value>
+                                                <languages>
+                                                                <language code="da" />
+                                                </languages>
+                                </link>
+                                 <link>
+                                                <value>Common/QRC/V6_QuickReferenceCard_DE.pdf</value>
+                                                <languages>
+                                                                <language code="de" />
+                                                </languages>
+                                </link>
+                                 <link>
+                                                <value>Common/QRC/V6_QuickReferenceCard_EL.pdf</value>
+                                                <languages>
+                                                                <language code="el" />
+                                                </languages>
+                                </link> 
+                                  <link>
+                                                <value>Common/QRC/V6_QuickReferenceCard_ES.pdf</value>
+                                                <languages>
+                                                                <language code="es" />
+                                                </languages>
+                                </link> 
+                                 <link>
+                                                <value>Common/QRC/V6_QuickReferenceCard_ES-MX.pdf</value>
+                                                <languages>
+                                                                <language code="es-mx" />
+                                                </languages>
+                                </link>
+                                 <link>                           
+                                                <value>Common/QRC/V6_QuickReferenceCard_FI.pdf</value>
+                                                <languages>
+                                                                <language code="fi" />
+                                                </languages>
+                                </link>
+                                 <link>                           
+                                                <value>Common/QRC/V6_QuickReferenceCard_FR.pdf</value>
+                                                <languages>
+                                                                <language code="fr" />
+                                                                <language code="fr-ca" />
+                                                </languages>
+                                </link>
+                                 <link>                           
+                                                <value>Common/QRC/V6_QuickReferenceCard_IT.pdf</value>
+                                                <languages>
+                                                                <language code="it" />
+                                                </languages>
+                                </link>
+                                 <link>                           
+                                                <value>Common/QRC/V6_QuickReferenceCard_JA.pdf</value>
+                                                <languages>
+                                                                <language code="ja" />
+                                                </languages>
+ 			      </link>
+                                 <link>                           
+                                                <value>Common/QRC/V6_QuickReferenceCard_NL.pdf</value>
+                                                <languages>
+                                                                <language code="nl" />
+                                                </languages>
+ 			       </link>
+                                 <link>                           
+                                                <value>Common/QRC/V6_QuickReferenceCard_NO.pdf</value>
+                                                <languages>
+                                                                <language code="no" />
+                                                </languages>
+ 			       </link>                                 
+				<link>                           
+                                                <value>Common/QRC/V6_QuickReferenceCard_PL.pdf</value>
+                                                <languages>
+                                                                <language code="pl" />
+                                                </languages>
+ 			      </link>
+                                   <link>                           
+                                                <value>Common/QRC/V6_QuickReferenceCard_PT.pdf</value>
+                                                <languages>
+                                                                <language code="pt" />
+                                                </languages>
+ 			      </link>
+                                 <link>                           
+                                                <value>Common/QRC/V6_QuickReferenceCard_RU.pdf</value>
+                                                <languages>
+                                                                <language code="ru" />
+                                                </languages>
+			      </link>
+                                 <link>                           
+                                                <value>Common/QRC/V6_QuickReferenceCard_SV.pdf</value>
+                                                <languages>
+                                                                <language code="sv" />
+                                                </languages>
+			      </link> 
+			           <link>                           
+                                                <value>Common/QRC/V6_QuickReferenceCard_TR.pdf</value>
+                                                <languages>
+                                                                <language code="tr" />
+                                                </languages>
+			      </link>                                  
+			      <link>                           
+                                                <value>Common/QRC/V6_QuickReferenceCard_ZH-CN.pdf</value>
+                                                <languages>
+                                                                <language code="zh-cn" />
+							 <language code="zh-tw" />
+                                                </languages>	
+                                </link>
+                </resource>
+		<resource type="menuitem" name="Getting Started Guide" lexiconid="5576">
+                                <link>
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_EN.pdf</value>
+                                                <languages>
+                                                               <language code="en" />
+                                                               <language code="en-us" />                                                                                                                                                                                                                          
+                                                               <language code="hu" />
+                                                               <language code="id" />
+                                                               <language code="ko" />
+                                                               <language code="pl" />
+                                                               <language code="pt" />
+                                                               <language code="ro" />
+                                                               <language code="th" />
+                                                               <language code="vi" />
+                                                               <language code="zh-cn" />
+                                                               <language code="zh-tw" />
+                                                </languages>
+                                </link>
+	                         <link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_CS.pdf</value>
+                                                <languages>
+                                                                <language code="cs" />
+                                                </languages>	
+                                </link>
+    				<link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_DA.pdf</value>
+                                                <languages>
+                                                                <language code="da" />
+                                                </languages>	
+                                </link>
+			     <link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_DE.pdf</value>
+                                                <languages>
+                                                                <language code="de" />
+                                                </languages>	
+                                </link>
+  			   <link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_EL.pdf</value>
+                                                <languages>
+                                                                <language code="el" />
+                                                </languages>	
+                                </link>
+   			     <link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_ES.pdf</value>
+                                                <languages>
+                                                                <language code="es" />
+                                                </languages>	
+                                </link>
+   			     <link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_ES-MX.pdf</value>
+                                                <languages>
+                                                                <language code="es-mx" />
+                                                </languages>	
+                                </link>
+  			     <link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_FI.pdf</value>
+                                                <languages>
+                                                                <language code="fi" />
+                                                </languages>	
+                                </link>
+  			     <link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_FR.pdf</value>
+                                                <languages>
+                                                                <language code="fr" />
+                                                </languages>	
+                                </link>
+  			     <link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_FR-CA.pdf</value>
+                                                <languages>
+							 <language code="fr-ca" />
+                                                </languages>	
+                                </link>
+  			     <link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_IT.pdf</value>
+                                                <languages>
+							 <language code="it" />
+                                                </languages>	
+                                </link>
+  			     <link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_JA.pdf</value>
+                                                <languages>
+							 <language code="ja" />
+                                                </languages>	
+                                </link>
+ 			     <link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_NL.pdf</value>
+                                                <languages>
+                                                                <language code="nl" />
+                                                </languages>	
+                                </link>
+   				<link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_NO.pdf</value>
+                                                <languages>
+                                                                <language code="no" />
+                                                </languages>	
+                                </link>
+ 			     <link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_RU.pdf</value>
+                                                <languages>
+                                                                <language code="ru" />
+                                                </languages>	
+                                </link>
+ 			     <link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_SV.pdf</value>
+                                                <languages>
+                                                                <language code="sv" />
+                                                </languages>	
+                                </link>
+   				 <link>                           
+                                                <value>HYW/GSG/V6_GettingStartedGuide_HYW_TR.pdf</value>
+                                                <languages>
+                                                                <language code="tr" />
+                                                </languages>	
+                                </link>
+		 </resource>
+		<resource type="menuitem" name="Help File" lexiconid="2218">
+                                <link>
+                                                <value>Common/Help/EN/Default.htm</value>
+                                                <languages>
+                                                               <language code="en" />
+                                                               <language code="en-us" />
+                                                               <language code="cs" />
+                                                               <language code="da" />
+                                                               <language code="el" />
+                                                               <language code="fi" />
+                                                               <language code="hu" />
+                                                               <language code="id" />
+                                                               <language code="ko" />
+                                                               <language code="no" />
+                                                               <language code="pl" />
+                                                               <language code="pt" />
+                                                               <language code="ro" />
+                                                               <language code="th" />
+                                                               <language code="tr" />
+                                                               <language code="vi" />
+                                                 </languages>
+                                </link>
+  			     <link>
+                                                <value>Common/Help/DE/Default.htm</value>
+                                                <languages>
+                                                               <language code="de" />
+                                                </languages>
+                                </link>			   
+                                <link>
+                                                <value>Common/Help/ES/Default.htm</value>
+                                                <languages>
+                                                                <language code="es" />
+                                                </languages>
+                                </link>  	
+                                <link>
+                                                <value>Common/Help/ES-MX/Default.htm</value>
+                                                <languages>
+                                                               <language code="es-mx" />
+                                                </languages>
+                                </link>  			   
+                                <link>
+                                                <value>Common/Help/FR/Default.htm</value>
+                                                <languages>
+                                                               <language code="fr" />
+                                                </languages>
+                                </link>                           
+                                <link>
+                                                <value>Common/Help/FR-CA/Default.htm</value>
+                                                <languages>
+                                                               <language code="fr-ca" />
+                                                </languages>
+                                </link>
+			     <link>
+                                                <value>Common/Help/IT/Default.htm</value>
+                                                <languages>
+                                                               <language code="it" />
+                                                </languages>
+                                </link>			   
+                                <link>
+                                                <value>Common/Help/JA/Default.htm</value>
+                                                <languages>
+                                                               <language code="ja" />
+                                                </languages>
+                                </link>	                            
+                                 <link>
+                                                <value>Common/Help/NL/Default.htm</value>
+                                                <languages>
+                                                               <language code="nl" />
+                                                </languages>
+                                </link> 
+  			     <link>
+                                                <value>Common/Help/RU/Default.htm</value>
+                                                <languages>
+                                                               <language code="ru" />
+                                                </languages>
+                                </link>  			  
+ 			     <link>
+                                                <value>Common/Help/SV/Default.htm</value>
+                                                <languages>
+                                                               <language code="sv" />
+                                                </languages>
+                                </link>
+ 			 <link>
+                                                <value>Common/Help/ZH-CN/Default.htm</value>
+                                                <languages>
+                                                               <language code="zh-cn" />
+                                                               <language code="zh-tw" />
+                                                </languages>
+                                </link>
+		 </resource>
+		<resource type="menuitem" name="DMS Integration Guide" lexiconid="7890">
+                                <link>
+                                                <value>Common/DMS/V6_DMSIntegrationGuide_EN.pdf</value>
+                                                <languages>
+                                                              <language code="en" />
+                                                               <language code="cs" />
+                                                               <language code="da" />
+                                                               <language code="el" />
+                                                               <language code="fi" />
+                                                               <language code="hu" />
+                                                               <language code="id" />
+                                                               <language code="ja" />
+                                                               <language code="ko" />
+                                                               <language code="nl" />
+                                                               <language code="no" />
+                                                               <language code="pl" />
+                                                               <language code="pt" />
+                                                               <language code="ro" />
+                                                               <language code="sv" />
+                                                               <language code="th" />
+                                                               <language code="tr" />
+                                                               <language code="vi" />
+                                                               <language code="zh-cn" />
+                                                               <language code="zh-tw" />
+                                                 </languages>
+                               </link>                 
+                                <link>
+                                                <value>Common/DMS/V6_DMSIntegrationGuide_DE.pdf</value>
+                                                <languages>
+                                                                  <language code="de" />
+                                                </languages>
+                                </link>  
+ 			     <link>
+                                                <value>Common/DMS/V6_DMSIntegrationGuide_ES.pdf</value>
+                                                <languages>
+                                                                  <language code="es" />
+                                                </languages>
+                                </link>  
+                                  <link>
+                                                <value>Common/DMS/V6_DMSIntegrationGuide_FR.pdf</value>
+                                                <languages>
+                                                                  <language code="fr" />
+                                                </languages>
+                                </link>  
+                                <link>
+                                                <value>Common/DMS/V6_DMSIntegrationGuide_IT.pdf</value>
+                                                <languages>
+                                                                  <language code="it" />
+                                                </languages>
+                                </link>  
+                                 <link>
+                                                <value>Common/DMS/V6_DMSIntegrationGuide_RU.pdf</value>
+                                                <languages>
+                                                                  <language code="ru" />
+                                                </languages>
+                                </link>  
+                                 <link>
+                                                <value>Common/DMS/V6_DMSKeystrokeGuide_EN-US.pdf</value>
+                                                <languages>
+                                                               <language code="en-us" />
+                                                </languages>
+                                </link>
+                               <link>
+                                                <value>Common/DMS/V6_DMSKeystrokeGuide_ES-MX.pdf</value>
+                                                <languages>
+                                                               <language code="es-mx" />
+                                                </languages>
+                                </link>
+                                <link>
+                                                <value>Common/DMS/V6_DMSKeystrokeGuide_FR-CA.pdf</value>
+                                                <languages>
+                                                               <language code="fr-ca" />
+                                                </languages>
+                                </link>         
+                                                </resource>
+		<resource type="webinar" name="Video Tutorials" lexiconid="8332">
+                                <webinar>
+                                             <image alt="Click to watch the recorded live webinar" altlexiconid="7902" url="http://cache.ifmsystems.com/Files/Training/Training_Live/Images/Button-2.jpg" />
+                                                <title text="Recorded Live Webinar" lexiconid="7893" />
+                                                <description text="Watch this instructor-led training session to get the most out of Microcat." lexiconid="-1" />
+                                                <videolength>60:00</videolength>
+                                                <link>https://www1.gotomeeting.com/register/201927729</link>
+                                                <languages>
+                                                               <language code="en" />
+                                                               <language code="en-us" />
+                                                               <language code="cs" />
+                                                               <language code="da" />
+                                                               <language code="el" />
+                                                               <language code="fi" />
+                                                               <language code="hu" />
+                                                               <language code="id" />
+                                                               <language code="ko" />
+                                                               <language code="no" />
+                                                               <language code="pl" />
+                                                               <language code="pt" />
+                                                               <language code="ro" />
+                                                               <language code="sv" />
+                                                               <language code="th" />
+                                                               <language code="tr" />
+                                                               <language code="vi" />
+                                                               <language code="zh-cn" />
+                                                               <language code="zh-tw" />
+                                                </languages>
+                                </webinar>
+                                <webinar>
+                                                <image alt="Click to watch the recorded live webinar" altlexiconid="7902" url="http://cache.ifmsystems.com/Files/Training/Training_Live/Images/Button-2.jpg" />
+                                                <title text="Recorded Live Webinar" lexiconid="7893" />
+                                                <description text="Sehen Sie sich diese angeleitete Schulung an, damit Sie Microcat optimal nutzen können." lexiconid="-1" />
+                                                <videolength>60:00</videolength>
+                                                <link>https://www1.gotomeeting.com/register/720500249</link>
+                                                <languages>
+                                                               <language code="de" />
+                                                </languages>
+                                </webinar>
+                                <webinar>
+                                                <image alt="Click to watch the recorded live webinar" altlexiconid="7902" url="http://cache.ifmsystems.com/Files/Training/Training_Live/Images/Button-2.jpg" />
+                                                <title text="Recorded Live Webinar" lexiconid="7893" />
+                                                <description text="Vea esta capacitación impartida por un instructor para el máximo aprovechamiento de Microcat." lexiconid="-1" />
+                                                <videolength>60:00</videolength>
+                                                <link>https://www1.gotomeeting.com/register/402995945</link>
+                                                <languages>
+                                                               <language code="es" />
+                                                </languages>
+                                </webinar>
+                                <webinar>
+                                                <image alt="Click to watch the recorded live webinar" altlexiconid="7902" url="http://cache.ifmsystems.com/Files/Training/Training_Live/Images/Button-2.jpg" />
+                                                <title text="Recorded Live Webinar" lexiconid="7893" />
+                                                <description text="Vea esta capacitación impartida por un instructor para el máximo aprovechamiento de Microcat." lexiconid="-1" />
+                                                <videolength>60:00</videolength>
+                                                <link>https://www1.gotomeeting.com/register/698246400</link>
+                                                <languages>
+                                                               <language code="es-mx" />
+                                                </languages>
+                                </webinar>
+                              <webinar>
+                                                <image alt="Click to watch the recorded live webinar" altlexiconid="7902" url="http://cache.ifmsystems.com/Files/Training/Training_Live/Images/Button-2.jpg" />
+                                                <title text="Recorded Live Webinar" lexiconid="7893" />
+                                                <description text="Visualisez cette formation conduite par un instructeur pour obtenir le maximum de Microcat." lexiconid="-1" />
+                                                <videolength>60:00</videolength>
+                                                <link>https://www1.gotomeeting.com/register/860535025</link>
+                                                <languages>
+                                                               <language code="fr" />
+                                                               <language code="fr-ca" />
+                                                </languages>
+                                </webinar>
+                              <webinar>
+                                                <image alt="Click to watch the recorded live webinar" altlexiconid="7902" url="http://cache.ifmsystems.com/Files/Training/Training_Live/Images/Button-2.jpg" />
+                                                <title text="Recorded Live Webinar" lexiconid="7893" />
+                                                <description text="Guarda questo corso di formazione per ottenere il massimo da Microcat." lexiconid="-1" />
+                                                <videolength>60:00</videolength>
+                                                <link>https://www1.gotomeeting.com/register/519147665</link>
+                                                <languages>
+                                                               <language code="it" />
+                                                </languages>
+                                </webinar>
+                                <webinar>
+                                                <image alt="Click to watch the recorded live webinar" altlexiconid="7902" url="http://cache.ifmsystems.com/Files/Training/Training_Live/Images/Button-2.jpg" />
+                                                <title text="Recorded Live Webinar" lexiconid="7893" />
+                                                <description text="Просмотреть учебный сеанс под руководством инструктора, чтобы узнать больше о возможностях Microcat." lexiconid="-1" />
+                                                <videolength>60:00</videolength>
+                                                <link>https://www1.gotomeeting.com/register/375736944</link>
+                                                <languages>
+                                                               <language code="ru" />
+                                                </languages>
+                                </webinar>
+                </resource>
+                	<resource type="menuitem" name="Reports" lexiconid="-1">
+                                <link>
+                                                <value>HYW/redirect.html</value>
+                                                <languages>
+                                                               <language code="en" />
+                                                               <language code="en-us" />
+                                                               <language code="cs" />
+                                                               <language code="da" />
+                                                               <language code="el" />
+                                                               <language code="fi" />
+                                                               <language code="hu" />
+                                                               <language code="id" />
+                                                               <language code="ko" />
+                                                               <language code="no" />
+                                                               <language code="pl" />
+                                                               <language code="ro" />
+                                                               <language code="th" />
+                                                               <language code="tr" />
+                                                               <language code="vi" />
+                                                               <language code="zh-cn" />
+                                                               <language code="zh-tw" />
+                                                </languages>
+                                </link>
+                 </resource>
+                	<resource type="menuitem" name="Informes" lexiconid="-1">
+                                <link>
+                                                <value>HYW/redirect.html</value>
+                                                <languages>
+                                                               <language code="es" />
+                                                 </languages>
+                                </link>
+                 </resource>
+                	<resource type="menuitem" name="Reportes" lexiconid="-1">
+                                <link>
+                                                <value>HYW/redirect.html</value>
+                                                <languages>
+                                                               <language code="es-mx" />
+                                                 </languages>
+                                </link>
+                 </resource>
+                	<resource type="menuitem" name="Rapports" lexiconid="-1">
+                                <link>
+                                                <value>HYW/redirect.html</value>
+                                                <languages>
+                                                               <language code="fr" />
+                                                               <language code="fr-ca" />
+                                                </languages>
+                                </link>
+                 </resource>
+                	<resource type="menuitem" name="Report" lexiconid="-1">
+                                <link>
+                                                <value>HYW/redirect.html</value>
+                                                <languages>
+                                                               <language code="de" />
+                                                </languages>
+                                </link>
+                 </resource>
+                	<resource type="menuitem" name="Rendiconti" lexiconid="-1">
+                                <link>
+                                                <value>HYW/redirect.html</value>
+                                                <languages>
+                                                               <language code="it" />
+                                                </languages>
+                                </link>
+                 </resource>
+                	<resource type="menuitem" name="レポート" lexiconid="-1">
+                                <link>
+                                                <value>HYW/redirect.html</value>
+                                                <languages>
+                                                               <language code="ja" />
+                                                </languages>
+                                </link>
+                 </resource>
+                	<resource type="menuitem" name="Rapporten" lexiconid="-1">
+                                <link>
+                                                <value>HYW/redirect.html</value>
+                                                <languages>
+                                                               <language code="nl" />
+                                                </languages>
+                                </link>
+                 </resource>
+                	<resource type="menuitem" name="Relatórios" lexiconid="-1">
+                                <link>
+                                                <value>HYW/redirect.html</value>
+                                                <languages>
+                                                               <language code="pt" />
+                                                </languages>
+                                </link>
+                 </resource>
+                	<resource type="menuitem" name="Доклады" lexiconid="-1">
+                                <link>
+                                                <value>HYW/redirect.html</value>
+                                                <languages>
+                                                               <language code="ru" />
+                                                </languages>
+                                </link>
+                 </resource>
+                	<resource type="menuitem" name="Rapporter" lexiconid="-1">
+                                <link>
+                                                <value>HYW/redirect.html</value>
+                                                <languages>
+                                                               <language code="sv" />
+                                                </languages>
+                                </link>
+                 </resource>
+</training>

@@ -1,0 +1,382 @@
+<order version="1.1">
+  <header date="2011-05-11T14:05:16-00:00" dateformat="DD/MM/YYYY">
+    <customer name="UI Development" accountnumber="90055156" email="heli_all@ifm.com" address="?" shippingAddress="?" street="13 Test Ave" suburb="New York" state="NY" postcode="90210" country="US"/>
+    <info name="qq" job="qq" comment="qq" accountNumber="qq"/>
+    <options time="Wed May 11 2011 10:05:16 AM" date="2011-05-11T14:05:16-00:00" priceToShow="RTL" currencySymbol="₤ " showTaxes="true" showProfit="true" showAdjustments="true"/>
+    <client name="qq" accountnum="qq" refnum="qq" type="Invoice">
+      <postaladdress/>
+      <shippingaddress issame="false"/>
+    </client>
+  </header>
+  <vehicles>
+    <vehicle name="DEFENDER (A1) 1987-2006" interpretation="&lt;interpretation catalog=&quot;L1&quot; type=&quot;CATMAN&quot;>&#xA;  &lt;avs data=&quot;VLLM0&quot; type=&quot;VL&quot;/>&#xA;&lt;/interpretation>" catalog="L1">
+      <items>
+        <part id="585455133" catalog="L1" callout="5" label="DOWEL" currentQty="2" qty="2" partFormat="partNumber" corePriceSelected="true" manualchanged="false" applicable="1" isFreeForm="false" useSurchargeInPrice="false" indexInOrder="11">
+          <revisionRef/>
+          <num>
+            <partNumber>FRC2481</partNumber>
+          </num>
+          <pricedetail taxcode="1" discountcode="PV" exchangesurcharge="0" unitsellpack="5" procurementcode="0">
+            <pricelevels>
+              <pricelevel code="TB" adjustmentpercentage="20" taxpercentage="0" profit="0">
+                <price value="1.44" tax="0" includingTax="1.44"/>
+                <priceincludingsurcharge value="1.44" tax="0" includingTax="1.44"/>
+              </pricelevel>
+              <pricelevel code="RTL" adjustmentpercentage="0" taxpercentage="0" profit="-0.24">
+                <price value="1.2" tax="0" includingTax="1.2"/>
+                <priceincludingsurcharge value="1.2" tax="0" includingTax="1.2"/>
+              </pricelevel>
+              <pricelevel code="TB1" adjustmentpercentage="0" taxpercentage="10" profit="0">
+                <price value="1.44" tax="0.14" includingTax="1.58"/>
+                <priceincludingsurcharge value="1.44" tax="0.14" includingTax="1.58"/>
+              </pricelevel>
+            </pricelevels>
+          </pricedetail>
+          <currentSection data="G06005"/>
+          <currentSectionForView data="G06.005"/>
+        </part>
+        <part id="585455107" catalog="L1" callout="4" label="BOLT" currentQty="4" qty="4" partFormat="partNumber" corePriceSelected="true" speccodedesc="FLANGED HEAD, COMPRESSOR TO BLOCK" manualchanged="false" applicable="1" isFreeForm="false" useSurchargeInPrice="false" indexInOrder="10">
+          <revisionRef/>
+          <num>
+            <partNumber>FB108177</partNumber>
+          </num>
+          <pricedetail taxcode="1" discountcode="2H" exchangesurcharge="0" unitsellpack="1" procurementcode="0">
+            <pricelevels>
+              <pricelevel code="TB" adjustmentpercentage="20" taxpercentage="0" profit="0">
+                <price value="1.12" tax="0" includingTax="1.12"/>
+                <priceincludingsurcharge value="1.12" tax="0" includingTax="1.12"/>
+              </pricelevel>
+              <pricelevel code="RTL" adjustmentpercentage="0" taxpercentage="0" profit="-0.19">
+                <price value="0.93" tax="0" includingTax="0.93"/>
+                <priceincludingsurcharge value="0.93" tax="0" includingTax="0.93"/>
+              </pricelevel>
+              <pricelevel code="TB1" adjustmentpercentage="0" taxpercentage="10" profit="0">
+                <price value="1.12" tax="0.11" includingTax="1.23"/>
+                <priceincludingsurcharge value="1.12" tax="0.11" includingTax="1.23"/>
+              </pricelevel>
+            </pricelevels>
+          </pricedetail>
+          <currentSection data="G06005"/>
+          <currentSectionForView data="G06.005"/>
+        </part>
+        <part id="585455103" catalog="L1" callout="3" label="O RING" currentQty="1" qty="1" partFormat="partNumber" corePriceSelected="true" speccodedesc="DISCHARGE" manualchanged="false" applicable="1" isFreeForm="false" useSurchargeInPrice="false" indexInOrder="9">
+          <revisionRef/>
+          <num>
+            <partNumber>STC3177</partNumber>
+          </num>
+          <pricedetail taxcode="1" discountcode="UP" exchangesurcharge="0" unitsellpack="1" procurementcode="0">
+            <pricelevels>
+              <pricelevel code="TB" adjustmentpercentage="20" taxpercentage="0" profit="0">
+                <price value="5.16" tax="0" includingTax="5.16"/>
+                <priceincludingsurcharge value="5.16" tax="0" includingTax="5.16"/>
+              </pricelevel>
+              <pricelevel code="RTL" adjustmentpercentage="0" taxpercentage="0" profit="-0.86">
+                <price value="4.3" tax="0" includingTax="4.3"/>
+                <priceincludingsurcharge value="4.3" tax="0" includingTax="4.3"/>
+              </pricelevel>
+              <pricelevel code="TB1" adjustmentpercentage="0" taxpercentage="10" profit="0">
+                <price value="5.16" tax="0.52" includingTax="5.68"/>
+                <priceincludingsurcharge value="5.16" tax="0.52" includingTax="5.68"/>
+              </pricelevel>
+            </pricelevels>
+          </pricedetail>
+          <currentSection data="G06005"/>
+          <currentSectionForView data="G06.005"/>
+        </part>
+        <part id="585455099" catalog="L1" callout="2" label="O RING" currentQty="1" qty="1" partFormat="partNumber" corePriceSelected="true" speccodedesc="SUCTION" manualchanged="false" applicable="1" isFreeForm="false" useSurchargeInPrice="false" indexInOrder="8">
+          <revisionRef/>
+          <num>
+            <partNumber>STC3176</partNumber>
+          </num>
+          <pricedetail taxcode="1" discountcode="UP" exchangesurcharge="0" unitsellpack="1" procurementcode="0">
+            <pricelevels>
+              <pricelevel code="TB" adjustmentpercentage="20" taxpercentage="0" profit="0">
+                <price value="5.16" tax="0" includingTax="5.16"/>
+                <priceincludingsurcharge value="5.16" tax="0" includingTax="5.16"/>
+              </pricelevel>
+              <pricelevel code="RTL" adjustmentpercentage="0" taxpercentage="0" profit="-0.86">
+                <price value="4.3" tax="0" includingTax="4.3"/>
+                <priceincludingsurcharge value="4.3" tax="0" includingTax="4.3"/>
+              </pricelevel>
+              <pricelevel code="TB1" adjustmentpercentage="0" taxpercentage="10" profit="0">
+                <price value="5.16" tax="0.52" includingTax="5.68"/>
+                <priceincludingsurcharge value="5.16" tax="0.52" includingTax="5.68"/>
+              </pricelevel>
+            </pricelevels>
+          </pricedetail>
+          <currentSection data="G06005"/>
+          <currentSectionForView data="G06.005"/>
+        </part>
+        <part id="585456035" catalog="L1" callout="1" label="COMPRESSOR ASSEMBLY AIR CONDITIONING" currentQty="1" qty="1" partFormat="partNumber" corePriceSelected="true" speccodedesc="EXCHANGE PART (RE-MANUFACTURED)" manualchanged="false" applicable="1" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="7">
+          <revisionRef/>
+          <num>
+            <partNumber>LR012805</partNumber>
+          </num>
+          <pricedetail taxcode="1" discountcode="UM" exchangesurcharge="100" unitsellpack="1" procurementcode="0">
+            <pricelevels>
+              <pricelevel code="TB" adjustmentpercentage="20" taxpercentage="0" profit="0">
+                <price value="476.28" tax="0" includingTax="476.28"/>
+                <priceincludingsurcharge value="576.28" tax="0" includingTax="576.28"/>
+              </pricelevel>
+              <pricelevel code="RTL" adjustmentpercentage="0" taxpercentage="0" profit="-79.38">
+                <price value="396.9" tax="0" includingTax="396.9"/>
+                <priceincludingsurcharge value="496.9" tax="0" includingTax="496.9"/>
+              </pricelevel>
+              <pricelevel code="TB1" adjustmentpercentage="0" taxpercentage="10" profit="0">
+                <price value="476.28" tax="47.63" includingTax="523.91"/>
+                <priceincludingsurcharge value="576.28" tax="57.63" includingTax="633.91"/>
+              </pricelevel>
+            </pricelevels>
+          </pricedetail>
+          <currentSection data="G06005"/>
+          <currentSectionForView data="G06.005"/>
+        </part>
+        <part id="585455071" catalog="L1" callout="1" label="COMPRESSOR ASSEMBLY AIR CONDITIONING" currentQty="1" qty="1" partFormat="partNumber" corePriceSelected="true" speccodedesc="NEW, BEFORE ORDERING PLEASE CHECK FOR SERVICE EXCHANGE VERSION" manualchanged="false" applicable="1" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="6">
+          <revisionRef/>
+          <num>
+            <partNumber>JPB101330</partNumber>
+          </num>
+          <pricedetail taxcode="1" discountcode="UM" exchangesurcharge="100" unitsellpack="1" procurementcode="0">
+            <pricelevels>
+              <pricelevel code="TB" adjustmentpercentage="20" taxpercentage="0" profit="0">
+                <price value="657.74" tax="0" includingTax="657.74"/>
+                <priceincludingsurcharge value="757.74" tax="0" includingTax="757.74"/>
+              </pricelevel>
+              <pricelevel code="RTL" adjustmentpercentage="0" taxpercentage="0" profit="-109.62">
+                <price value="548.12" tax="0" includingTax="548.12"/>
+                <priceincludingsurcharge value="648.12" tax="0" includingTax="648.12"/>
+              </pricelevel>
+              <pricelevel code="TB1" adjustmentpercentage="0" taxpercentage="10" profit="0">
+                <price value="657.74" tax="65.77" includingTax="723.51"/>
+                <priceincludingsurcharge value="757.74" tax="75.77" includingTax="833.51"/>
+              </pricelevel>
+            </pricelevels>
+          </pricedetail>
+          <currentSection data="G06005"/>
+          <currentSectionForView data="G06.005"/>
+        </part>
+        <part id="1733857376" catalog="L1" callout="2" label="GASKET-EXHAUST GAS RECIRCULATION VALVE TO PIPE" currentQty="1" qty="1" partFormat="partNumber" corePriceSelected="true" featuredesc="5 CYLINDER TURBO DIESEL" manualchanged="false" applicable="1" isFreeForm="false" useSurchargeInPrice="false" indexInOrder="5">
+          <revisionRef/>
+          <num>
+            <partNumber>ERR6620</partNumber>
+          </num>
+          <pricedetail taxcode="1" discountcode="YJ" exchangesurcharge="0" unitsellpack="1" procurementcode="0">
+            <pricelevels>
+              <pricelevel code="TB" adjustmentpercentage="20" taxpercentage="0" profit="0">
+                <price value="1.51" tax="0" includingTax="1.51"/>
+                <priceincludingsurcharge value="1.51" tax="0" includingTax="1.51"/>
+              </pricelevel>
+              <pricelevel code="RTL" adjustmentpercentage="0" taxpercentage="0" profit="-0.25">
+                <price value="1.26" tax="0" includingTax="1.26"/>
+                <priceincludingsurcharge value="1.26" tax="0" includingTax="1.26"/>
+              </pricelevel>
+              <pricelevel code="TB1" adjustmentpercentage="0" taxpercentage="10" profit="0">
+                <price value="1.51" tax="0.15" includingTax="1.66"/>
+                <priceincludingsurcharge value="1.51" tax="0.15" includingTax="1.66"/>
+              </pricelevel>
+            </pricelevels>
+          </pricedetail>
+          <currentSection data="I01005"/>
+          <currentSectionForView data="I01.005"/>
+        </part>
+        <part id="1733857372" catalog="L1" callout="1" label="VALVE-EXHAUST GAS RECIRCULATION ENGINE EXHAUST" currentQty="1" qty="1" partFormat="partNumber" corePriceSelected="true" featuredesc="2.5L 5 CYL L/R TURBO DIESEL, TD5, WITH EXHAUST GAS RECIRCULATION" manualchanged="false" applicable="1" isFreeForm="false" useSurchargeInPrice="false" indexInOrder="4">
+          <revisionRef/>
+          <num>
+            <partNumber>WAV100270</partNumber>
+          </num>
+          <pricedetail taxcode="1" discountcode="VV" exchangesurcharge="0" unitsellpack="1" procurementcode="0">
+            <pricelevels>
+              <pricelevel code="TB" adjustmentpercentage="20" taxpercentage="0" profit="0">
+                <price value="128.78" tax="0" includingTax="128.78"/>
+                <priceincludingsurcharge value="128.78" tax="0" includingTax="128.78"/>
+              </pricelevel>
+              <pricelevel code="RTL" adjustmentpercentage="0" taxpercentage="0" profit="-21.46">
+                <price value="107.32" tax="0" includingTax="107.32"/>
+                <priceincludingsurcharge value="107.32" tax="0" includingTax="107.32"/>
+              </pricelevel>
+              <pricelevel code="TB1" adjustmentpercentage="0" taxpercentage="10" profit="0">
+                <price value="128.78" tax="12.88" includingTax="141.66"/>
+                <priceincludingsurcharge value="128.78" tax="12.88" includingTax="141.66"/>
+              </pricelevel>
+            </pricelevels>
+          </pricedetail>
+          <currentSection data="I01005"/>
+          <currentSectionForView data="I01.005"/>
+        </part>
+        <part id="-2084996353" catalog="L1" callout="19" label="SCREW-FLANGED HEAD" currentQty="2" qty="2" partFormat="partNumber" corePriceSelected="true" featuredesc="5 CYLINDER TURBO DIESEL" speccodedesc="M6 X 16MM, FLANGED HEAD" manualchanged="false" applicable="1" isFreeForm="false" useSurchargeInPrice="false" indexInOrder="3">
+          <revisionRef/>
+          <num>
+            <partNumber>FS106167L</partNumber>
+          </num>
+          <pricedetail taxcode="1" discountcode="2H" exchangesurcharge="0" unitsellpack="5" procurementcode="0">
+            <pricelevels>
+              <pricelevel code="TB" adjustmentpercentage="20" taxpercentage="0" profit="0">
+                <price value="0.74" tax="0" includingTax="0.74"/>
+                <priceincludingsurcharge value="0.74" tax="0" includingTax="0.74"/>
+              </pricelevel>
+              <pricelevel code="RTL" adjustmentpercentage="0" taxpercentage="0" profit="-0.12">
+                <price value="0.62" tax="0" includingTax="0.62"/>
+                <priceincludingsurcharge value="0.62" tax="0" includingTax="0.62"/>
+              </pricelevel>
+              <pricelevel code="TB1" adjustmentpercentage="0" taxpercentage="10" profit="0">
+                <price value="0.74" tax="0.07" includingTax="0.81"/>
+                <priceincludingsurcharge value="0.74" tax="0.07" includingTax="0.81"/>
+              </pricelevel>
+            </pricelevels>
+          </pricedetail>
+          <currentSection data="I01005"/>
+          <currentSectionForView data="I01.005"/>
+        </part>
+        <part id="-210131399" catalog="L1" callout="17" label="CLIP-P" currentQty="1" qty="1" partFormat="partNumber" corePriceSelected="true" featuredesc="5 CYLINDER TURBO DIESEL" manualchanged="false" applicable="1" changepointvinend="(V)XA175541" isFreeForm="false" useSurchargeInPrice="false" indexInOrder="2">
+          <revisionRef/>
+          <num>
+            <partNumber>WYC100470</partNumber>
+          </num>
+          <pricedetail taxcode="1" discountcode="2H" exchangesurcharge="0" unitsellpack="1" procurementcode="0">
+            <pricelevels>
+              <pricelevel code="TB" adjustmentpercentage="20" taxpercentage="0" profit="0">
+                <price value="3.24" tax="0" includingTax="3.24"/>
+                <priceincludingsurcharge value="3.24" tax="0" includingTax="3.24"/>
+              </pricelevel>
+              <pricelevel code="RTL" adjustmentpercentage="0" taxpercentage="0" profit="-0.54">
+                <price value="2.7" tax="0" includingTax="2.7"/>
+                <priceincludingsurcharge value="2.7" tax="0" includingTax="2.7"/>
+              </pricelevel>
+              <pricelevel code="TB1" adjustmentpercentage="0" taxpercentage="10" profit="0">
+                <price value="3.24" tax="0.32" includingTax="3.56"/>
+                <priceincludingsurcharge value="3.24" tax="0.32" includingTax="3.56"/>
+              </pricelevel>
+            </pricelevels>
+          </pricedetail>
+          <currentSection data="I01005"/>
+          <currentSectionForView data="I01.005"/>
+        </part>
+        <part id="-210135247" catalog="L1" callout="16" label="FILTER-EXHAUST GAS RECIRCULATION SOLENOID CONTROL VALVE" currentQty="1" qty="1" partFormat="partNumber" corePriceSelected="true" featuredesc="5 CYLINDER TURBO DIESEL" manualchanged="false" applicable="1" changepointvinend="(V)XA175541" isFreeForm="false" useSurchargeInPrice="false" indexInOrder="1">
+          <revisionRef/>
+          <num>
+            <partNumber>ESR4323</partNumber>
+          </num>
+          <pricedetail taxcode="1" discountcode="2V" exchangesurcharge="0" unitsellpack="1" procurementcode="0">
+            <pricelevels>
+              <pricelevel code="TB" adjustmentpercentage="20" taxpercentage="0" profit="0">
+                <price value="2.44" tax="0" includingTax="2.44"/>
+                <priceincludingsurcharge value="2.44" tax="0" includingTax="2.44"/>
+              </pricelevel>
+              <pricelevel code="RTL" adjustmentpercentage="0" taxpercentage="0" profit="-0.41">
+                <price value="2.03" tax="0" includingTax="2.03"/>
+                <priceincludingsurcharge value="2.03" tax="0" includingTax="2.03"/>
+              </pricelevel>
+              <pricelevel code="TB1" adjustmentpercentage="0" taxpercentage="10" profit="0">
+                <price value="2.44" tax="0.24" includingTax="2.68"/>
+                <priceincludingsurcharge value="2.44" tax="0.24" includingTax="2.68"/>
+              </pricelevel>
+            </pricelevels>
+          </pricedetail>
+          <currentSection data="I01005"/>
+          <currentSectionForView data="I01.005"/>
+        </part>
+        <part id="-309447587" catalog="L1" callout="18" label="SCREW-FLANGED HEAD" currentQty="1" qty="1" partFormat="partNumber" corePriceSelected="true" featuredesc="5 CYLINDER TURBO DIESEL" speccodedesc="M6 X 16MM, FLANGED HEAD" manualchanged="false" applicable="1" changepointvinend="(V)XA175541" isFreeForm="false" useSurchargeInPrice="false" indexInOrder="0">
+          <revisionRef/>
+          <num>
+            <partNumber>FS106167L</partNumber>
+          </num>
+          <pricedetail taxcode="1" discountcode="2H" exchangesurcharge="0" unitsellpack="5" procurementcode="0">
+            <pricelevels>
+              <pricelevel code="TB" adjustmentpercentage="20" taxpercentage="0" profit="0">
+                <price value="0.74" tax="0" includingTax="0.74"/>
+                <priceincludingsurcharge value="0.74" tax="0" includingTax="0.74"/>
+              </pricelevel>
+              <pricelevel code="RTL" adjustmentpercentage="0" taxpercentage="0" profit="-0.12">
+                <price value="0.62" tax="0" includingTax="0.62"/>
+                <priceincludingsurcharge value="0.62" tax="0" includingTax="0.62"/>
+              </pricelevel>
+              <pricelevel code="TB1" adjustmentpercentage="0" taxpercentage="10" profit="0">
+                <price value="0.74" tax="0.07" includingTax="0.81"/>
+                <priceincludingsurcharge value="0.74" tax="0.07" includingTax="0.81"/>
+              </pricelevel>
+            </pricelevels>
+          </pricedetail>
+          <currentSection data="I01005"/>
+          <currentSectionForView data="I01.005"/>
+        </part>
+      </items>
+    </vehicle>
+  </vehicles>
+  <pricetotals>
+    <components>
+      <surcharges>200</surcharges>
+      <profit>-214.98000000000002</profit>
+      <taxes/>
+    </components>
+    <totals>
+      <total type="ExcludingComponents">1074.91</total>
+      <total type="IncludingComponents">1274.91</total>
+    </totals>
+  </pricetotals>
+  <headerConfiguration>
+    <translations>
+      <dealerDetails>
+        <translation item="name">Full name</translation>
+        <translation item="phone">Phone number</translation>
+        <translation item="email">Email</translation>
+        <translation item="accountNumber">Account number</translation>
+        <translation item="address">Address</translation>
+        <translation item="theTitle">Dealer Details</translation>
+      </dealerDetails>
+      <customerDetails>
+        <translation item="name">Customer name</translation>
+        <translation item="phone">Phone number</translation>
+        <translation item="faxNumber">Fax number</translation>
+        <translation item="contactName">Contact Name</translation>
+        <translation item="email">Email</translation>
+        <translation item="address">Address</translation>
+        <translation item="theTitle">Customer Details</translation>
+      </customerDetails>
+      <orderDetails>
+        <translation item="orderName">Customer name</translation>
+        <translation item="jobReference">Reference number</translation>
+        <translation item="accountNumber">Account number</translation>
+        <translation item="orderType">Order type</translation>
+        <translation item="phone">Phone number</translation>
+        <translation item="faxNumber">Fax number</translation>
+        <translation item="contactName">Contact Name</translation>
+        <translation item="email">Email</translation>
+        <translation item="address">Address</translation>
+        <translation item="theTitle">Order Details</translation>
+      </orderDetails>
+      <translation column="order" item="orderList">Order List</translation>
+      <translation item="total">Total</translation>
+      <translation item="subtotal">Subtotal</translation>
+      <translation item="surcharges">Surcharge</translation>
+      <translation item="pagePagination">Page [x] of [y]</translation>
+      <translation item="orderDate">11/05/2011</translation>
+      <translation item="orderTypeValue">Invoice</translation>
+    </translations>
+  </headerConfiguration>
+  <columnsConfiguration>
+    <translations>
+      <translation item="Vehicle">Vehicle</translation>
+      <translation item="Description">Description</translation>
+      <translation item="Number">Number</translation>
+      <translation item="Feature">Feature</translation>
+      <translation item="SpecCode">Spec. Code</translation>
+      <translation item="Qty">Qty</translation>
+      <translation item="UnitPrice">Unit Price</translation>
+      <translation item="Adjustment">Adjustment</translation>
+      <translation item="Tax">Tax</translation>
+      <translation item="ExtPrice">Ext. Price</translation>
+    </translations>
+    <columns>
+      <column width="50" translation="Vehicle" data="vehicles.vehicle.@name" align="L" type="vehicle"/>
+      <column width="-1" translation="Description" data="vehicles.vehicle.items.part.@label" align="L"/>
+      <column width="20" translation="Number" data="vehicles.vehicle.items.part.#partFormat" align="C"/>
+      <column width="25" translation="Feature" data="vehicles.vehicle.items.part.@featuredesc" align="L"/>
+      <column width="25" translation="SpecCode" data="vehicles.vehicle.items.part.@speccodedesc" align="L"/>
+      <column width="10" translation="Qty" data="vehicles.vehicle.items.part.@qty" align="R" type="qty"/>
+      <column width="20" translation="UnitPrice" data="vehicles.vehicle.items.part.pricedetail.pricelevels.pricelevel[code=#priceToShow].#UNITPRICE" align="R" type="mainPrice"/>
+      <column width="20" translation="Adjustment" data="vehicles.vehicle.items.part.pricedetail.pricelevels.pricelevel[code=#priceToShow].@adjustmentpercentage" align="R" type="percentage"/>
+      <column width="15" translation="Tax" data="vehicles.vehicle.items.part.pricedetail.pricelevels.pricelevel[code=#priceToShow].@taxpercentage" align="R" type="percentage"/>
+      <column width="20" translation="ExtPrice" data="{SUBTOTAL}" align="R" type="price"/>
+    </columns>
+  </columnsConfiguration>
+</order>

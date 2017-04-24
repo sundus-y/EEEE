@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>	
+<head>
+	<title>Infomedia Ltd. - Log Manager</title>
+	<link rel="stylesheet" type="text/css" href="css/dashboard.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="../css/smoothness/jquery-ui-1.8.5.custom.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="../plugins/jExpand/jExpand.css" media="screen"/>
+	<style type="text/css" title="currentStyle">
+        @import "../plugins/DataTables-1.7.4/css/demo_page.css";
+        @import "../plugins/DataTables-1.7.4/css/demo_table.css";
+    </style>	
+	<link href="../plugins/google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" language="javascript" src="js/config.js"></script>	
+	<script type="text/javascript" language="javascript" src="../js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" language="javascript" src="../js/jquery-ui-1.8.5.custom.min.js"></script>
+	<script type="text/javascript" language="javascript" src="../plugins/DataTables-1.7.4/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" language="javascript" src="../plugins/jExpand/jExpand.js"></script>
+	<script type="text/javascript" language="javascript" src="js/common.js"></script>
+	<script type="text/javascript" language="javascript" src="js/LogDetail.js"></script>
+</head>
+<body>
+<div id="body-wrapper">
+    <div id="masthead-container">
+		<table width="100%"><tr>
+			<td align="left" valign="top">
+		        <img src="../images/IFM-Logo.png" alt="logo"/>
+		        <br/>
+				<span class="loginPageTitleText">
+					Tomcat Log Details
+				</span>
+			</td>
+			<td align="right" valign="bottom">
+				<span onclick="window.location='index.html';" style="cursor:pointer;font-weight:bold;color:white;text-align: center;">
+					Return to Admin Home
+				</span>
+			</td>
+		</tr></table>
+	</div>
+
+	<div id="content-container">
+		<table width="100%" >
+		<tr>
+			<td valign="top" align="left" >
+				<span onclick="window.location='logmanager.html';" style="cursor:pointer;font-weight:bold;color:blue;text-align: center;">
+					Back
+				</span>
+			</td>
+			<td valign="baseline" align="right" >
+				<table><tr>
+				<td>
+					<span style='margin-left:10px;padding:3px;'>Auto refresh:</span>
+					<div id='refreshButton' style='display:inline;margin-left:2px;border:1 solid black;padding:3px;cursor:pointer;background-color:maroon;color:white;'
+							onclick='toggleAutoRefresh()'>OFF</div>
+				</td>
+				<td>
+					<div id='refreshIn' style='display:inline;margin-left:2px;border:1 solid black;padding:3px;'>
+							20 secs
+					</div>
+				</td>
+				</tr></table>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="div-logdetail"> 
+		<table width="98%" align="center"><tr><td>
+			<table class="display" id="table-logdetail"> 
+				<thead> 
+					<tr> 
+						<th width="15%">Event Date Time</th> 
+						<th width="10%">Class Name</th> 
+						<th width="5%">Event Type</th>
+						<th width="70%">Description</th>
+						<th width="0%">Invisible Full Description</th>
+						<th width="0%">Invisible Id</th>
+					</tr> 
+				</thead> 
+				<tbody> 
+					<tr>
+						<td>
+							Loading...
+						</td>
+					</tr>
+				</tbody> 
+			</table>
+			<table width="25%" align="center">
+				<tr>
+					<td width="50%"><button class="view">Quick View</button></td>
+					<td width="50%"><button class="viewAll">View Entire File</button></td>
+				</tr>
+			</table>
+			<div id="errorMessage">
+				
+			</div> 
+		</td></tr></table>
+	</div>
+
+	 
+</div>
+</body>
+</html>

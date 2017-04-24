@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="order10HYW" pageWidth="792" pageHeight="612" orientation="Landscape" columnWidth="735" leftMargin="28" rightMargin="29" topMargin="28" bottomMargin="18">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5"/>
+			<leftPen lineWidth="0.5"/>
+			<bottomPen lineWidth="0.5"/>
+			<rightPen lineWidth="0.5"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="0.0"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.0"/>
+		</box>
+	</style>
+	<subDataset name="Order Information">
+		<queryString language="xPath">
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<subDataset name="Dealer details">
+		<queryString language="xPath">
+			<![CDATA[]]>
+		</queryString>
+		<field name="title" class="java.lang.String">
+			<fieldDescription><![CDATA[title]]></fieldDescription>
+		</field>
+		<field name="value" class="java.lang.String">
+			<fieldDescription><![CDATA[value]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="Customer details">
+		<queryString language="xPath">
+			<![CDATA[]]>
+		</queryString>
+		<field name="title" class="java.lang.String">
+			<fieldDescription><![CDATA[title]]></fieldDescription>
+		</field>
+		<field name="value" class="java.lang.String">
+			<fieldDescription><![CDATA[value]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="Order details">
+		<queryString language="xPath">
+			<![CDATA[]]>
+		</queryString>
+		<field name="title" class="java.lang.String">
+			<fieldDescription><![CDATA[title]]></fieldDescription>
+		</field>
+		<field name="value" class="java.lang.String">
+			<fieldDescription><![CDATA[value]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="Pricing Summary">
+		<field name="label" class="java.lang.String">
+			<fieldDescription><![CDATA[label]]></fieldDescription>
+		</field>
+		<field name="value" class="java.lang.String">
+			<fieldDescription><![CDATA[value]]></fieldDescription>
+		</field>
+		<field name="totalLabel" class="java.lang.String">
+			<fieldDescription><![CDATA[totalLabel]]></fieldDescription>
+		</field>
+		<field name="totalValue" class="java.lang.String">
+			<fieldDescription><![CDATA[totalValue]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="Main Totals">
+		<queryString language="xPath">
+			<![CDATA[]]>
+		</queryString>
+		<field name="title" class="java.lang.String">
+			<fieldDescription><![CDATA[title]]></fieldDescription>
+		</field>
+		<field name="value" class="java.lang.String">
+			<fieldDescription><![CDATA[value]]></fieldDescription>
+		</field>
+	</subDataset>
+	<parameter name="REPORT_HEADER" class="java.lang.String"/>
+	<parameter name="REPORT_FOOTER" class="java.lang.String"/>
+	<parameter name="ORDER_XML_FILE_PATH" class="java.lang.String">
+		<defaultValueExpression><![CDATA["D:/src/business-services/ifm-printing/trunk/src/test/resources/order/sample_order_1.0.xml"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[/data/order]]>
+	</queryString>
+	<field name="date" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/order/headerConfiguration/translations/translation[@item="orderDate"]]]></fieldDescription>
+	</field>
+	<field name="dealerDetailsLabel" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/order/headerConfiguration/translations/dealerDetails/translation[@item="theTitle"]]]></fieldDescription>
+	</field>
+	<field name="customerDetailsLabel" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/order/headerConfiguration/translations/customerDetails/translation[@item="theTitle"]]]></fieldDescription>
+	</field>
+	<field name="orderDetailsLabel" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/order/headerConfiguration/translations/orderDetails/translation[@item="theTitle"]]]></fieldDescription>
+	</field>
+	<field name="orderListLabel" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/order/headerConfiguration/translations/translation[@item="orderList"]]]></fieldDescription>
+	</field>
+	<field name="fullNameLabel" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/order/headerConfiguration/translations/dealerDetails/translation[@item="name"]]]></fieldDescription>
+	</field>
+	<field name="pageLabel" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/order/headerConfiguration/translations/translation[@item="pagePagination"]]]></fieldDescription>
+	</field>
+	<field name="surchargeNote" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/order/headerConfiguration/translations/translation[@item="surchargeNote"]]]></fieldDescription>
+	</field>
+	<variable name="CURRENT_PAGE_NUMBER" class="java.lang.Integer" resetType="None" incrementType="Report">
+		<variableExpression><![CDATA[$V{CURRENT_PAGE_NUMBER} == null ? 0 : $V{CURRENT_PAGE_NUMBER} + 1]]></variableExpression>
+		<initialValueExpression><![CDATA[1]]></initialValueExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="25">
+			<rectangle>
+				<reportElement x="0" y="0" width="735" height="18"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="3" y="0" width="678" height="18"/>
+				<textElement verticalAlignment="Middle" markup="none">
+					<font fontName="Arial Unicode MS" size="12" isBold="true" isItalic="false" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{REPORT_HEADER}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="681" y="4" width="54" height="13"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+					<font fontName="Arial Unicode MS" size="9" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="44">
+			<frame>
+				<reportElement stretchType="RelativeToTallestObject" x="0" y="1" width="735" height="38"/>
+				<box>
+					<topPen lineWidth="0.4"/>
+					<leftPen lineWidth="0.4"/>
+					<bottomPen lineWidth="0.4"/>
+					<rightPen lineWidth="0.4"/>
+				</box>
+				<textField isBlankWhenNull="true">
+					<reportElement x="3" y="2" width="243" height="17"/>
+					<box>
+						<topPen lineWidth="0.4"/>
+						<leftPen lineWidth="0.4"/>
+						<bottomPen lineWidth="0.4"/>
+						<rightPen lineWidth="0.4"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+						<font fontName="Arial Unicode MS" size="12" isBold="true" pdfEncoding="Identity-H"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{dealerDetailsLabel}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement x="246" y="2" width="242" height="17"/>
+					<box>
+						<topPen lineWidth="0.4"/>
+						<leftPen lineWidth="0.4"/>
+						<bottomPen lineWidth="0.4"/>
+						<rightPen lineWidth="0.4"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+						<font fontName="Arial Unicode MS" size="12" isBold="true" pdfEncoding="Identity-H"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{customerDetailsLabel}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement x="488" y="2" width="245" height="17"/>
+					<box>
+						<topPen lineWidth="0.4"/>
+						<leftPen lineWidth="0.4"/>
+						<bottomPen lineWidth="0.4"/>
+						<rightPen lineWidth="0.4"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+						<font fontName="Arial Unicode MS" size="12" isBold="true" pdfEncoding="Identity-H"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{orderDetailsLabel}]]></textFieldExpression>
+				</textField>
+				<componentElement>
+					<reportElement key="dealer details" style="table 1" stretchType="RelativeToTallestObject" x="6" y="20" width="230" height="15"/>
+					<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="Dealer details">
+							<dataSourceExpression><![CDATA[((au.com.infomedia.printing.jasperreports.OrderDataSource)$P{REPORT_DATA_SOURCE}).dealerDetailsDataSource()]]></dataSourceExpression>
+						</datasetRun>
+						<jr:column width="97">
+							<jr:detailCell style="table 1_TD" height="14" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="97" height="14"/>
+									<textElement verticalAlignment="Middle">
+										<font fontName="Arial Unicode MS" size="9" isBold="true" pdfEncoding="Identity-H"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{title}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="141">
+							<jr:detailCell style="table 1_TD" height="14" rowSpan="1">
+								<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="141" height="14"/>
+									<textElement verticalAlignment="Middle">
+										<font fontName="Arial Unicode MS" size="9" pdfEncoding="Identity-H"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{value}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:table>
+				</componentElement>
+				<componentElement>
+					<reportElement key="customer details" style="table 1" x="249" y="20" width="230" height="17"/>
+					<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="Customer details">
+							<dataSourceExpression><![CDATA[((au.com.infomedia.printing.jasperreports.OrderDataSource)$P{REPORT_DATA_SOURCE}).customerDetailsDataSource()]]></dataSourceExpression>
+						</datasetRun>
+						<jr:column width="97">
+							<jr:detailCell style="table 1_TD" height="14" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="97" height="14"/>
+									<textElement verticalAlignment="Middle">
+										<font fontName="Arial Unicode MS" size="9" isBold="true" pdfEncoding="Identity-H"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{title}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="141">
+							<jr:detailCell style="table 1_TD" height="14" rowSpan="1">
+								<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="141" height="14"/>
+									<textElement verticalAlignment="Middle">
+										<font fontName="Arial Unicode MS" size="9" pdfEncoding="Identity-H"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{value}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:table>
+				</componentElement>
+				<componentElement>
+					<reportElement key="order details" style="table 1" x="493" y="20" width="230" height="17"/>
+					<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="Order details">
+							<dataSourceExpression><![CDATA[((au.com.infomedia.printing.jasperreports.OrderDataSource)$P{REPORT_DATA_SOURCE}).orderDetailsDataSource()]]></dataSourceExpression>
+						</datasetRun>
+						<jr:column width="97">
+							<jr:detailCell style="table 1_TD" height="14" rowSpan="1">
+								<textField isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="96" height="14"/>
+									<textElement verticalAlignment="Middle">
+										<font fontName="Arial Unicode MS" size="9" isBold="true" pdfEncoding="Identity-H"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{title}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="141">
+							<jr:detailCell style="table 1_TD" height="14" rowSpan="1">
+								<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+									<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="141" height="14"/>
+									<textElement verticalAlignment="Middle">
+										<font fontName="Arial Unicode MS" size="9" pdfEncoding="Identity-H"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{value}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:table>
+				</componentElement>
+			</frame>
+		</band>
+		<band height="72">
+			<rectangle>
+				<reportElement x="0" y="1" width="736" height="15"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<textField isBlankWhenNull="true">
+				<reportElement x="1" y="1" width="734" height="17"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+					<font fontName="Arial Unicode MS" size="12" isBold="true" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{orderListLabel}]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement key="table" style="table" stretchType="RelativeToTallestObject" x="0" y="16" width="736" height="55"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Order Information">
+						<dataSourceExpression><![CDATA[((au.com.infomedia.printing.jasperreports.OrderDataSource)$P{REPORT_DATA_SOURCE}).partItemsDataSource()]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="185">
+						<jr:columnHeader height="13" rowSpan="1">
+							<box>
+								<topPen lineWidth="0.5"/>
+								<leftPen lineWidth="0.5"/>
+								<bottomPen lineWidth="0.5"/>
+								<rightPen lineWidth="0.5"/>
+							</box>
+							<textField isBlankWhenNull="true">
+								<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="185" height="12"/>
+								<textElement textAlignment="Center" markup="none">
+									<font fontName="Arial Unicode MS" size="8" isBold="true" pdfEncoding="Identity-H"/>
+								</textElement>
+								<textFieldExpression class="java.lang.String"><![CDATA[]]></textFieldExpression>
+							</textField>
+						</jr:columnHeader>
+						<jr:detailCell height="24" rowSpan="1">
+							<box topPadding="3" leftPadding="3"/>
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="182" height="21"/>
+								<textElement markup="none">
+									<font fontName="Arial Unicode MS" size="8" pdfEncoding="Identity-H"/>
+								</textElement>
+								<textFieldExpression class="java.lang.String"><![CDATA[]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="33" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="3" width="736" height="10"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<textField evaluationTime="Auto">
+				<reportElement x="-1" y="19" width="100" height="11"/>
+				<textElement markup="none">
+					<font fontName="Arial Unicode MS" size="8" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{pageLabel}.replace("[x]", $V{CURRENT_PAGE_NUMBER}.toString()).replace("[y]", $V{PAGE_NUMBER}.toString())]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="4" width="735" height="10"/>
+				<textElement textAlignment="Center" markup="html">
+					<font fontName="Arial Unicode MS" size="7" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{REPORT_FOOTER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="71">
+			<textField evaluationTime="Band">
+				<reportElement key="surchargeNoteLabel" stretchType="RelativeToBandHeight" x="1" y="30" width="435" height="15">
+					<printWhenExpression><![CDATA[((au.com.infomedia.printing.jasperreports.OrderDataSource)$P{REPORT_DATA_SOURCE}).isSurchargeNoteVisible()]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial Unicode MS" isBold="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{surchargeNote}]]></textFieldExpression>
+			</textField>
+			<frame>
+				<reportElement key="completeSummary" stretchType="RelativeToTallestObject" x="488" y="30" width="247" height="24"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<componentElement>
+					<reportElement key="completeSummaryTable" x="4" y="4" width="238" height="20"/>
+					<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="Pricing Summary">
+							<dataSourceExpression><![CDATA[((au.com.infomedia.printing.jasperreports.OrderDataSource)$P{REPORT_DATA_SOURCE}).completeSummaryDataSource()]]></dataSourceExpression>
+						</datasetRun>
+						<jr:column width="95">
+							<jr:columnFooter height="15" rowSpan="1">
+								<textField>
+									<reportElement x="0" y="0" width="95" height="15"/>
+									<textElement>
+										<font fontName="Arial MT" size="12" isBold="false"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{totalLabel}]]></textFieldExpression>
+								</textField>
+							</jr:columnFooter>
+							<jr:detailCell height="14" rowSpan="1">
+								<box>
+									<pen lineWidth="0.0"/>
+									<topPen lineWidth="0.0"/>
+									<leftPen lineWidth="0.0"/>
+									<bottomPen lineWidth="0.0"/>
+									<rightPen lineWidth="0.0"/>
+								</box>
+								<textField>
+									<reportElement x="0" y="0" width="95" height="14"/>
+									<textElement>
+										<font fontName="Arial Unicode MS" size="9" isBold="true" isPdfEmbedded="true"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{label}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="142">
+							<jr:columnFooter height="15" rowSpan="1">
+								<textField>
+									<reportElement x="0" y="0" width="142" height="15"/>
+									<textElement textAlignment="Right">
+										<font fontName="Arial MT" size="12" isBold="false"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{totalValue}]]></textFieldExpression>
+								</textField>
+							</jr:columnFooter>
+							<jr:detailCell height="14" rowSpan="1">
+								<box>
+									<pen lineWidth="0.0"/>
+									<topPen lineWidth="0.0"/>
+									<leftPen lineWidth="0.0"/>
+									<bottomPen lineWidth="0.0"/>
+									<rightPen lineWidth="0.0"/>
+								</box>
+								<textField>
+									<reportElement x="0" y="0" width="142" height="14"/>
+									<textElement textAlignment="Right">
+										<font fontName="Arial Unicode MS" size="9" isPdfEmbedded="true"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{value}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:table>
+				</componentElement>
+			</frame>
+			<frame>
+				<reportElement key="withSurchargeSimpleSummary" stretchType="RelativeToTallestObject" x="1" y="10" width="735" height="28" isRemoveLineWhenBlank="true">
+					<printWhenExpression><![CDATA[((au.com.infomedia.printing.jasperreports.OrderDataSource)$P{REPORT_DATA_SOURCE}).isSurchargeTotalVisible()]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<componentElement>
+					<reportElement key="table 2" x="374" y="0" width="360" height="20"/>
+					<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="Main Totals">
+							<dataSourceExpression><![CDATA[((au.com.infomedia.printing.jasperreports.OrderDataSource)$P{REPORT_DATA_SOURCE}).totalAndSurchargeDatasource()]]></dataSourceExpression>
+						</datasetRun>
+						<jr:column width="180">
+							<jr:detailCell height="20" rowSpan="1">
+								<textField evaluationTime="Band">
+									<reportElement key="totalLabelKey" stretchType="RelativeToTallestObject" x="0" y="0" width="180" height="20"/>
+									<textElement textAlignment="Right">
+										<font fontName="Arial Unicode MS" isBold="true" pdfEncoding="Identity-H"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{title}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="180">
+							<jr:detailCell height="20" rowSpan="1">
+								<textField evaluationTime="Band">
+									<reportElement key="totalValueKey" stretchType="RelativeToTallestObject" x="0" y="0" width="180" height="20"/>
+									<textElement textAlignment="Right">
+										<font fontName="Arial Unicode MS" isBold="false" pdfEncoding="Identity-H"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{value}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:table>
+				</componentElement>
+			</frame>
+			<frame>
+				<reportElement key="onlyTotalSimpleSummary" stretchType="RelativeToTallestObject" x="1" y="10" width="735" height="20" isRemoveLineWhenBlank="true">
+					<printWhenExpression><![CDATA[!((au.com.infomedia.printing.jasperreports.OrderDataSource)$P{REPORT_DATA_SOURCE}).isSurchargeTotalVisible()]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<componentElement>
+					<reportElement key="table 2" x="374" y="0" width="360" height="20"/>
+					<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="Main Totals">
+							<dataSourceExpression><![CDATA[((au.com.infomedia.printing.jasperreports.OrderDataSource)$P{REPORT_DATA_SOURCE}).totalDataSource()]]></dataSourceExpression>
+						</datasetRun>
+						<jr:column width="180">
+							<jr:detailCell height="20" rowSpan="1">
+								<textField evaluationTime="Band">
+									<reportElement key="totalLabelKey" stretchType="RelativeToTallestObject" x="0" y="0" width="180" height="20"/>
+									<textElement textAlignment="Right" verticalAlignment="Middle">
+										<font fontName="Arial Unicode MS" isBold="true" pdfEncoding="Identity-H"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{title}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="180">
+							<jr:detailCell height="20" rowSpan="1">
+								<textField evaluationTime="Band">
+									<reportElement key="totalValueKey" stretchType="RelativeToTallestObject" x="0" y="0" width="180" height="20"/>
+									<textElement textAlignment="Right" verticalAlignment="Middle">
+										<font fontName="Arial Unicode MS" isBold="false" pdfEncoding="Identity-H"/>
+									</textElement>
+									<textFieldExpression class="java.lang.String"><![CDATA[$F{value}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:table>
+				</componentElement>
+			</frame>
+		</band>
+	</summary>
+</jasperReport>

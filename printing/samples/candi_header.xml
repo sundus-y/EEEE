@@ -1,0 +1,38 @@
+<header>
+    <translations applang="EN-US" datalang="en">
+        <translation item="Header">Microcat Comments and Improvements</translation>
+        <translation item="Title">Not Specified</translation>
+        <translation item="Date">Creation Date Fri, 15 Oct 2010 10:19 BOT (-0400)</translation>
+        <translation item="AccountDetails">Account Details</translation>
+        <translation item="FullName">Full Name</translation>
+        <translation item="CompanyName">Company name</translation>
+        <translation item="ContactName">Contact Name</translation>
+        <translation item="Address">Address</translation>
+        <translation item="Telephone">Telephone</translation>
+        <translation item="Fax">Fax</translation>
+        <translation item="Email">Email</translation>
+        <translation item="CustomerService">Customer Service</translation>
+        <translation item="Franchise">Franchise</translation>
+        <translation item="Version">Version</translation>
+        <translation item="DateTime">Date/Time</translation>
+        <translation item="GeneralAndSectionInformation">General And Section Information</translation>
+        <translation item="Model">Model</translation>
+        <translation item="Section">Section</translation>
+        <translation item="PartNumber">Part Number</translation>
+        <translation item="CallOut">Call Out</translation>
+        <translation item="VehicleDetails">Vehicle Details</translation>
+        <translation item="Catalogue">Catalogue</translation>
+        <translation item="VIN">V.I.N.</translation>
+        <translation item="LicNo">Lic No</translation>
+        <translation item="BuildDate">Build date</translation>
+        <translation item="MicrocatApplicationAndComponents">Microcat application and components</translation>
+        <translation item="Application">Application</translation>
+        <translation item="Languages">Languages</translation>
+        <translation item="WebBrowser">Web Browser</translation>
+	    <translation item="WebService">Web Service</translation>
+    	<translation item="UserAgent">User Agent</translation>
+	    <translation item="URL">Refering URL:</translation>
+    	<translation item="Data">Data</translation>
+        <translation item="Comments">Comments</translation>
+    </translations>
+</header>

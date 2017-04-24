@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: root
+Build-Jdk: 1.6.0_23
+Build-Id: 2011-12-30_08-01-24
+Hudson-Build-Number: 281
+Hudson-Project: Business Services - IFM Printing Service - Release Build
+Hudson-Version: 1.423
+Jenkins-Build-Number: 281
+Jenkins-Project: Business Services - IFM Printing Service - Release Bu
+ ild
+Jenkins-Version: 1.423
+SVN-Revision: 46624
+Specification-Title: Unnamed - ifm-printing:ifm-printing:war:1.1.2-SNA
+ PSHOT
+Specification-Vendor: Infomedia Ltd.
+Specification-Version: 1.1.2-SNAPSHOT
+

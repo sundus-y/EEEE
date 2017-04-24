@@ -1,0 +1,26 @@
+<header>
+	<translations applang="EN" datalang="en">
+	
+		<translation item="MainHeading">Vehicle Information</translation>
+		<translation item="Heading">Vehicle Properties</translation>
+		<translation item="Catalog">Catalog:</translation>
+		<translation item="VIN">VIN:</translation>
+		<translation item="UserTag">User Tag:</translation>
+		<translation item="ModelYear">Model Year:</translation>
+		<translation item="BuildDate">Build Date:</translation>
+        <translation item="Licence">Licence:</translation>
+		<translation item="Date">Date:</translation>	
+		<translation item="Time">Time:</translation>
+		<translation item="copyright">&amp;copy; 2004 - 2010 Infomedia Ltd and its licensors.</translation>
+		<translation item="pageno">Page [x] of [y]</translation>
+	</translations>
+    <catalog>Edge/Lincoln MKX Q1 (GCAT) 2007-</catalog>
+    <vin>2FMDK49C37BA88367</vin>
+    <usertag>JUSTINS FORD EDGE</usertag>
+    <modelyear>2007</modelyear>
+    <builddate>03/26/2007</builddate>
+    <licence></licence>
+    <date>23/10/09</date>
+    <time>10:21:46</time>
+    <location>USA</location>
+</header>

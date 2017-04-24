@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" DescendantCount="37">
+    <TocEntry Title="Aan de slag" Link="/Content/01 Getting started.htm" ComputedResetPageLayout="true" ComputedFirstTopic="true" DescendantCount="1">
+        <TocEntry Title="Instellingen wijzigen" Link="/Content/02 Change settings.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Startpagina" Link="/Content/03 Home page.htm" ComputedFirstTopic="false" DescendantCount="6">
+        <TocEntry Title="Een voertuig zoeken aan de hand van het VIN-nummer of een deel van het VIN-nummer" Link="/Content/04 Search for a vehicle by VIN or partial VIN.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Klantidentificaties opslaan en opvragen" Link="/Content/05 Save and retrieve Customer Tags.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Gebruikersaantekeningen aan een VIN nummer toevoegen" Link="/Content/06 Add user notes to a VIN.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Een catalogus zoeken op bouwjaar en model" Link="/Content/07 Search for a catalogue by build year and model.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="De voertuigen filteren in de Voertuigindex" Link="/Content/08 Filter the vehicles in the Vehicle Index.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Een onderdeel in alle catalogi zoeken" Link="/Content/09 Search for a part across all catalogues.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Onderdelenscherm" Link="/Content/10 Parts screen.htm" ComputedFirstTopic="false" DescendantCount="16">
+        <TocEntry Title="Onderdelen zoeken op omschrijving" Link="/Content/11 Search for parts by description.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Onderdelen zoeken op onderdeelcode van de fabrikant" Link="/Content/12 Search for parts by manufacturer part code.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Het venster Onderdeelgegevens openen" Link="/Content/13 Access the Part Data window.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Het oproepen van informatie over vervangende onderdelen" Link="/Content/14 Access supersession information.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Door de index navigeren met behulp van de grafische weergave" Link="/Content/15 Navigate the index using a graphic view.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Door de index navigeren met behulp van de tekstuele weergave" Link="/Content/16 Navigate the index using a text view.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="De navigatie-elementen gebruiken" Link="/Content/17 Use the navigation breadcrumbs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="De snelnavigatietool gebruiken" Link="/Content/18 Use the quick navigation tool.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="De afbeeldingweergave aanpassen" Link="/Content/19 Adjust the image display.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Werken met de lijst met onderdeelgegevens" Link="/Content/20 Work with the Parts Data Grid.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Gesplitst scherm weergeven" Link="/Content/21 Display a split-screen view.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Gebruikersaantekeningen toevoegen aan een sectie of onderdeel" Link="/Content/22 Add user notes to a section or part.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="De filmstrip-weergave gebruiken" Link="/Content/23 Use the image filmstrip.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Onderdelen toevoegen aan de bestellijst" Link="/Content/24 Add parts to the Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Een groep onderdelen aan de bestellijst toevoegen" Link="/Content/25 Add a group of parts to the Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Een onderdeel naar uw DMS overbrengen" Link="/Content/26 Transfer a part to your DMS.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Bestelscherm" Link="/Content/27 Orders screen.htm" ComputedFirstTopic="false" DescendantCount="9">
+        <TocEntry Title="Een bestellijst weergeven en bewerken" Link="/Content/28 View and edit an Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Prijzen wijzigen of verbergen" Link="/Content/29 Change or hide pricing.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Niet-gecatalogiseerde onderdelen toevoegen" Link="/Content/30 Add non-cataloged parts.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Klant- of accountgegevens toevoegen" Link="/Content/31 Add customer or account details.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Onderdelen groeperen op voertuignaam" Link="/Content/32 Group parts by vehicle name.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="De lijst met onderdelen op de bestellijst sorteren" Link="/Content/33 Sort the list of parts on the Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Een bestellijst opslaan en opvragen" Link="/Content/34 Save and retrieve an Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Een bestellijst afdrukken of e-mailen" Link="/Content/35 Print or email an Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Onderdelen op de bestellijst naar uw DMS overbrengen" Link="/Content/36 Transfer parts on the Order List to your DMS.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Feedback verzenden" Link="/Content/37 Submit feedback.htm" ComputedFirstTopic="false" DescendantCount="0" />
+</CatapultToc>

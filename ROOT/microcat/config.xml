@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="imagesContext" value="epc/services/image/HYW"/>
+    <property name="catalogueImageExtension" value="" />
+    <property name="sectionImageExtension" value="" />
+    <property name="illustrationExtension" value="" />
+    <property name="imagesDomain" value="http://127.0.0.1:8080"/>
+    <property name="epcContext" value="epc"/>
+    <property name="RESTServiceSubContext" value="services"/>
+    <property name="AMFServiceSubContext" value="amfbroker/amf"/>
+    <property name="openSSOContext" value="opensso" />
+    <property name="epcDomain" value="http://127.0.0.1:8080" />
+    <property name="referenceLibraryService" value="http://127.0.0.1:8080/javabridge/reflib/amf_php/gateway.php"/>
+    <property name="referenceLibraryFileDir" value="http://127.0.0.1:8080/javabridge/reflib/data/"/>
+	<property name="notesService" value="http://127.0.0.1:8080/notes/amfbroker/amf" />
+    <property name="ordersService" value="http://127.0.0.1:8080/epc/services/order"/>
+    <property name="emailService" value="http://127.0.0.1:8080/printing/services/email/"/>
+    <property name="pdfService" value="http://127.0.0.1:8080/printing/services/print/"/>
+    <property name="googleAnalytics" value="1"/>
+    <property name="googleAnalyticsAccountNumber" value="UA-17357652-10"/>
+    <property name="googleAnalyticsDebugMode" value="0"/>
+    <property name="privacyPolicyURL" value="http://127.0.0.1:8080/legal/PrivacyPolicy.jsp?language="/>
+    <property name="trainingDomain" value="http://127.0.0.1:8080/training/"/>
+</configuration>

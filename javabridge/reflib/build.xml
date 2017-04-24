@@ -1,0 +1,28 @@
+<project name="spartan_services_reference_library" default="package">
+
+    <target name="cleanOldPackage">
+        <delete includeemptydirs="true" failonerror="false">
+            <fileset dir="package" includes="**/*"/>
+        </delete>
+    </target>
+
+    <target name="createPackageDirectory" depends="cleanOldPackage">
+        <mkdir dir="package"/>
+        <mkdir dir="package/zip"/>
+    </target>
+
+    <target name="package" depends="createPackageDirectory">
+
+        <copy todir="package/phpreferencelibrary">
+            <fileset dir="">
+                <patternset id="exclude.fileandfolders">
+                    <exclude name="**/package/**"/>
+                 </patternset>
+            </fileset>
+        </copy>
+
+        <zip destfile="package/zip/phpreferencelibrary.zip" basedir="package/phpreferencelibrary" />
+
+    </target>
+
+</project>

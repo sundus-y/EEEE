@@ -1,0 +1,63 @@
+<data>
+<header>
+  <catalog>SANTA FE 06MY (AL PLANT): JAN.01.2007- [HAC]</catalog>
+  <section>(6062411) TRAVESAÑO DE SUSPENSIÓN DELANTERA</section>
+  <vin>5NMSG13D07H066695</vin>
+  <licence>null</licence>
+  <buildDate>01-16-2007</buildDate>
+  <translations applang="en-us" datalang="en">
+    <translation item="Catalogue">Catalog:</translation>
+    <translation item="Section">Section:</translation>
+    <translation item="VIN">VIN:</translation>
+    <translation item="Licence">License Plate:</translation>
+    <translation item="BuildDate">Build date:</translation>
+  </translations>
+</header>
+<body>
+  <translations applang="en-us" datalang="en">
+    <translation item="PartPnc">PNC</translation>
+    <translation item="PartNumber">Part Number</translation>
+    <translation item="PartQuantity">Qty</translation>
+    <translation item="PartName">Part Name</translation>
+    <translation item="PartModelDescription">Model Description.</translation>
+    <translation item="PartFromDate">From</translation>
+    <translation item="PartToDate">To</translation>
+    <translation item="copyright">&amp;copy;© 2004 - 2011 Infomedia Ltd and its licensors.</translation>
+    <translation item="pageno">Page [x] of [y]</translation>
+  </translations>
+  <columns>
+    <column index="0" width="5" translation="PartPnc" data="pnc" align="L"/>
+    <column index="1" width="5" translation="PartNumber" data="partnumber" align="L"/>
+    <column index="2" width="2" translation="PartQuantity" data="quantity" align="C"/>
+    <column index="3" width="30" translation="PartName" data="partname" align="L"/>
+    <column index="4" width="-1" translation="PartModelDescription" data="modeldescription" align="L"/>
+    <column index="5" width="5" translation="PartFromDate" data="begindate" align="L"/>
+    <column index="6" width="5" translation="PartToDate" data="enddate" align="L"/>
+  </columns>
+  <parts>
+    <part pnc="11403C" begindate="12-17-2007" enddate="10-31-2009" modeldescription="BOLT-FLANGE - 4AT2WD" partnumber="undefined" partname="BOLT-FLANGE" quantity="3"/>
+    <part pnc="28696A" begindate="01-02-2007" enddate="10-31-2009" modeldescription="BOLT-SEAL RING" partnumber="undefined" partname="BOLT-SEAL RING" quantity="2"/>
+    <part pnc="54559" begindate="01-02-2007" enddate="10-31-2009" modeldescription="FLANGE NUT-SELF LOCKING" partnumber="undefined" partname="FLANGE NUT-SELF LOCKING" quantity="2"/>
+    <part pnc="54849" begindate="01-02-2007" enddate="05-09-2007" modeldescription="BOLT - 5AT2WD" partnumber="undefined" partname="BOLT" quantity="2"/>
+    <part pnc="54849" begindate="01-02-2007" enddate="05-09-2007" modeldescription="BOLT - 5AT4WD" partnumber="undefined" partname="BOLT" quantity="2"/>
+    <part pnc="54849" begindate="01-02-2007" enddate="12-17-2007" modeldescription="BOLT - 4AT2WD" partnumber="undefined" partname="BOLT" quantity="2"/>
+    <part pnc="55289" begindate="01-02-2007" enddate="10-31-2009" modeldescription="NUT" partnumber="undefined" partname="NUT" quantity="2"/>
+    <part pnc="62401" begindate="01-02-2007" enddate="10-31-2009" modeldescription="CROSSMEMBER COMPL" partnumber="undefined" partname="CROSSMEMBER COMPL" quantity="1"/>
+    <part pnc="54531" begindate="01-02-2007" enddate="10-31-2009" modeldescription="STOPPER-BUSHNG&quot;A&quot;" partnumber="undefined" partname="STOPPER-BUSHNG&quot;A&quot;" quantity="4"/>
+    <part pnc="62466" begindate="01-02-2007" enddate="10-31-2009" modeldescription="BUSHING-CROSSMEMBER MTG" partnumber="undefined" partname="BUSHING-CROSSMEMBER MTG" quantity="4"/>
+    <part pnc="62476" begindate="02-14-2007" enddate="10-31-2009" modeldescription="STAY LH" partnumber="undefined" partname="STAY LH" quantity="1"/>
+    <part pnc="62476A" begindate="01-02-2007" enddate="10-31-2009" modeldescription="STAY LH" partnumber="undefined" partname="STAY LH" quantity="1"/>
+    <part pnc="62477" begindate="02-14-2007" enddate="10-31-2009" modeldescription="STAY RH" partnumber="undefined" partname="STAY RH" quantity="1"/>
+    <part pnc="62477A" begindate="01-02-2007" enddate="10-31-2009" modeldescription="STAY RH" partnumber="undefined" partname="STAY RH" quantity="1"/>
+    <part pnc="64277C" begindate="01-02-2007" enddate="03-19-2007" modeldescription="BOLT-WASHER ASSY" partnumber="undefined" partname="BOLT-WASHER ASSY" quantity="4"/>
+    <part pnc="62492" begindate="03-19-2007" enddate="10-31-2009" modeldescription="BOLT" partnumber="undefined" partname="BOLT" quantity="4"/>
+    <part pnc="62493A" begindate="01-02-2007" enddate="10-31-2009" modeldescription="BOLT" partnumber="undefined" partname="BOLT" quantity="4"/>
+    <part pnc="62322" begindate="01-02-2007" enddate="05-09-2007" modeldescription="DAMPER-DYNAMIC - 5AT2WD" partnumber="undefined" partname="DAMPER-DYNAMIC" quantity="1"/>
+    <part pnc="62322" begindate="01-02-2007" enddate="05-09-2007" modeldescription="DAMPER-DYNAMIC - 5AT4WD" partnumber="undefined" partname="DAMPER-DYNAMIC" quantity="1"/>
+    <part pnc="62322" begindate="01-02-2007" enddate="10-31-2009" modeldescription="DAMPER-DYNAMIC - 4AT2WD" partnumber="undefined" partname="DAMPER-DYNAMIC" quantity="1"/>
+  </parts>
+  <imageData>
+    <image>http://www.autopartslib.com/wp-content/uploads/2009/11/Acura-RSX-Clutch-Parts-Diagram.png</image>
+  </imageData>
+</body>
+</data>

@@ -1,0 +1,516 @@
+<data>
+<header>
+  <translations applang="EN-US" datalang="en"/>
+</header>
+<order>
+  <header id="" date="2011-03-03T20:59:58-00:00">
+    <customer name="Nic's Test Account" phone="" accountnumber="90054042" email="jsher@infomedia.com.au" address="?" shippingAddress="?" street="1 Chandos St" suburb="St Ives" state="NSW" postcode="2120" country="CA"/>
+    <info name="Julio Cesar" job="999666" confirmnumber="" po="" taxCode="" comment="1234567890" accountNumber="1234567890" market="null"/>
+    <options time="Thu Mar 3 2011 04:59:58 PM" date="2011-03-03T20:59:58-00:00" priceToShow="HIDE" currencySymbol=" "/>
+    <client name="Julio Cesar" accountnum="1234567890" refnum="999666" dmsnum="" type="Invoice">
+      <postaladdress street="Av. Bustamante" suburb="La Paz" state="La Paz" postcode="00000" country="Bolivia" phone="123456" fax="123456" contactname="Julio Cesar" email="contact@julio-laura.com"/>
+      <shippingaddress issame="true" street="Av. Bustamante" suburb="La Paz" state="La Paz" postcode="00000" country="Bolivia" phone="123456" fax="123456" contactname="Julio Cesar" email="contact@julio-laura.com"/>
+    </client>
+  </header>
+  <vehicles>
+    <vehicle name="COUPE 97MY [AUS]" date="" interpretation="&lt;interpretation catalog=&quot;AUS2709700&quot; type=&quot;None&quot;>&#xA;  &lt;avs data=&quot;C&quot; type=&quot;Body&quot;/>&#xA;  &lt;avs data=&quot;A&quot; type=&quot;Special Car&quot;/>&#xA;&lt;/interpretation>" catalog="AUS2709700" vehicledatasource="0">
+      <items>
+        <part id="884609843" catalog="AUS2709700" callout="81746A" begindate="" enddate="20010901" label="PLUG-PUSH ON TYPE" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="39">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8174621000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.33</LST>
+          </price>
+          <currentSection data="8181711" code="8181711"/>
+          <currentSectionForView data="81817.11"/>
+        </part>
+        <part id="-145382726" catalog="AUS2709700" callout="81739" begindate="" enddate="20010901" label="BUMPER-T/GATE BODY SIDE GUIDE BUMPER-T/GATE BODY SIDE GUIDE BUMPER-T/GATE BODY SIDE GUIDE BUMPER-T/GATE BODY SIDE GUIDE BUMPER-T/GATE BODY SIDE GUIDE" remark="" currentQty="2" qty="2" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="38">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8173927000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>13.31</LST>
+          </price>
+          <currentSection data="8181711" code="8181711"/>
+          <currentSectionForView data="81817.11"/>
+        </part>
+        <part id="-4047361" catalog="AUS2709700" callout="81742" begindate="" enddate="20010901" label="BUMPER ASSY-TAIL GATE GUIDE" remark="" currentQty="2" qty="2" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="37">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8173827000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.56</LST>
+          </price>
+          <currentSection data="8181711" code="8181711"/>
+          <currentSectionForView data="81817.11"/>
+        </part>
+        <part id="-1466684528" catalog="AUS2709700" callout="81738A" begindate="" enddate="20010901" label="BUMPER-T/GATE OVERSLAM" remark="" currentQty="2" qty="2" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="36">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8173824210</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.47</LST>
+          </price>
+          <currentSection data="8181711" code="8181711"/>
+          <currentSectionForView data="81817.11"/>
+        </part>
+        <part id="-1938647503" catalog="AUS2709700" callout="81712" begindate="" enddate="20010901" label="BRACKET-TAIL GATE TRIM RH BRACKET-TAIL GATE TRIM RH BRACKET-TAIL GATE TRIM RH BRACKET-TAIL GATE TRIM RH BRACKET-TAIL GATE TRIM RH BRACKET-TAIL GATE TRIM RH BRACKET-TAIL GATE TRIM RH" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="35">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8171227000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.33</LST>
+          </price>
+          <currentSection data="8181711" code="8181711"/>
+          <currentSectionForView data="81817.11"/>
+        </part>
+        <part id="1744659009" catalog="AUS2709700" callout="81711A" begindate="" enddate="20010901" label="BRACKET-TAIL GATE TRIM LH" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="34">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8171127000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.33</LST>
+          </price>
+          <currentSection data="8181711" code="8181711"/>
+          <currentSectionForView data="81817.11"/>
+        </part>
+        <part id="-702598136" catalog="AUS2709700" callout="81210A" begindate="" enddate="20010901" label="STRIKER ASSY-TAIL GATE" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="33">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8121027000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>19.85</LST>
+          </price>
+          <currentSection data="8181711" code="8181711"/>
+          <currentSectionForView data="81817.11"/>
+        </part>
+        <part id="-1378950530" catalog="AUS2709700" callout="81199" begindate="" enddate="20010901" label="CLIP-HOOD LATCH CLIP-HOOD LATCH CLIP-HOOD LATCH CLIP-HOOD LATCH CLIP-HOOD LATCH CLIP-HOOD LATCH CLIP-HOOD LATCH CLIP-HOOD LATCH CLIP-HOOD LATCH CLIP-HOOD LATCH CLIP-HOOD LATCH" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="32">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8119933000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.33</LST>
+          </price>
+          <currentSection data="8181711" code="8181711"/>
+          <currentSectionForView data="81817.11"/>
+        </part>
+        <part id="-201447863" catalog="AUS2709700" callout="1491DA" begindate="" enddate="20010901" label="GROMMET-SCREW" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="31">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1491106000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.08</LST>
+          </price>
+          <currentSection data="8181711" code="8181711"/>
+          <currentSectionForView data="81817.11"/>
+        </part>
+        <part id="-999736471" catalog="AUS2709700" callout="1351CB" begindate="" enddate="19990501" label="WASHER-PLAIN" remark="" currentQty="2" qty="2" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="30">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1351006183</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.08</LST>
+          </price>
+          <currentSection data="8181711" code="8181711"/>
+          <currentSectionForView data="81817.11"/>
+        </part>
+        <part id="986235251" catalog="AUS2709700" callout="1338AD" begindate="" enddate="20010901" label="NUT-FLANGE" remark="" currentQty="2" qty="2" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="29">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1338508001</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.08</LST>
+          </price>
+          <currentSection data="8181711" code="8181711"/>
+          <currentSectionForView data="81817.11"/>
+        </part>
+        <part id="-428848158" catalog="AUS2709700" callout="1249LJ" begindate="" enddate="19960830" label="SCREW-TAPPING" remark="" currentQty="6" qty="6" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="28">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1249304163</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.08</LST>
+          </price>
+          <currentSection data="8181711" code="8181711"/>
+          <currentSectionForView data="81817.11"/>
+        </part>
+        <part id="-1637909010" catalog="AUS2709700" callout="1249JA" begindate="" enddate="20010901" label="SCREW-TAPPING" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="27">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1249206183</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.08</LST>
+          </price>
+          <currentSection data="8181711" code="8181711"/>
+          <currentSectionForView data="81817.11"/>
+        </part>
+        <part id="-1446182724" catalog="AUS2709700" callout="1229CB" begindate="" enddate="19990501" label="SCREW-MACHINE" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="26">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1229104101</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.08</LST>
+          </price>
+          <currentSection data="8181711" code="8181711"/>
+          <currentSectionForView data="81817.11"/>
+        </part>
+        <part id="1290225165" catalog="AUS2709700" callout="1141AB" begindate="" enddate="20010901" label="BOLT" remark="" currentQty="2" qty="2" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="25">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1141008161</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.08</LST>
+          </price>
+          <currentSection data="8181711" code="8181711"/>
+          <currentSectionForView data="81817.11"/>
+        </part>
+        <part id="-1177631982" catalog="AUS2709700" callout="95440E" begindate="20000103" enddate="20010901" label="ANTENNA ASSY-COIL ATM" remark="AT" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="24">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>9544029010</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>41.23</LST>
+          </price>
+          <currentSection data="8181911" code="8181911"/>
+          <currentSectionForView data="81819.11"/>
+        </part>
+        <part id="-1867037721" catalog="AUS2709700" callout="95440B" begindate="20000103" enddate="20010901" label="ANTENNA ASSY-COIL" remark="MT" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="23">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>9544029000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>41.23</LST>
+          </price>
+          <currentSection data="8181911" code="8181911"/>
+          <currentSectionForView data="81819.11"/>
+        </part>
+        <part id="767886759" catalog="AUS2709700" callout="93110" begindate="" enddate="20010901" label="SWITCH &amp; WIRING ASSY" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="22">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>9311029000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>31.09</LST>
+          </price>
+          <currentSection data="8181911" code="8181911"/>
+          <currentSectionForView data="81819.11"/>
+        </part>
+        <part id="1813446537" catalog="AUS2709700" callout="81996C" begindate="20000103" enddate="20010901" label="KEY-BLANKG IMMOBILIZER" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="21">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8199629100</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>42.49</LST>
+          </price>
+          <currentSection data="8181911" code="8181911"/>
+          <currentSectionForView data="81819.11"/>
+        </part>
+        <part id="-1332826784" catalog="AUS2709700" callout="81937" begindate="" enddate="20010901" label="SCREW" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="20">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8193733000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.33</LST>
+          </price>
+          <currentSection data="8181911" code="8181911"/>
+          <currentSectionForView data="81819.11"/>
+        </part>
+        <part id="-1136465863" catalog="AUS2709700" callout="81919" begindate="" enddate="20010901" label="BOLT-SAFETY LOCK" remark="" currentQty="2" qty="2" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="19">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8191931000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>4.55</LST>
+          </price>
+          <currentSection data="8181911" code="8181911"/>
+          <currentSectionForView data="81819.11"/>
+        </part>
+        <part id="-2052648048" catalog="AUS2709700" callout="81520A" begindate="" enddate="20010901" label="LOCK ASSY-GLOVE BOX" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="18">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8152029A00</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>40.6</LST>
+          </price>
+          <currentSection data="8181911" code="8181911"/>
+          <currentSectionForView data="81819.11"/>
+        </part>
+        <part id="397799489" catalog="AUS2709700" callout="1229CA" begindate="20000103" enddate="20010901" label="SCREW-MACHINE" remark="GL" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="17">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1229104081</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.08</LST>
+          </price>
+          <currentSection data="8181911" code="8181911"/>
+          <currentSectionForView data="81819.11"/>
+        </part>
+        <part id="-12693606" catalog="AUS2709700" callout="1229CA" begindate="19991201" enddate="20010901" label="SCREW-MACHINE" remark="GLS" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="16">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1229104081</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.08</LST>
+          </price>
+          <currentSection data="8181911" code="8181911"/>
+          <currentSectionForView data="81819.11"/>
+        </part>
+        <part id="-985315303" catalog="AUS2709700" callout="1229CA" begindate="" enddate="20000103" label="SCREW-MACHINE" remark="GL +(BURGLAR ALARM SYSTEM)" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="15">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1229104081</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.08</LST>
+          </price>
+          <currentSection data="8181911" code="8181911"/>
+          <currentSectionForView data="81819.11"/>
+        </part>
+        <part id="-1985140464" catalog="AUS2709700" callout="1229CA" begindate="" enddate="19991201" label="SCREW-MACHINE" remark="GLS +(BURGLAR ALARM SYSTEM)" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="14">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1229104081</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.08</LST>
+          </price>
+          <currentSection data="8181911" code="8181911"/>
+          <currentSectionForView data="81819.11"/>
+        </part>
+        <part id="758173298" catalog="AUS2709700" callout="82191" begindate="" enddate="20010901" label="BUMPER-DR OVERSLAM" remark="" currentQty="4" qty="4" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="13">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8219128010</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.33</LST>
+          </price>
+          <currentSection data="8182111" code="8182111"/>
+          <currentSectionForView data="81821.11"/>
+        </part>
+        <part id="407468958" catalog="AUS2709700" callout="82210" begindate="" enddate="20010901" label="W/STRIP ASSY-FR DR BELT O/S LH" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="12">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8221027000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>164.73</LST>
+          </price>
+          <currentSection data="8182111" code="8182111"/>
+          <currentSectionForView data="81821.11"/>
+        </part>
+        <part id="-791348961" catalog="AUS2709700" callout="83219" begindate="" enddate="20010901" label="CLIP-DR BELT O/S W/STRIP MTG" remark="" currentQty="12" qty="12" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="11">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8221927000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.33</LST>
+          </price>
+          <currentSection data="8182111" code="8182111"/>
+          <currentSectionForView data="81821.11"/>
+        </part>
+        <part id="1244209114" catalog="AUS2709700" callout="82220" begindate="" enddate="20010901" label="W/STRIP ASSY-FR DR BELT O/S RH" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="10">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8222027000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>164.73</LST>
+          </price>
+          <currentSection data="8182111" code="8182111"/>
+          <currentSectionForView data="81821.11"/>
+        </part>
+        <part id="-222059926" catalog="AUS2709700" callout="82250" begindate="" enddate="20010901" label="GARNISH ASSY-DR FRAME LH" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="9">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8225027000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>39.11</LST>
+          </price>
+          <currentSection data="8182111" code="8182111"/>
+          <currentSectionForView data="81821.11"/>
+        </part>
+        <part id="-1951046179" catalog="AUS2709700" callout="82260" begindate="" enddate="20010901" label="GARNISH ASSY-DR FRAME RH" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="8">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8226027000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>39.11</LST>
+          </price>
+          <currentSection data="8182111" code="8182111"/>
+          <currentSectionForView data="81821.11"/>
+        </part>
+        <part id="-781152309" catalog="AUS2709700" callout="1125DA" begindate="20001103" enddate="20010901" label="BOLT-WASHER ASSY, W/WASHER" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="7">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1125106163</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="0" priceSummary=""/>
+          <currentSection data="9191411" code="9191411"/>
+          <currentSectionForView data=""/>
+        </part>
+        <part id="1695156095" catalog="AUS2709700" callout="82120D" begindate="" enddate="20010901" label="W/STRIP-DR OPENING B/S LWR RH" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="6">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8212027000LK</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>85.09</LST>
+          </price>
+          <currentSection data="8182111" code="8182111"/>
+          <currentSectionForView data="81821.11"/>
+        </part>
+        <part id="-870824948" catalog="AUS2709700" callout="82110F" begindate="" enddate="20010901" label="W/STRIP-DR OPENING B/S LWR LH" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="5">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>8211027000LK</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>85.09</LST>
+          </price>
+          <currentSection data="8182111" code="8182111"/>
+          <currentSectionForView data="81821.11"/>
+        </part>
+        <part id="1851297913" catalog="AUS2709700" callout="14960C" begindate="" enddate="19980601" label="CLIP" remark="" currentQty="24" qty="24" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="4">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1492104490</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.08</LST>
+          </price>
+          <currentSection data="8182111" code="8182111"/>
+          <currentSectionForView data="81821.11"/>
+        </part>
+        <part id="82600722" catalog="AUS2709700" callout="1491JA" begindate="" enddate="20010901" label="GROMMET-SCREW" remark="" currentQty="26" qty="26" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="3">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1491304000</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.08</LST>
+          </price>
+          <currentSection data="8182111" code="8182111"/>
+          <currentSectionForView data="81821.11"/>
+        </part>
+        <part id="319110619" catalog="AUS2709700" callout="1249EB" begindate="" enddate="20010901" label="SCREW-TAPPING" remark="" currentQty="26" qty="26" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="2">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1249204121</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.08</LST>
+          </price>
+          <currentSection data="8182111" code="8182111"/>
+          <currentSectionForView data="81821.11"/>
+        </part>
+        <part id="1969940662" catalog="AUS2709700" callout="1243BA" begindate="" enddate="20010901" label="SCREW-TAPPING" remark="" currentQty="8" qty="8" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="1">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1243104083</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="" priceSummary="">
+            <LST>3.08</LST>
+          </price>
+          <currentSection data="8182111" code="8182111"/>
+          <currentSectionForView data="81821.11"/>
+        </part>
+        <part id="-2036651336" catalog="AUS2709700" callout="" begindate="" enddate="" label="No Description" remark="" currentQty="1" qty="1" type="" partFormat="partnumber" featuredesc="" speccodedesc="" manualchanged="false" applicable="1" changepointvinbegin="null" changepointvinend="null" isFreeForm="false" useSurchargeInPrice="true" indexInOrder="0">
+          <revisionRef fromCode="" toCode=""/>
+          <num>
+            <partnumber>1017808183</partnumber>
+          </num>
+          <price freeFormPrice="" surchargePrice="0" unitSellPack="0" priceSummary=""/>
+          <currentSection data="" code=""/>
+          <currentSectionForView data=""/>
+        </part>
+      </items>
+    </vehicle>
+  </vehicles>
+  <headerConfiguration>
+    <translations>
+      <dealerDetails>
+        <translation item="name">Full Name</translation>
+        <translation item="phone">Phone number</translation>
+        <translation item="email">Email</translation>
+        <translation item="accountNumber">Account number</translation>
+        <translation item="address">Address</translation>
+        <translation item="theTitle">Dealer Details</translation>
+      </dealerDetails>
+      <customerDetails>
+        <translation item="name">Customer name</translation>
+        <translation item="phone">Phone number</translation>
+        <translation item="faxNumber">Fax number</translation>
+        <translation item="contactName">Contact Name</translation>
+        <translation item="email">Email</translation>
+        <translation item="address">Address</translation>
+        <translation item="theTitle">Customer Details</translation>
+      </customerDetails>
+      <orderDetails>
+        <translation item="orderName">Customer name</translation>
+        <translation item="jobReference">Reference number</translation>
+        <translation item="accountNumber">Account number</translation>
+        <translation item="orderType">Order type</translation>
+        <translation item="phone">Phone number</translation>
+        <translation item="faxNumber">Fax number</translation>
+        <translation item="contactName">Contact Name</translation>
+        <translation item="email">Email</translation>
+        <translation item="address">Address</translation>
+        <translation item="theTitle">Order Details</translation>
+      </orderDetails>
+      <translation column="order" item="orderList">Order List</translation>
+      <translation item="total">Total</translation>
+      <translation item="subtotal">Subtotal</translation>
+      <translation item="surcharges">Surcharge</translation>
+      <translation item="pagePagination">page [x] of [y]</translation>
+      <translation item="orderDate">03/03/2011</translation>
+      <translation item="orderTypeValue">Invoice</translation>
+    </translations>
+  </headerConfiguration>
+  <columnsConfiguration>
+    <translations>
+      <translation item="Vehicle">Vehicle</translation>
+      <translation item="Description">Description</translation>
+      <translation item="Number">Number</translation>
+      <translation item="Qty">Qty</translation>
+      <translation item="Retail">Retail</translation>
+      <translation item="Subtotal">Subtotal</translation>
+    </translations>
+    <columns>
+      <column index="0" width="50" translation="Vehicle" data="vehicles.vehicle.@name" align="L" type="vehicle"/>
+      <column index="1" width="-1" translation="Description" data="vehicles.vehicle.items.part.@label" align="L"/>
+      <column index="2" width="30" translation="Number" data="vehicles.vehicle.items.part.#partFormat" align="C"/>
+      <column index="3" width="30" translation="Qty" data="vehicles.vehicle.items.part.@qty" align="C" type="qty"/>
+      <column index="4" width="30" translation="Retail" data="header.options.#priceToShow" align="R" type="mainPrice"/>
+      <column index="5" width="30" translation="Subtotal" data="{SUBTOTAL}" align="R" type="price"/>
+    </columns>
+  </columnsConfiguration>
+</order>
+</data>

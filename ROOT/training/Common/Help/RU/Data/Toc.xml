@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" DescendantCount="37">
+    <TocEntry Title="Начало работы" Link="/Content/01 Getting started.htm" ComputedResetPageLayout="true" ComputedFirstTopic="true" DescendantCount="1">
+        <TocEntry Title="Изменение настроек" Link="/Content/02 Change settings.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Главная страница" Link="/Content/03 Home page.htm" ComputedFirstTopic="false" DescendantCount="6">
+        <TocEntry Title="Поиск автомобиля по VIN-коду или по частичному VIN-коду" Link="/Content/04 Search for a vehicle by VIN or partial VIN.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Сохранять Метки клиента и переходить к ним" Link="/Content/05 Save and retrieve Customer Tags.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Добавлять примечания пользователя к VIN-коду" Link="/Content/06 Add user notes to a VIN.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Осуществлять поиск по каталогу с учетом года выпуска и модели" Link="/Content/07 Search for a catalogue by build year and model.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Сортировать автомобили в Указателе автомобилей" Link="/Content/08 Filter the vehicles in the Vehicle Index.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Осуществлять поиск детали по всем каталогам" Link="/Content/09 Search for a part across all catalogues.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Экран деталей" Link="/Content/10 Parts screen.htm" ComputedFirstTopic="false" DescendantCount="16">
+        <TocEntry Title="Поиск деталей по описанию" Link="/Content/11 Search for parts by description.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Поиск деталей по коду детали изготовителя:" Link="/Content/12 Search for parts by manufacturer part code.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Доступ к окну информации о детали" Link="/Content/13 Access the Part Data window.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Получение информации об обновлении" Link="/Content/14 Access supersession information.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Навигация в указателе посредством графического интерфейса" Link="/Content/15 Navigate the index using a graphic view.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Навигация в указателе посредством текстового интерфейса" Link="/Content/16 Navigate the index using a text view.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Использование навигационных путей" Link="/Content/17 Use the navigation breadcrumbs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Использование инструмента для быстрой навигации" Link="/Content/18 Use the quick navigation tool.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Настройка режима вывода изображения на экран" Link="/Content/19 Adjust the image display.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Работа с таблицей информации о деталях" Link="/Content/20 Work with the Parts Data Grid.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Режим разделенного экрана" Link="/Content/21 Display a split-screen view.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Добавление примечаний пользователя к разделу или детали" Link="/Content/22 Add user notes to a section or part.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Использование ленты изображений" Link="/Content/23 Use the image filmstrip.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Добавление деталей в список заказов" Link="/Content/24 Add parts to the Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Добавление группы деталей в список заказов" Link="/Content/25 Add a group of parts to the Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Передача детали в DMS" Link="/Content/26 Transfer a part to your DMS.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Экран заказов" Link="/Content/27 Orders screen.htm" ComputedFirstTopic="false" DescendantCount="9">
+        <TocEntry Title="Просмотр и изменение списка заказов" Link="/Content/28 View and edit an Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Изменение или скрытие цен" Link="/Content/29 Change or hide pricing.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Добавление деталей не из каталога" Link="/Content/30 Add non-cataloged parts.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Добавление информации о клиенте или учетной записи" Link="/Content/31 Add customer or account details.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Группировать детали по наименованию автомобиля" Link="/Content/32 Group parts by vehicle name.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Сортировать список деталей в списке заказов" Link="/Content/33 Sort the list of parts on the Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Сохранить и переходить к списку заказов" Link="/Content/34 Save and retrieve an Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Печатание и отправка списка заказов по эл. почте" Link="/Content/35 Print or email an Order List.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Передача деталей из списка заказов в DMS" Link="/Content/36 Transfer parts on the Order List to your DMS.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Обратная связь" Link="/Content/37 Submit feedback.htm" ComputedFirstTopic="false" DescendantCount="0" />
+</CatapultToc>
